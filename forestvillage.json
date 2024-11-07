@@ -1,0 +1,122 @@
+{
+  "title": "A Matter of Life and Magic",
+  "textboxes": [
+    {
+      "id": "lifeandmagic-1",
+      "description": "During your travels, you and Bubba come across an isolated village shrouded in despair. You quickly discover the reason: a young villager named Lila has fallen gravely ill. The village healer believes that a rare herb deep within the forest could save her, but the herb is fiercely guarded by a mystical beast that has terrorized the region for years. As you consider your options, the villagers plead for your help, willing to offer anything to save Lila. Bubba gives you a knowing look, sensing the gravity of the choice ahead.",
+      "choices": [
+        {
+          "text": "Agree to help gather the herb to save Lila, regardless of the risks.",
+          "next_id": "lifeandmagic-2"
+        },
+        {
+          "text": "Refuse to help, advising the villagers to avoid the dangers.",
+          "next_id": "lifeandmagic-3"
+        },
+        {
+          "text": "Suggest looking for an alternative magical cure.",
+          "next_id": "lifeandmagic-4"
+        }
+      ]
+    },
+    {
+      "id": "lifeandmagic-2",
+      "description": "You set off into the forest with Bubba, following the healer’s directions. After hours of tracking through dense underbrush, you finally find the herb nestled by a crystalline stream. But as you reach out to pluck it, a low growl rumbles through the trees. A large, spectral wolf with eyes like embers steps into view, baring its teeth. The beast seems almost ethereal, and you sense that it is bound to protect this forest—and the herb—from any intruders.",
+      "choices": [
+        {
+          "text": "Attempt to reason with the wolf, explaining your intent to save a life.",
+          "next_id": "lifeandmagic-5",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 75,
+            "fail": "The wolf snarls, unfazed by your words. It’s clear that words alone will not dissuade it from its duty."
+          }
+        },
+        {
+          "text": "Use magic to try and fend off the wolf.",
+          "next_id": "lifeandmagic-6",
+          "skill_check": {
+            "skill": "arcanism",
+            "value": 80,
+            "fail": "Your spell falters, and the wolf lunges forward, forcing you to retreat without the herb."
+          }
+        },
+        {
+          "text": "Retreat and leave the herb, unwilling to disturb the guardian further.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "lifeandmagic-3",
+      "description": "You explain to the villagers that the risks of retrieving the herb are too great and that you cannot help. The villagers, though disappointed, nod in understanding. Bubba gives you a concerned look, silently wondering if this was truly the right choice. As you leave the village, a sense of unease lingers.",
+      "choices": [
+        {
+          "text": "Continue on your journey, accepting the choice you've made.",
+          "next_id": "end-neutral"
+        },
+        {
+          "text": "Reconsider and decide to help after all.",
+          "next_id": "lifeandmagic-2"
+        }
+      ]
+    },
+    {
+      "id": "lifeandmagic-4",
+      "description": "You ask the healer if there might be a different way to cure Lila. The healer shakes their head, explaining that this herb is the only known remedy for her illness. Desperation fills their eyes, and the villagers look to you for guidance.",
+      "choices": [
+        {
+          "text": "Agree to search for the herb despite the danger.",
+          "next_id": "lifeandmagic-2"
+        },
+        {
+          "text": "Insist that the risks are too great and refuse to help.",
+          "next_id": "lifeandmagic-3"
+        }
+      ]
+    },
+    {
+      "id": "lifeandmagic-5",
+      "description": "You speak to the wolf, explaining that your only intent is to save a life. The wolf’s eyes narrow, and for a moment, it seems to consider your plea. Then, with a soft growl, it steps aside, allowing you to pluck the herb. As you take it, the wolf disappears into the shadows, leaving you with a strange feeling of both gratitude and loss.",
+      "choices": [
+        {
+          "text": "Return to the village with the herb, grateful for the wolf’s mercy.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Leave the herb as an offering, respecting the wolf’s domain.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "lifeandmagic-6",
+      "description": "You cast a spell, forcing the wolf back. It lets out a mournful howl, and as it fades into the shadows, you’re left holding the herb. Bubba watches you quietly, understanding the heavy price of this victory.",
+      "choices": [
+        {
+          "text": "Return to the village with the herb, ignoring any regrets.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Consider abandoning the herb, feeling remorse for disturbing the forest’s balance.",
+          "next_id": "end-bad"
+        }
+      ]
+    },
+    {
+      "id": "end-good",
+      "description": "Back at the village, you hand the herb to the healer, who quickly prepares a remedy for Lila. The villagers thank you with tears in their eyes, grateful beyond words. Yet, as you leave, you can’t shake the memory of the wolf. Bubba places a reassuring hand on your shoulder, murmuring, 'Sometimes, saving one life is worth the cost.'",
+      "choices": []
+    },
+    {
+      "id": "end-neutral",
+      "description": "With a heavy heart, you leave the forest, either with or without the herb. The villagers understand, though a shadow of sadness fills their gaze. You and Bubba continue on, wondering if there might have been another way. Sometimes, no choice feels wholly right.",
+      "choices": []
+    },
+    {
+      "id": "end-bad",
+      "description": "You leave the forest, feeling the weight of your actions as you return to the village. Though Lila may survive thanks to the herb, you sense that your actions have upset a delicate balance in the forest. Bubba remains silent as you depart, a quiet reminder that not all victories are without cost.",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "title": "Siege of Em-Land",
+  "textboxes": [
+    {
+      "id": "siege-1",
+      "description": "A dark cloud looms over Em-Land as the combined forces of the USSR and Ottoman Empire surround the territory. The land once ignored by all now finds itself the focal point of an intense power struggle. You and Bubba huddle in your makeshift bunker, the walls lined with salvaged gear, food, and the few weapons you've managed to scrounge together. Outside, the sound of soldiers’ boots echoes through the fields. Bubba gives you a resolute look. 'This is it, Em… they’re coming.'",
+      "choices": [
+        {
+          "text": "Prepare the bunker’s defenses for a drawn-out siege.",
+          "next_id": "siege-2"
+        },
+        {
+          "text": "Attempt to negotiate with the Soviet commander.",
+          "next_id": "siege-3"
+        },
+        {
+          "text": "Send out a message proposing peace talks with both forces.",
+          "next_id": "siege-4",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 55,
+            "fail": "Your message is intercepted, and the troops take it as a sign of weakness, intensifying their assault."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-2",
+      "description": "You and Bubba work quickly, reinforcing the bunker walls, setting up barriers, and placing traps along the perimeter. It’s a rough setup, but it just might buy you time. Outside, the sounds of the invading forces grow louder.",
+      "choices": [
+        {
+          "text": "Wait for the first wave of attackers and prepare to fight.",
+          "next_id": "siege-5"
+        },
+        {
+          "text": "Use a spell to create an illusion of an army defending Em-Land.",
+          "next_id": "siege-6",
+          "skill_check": {
+            "skill": "arcanism",
+            "value": 60,
+            "fail": "Your illusion flickers, and the enemies quickly realize it's a trick, resuming their advance with renewed determination."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-3",
+      "description": "You venture cautiously from the bunker under a white flag and approach the Soviet lines. Their commander regards you with a mix of respect and amusement, but he seems willing to hear you out. Bubba watches from the bunker, ready to react if things go awry.",
+      "choices": [
+        {
+          "text": "Offer the Soviet commander strategic information on Ottoman forces in exchange for their retreat.",
+          "next_id": "siege-7",
+          "skill_check": {
+            "skill": "management",
+            "value": 65,
+            "fail": "The commander sees through your offer and realizes your position is weaker than you’re letting on, resuming the attack."
+          }
+        },
+        {
+          "text": "Try to sway him with a passionate speech about Em-Land’s right to sovereignty.",
+          "next_id": "siege-8",
+          "skill_check": {
+            "skill": "rhetoric",
+            "value": 50,
+            "fail": "Your speech falls on deaf ears, and the commander orders the soldiers to prepare for an assault."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-4",
+      "description": "You craft a message proposing peace talks to both the USSR and Ottoman forces, hoping to bring them to the table. For a tense hour, you and Bubba wait in silence, watching the enemy camps for any response.",
+      "choices": [
+        {
+          "text": "Hold your ground in case the enemy doesn’t respond peacefully.",
+          "next_id": "siege-5"
+        },
+        {
+          "text": "Try to signal for a meeting with the Ottoman general alone.",
+          "next_id": "siege-9",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 60,
+            "fail": "The Ottomans suspect a trap and double their forces around Em-Land’s perimeter."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-5",
+      "description": "The first wave of attackers breaches Em-Land’s borders. You and Bubba brace yourselves as they charge forward. Your traps manage to slow them down, but the onslaught is relentless. Bubba nods to you, eyes fierce. 'We can do this, Em!'",
+      "choices": [
+        {
+          "text": "Fight side by side with Bubba, using everything at your disposal.",
+          "next_id": "siege-10",
+          "skill_check": {
+            "skill": "firearms",
+            "value": 70,
+            "fail": "The sheer number of attackers begins to overwhelm you, and your defenses start to crumble."
+          }
+        },
+        {
+          "text": "Attempt a desperate magical shield to protect the bunker.",
+          "next_id": "siege-11",
+          "skill_check": {
+            "skill": "protection magic",
+            "value": 80,
+            "fail": "The shield falters under the weight of the attack, and cracks begin to form around you and Bubba."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-6",
+      "description": "With a focused mind, you conjure an illusionary army defending Em-Land, complete with banners and ghostly warriors. For a moment, the attackers halt, their ranks wavering as they assess this unexpected force.",
+      "choices": [
+        {
+          "text": "Seize the moment to launch a surprise attack with Bubba.",
+          "next_id": "siege-12"
+        },
+        {
+          "text": "Use the confusion to slip out and sabotage their supplies.",
+          "next_id": "siege-13",
+          "skill_check": {
+            "skill": "stealth",
+            "value": 65,
+            "fail": "You're spotted by a watchful soldier, who raises the alarm, and the illusion dissipates as they realize the deception."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-7",
+      "description": "The Soviet commander listens as you offer information on Ottoman positions in exchange for retreat. He’s skeptical but intrigued.",
+      "choices": [
+        {
+          "text": "Reveal false intel on Ottoman defenses, hoping to deceive both factions.",
+          "next_id": "siege-14",
+          "skill_check": {
+            "skill": "strategy",
+            "value": 70,
+            "fail": "The commander realizes the intel is a ploy and orders an immediate assault on Em-Land."
+          }
+        },
+        {
+          "text": "Offer to negotiate a ceasefire between both sides as a neutral mediator.",
+          "next_id": "siege-15",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 65,
+            "fail": "The Soviet commander is uninterested in a truce and decides to push forward."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-8",
+      "description": "Your impassioned plea for Em-Land’s sovereignty resonates with some soldiers, but the commander remains unconvinced.",
+      "choices": [
+        {
+          "text": "Appeal to the soldiers’ sense of justice to turn them against their commander.",
+          "next_id": "siege-16",
+          "skill_check": {
+            "skill": "rhetoric",
+            "value": 75,
+            "fail": "Your appeal fails to sway them fully, and the commander orders you back to the bunker at gunpoint."
+          }
+        },
+        {
+          "text": "Return to the bunker, regroup, and prepare for the next wave.",
+          "next_id": "siege-5"
+        }
+      ]
+    },
+    {
+      "id": "siege-9",
+      "description": "You attempt to signal the Ottoman general for a private meeting, hoping to negotiate. After a tense wait, he finally agrees to a brief parley near the bunker’s edge.",
+      "choices": [
+        {
+          "text": "Try to convince him to call off the attack in exchange for a tribute.",
+          "next_id": "siege-17",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 70,
+            "fail": "The general laughs off your offer, calling it insufficient, and orders the Ottomans to continue advancing."
+          }
+        },
+        {
+          "text": "Secretly cast a charm spell to win him over.",
+          "next_id": "siege-18",
+          "skill_check": {
+            "skill": "charm",
+            "value": 75,
+            "fail": "The general resists the spell and accuses you of witchcraft, calling for your immediate capture."
+          }
+        }
+      ]
+    },
+    {
+      "id": "siege-10",
+      "description": "You and Bubba fight side by side, defending the bunker as wave after wave of soldiers charge forward. Despite the odds, you manage to hold them off for now, but you both know you can’t last forever.",
+      "choices": [
+        {
+          "text": "Attempt to fortify your position further and buy more time.",
+          "next_id": "siege-19",
+          "skill_check": {
+            "skill": "survival",
+            "value": 60,
+            "fail": "The fortifications are insufficient, and cracks begin to show under the assault."
+          }
+        },
+        {
+          "text": "Make a desperate plea for peace over a loudspeaker.",
+          "next_id": "siege-15"
+        }
+      ]
+    },
+    {
+      "id": "siege-11",
+      "description": "The shield holds for a moment, shimmering around you and Bubba as the attacks pound against it. But you can feel it weakening.",
+      "choices": [
+        {
+          "text": "Pour more magic into the shield, risking exhaustion.",
+          "next_id": "siege-20",
+          "skill_check": {
+            "skill": "arcanism",
+            "value": 85,
+            "fail": "The shield finally collapses under the assault, and you’re forced to fall back into the bunker."
+          }
+        },
+        {
+          "text": "Prepare to counter-attack the moment the shield breaks.",
+          "next_id": "siege-10"
+        }
+      ]
+    },
+    {
+      "id": "siege-15",
+      "description": "With a booming voice, you plead for both forces to consider a truce. Silence follows. Then, you see hesitation in some soldiers’ eyes. Could this be a chance to end the bloodshed peacefully?",
+      "choices": [
+        {
+          "text": "Press forward with a compelling argument for unity.",
+          "next_id": "siege-21",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 75,
+            "fail": "The commanders remain unmoved, and the assault resumes in full force."
+          }
+        },
+        {
+          "text": "Retreat to the bunker and prepare for a final stand.",
+          "next_id": "siege-5"
+        }
+      ]
+    },
+    {
+      "id": "siege-19",
+      "description": "You and Bubba reinforce the bunker, but supplies are running low. The next assault could be the last if you don’t find a solution soon.",
+      "choices": [
+        {
+          "text": "Plan a daring night raid on the enemy’s camp to steal supplies.",
+          "next_id": "siege-13",
+          "skill_check": {
+            "skill": "stealth",
+            "value": 70,
+            "fail": "You're spotted mid-raid, and the enemy forces rally against you."
+          }
+        },
+        {
+          "text": "Attempt a final magic incantation to drive both armies away.",
+          "next_id": "siege-22",
+          "skill_check": {
+            "skill": "protection magic",
+            "value": 90,
+            "fail": "Your incantation fails, and the enemy forces tighten their grip around Em-Land."
+          }
+        }
+      ]
+    }
+  ]
+}
+

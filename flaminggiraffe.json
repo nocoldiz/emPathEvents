@@ -1,0 +1,141 @@
+{
+  "title": "Flaming Encounter",
+  "textboxes": [
+    {
+      "id": "flaminggiraffe-1",
+      "description": "You and Bubba are wandering through an arid plain when you see a surreal sight in the distance—a giraffe, peacefully striding along, but completely engulfed in flames. The fire seems harmless to the giraffe, illuminating its calm, graceful movements. Bubba lets out a low whistle, clearly captivated by the sight.",
+      "choices": [
+        {
+          "text": "Approach the flaming giraffe cautiously.",
+          "next_id": "flaminggiraffe-2"
+        },
+        {
+          "text": "Observe it from a safe distance.",
+          "next_id": "flaminggiraffe-3"
+        },
+        {
+          "text": "Attempt to communicate with the giraffe using animal empathy.",
+          "next_id": "flaminggiraffe-4"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-2",
+      "description": "You slowly approach the giraffe, which turns its blazing eyes toward you. It pauses, waiting, as if acknowledging your presence. Its fiery aura radiates intense heat, but you’re intrigued by its tranquility.",
+      "choices": [
+        {
+          "text": "Reach out to touch its fiery mane.",
+          "next_id": "flaminggiraffe-5",
+          "skill_check": {
+            "skill": "arcanism",
+            "value": 30,
+            "fail": "You recoil as the flames surge at your touch, singing your fingers slightly."
+          }
+        },
+        {
+          "text": "Bow respectfully and take a step back.",
+          "next_id": "flaminggiraffe-6"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-3",
+      "description": "You decide to keep a safe distance and simply observe. The giraffe seems at peace, meandering gracefully through the grass, its flames flickering softly in the breeze. As you watch, a calm sense of wonder washes over you.",
+      "choices": [
+        {
+          "text": "Take a moment to meditate, drawing strength from the giraffe’s presence.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Decide to leave the giraffe alone and continue your journey.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-4",
+      "description": "You concentrate, reaching out with your senses to connect with the giraffe’s spirit. A peaceful warmth fills your mind as the giraffe pauses, turning to meet your gaze. It seems to communicate without words, sharing its serenity with you.",
+      "choices": [
+        {
+          "text": "Try to understand the origin of its fire.",
+          "next_id": "flaminggiraffe-7",
+          "skill_check": {
+            "skill": "spiritism",
+            "value": 45,
+            "fail": "The connection is brief, and you’re left only with a sense of warmth and peace, but no clear answer."
+          }
+        },
+        {
+          "text": "Thank the giraffe silently and bow.",
+          "next_id": "flaminggiraffe-6"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-5",
+      "description": "You extend your hand, gently touching the flames that dance along the giraffe's neck. To your surprise, the fire doesn’t burn; instead, it feels like a warm, steady glow. The giraffe bows its head in acknowledgment, and you feel an unusual surge of energy within you.",
+      "choices": [
+        {
+          "text": "Thank the giraffe and step back respectfully.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Ask the giraffe if it has a message for you.",
+          "next_id": "flaminggiraffe-8"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-6",
+      "description": "You bow to the giraffe, showing it respect. The creature seems to nod in response, and the flames around it flicker in an oddly soothing rhythm. Bubba, watching in quiet awe, seems deeply moved.",
+      "choices": [
+        {
+          "text": "Take Bubba's hand and continue on your journey with a newfound sense of peace.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Leave the giraffe and return to the path you were traveling.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-7",
+      "description": "Focusing on the spirit connection, you try to uncover the origins of the giraffe’s flames. The warmth intensifies, and you see a vision of an ancient desert, where elemental fire spirits roamed freely. You realize the giraffe has been blessed by these spirits, carrying their energy peacefully through the world.",
+      "choices": [
+        {
+          "text": "Express gratitude to the giraffe for sharing its story.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "End the connection and leave the giraffe in peace.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-8",
+      "description": "The giraffe gazes at you with calm wisdom, and in your mind, you hear a gentle message: 'Walk with balance, for life’s flame is both creation and destruction.' You feel humbled by the encounter.",
+      "choices": [
+        {
+          "text": "Thank the giraffe for its wisdom and leave with a newfound respect for the fire element.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Bow and return to Bubba, who looks at you in awe.",
+          "next_id": "end-good"
+        }
+      ]
+    },
+    {
+      "id": "end-good",
+      "description": "You and Bubba continue on your journey, feeling a deep sense of peace from the encounter. The flaming giraffe's serene presence stays with you, a reminder of the balance between beauty and power in the world. Bubba chuckles softly, 'Not every day you meet a flaming giraffe, huh?' You laugh, feeling grateful for the experience.",
+      "choices": []
+    },
+    {
+      "id": "end-neutral",
+      "description": "Leaving the giraffe behind, you and Bubba return to the road, feeling a faint sense of wonder. The encounter has left an impression, though it’s hard to define. As you walk, you find yourself pondering the mysteries of the world, and Bubba gives you a knowing smile.",
+      "choices": []
+    }
+  ]
+}

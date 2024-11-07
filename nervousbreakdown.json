@@ -1,0 +1,185 @@
+{
+  "title": "The Quasistability Theorem",
+  "textboxes": [
+    {
+      "id": "quest-1",
+      "description": "The table is piled high with scrolls, books, and notes—each scrawled with symbols and equations. You’ve spent hours trying to decipher an advanced magical theorem of quasistability, but the solution seems maddeningly elusive. Your head pounds, your vision blurs, and a creeping sense of dread gnaws at you as the weight of failure threatens to crush you.",
+      "choices": [
+        {
+          "text": "Push yourself to keep going, ignoring the headache.",
+          "next_id": "quest-2",
+          "skill_check": {
+            "skill": "mental_fortitude",
+            "value": 70,
+            "fail": "You feel your mind crack under the strain, unable to keep up with the intense mental focus required. You reel backward, your vision fading in and out."
+          }
+        },
+        {
+          "text": "Take a deep breath and step away from the desk.",
+          "next_id": "quest-3"
+        },
+        {
+          "text": "Call for Bubba’s help, admitting you're overwhelmed.",
+          "next_id": "quest-4"
+        }
+      ]
+    },
+    {
+      "id": "quest-2",
+      "description": "With all your remaining focus, you press on. The symbols shift and blur in your mind, rearranging themselves in patterns you almost grasp. But it’s too much—the symbols slip from your mind like sand, leaving you feeling small and utterly lost.",
+      "choices": [
+        {
+          "text": "Sit back, defeated, and call for Bubba.",
+          "next_id": "quest-4"
+        },
+        {
+          "text": "Refuse to give up and continue working on your own.",
+          "next_id": "quest-5",
+          "skill_check": {
+            "skill": "determination",
+            "value": 90,
+            "fail": "As you push through the fatigue, your thoughts grow disjointed. You end up collapsing over your notes, lost to an intense migraine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quest-3",
+      "description": "You step back, clutching your head. A sense of failure lingers, but the pain in your mind recedes slightly. Just then, Bubba enters the room, noticing your distress. ‘Em,’ he says softly, ‘you’ve been at this too long. You’re not alone, you know.’",
+      "choices": [
+        {
+          "text": "Admit to Bubba that you’re stuck.",
+          "next_id": "quest-4"
+        },
+        {
+          "text": "Try to explain the theorem to Bubba, hoping it will help.",
+          "next_id": "quest-6"
+        }
+      ]
+    },
+    {
+      "id": "quest-4",
+      "description": "Bubba sits beside you, resting a comforting hand on your shoulder. ‘This theorem… it’s important, but so are you,’ he says. ‘What’s got you so tangled up in it?’",
+      "choices": [
+        {
+          "text": "‘I feel like if I can’t solve this, I’m not as strong as I thought.’",
+          "next_id": "quest-7"
+        },
+        {
+          "text": "‘It’s just… it’s right there, but I can’t reach it!’",
+          "next_id": "quest-8"
+        }
+      ]
+    },
+    {
+      "id": "quest-5",
+      "description": "Determined to push through, you force your way through the pain. Each line of the theorem feels like a wall you keep smashing against. The room spins, and you feel the weight of exhaustion taking over.",
+      "choices": [
+        {
+          "text": "Call out for Bubba before collapsing.",
+          "next_id": "quest-4"
+        },
+        {
+          "text": "Continue trying to solve it.",
+          "next_id": "quest-9",
+          "skill_check": {
+            "skill": "arcanism",
+            "value": 95,
+            "fail": "The theorem remains stubbornly out of reach, and in a final, overwhelming wave of exhaustion, you black out."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quest-6",
+      "description": "You explain the complex symbols and abstract theories, the magic underpinning stability itself. Bubba listens patiently, nodding even as he’s clearly a bit lost. ‘It sounds… tangled up. Like you need to look at it from another angle,’ he suggests.",
+      "choices": [
+        {
+          "text": "Take his advice and review the theorem with fresh eyes.",
+          "next_id": "quest-10",
+          "skill_check": {
+            "skill": "logic",
+            "value": 50,
+            "fail": "You try to see it differently, but the headache blurs everything, and frustration wells up again. Maybe you can’t do this alone."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quest-7",
+      "description": "Bubba sighs and gives you a warm, firm look. ‘Strength isn’t about solving every problem alone, Em. You’ve got support, and it’s okay to lean on it.’ His words strike a chord, and some of the pressure in your mind begins to lift.",
+      "choices": [
+        {
+          "text": "Let Bubba help you work through the problem together.",
+          "next_id": "quest-10"
+        },
+        {
+          "text": "Thank him and try again on your own.",
+          "next_id": "quest-9"
+        }
+      ]
+    },
+    {
+      "id": "quest-8",
+      "description": "Bubba chuckles. ‘You’re a smart one, Em. Smart enough to know when you need to take a break, I’d say. If it’s right there, maybe you just need some perspective.’",
+      "choices": [
+        {
+          "text": "Accept his suggestion and relax for a moment.",
+          "next_id": "quest-11"
+        },
+        {
+          "text": "Insist you need to keep going.",
+          "next_id": "quest-5"
+        }
+      ]
+    },
+    {
+      "id": "quest-9",
+      "description": "You take a deep breath and focus intensely. Gradually, something shifts in your mind as pieces of the theorem start to fall into place, though it requires every ounce of energy you have.",
+      "choices": [
+        {
+          "text": "Push to the finish.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Take a break and come back to it.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "quest-10",
+      "description": "Working with Bubba, you feel a renewed clarity. His presence helps you relax, and together, you’re able to see a path through the theorem that had been clouded before.",
+      "choices": [
+        {
+          "text": "Celebrate together, grateful for the support.",
+          "next_id": "end-good"
+        }
+      ]
+    },
+    {
+      "id": "quest-11",
+      "description": "You step away, and Bubba gives you some tea, urging you to let your mind wander. As you sit back, the answer suddenly emerges like a star through clouds—a subtle realization you hadn’t seen before.",
+      "choices": [
+        {
+          "text": "Jot down the solution, grateful for Bubba’s help.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Come back to it fresh tomorrow.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "end-good",
+      "description": "With a sigh of relief, you finish the theorem. The once-intimidating mystery is now a solved puzzle in your hands. Bubba grins, proud to have helped you through it, and you realize that even the most complex problems can be solved with a little support.",
+      "choices": []
+    },
+    {
+      "id": "end-neutral",
+      "description": "You take a step back, leaving the theorem unfinished for now. The world doesn’t end, and the work can continue another day. Bubba smiles, content that you’re not pushing yourself too far.",
+      "choices": []
+    }
+  ]
+}

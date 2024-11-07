@@ -1,0 +1,244 @@
+{
+  "title": "Night Intruder",
+  "textboxes": [
+    {
+      "id": "night-intruder-1",
+      "description": "It’s late at night. The camper is parked in a quiet, wooded area, the sound of crickets filling the air. You and Bubba are asleep inside, the soft hum of the camper’s cooling system the only noise. Suddenly, you’re jolted awake by a faint scratching sound coming from the side of the camper. Bubba stirs beside you, his sharp eyes opening. The scratching continues, followed by a soft thud. Someone is trying to break in.",
+      "choices": [
+        {
+          "text": "Check the window to see who’s outside.",
+          "next_id": "night-intruder-2"
+        },
+        {
+          "text": "Wake Bubba fully and plan a response.",
+          "next_id": "night-intruder-3"
+        },
+        {
+          "text": "Hide and wait to see if they’ll move away.",
+          "next_id": "night-intruder-4"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-2",
+      "description": "You carefully peek out the window, trying to stay as quiet as possible. Through the gap, you see a shadowy figure crouching by the camper’s door, trying to pry it open. The figure seems to be unaware that you’re awake. Their movements are slow but determined.",
+      "choices": [
+        {
+          "text": "Confront the burglar directly, stepping outside.",
+          "next_id": "night-intruder-5"
+        },
+        {
+          "text": "Try to use a weapon to scare the burglar away from inside the camper.",
+          "next_id": "night-intruder-6"
+        },
+        {
+          "text": "Wake Bubba to help you deal with the situation.",
+          "next_id": "night-intruder-3"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-3",
+      "description": "Bubba wakes up fully, his eyes narrowing as he hears the sound. He motions for you to stay quiet as he carefully reaches under his bunk for his makeshift weapon—an old crowbar. You both ready yourselves for what comes next.",
+      "choices": [
+        {
+          "text": "Wait for Bubba to take the lead and confront the burglar.",
+          "next_id": "night-intruder-7"
+        },
+        {
+          "text": "Try to use your own weapon or tool to defend the camper.",
+          "next_id": "night-intruder-8"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-4",
+      "description": "You stay as still as possible, trying to listen for any further movement. The scratching and thuds continue for a few more moments, and then... silence. The figure has stopped trying to break in. Maybe they’ve given up and moved on.",
+      "choices": [
+        {
+          "text": "Check to see if the burglar has gone, then open the door cautiously.",
+          "next_id": "night-intruder-9"
+        },
+        {
+          "text": "Wait a little longer to be sure before acting.",
+          "next_id": "night-intruder-10"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-5",
+      "description": "You fling the door open, surprising the burglar who freezes, startled. For a moment, neither of you moves. The burglar is holding a crowbar, but they seem to hesitate as they face you. They are wearing a mask, and you can’t see their face. Tension fills the air.",
+      "choices": [
+        {
+          "text": "Demand to know why they’re trying to break in.",
+          "next_id": "night-intruder-11"
+        },
+        {
+          "text": "Threaten them with force if they don’t leave immediately.",
+          "next_id": "night-intruder-12"
+        },
+        {
+          "text": "Make a surprise move and tackle the burglar.",
+          "next_id": "night-intruder-13"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-6",
+      "description": "You reach for the nearest weapon inside the camper—a large metal wrench. You quietly move to the window and bang the wrench loudly on the side of the camper, hoping the noise will startle the burglar into running away. There’s a brief pause, followed by the sound of hurried footsteps moving away.",
+      "choices": [
+        {
+          "text": "Go outside and confirm the burglar has left.",
+          "next_id": "night-intruder-9"
+        },
+        {
+          "text": "Stay hidden and wait to see if they come back.",
+          "next_id": "night-intruder-4"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-7",
+      "description": "Bubba moves swiftly, creeping toward the door with his crowbar raised. The burglar hears the sound and turns just as Bubba bursts through, swinging the crowbar to knock the burglar off balance. The burglar stumbles backward, clearly surprised by the sudden confrontation.",
+      "choices": [
+        {
+          "text": "Help Bubba and overpower the burglar together.",
+          "next_id": "night-intruder-13"
+        },
+        {
+          "text": "Order the burglar to leave the camper immediately.",
+          "next_id": "night-intruder-12"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-8",
+      "description": "You scramble for a nearby item to defend yourself with—maybe a heavy tool or a sharp knife. You move quietly toward the door, hoping to surprise the burglar if they try to enter. However, when you open the door, the burglar isn’t there. They’ve gone silent, and the night is eerily still.",
+      "choices": [
+        {
+          "text": "Check the outside perimeter to see if the burglar is hiding nearby.",
+          "next_id": "night-intruder-9"
+        },
+        {
+          "text": "Wait inside for a few minutes to see if they return.",
+          "next_id": "night-intruder-10"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-9",
+      "description": "You step outside cautiously, the area around the camper dark and quiet. There’s no sign of the burglar. You check the door to make sure it’s secure, and everything seems normal again, though you can’t shake the feeling of unease. Bubba stays alert, watching the area.",
+      "choices": [
+        {
+          "text": "Lock up the camper and try to get some sleep.",
+          "next_id": "night-intruder-end"
+        },
+        {
+          "text": "Stay up and keep watch for the rest of the night.",
+          "next_id": "night-intruder-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-10",
+      "description": "You wait in silence, your nerves on edge. After a few more moments, you hear footsteps in the distance, followed by the sound of a door creaking open. The burglar has clearly moved on for now, but you stay alert, wondering if they’ll come back.",
+      "choices": [
+        {
+          "text": "Go check the camper’s door and make sure everything is safe.",
+          "next_id": "night-intruder-9"
+        },
+        {
+          "text": "Try to sleep, but remain cautious.",
+          "next_id": "night-intruder-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-11",
+      "description": "The burglar hesitates, still holding the crowbar. They seem uncertain about what to do next, the fear in their eyes hidden behind the mask. 'I just... I didn’t mean no harm,' they say, voice muffled by the mask. There's something desperate in their tone, but they don't move.",
+      "choices": [
+        {
+          "text": "Offer them a chance to explain themselves and leave peacefully.",
+          "next_id": "night-intruder-14"
+        },
+        {
+          "text": "Order them to leave the property now or face the consequences.",
+          "next_id": "night-intruder-12"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-12",
+      "description": "You demand the burglar leave the camper at once. The burglar seems to weigh their options for a moment but decides it’s not worth the fight. They quickly run off into the woods, disappearing into the dark.",
+      "choices": [
+        {
+          "text": "Go back inside and secure the camper.",
+          "next_id": "night-intruder-end"
+        },
+        {
+          "text": "Stay outside for a few minutes to make sure they don’t return.",
+          "next_id": "night-intruder-9"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-13",
+      "description": "You and Bubba overpower the burglar together. With a quick, coordinated move, you both manage to disarm the burglar, pinning them down on the ground. The burglar struggles but soon realizes they’re outmatched. Bubba holds them firmly, and you call for them to stop resisting.",
+      "choices": [
+        {
+          "text": "Question the burglar about their intentions.",
+          "next_id": "night-intruder-14"
+        },
+        {
+          "text": "Tie the burglar up and leave them for the authorities.",
+          "next_id": "night-intruder-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-14",
+      "description": "The burglar admits they were just desperate and hungry. They apologize for the break-in, claiming they didn’t know who you were or what you had inside the camper. After some hesitation, you decide to let them go, giving them a bit of food and a warning not to return.",
+      "choices": [
+        {
+          "text": "Head back inside and lock the doors for the night.",
+          "next_id": "night-intruder-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "night-intruder-end",
+      "description": "The night passes uneventfully after the confrontation. You and Bubba stay vigilant, but no more trouble arises. By morning, you both feel a bit more at ease, ready for the next leg of your journey.",
+      "choices": [],
+      "image": "",
+      "sound": ""
+    }
+  ]
+}

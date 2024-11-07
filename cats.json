@@ -1,0 +1,135 @@
+{
+  "title": "Cat Conundrum",
+  "textboxes": [
+    {
+      "id": "cat-1",
+      "description": "You and Bubba have been traveling for hours when you arrive at a small, bustling village. As you walk through the streets, you notice a number of stray cats darting around, seemingly everywhere. Bubba chuckles, noticing the confusion in your eyes. 'What's the deal with cats?' you ask. Bubba shrugs, 'They’re tricky, always doing their own thing. You’ll figure it out.' But you’re not sure how to approach these mysterious creatures.",
+      "choices": [
+        {
+          "text": "Try to pet one of the cats.",
+          "next_id": "cat-2"
+        },
+        {
+          "text": "Ask Bubba for advice on how to interact with them.",
+          "next_id": "cat-3"
+        },
+        {
+          "text": "Ignore the cats and keep walking.",
+          "next_id": "cat-4"
+        }
+      ]
+    },
+    {
+      "id": "cat-2",
+      "description": "You crouch down and extend your hand toward one of the cats. It looks at you for a moment, then swats at your hand, hissing in irritation before bolting off. You sit back, stunned. 'What did I do wrong?' you ask, feeling defeated. Bubba smirks, 'Cats aren’t like dogs. They don’t just want attention on their terms.'",
+      "choices": [
+        {
+          "text": "Try again with a different cat, more cautiously.",
+          "next_id": "cat-5"
+        },
+        {
+          "text": "Ask Bubba how to approach them more carefully.",
+          "next_id": "cat-3"
+        },
+        {
+          "text": "Give up and walk away.",
+          "next_id": "cat-4"
+        }
+      ]
+    },
+    {
+      "id": "cat-3",
+      "description": "Bubba shrugs. 'Cats are unpredictable. You need to show them respect, not chase after them. Just let them come to you.' He gestures toward a few nearby cats lounging in the sun. 'Try sitting quietly and see if they approach.' You nod and take his advice, watching the cats closely.",
+      "choices": [
+        {
+          "text": "Sit quietly and wait to see if one of the cats approaches you.",
+          "next_id": "cat-6"
+        },
+        {
+          "text": "Try to offer food to the cats to entice them closer.",
+          "next_id": "cat-7"
+        }
+      ]
+    },
+    {
+      "id": "cat-4",
+      "description": "You decide that the cats aren’t worth your time, so you continue walking through the village. However, as you pass by a corner, you hear a soft meow. You turn to see a small kitten staring at you with big eyes. It seems different from the others.",
+      "choices": [
+        {
+          "text": "Kneel down and offer your hand to the kitten.",
+          "next_id": "cat-8"
+        },
+        {
+          "text": "Keep walking, not wanting to get involved with any more cats.",
+          "next_id": "cat-9"
+        }
+      ]
+    },
+    {
+      "id": "cat-5",
+      "description": "You approach another cat, moving more cautiously this time. You extend your hand slowly, allowing the cat to sniff you first. It eyes you suspiciously, then slowly rubs against your hand. You feel a sense of accomplishment, but Bubba laughs. 'Nice try. You’ve earned their trust, but they’ll probably wander off soon. Cats are always on the move.'",
+      "choices": [
+        {
+          "text": "Stay patient and wait for the cat to interact further.",
+          "next_id": "cat-6"
+        },
+        {
+          "text": "Ask Bubba if there’s a way to bond with them more permanently.",
+          "next_id": "cat-3"
+        }
+      ]
+    },
+    {
+      "id": "cat-6",
+      "description": "You wait quietly, watching as the cat begins to relax. After a few moments, it curls up next to you, purring softly. Bubba nods in approval. 'See? They come around when they feel like it.' You smile, feeling a sense of peace as you pet the cat.",
+      "choices": [
+        {
+          "text": "Enjoy the calm moment and continue petting the cat.",
+          "next_id": "cat-10"
+        },
+        {
+          "text": "Get up and try to find more cats to interact with.",
+          "next_id": "cat-4"
+        }
+      ]
+    },
+    {
+      "id": "cat-7",
+      "description": "You grab a small piece of food from your pack and offer it to the cats. However, they seem more interested in each other than the food, ignoring you completely. Bubba chuckles from nearby. 'Food isn’t the key. You gotta earn their trust first.'",
+      "choices": [
+        {
+          "text": "Sit quietly and wait again.",
+          "next_id": "cat-6"
+        },
+        {
+          "text": "Try offering food to a different cat.",
+          "next_id": "cat-5"
+        }
+      ]
+    },
+    {
+      "id": "cat-8",
+      "description": "The kitten hesitates for a moment but then trots over to you, rubbing its head against your hand. You smile, feeling a connection with the tiny creature. Bubba looks impressed. 'Looks like you’ve got a knack for this after all.'",
+      "choices": [
+        {
+          "text": "Pick up the kitten and cradle it in your arms.",
+          "next_id": "cat-10"
+        },
+        {
+          "text": "Leave the kitten and continue walking through the village.",
+          "next_id": "cat-9"
+        }
+      ]
+    },
+    {
+      "id": "cat-9",
+      "description": "You keep walking, but the soft meow of the kitten echoes in your ears. It’s a strange feeling—like you’ve left something behind. Bubba gives you an odd look but doesn’t say anything. Maybe the cats aren’t so bad after all.",
+      "choices": []
+    },
+    {
+      "id": "cat-10",
+      "description": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. 'Guess you’ve figured out cats after all.' You continue your journey, the kitten content in your embrace. Perhaps there’s more to these creatures than you first thought.",
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "title": "Supermarket Showdown",
+  "textboxes": [
+    {
+      "id": "supermarket-1",
+      "description": "You and Bubba have been on the road for hours when you spot an isolated, run-down supermarket. Deciding to stock up on supplies, you park the camper and approach, only to realize that a standoff is underway inside. Archivists, draped in gray and carrying devices that hum with cryptic energy, stand on one side. Across from them, mages from the Guild wield glowing staves, whispering spells under their breath. The air crackles with tension as they argue over the rights to a rare artifact hidden somewhere within the supermarket.",
+      "choices": [
+        {
+          "text": "Approach the mages and ask them what’s happening.",
+          "next_id": "supermarket-2"
+        },
+        {
+          "text": "Try to speak to the Archivists and understand their side.",
+          "next_id": "supermarket-3"
+        },
+        {
+          "text": "Stay hidden with Bubba and observe.",
+          "next_id": "supermarket-4"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-2",
+      "description": "You approach the Guild mages, who cast wary glances at you. 'This artifact,' one whispers, 'is a powerful wardstone that protects against forbidden knowledge. The Archivists want to hoard it for themselves, but it could benefit all magic users if handled right.' They pause, sizing you up. 'We could use some backup—would you consider helping us?'",
+      "choices": [
+        {
+          "text": "Agree to support the mages.",
+          "next_id": "supermarket-5"
+        },
+        {
+          "text": "Decline and approach the Archivists instead.",
+          "next_id": "supermarket-3"
+        },
+        {
+          "text": "Stay neutral and suggest a compromise.",
+          "next_id": "supermarket-6"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-3",
+      "description": "You approach the Archivists, who regard you coolly. 'This artifact is dangerous and could destabilize knowledge containment across regions,' one Archivist mutters. 'The Guild doesn’t understand the responsibility of keeping such a thing secure. We’re protecting everyone here, even if they don’t see it.' They look at you expectantly, awaiting your stance.",
+      "choices": [
+        {
+          "text": "Agree to support the Archivists.",
+          "next_id": "supermarket-7"
+        },
+        {
+          "text": "Decline and approach the mages instead.",
+          "next_id": "supermarket-2"
+        },
+        {
+          "text": "Stay neutral and suggest a compromise.",
+          "next_id": "supermarket-6"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-4",
+      "description": "You and Bubba find a hidden vantage point and watch the escalating argument. You catch snippets of both sides' intentions: the Guild sees the artifact as a communal boon for all mages, while the Archivists see it as a threat to secure information. Just then, an Archivist notices your presence, signaling the others. Both sides now look toward you and Bubba, expecting you to choose.",
+      "choices": [
+        {
+          "text": "Approach the mages.",
+          "next_id": "supermarket-2"
+        },
+        {
+          "text": "Approach the Archivists.",
+          "next_id": "supermarket-3"
+        },
+        {
+          "text": "Attempt to talk both sides down.",
+          "next_id": "supermarket-6"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-5",
+      "description": "You decide to back the mages, who nod appreciatively. One mage hands you a small talisman. 'This will protect you from their memory-erasing tech,' she says. The Archivists, noticing your choice, tense up, preparing for a standoff.",
+      "choices": [
+        {
+          "text": "Prepare to defend the mages against the Archivists.",
+          "next_id": "supermarket-8",
+          "skill_check": {
+            "skill": "arcanism",
+            "value": 70,
+            "fail": "Your spell backfires, temporarily blinding you. The Archivists take advantage, launching a counter-attack."
+          }
+        },
+        {
+          "text": "Try to negotiate with the Archivists to avoid conflict.",
+          "next_id": "supermarket-6"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-6",
+      "description": "Attempting to stay neutral, you suggest a compromise: perhaps both factions could share access to the artifact or agree on mutual safeguards. Both sides consider your words carefully, though tensions remain high.",
+      "choices": [
+        {
+          "text": "The Archivists tentatively agree to share control, leading to a fragile peace.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "The Guild mages agree, but the Archivists are distrustful.",
+          "next_id": "end-neutral"
+        },
+        {
+          "text": "Neither side trusts the other, leading to a full-blown conflict.",
+          "next_id": "end-bad"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-7",
+      "description": "You side with the Archivists, who give a satisfied nod. 'Wise choice,' one says. They hand you a device to help disrupt any magical defenses the mages might use. The mages scowl as you join the Archivists’ side.",
+      "choices": [
+        {
+          "text": "Prepare to defend the Archivists against the Guild mages.",
+          "next_id": "supermarket-9",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 65,
+            "fail": "Your words fail to convince the mages, and they launch an aggressive spell in your direction."
+          }
+        },
+        {
+          "text": "Try to convince the mages to avoid a conflict.",
+          "next_id": "supermarket-6"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-8",
+      "description": "With the talisman’s protection, you join the mages in a tense battle with the Archivists. You manage to hold your ground, but the conflict feels endless as both sides cling to their beliefs.",
+      "choices": [
+        {
+          "text": "Suggest a truce to end the stalemate.",
+          "next_id": "supermarket-6"
+        },
+        {
+          "text": "Continue fighting until one side wins.",
+          "next_id": "end-bad"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-9",
+      "description": "Joining the Archivists, you use their device to disable some of the mages’ magical barriers. It works momentarily, but the mages soon retaliate. You realize the only way to end this may be through diplomacy.",
+      "choices": [
+        {
+          "text": "Suggest a truce to avoid further destruction.",
+          "next_id": "supermarket-6"
+        },
+        {
+          "text": "Commit fully to the Archivists’ cause and prepare for the final clash.",
+          "next_id": "end-bad"
+        }
+      ]
+    },
+    {
+      "id": "end-good",
+      "description": "After tense negotiations, the mages and Archivists agree to share access to the artifact. Both sides grudgingly shake hands, and you leave with a sense of relief, knowing you’ve helped avoid a disastrous conflict. As you and Bubba walk away, he claps you on the back. 'Not bad for a day’s work,' he chuckles.",
+      "choices": []
+    },
+    {
+      "id": "end-neutral",
+      "description": "The Archivists agree to a fragile truce, but the mages remain wary. You leave knowing this isn’t a lasting solution, but at least it buys both sides some peace for now. Bubba nods approvingly. 'Guess you did what you could,' he says, though there’s a hint of worry in his voice.",
+      "choices": []
+    },
+    {
+      "id": "end-bad",
+      "description": "Despite your best efforts, a violent clash erupts in the supermarket. You and Bubba barely escape as spells and tech collide, causing shelves to topple and alarms to blare. As you stumble outside, Bubba shakes his head. 'Should’ve known better than to get involved,' he mutters. The supermarket smolders in the background, a testament to unresolved tensions.",
+      "choices": []
+    }
+  ]
+}

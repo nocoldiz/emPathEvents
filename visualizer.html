@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Graph Visualizer</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script> <!-- Cytoscape.js -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    #sidebar {
+      width: 300px;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    #sidebar textarea {
+      width: 100%;
+      height: 60vh;
+      resize: none;
+      padding: 10px;
+      font-size: 14px;
+      color: #333;
+    }
+    #sidebar button {
+      padding: 10px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #sidebar button:hover {
+      background-color: #0056b3;
+    }
+    #cy {
+      flex-grow: 1;
+      background-color: #fff;
+    }
+
+    /* Modal/overlay styling */
+    #modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    #modalContent {
+      background-color: #fff;
+      padding: 20px;
+      width: 80%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      text-align: left;
+      margin: auto;
+    }
+    #modal h2 {
+      margin-top: 0;
+    }
+    #closeModal {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      float: right;
+    }
+    #closeModal:hover {
+      background-color: #0056b3;
+    }
+    .choice-button {
+      display: block;
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      margin: 10px 0;
+      text-align: center;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .choice-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="sidebar">
+    <h2>Adventure Data Input</h2>
+	    <input type="file" id="fileInput" accept=".json">
+    <textarea id="jsonInput" placeholder="Paste JSON data here...">{
+  "title": "Flaming Encounter",
+  "textboxes": [
+    {
+      "id": "flaminggiraffe-1",
+      "description": "You and Bubba are wandering through an arid plain when you see a surreal sight in the distance—a giraffe, peacefully striding along, but completely engulfed in flames. The fire seems harmless to the giraffe, illuminating its calm, graceful movements. Bubba lets out a low whistle, clearly captivated by the sight.",
+      "choices": [
+        {
+          "text": "Approach the flaming giraffe cautiously.",
+          "next_id": "flaminggiraffe-2"
+        },
+        {
+          "text": "Observe it from a safe distance.",
+          "next_id": "flaminggiraffe-3"
+        },
+        {
+          "text": "Attempt to communicate with the giraffe using animal empathy.",
+          "next_id": "flaminggiraffe-4"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-2",
+      "description": "You slowly approach the giraffe, which turns its blazing eyes toward you. It pauses, waiting, as if acknowledging your presence. Its fiery aura radiates intense heat, but you’re intrigued by its tranquility.",
+      "choices": [
+        {
+          "text": "Reach out to touch its fiery mane.",
+          "next_id": "flaminggiraffe-5",
+          "skill_check": {
+            "skill": "arcanism",
+            "value": 30,
+            "fail": "You recoil as the flames surge at your touch, singing your fingers slightly."
+          }
+        },
+        {
+          "text": "Bow respectfully and take a step back.",
+          "next_id": "flaminggiraffe-6"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-3",
+      "description": "You decide to keep a safe distance and simply observe. The giraffe seems at peace, meandering gracefully through the grass, its flames flickering softly in the breeze. As you watch, a calm sense of wonder washes over you.",
+      "choices": [
+        {
+          "text": "Take a moment to meditate, drawing strength from the giraffe’s presence.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Decide to leave the giraffe alone and continue your journey.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-4",
+      "description": "You concentrate, reaching out with your senses to connect with the giraffe’s spirit. A peaceful warmth fills your mind as the giraffe pauses, turning to meet your gaze. It seems to communicate without words, sharing its serenity with you.",
+      "choices": [
+        {
+          "text": "Try to understand the origin of its fire.",
+          "next_id": "flaminggiraffe-7",
+          "skill_check": {
+            "skill": "spiritism",
+            "value": 45,
+            "fail": "The connection is brief, and you’re left only with a sense of warmth and peace, but no clear answer."
+          }
+        },
+        {
+          "text": "Thank the giraffe silently and bow.",
+          "next_id": "flaminggiraffe-6"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-5",
+      "description": "You extend your hand, gently touching the flames that dance along the giraffe's neck. To your surprise, the fire doesn’t burn; instead, it feels like a warm, steady glow. The giraffe bows its head in acknowledgment, and you feel an unusual surge of energy within you.",
+      "choices": [
+        {
+          "text": "Thank the giraffe and step back respectfully.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Ask the giraffe if it has a message for you.",
+          "next_id": "flaminggiraffe-8"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-6",
+      "description": "You bow to the giraffe, showing it respect. The creature seems to nod in response, and the flames around it flicker in an oddly soothing rhythm. Bubba, watching in quiet awe, seems deeply moved.",
+      "choices": [
+        {
+          "text": "Take Bubba's hand and continue on your journey with a newfound sense of peace.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Leave the giraffe and return to the path you were traveling.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-7",
+      "description": "Focusing on the spirit connection, you try to uncover the origins of the giraffe’s flames. The warmth intensifies, and you see a vision of an ancient desert, where elemental fire spirits roamed freely. You realize the giraffe has been blessed by these spirits, carrying their energy peacefully through the world.",
+      "choices": [
+        {
+          "text": "Express gratitude to the giraffe for sharing its story.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "End the connection and leave the giraffe in peace.",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "flaminggiraffe-8",
+      "description": "The giraffe gazes at you with calm wisdom, and in your mind, you hear a gentle message: 'Walk with balance, for life’s flame is both creation and destruction.' You feel humbled by the encounter.",
+      "choices": [
+        {
+          "text": "Thank the giraffe for its wisdom and leave with a newfound respect for the fire element.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Bow and return to Bubba, who looks at you in awe.",
+          "next_id": "end-good"
+        }
+      ]
+    },
+    {
+      "id": "end-good",
+      "description": "You and Bubba continue on your journey, feeling a deep sense of peace from the encounter. The flaming giraffe's serene presence stays with you, a reminder of the balance between beauty and power in the world. Bubba chuckles softly, 'Not every day you meet a flaming giraffe, huh?' You laugh, feeling grateful for the experience.",
+      "choices": []
+    },
+    {
+      "id": "end-neutral",
+      "description": "Leaving the giraffe behind, you and Bubba return to the road, feeling a faint sense of wonder. The encounter has left an impression, though it’s hard to define. As you walk, you find yourself pondering the mysteries of the world, and Bubba gives you a knowing smile.",
+      "choices": []
+    }
+  ]
+}
+</textarea>
+    <button id="updateGraph">Update Graph</button>
+  </div>
+
+  <div id="cy"></div>
+
+  <!-- Modal overlay for node details -->
+  <div id="modal">
+    <div id="modalContent">
+      <button id="closeModal">Close</button>
+      <h2>Node Details</h2>
+      <p id="nodeDescription"></p>
+      <div id="choicesList"></div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      // Initialize Cytoscape
+      const cy = cytoscape({
+        container: document.getElementById('cy'),
+        style: [
+          {
+            selector: 'node',
+            style: {
+              'shape': 'square',
+              'content': 'data(label)',
+              'background-color': '#007bff',
+              'color': '#fff',
+              'text-valign': 'center',
+              'text-halign': 'center',
+              'width': '450px',
+              'height': '250px',
+              'border-width': '2px',
+              'border-color': '#333',
+              'border-radius': '10px',
+              'text-wrap': 'wrap',
+              'font-size': '32px'
+            }
+          },
+          {
+            selector: 'edge',
+            style: {
+              'label': 'data(label)',
+              'curve-style': 'bezier',
+              'font-size': '32px',
+              'width': 2,
+              'line-color': '#ccc',
+              'target-arrow-color': '#ccc',
+              'target-arrow-shape': 'triangle'
+            }
+          }
+        ],
+        layout: {
+          name: 'breadthfirst',
+          directed: true,
+          padding: 10
+        }
+      });
+
+      let adventureData;
+
+      // Function to create the graph from JSON data
+      const createGraph = (adventureData) => {
+        const elements = [];
+        const seen = new Set();
+
+        const traverse = (textbox) => {
+          if (seen.has(textbox.id)) return;
+          seen.add(textbox.id);
+
+          const nodeLabel = textbox.description.length > 50 ? textbox.description.slice(0, 50) + '...' : textbox.description;
+          elements.push({ data: { id: textbox.id, label: nodeLabel, type: 'node', fullText: textbox.description, choices: textbox.choices } });
+
+          textbox.choices.forEach((choice) => {
+            const skillCheckLabel = choice.skill_check ? ` (Skill Check: ${choice.skill_check.skill} ${choice.skill_check.value})` : '';
+            const nextTextbox = adventureData.textboxes.find(t => t.id === choice.next_id);
+            if (!nextTextbox) {
+              // If the target node doesn't exist, create an "END" node
+              elements.push({
+                data: { id: choice.next_id, label: 'END', type: 'node' }
+              });
+            }
+            elements.push({
+              data: {
+                source: textbox.id,
+                target: choice.next_id,
+                label: choice.text + skillCheckLabel
+              }
+            });
+
+            if (nextTextbox) traverse(nextTextbox);
+          });
+        };
+
+        traverse(adventureData.textboxes[0]);
+        return elements;
+      };
+
+      // Function to update the graph with new JSON data
+      const updateGraph = () => {
+        const jsonData = $('#jsonInput').val();
+        try {
+          adventureData = JSON.parse(jsonData);
+          const elements = createGraph(adventureData);
+          cy.elements().remove();
+          cy.add(elements);
+          cy.layout({ name: 'breadthfirst', directed: true, padding: 10 }).run();
+          cy.center();
+        } catch (error) {
+          alert(error);
+        }
+      };
+
+      // Function to display the choices in the modal with skill information
+const displayChoices = (choices) => {
+  const choicesList = $('#choicesList');
+  choicesList.empty();
+
+  choices.forEach(choice => {
+    const skillCheckLabel = choice.skill_check ? ` (${choice.skill_check.skill} ${choice.skill_check.value})` : '';
+    const choiceButton = $(`<div class="choice-button">${choice.text}${skillCheckLabel}</div>`);
+
+    // If a skill check exists and has a fail state, append it as red and small text
+    if (choice.skill_check && choice.skill_check.fail) {
+      const failMessage = $(`<div class="fail-message" style="color: red; font-size: 16px;">${choice.skill_check.fail}</div>`);
+      choiceButton.append(failMessage);
+    }
+
+    // When the choice button is clicked, it triggers the next textbox
+    choiceButton.on('click', function() {
+      const nextTextbox = adventureData.textboxes.find(t => t.id === choice.next_id);
+      if (nextTextbox) {
+        $('#nodeDescription').text(nextTextbox.description);
+        displayChoices(nextTextbox.choices);
+      }
+    });
+
+    // Append the choice button to the list
+    choicesList.append(choiceButton);
+  });
+};
+
+
+      // Event listener to show the modal with the node's full text
+      cy.on('tap', 'node', function(event) {
+        const node = event.target;
+        const fullText = node.data('fullText');
+        const choices = node.data('choices');
+        $('#nodeDescription').text(fullText);
+        displayChoices(choices);
+        $('#modal').fadeIn();
+      });
+
+      // Close the modal when the "close" button is clicked
+      $('#closeModal').on('click', function() {
+        $('#modal').fadeOut();
+      });
+
+      // Close the modal if the user clicks outside of it
+      $(window).on('click', function(event) {
+        if ($(event.target).is('#modal')) {
+          $('#modal').fadeOut();
+        }
+      });
+
+      $('#updateGraph').on('click', updateGraph);
+	  $('#fileInput').on('change', function(event) {
+        const file = event.target.files[0];
+        if (file && file.name.endsWith('.json')) {
+          const reader = new FileReader();
+          reader.onload = function(e) {
+            $('#jsonInput').val(e.target.result);
+            updateGraph();
+          };
+          reader.readAsText(file);
+        } else {
+          alert('Please select a valid JSON file.');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

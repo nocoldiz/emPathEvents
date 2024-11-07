@@ -1,0 +1,167 @@
+{
+  "title": "The Last Stand of Em-Land",
+  "textboxes": [
+    {
+      "id": "defensive-stand-1",
+      "description": "The Soviets are relentless, and the goblins, though fierce, are beginning to tire. You realize that a full-frontal assault may not be the right move. With the Soviet forces growing stronger by the hour, you decide to take a defensive stand. You order the goblins to dig in, fortify the position, and prepare for a siege. Bubba is by your side, helping organize the defenses, though his anxiety is palpable. This won’t be an easy fight, but you believe the terrain and your fortifications will give you an advantage. The Soviets will have to come to you.",
+      "choices": [
+        {
+          "text": "Fortify the northern entrance, where the Soviets are most likely to strike.",
+          "next_id": "defensive-stand-2"
+        },
+        {
+          "text": "Set traps and distractions throughout the perimeter to slow down the Soviet advance.",
+          "next_id": "defensive-stand-3"
+        },
+        {
+          "text": "Focus on securing the bunker and preparing for a long siege.",
+          "next_id": "defensive-stand-4"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-2",
+      "description": "You order the goblins to reinforce the northern entrance, reinforcing the barricades and setting up traps along the approach. The northern entrance is the most obvious route the Soviets will take, and you want to make sure they know they’ll have to fight for every inch. The sound of distant marching signals the approach of Soviet forces, and the air grows tense. Bubba looks to you, silently asking what your next move is.",
+      "choices": [
+        {
+          "text": "Hold the line and wait for the Soviets to reach your defenses before striking.",
+          "next_id": "defensive-stand-5"
+        },
+        {
+          "text": "Prepare an ambush to take out key Soviet commanders early in the fight.",
+          "next_id": "defensive-stand-6"
+        },
+        {
+          "text": "Deploy ranged attackers to harass the Soviets as they approach the line.",
+          "next_id": "defensive-stand-7"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-3",
+      "description": "You decide to spread traps and distractions along the perimeter to slow down the Soviet advance. Goblins set up false barricades and dummies to mislead the Soviets. You prepare for ambushes, using the element of surprise to your advantage. Soon, the Soviets approach, unaware of the traps waiting for them. You wait, holding your breath, ready to spring into action.",
+      "choices": [
+        {
+          "text": "Trigger the traps as soon as the Soviets cross into range.",
+          "next_id": "defensive-stand-8"
+        },
+        {
+          "text": "Wait for the Soviets to get closer and use their confusion to strike from the shadows.",
+          "next_id": "defensive-stand-9"
+        },
+        {
+          "text": "Launch an early attack from behind the traps to push the Soviets back before they can regroup.",
+          "next_id": "defensive-stand-10"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-4",
+      "description": "With the fortifications in place and traps set, you decide to take a more methodical approach: waiting out the Soviets in the bunker. It’s a risk, but if the goblins can hold the perimeter and keep the Soviets distracted, you might be able to launch a devastating counterattack later. The first night passes quietly, but the tension is unbearable. Bubba checks in on you, noticing the stress in your eyes. You can hear distant rumblings as Soviet artillery begins to take aim at your defenses.",
+      "choices": [
+        {
+          "text": "Prepare for a counterattack by gathering supplies and checking the perimeter.",
+          "next_id": "defensive-stand-11"
+        },
+        {
+          "text": "Stay in the bunker and continue to monitor Soviet movements, waiting for the right moment.",
+          "next_id": "defensive-stand-12"
+        },
+        {
+          "text": "Send a small team of goblins to sabotage Soviet artillery placements before they fire again.",
+          "next_id": "defensive-stand-13"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-5",
+      "description": "You hold the line, allowing the Soviets to get close before launching your attack. The goblins spring from their positions, throwing themselves into the fray with savage ferocity. However, the Soviets have prepared for this kind of tactic, and their reinforcements arrive quickly. The battle becomes a brutal back-and-forth, with casualties mounting on both sides. Bubba fights at your side, but the pressure is starting to take its toll on him.",
+      "choices": [
+        {
+          "text": "Push forward and drive the Soviets back with a final charge.",
+          "next_id": "defensive-stand-14"
+        },
+        {
+          "text": "Withdraw to the fortified area and regroup, taking care to minimize losses.",
+          "next_id": "defensive-stand-15"
+        },
+        {
+          "text": "Call for reinforcements from the other goblins stationed in the nearby woods.",
+          "next_id": "defensive-stand-16"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-6",
+      "description": "You decide to target the Soviet commanders. You and a small squad of goblins sneak through the backlines and strike the commanders in the middle of their camp. The Soviets are caught off guard, and chaos erupts as their leadership collapses. The goblins take full advantage of the disarray, but the Soviets are beginning to regroup faster than expected.",
+      "choices": [
+        {
+          "text": "Lead a direct attack against the Soviet lines while they are still disorganized.",
+          "next_id": "defensive-stand-17"
+        },
+        {
+          "text": "Retreat back to the defensive position and prepare for the Soviet counterattack.",
+          "next_id": "defensive-stand-18"
+        },
+        {
+          "text": "Use the confusion to cause further disruption within their camp and set fire to their supplies.",
+          "next_id": "defensive-stand-19"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-7",
+      "description": "You deploy your ranged attackers, arrows and magical bolts raining down on the Soviets as they approach. The distance between you and the Soviets gives you a slight advantage, but they quickly respond with their own ranged units, firing back at the goblins from their fortified positions. The battle is becoming a deadly stalemate, and you’ll need to change tactics soon if you’re going to break it.",
+      "choices": [
+        {
+          "text": "Charge into the fray with the goblins, overwhelming the Soviet archers and mages.",
+          "next_id": "defensive-stand-20"
+        },
+        {
+          "text": "Order a retreat to reorganize and wait for the Soviets to make the first move.",
+          "next_id": "defensive-stand-21"
+        },
+        {
+          "text": "Focus all your forces on a single Soviet mage to eliminate their ranged advantage.",
+          "next_id": "defensive-stand-22"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-8",
+      "description": "The traps spring as the Soviets march into range, and the first wave of soldiers are immediately thrown into disarray. The goblins charge, taking advantage of the chaos, but the Soviets are not easily defeated. They regroup, pulling back and launching a counteroffensive. You see reinforcements arriving on their side, and you must decide quickly how to respond.",
+      "choices": [
+        {
+          "text": "Break off from the main battle and lead a small force to disrupt the Soviet reinforcements.",
+          "next_id": "defensive-stand-23"
+        },
+        {
+          "text": "Push harder into the Soviet lines, capitalizing on the confusion caused by the traps.",
+          "next_id": "defensive-stand-24"
+        },
+        {
+          "text": "Retreat back into the fortifications and prepare for a more strategic strike.",
+          "next_id": "defensive-stand-25"
+        }
+      ]
+    },
+    {
+      "id": "defensive-stand-9",
+      "description": "You wait for the Soviets to approach, taking advantage of the traps to draw them in closer. As they fall into the chaos, you launch your attack from the shadows, cutting down several key soldiers before they can react. The confusion is palpable, but the Soviets are regrouping quickly. It’s only a matter of time before they retaliate in full force.",
+      "choices": [
+        {
+          "text": "Move to the Soviet rear and target their supply lines to disrupt their reinforcements.",
+          "next_id": "defensive-stand-26"
+        },
+        {
+          "text": "Launch a full assault on the Soviets before they can regroup, taking advantage of the chaos.",
+          "next_id": "defensive-stand-27"
+        },
+        {
+          "text": "Fall back into the defenses and wait for the Soviets to make their next move.",
+          "next_id": "defensive-stand-28"
+        }
+      ]
+    }
+  ]
+}

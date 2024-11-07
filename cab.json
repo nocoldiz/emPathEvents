@@ -1,0 +1,192 @@
+{
+  "title": "The Missing Cab",
+  "textboxes": [
+    {
+      "id": "missing-cab-1",
+      "description": "You step out onto the busy street, glancing at your watch. You're running late for an important meeting, and a cab is your only hope of getting there in time. You flag down the first cab that passes by, but to your dismay, it speeds right past you. You try again, but the same thing happens. It's as if every cab is deliberately avoiding you. The city feels strangely empty today, and you're starting to get anxious.",
+      "choices": [
+        {
+          "text": "Walk to the nearest subway station and take the train.",
+          "next_id": "missing-cab-2"
+        },
+        {
+          "text": "Keep waiting and try flagging down another cab.",
+          "next_id": "missing-cab-3"
+        },
+        {
+          "text": "Try calling a ride-share service and see if they can send a car.",
+          "next_id": "missing-cab-4"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-2",
+      "description": "You decide to walk to the nearest subway station, hoping the train will get you to your destination faster than waiting for a cab. As you walk, you notice that the streets are eerily quiet. When you finally reach the station, the doors are locked, and no one is around. It's a strange sight—one that makes you wonder if something is wrong.",
+      "skill_check": {
+        "skill": "exploration",
+        "difficulty": "medium",
+        "fail": "You fail to find a way into the subway station. The area feels deserted, and you're starting to lose hope."
+      },
+      "choices": [
+        {
+          "text": "Break into the subway station and try to find a way inside.",
+          "next_id": "missing-cab-5"
+        },
+        {
+          "text": "Turn back and look for another way to get to your meeting.",
+          "next_id": "missing-cab-6"
+        },
+        {
+          "text": "Sit and wait to see if someone shows up to open the doors.",
+          "next_id": "missing-cab-7"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-3",
+      "description": "You decide to keep waiting. Several cabs pass by, but none stop for you. The city is more crowded than usual, but the cabs seem to avoid the street you're standing on. It's as if there's some invisible barrier preventing them from picking you up. You start to feel paranoid—something is off, but you can't put your finger on it.",
+      "skill_check": {
+        "skill": "mental",
+        "difficulty": "easy",
+        "fail": "You struggle to keep calm, and your anxiety starts to build. You're beginning to feel trapped, and the city feels more suffocating than before."
+      },
+      "choices": [
+        {
+          "text": "Walk down the street to a different intersection and try again.",
+          "next_id": "missing-cab-8"
+        },
+        {
+          "text": "Give up and try to call a ride-share service again.",
+          "next_id": "missing-cab-9"
+        },
+        {
+          "text": "Wait a little longer, hoping things will change.",
+          "next_id": "missing-cab-10"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-4",
+      "description": "You pull out your phone and open the ride-share app, hoping for a quick solution. You request a ride, but the app tells you that no cars are available in your area. You try again, but the same message pops up. It's becoming increasingly frustrating, and now you feel like you're running out of options.",
+      "skill_check": {
+        "skill": "management",
+        "difficulty": "medium",
+        "fail": "You fail to navigate the app properly, and the more you try, the more confused you become about how to get a ride."
+      },
+      "choices": [
+        {
+          "text": "Try using another ride-share app.",
+          "next_id": "missing-cab-11"
+        },
+        {
+          "text": "Walk further down the street to a different location and try again.",
+          "next_id": "missing-cab-12"
+        },
+        {
+          "text": "Take the bus instead, hoping for better luck.",
+          "next_id": "missing-cab-13"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-5",
+      "description": "You find a way inside the subway station, breaking through a small opening in the gate. However, inside, everything is in disarray. The tracks are empty, and the platform is covered in dust. It seems like no one has used this subway for a long time. There’s no sign of the train coming anytime soon, and you're left feeling a bit more trapped.",
+      "choices": [
+        {
+          "text": "Look for an exit and try to leave the station.",
+          "next_id": "missing-cab-14"
+        },
+        {
+          "text": "Explore further to see if there’s another way out of the station.",
+          "next_id": "missing-cab-15"
+        },
+        {
+          "text": "Sit and wait for a train that might never arrive.",
+          "next_id": "missing-cab-16"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-6",
+      "description": "You turn around and walk back, frustrated but determined to find a way to your meeting. However, the streets seem even quieter now. It's as if everyone has disappeared, and the longer you walk, the more the city feels like it's falling apart. You're starting to wonder if you'll ever make it to your destination.",
+      "skill_check": {
+        "skill": "exploration",
+        "difficulty": "medium",
+        "fail": "You lose your bearings, and the city starts to feel more alien. Your destination slips further out of reach, and you feel more disoriented."
+      },
+      "choices": [
+        {
+          "text": "Try calling a friend for help or advice.",
+          "next_id": "missing-cab-17"
+        },
+        {
+          "text": "Seek shelter in a nearby building and wait for the situation to change.",
+          "next_id": "missing-cab-18"
+        },
+        {
+          "text": "Keep walking, hoping to find another cab or another way to get to your meeting.",
+          "next_id": "missing-cab-19"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-7",
+      "description": "You sit on the bench in front of the subway station, waiting. Time passes, and no one arrives to open the doors. The city feels increasingly desolate, and you begin to wonder if you're stuck in some kind of limbo. After a while, you realize that waiting here might not get you anywhere.",
+      "choices": [
+        {
+          "text": "Break the waiting pattern and go look for an alternative transportation option.",
+          "next_id": "missing-cab-20"
+        },
+        {
+          "text": "Walk away from the subway station and try another part of the city.",
+          "next_id": "missing-cab-21"
+        },
+        {
+          "text": "Go back home, accepting that the day is ruined.",
+          "next_id": "missing-cab-22"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-8",
+      "description": "You move to a different intersection, but the same problem persists. No cabs stop for you. It's almost as if the universe has conspired to make you late. The frustration is mounting, and you're running out of ideas on how to get to your meeting on time.",
+      "skill_check": {
+        "skill": "mental",
+        "difficulty": "hard",
+        "fail": "The stress becomes overwhelming, and you start to panic. Everything feels out of your control."
+      },
+      "choices": [
+        {
+          "text": "Try calling a ride-share service again and hope for better luck.",
+          "next_id": "missing-cab-23"
+        },
+        {
+          "text": "Walk even further in search of a taxi or another ride.",
+          "next_id": "missing-cab-24"
+        },
+        {
+          "text": "Decide to give up and head back home.",
+          "next_id": "missing-cab-25"
+        }
+      ]
+    },
+    {
+      "id": "missing-cab-9",
+      "description": "You try the ride-share service again, but this time it works—sort of. A car is on its way, but it's estimated to arrive in 20 minutes. That’s too late for your meeting, and you’re left feeling both relieved and frustrated at the same time.",
+      "choices": [
+        {
+          "text": "Cancel the ride and try a different transportation method.",
+          "next_id": "missing-cab-26"
+        },
+        {
+          "text": "Wait for the ride and hope you’ll make it in time.",
+          "next_id": "missing-cab-27"
+        },
+        {
+          "text": "Walk to the meeting location yourself, hoping you can make it on foot.",
+          "next_id": "missing-cab-28"
+        }
+      ]
+    }
+  ]
+}
