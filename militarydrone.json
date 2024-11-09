@@ -336,21 +336,49 @@
           "next_id": "bad-end"
         }
       ]
+    },
+	{
+      "id": "good-end",
+      "description": "Em and Bubba manage to disable the drone and evade its grasp. They return to the road, shaken but unharmed. They both know that they’ve narrowly escaped danger.",
+      "choices": [
+        {
+          "text": "Continue driving, grateful to be safe.",
+          "next_id": "back-to-road-1"
+        },
+        {
+          "text": "Pull over to regroup and inspect any damage.",
+          "next_id": "check-vehicle-1"
+        }
+      ]
+    },
+    {
+      "id": "neutral-end",
+      "description": "The drone eventually leaves them, but the journey ahead is still filled with fear and uncertainty. Em and Bubba are left wondering if the drone will return.",
+      "choices": [
+        {
+          "text": "Keep a lookout as they continue driving.",
+          "next_id": "back-to-road-2"
+        },
+        {
+          "text": "Discuss their next move, wary of future dangers.",
+          "next_id": "discuss-next-steps-1"
+        }
+      ]
+    },
+    {
+      "id": "bad-end",
+      "description": "The drone attacks, overwhelming Em and Bubba. They are captured, and the last thing they hear is the sound of military-grade equipment buzzing around them.",
+      "choices": [
+        {
+          "text": "Resign to their fate, hoping for a way out.",
+          "next_id": "captured-fate-1"
+        },
+        {
+          "text": "Look for a way to escape, even if it seems hopeless.",
+          "next_id": "escape-attempt-1"
+        }
+      ]
     }
-  ],
-  "good-end": {
-    "description": "Em and Bubba manage to disable the drone and evade its grasp. They return to the road, shaken but unharmed. They both know that they’ve narrowly escaped danger.",
-    "image": "",
-    "sound": ""
-  },
-  "neutral-end": {
-    "description": "The drone eventually leaves them, but the journey ahead is still filled with fear and uncertainty. Em and Bubba are left wondering if the drone will return.",
-    "image": "",
-    "sound": ""
-  },
-  "bad-end": {
-    "description": "The drone attacks, overwhelming Em and Bubba. They are captured, and the last thing they hear is the sound of military-grade equipment buzzing around them.",
-    "image": "",
-    "sound": ""
-  }
+  ]
+
 }

@@ -128,24 +128,7 @@
           "next_id": "end"
         }
       ]
-    },
-    {
-      "id": "end",
-      "description": "The adventure ends. Depending on your choices, you may have gained power, fallen into a trap, or managed to escape. The Devil’s offer is always there, lurking, waiting for another soul to make a deal.",
-      "choices": [
-        {
-          "text": "Restart adventure",
-          "next_id": "devil-1"
-        },
-        {
-          "text": "End",
-          "next_id": "end"
-        }
-      ]
     }
-  ],
-  "reward": {
-    "id": "devil-pact",
-    "quantity": 1
-  }
+  ]
+
 }

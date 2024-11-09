@@ -118,20 +118,48 @@
         }
       ]
     },
-    {
+	    {
       "id": "end-good",
       "description": "You leave with a sense of resolution. Whether by taking the knowledge Omni-Lex offered or securing its final shutdown, you know that you have taken action with purpose.",
-      "choices": []
+      "choices": [
+        {
+          "text": "Return to the Archivists, ready to report your actions.",
+          "next_id": "report-to-archivists-1"
+        },
+        {
+          "text": "Continue down your path, contemplating what you’ve gained.",
+          "next_id": "personal-reflection-1"
+        }
+      ]
     },
     {
       "id": "end-neutral",
       "description": "With a sigh, you walk away, feeling both the weight of the secrets and the burden of erasing them. Some knowledge is not meant to be shared, and yet… its loss feels like something missing from the world.",
-      "choices": []
+      "choices": [
+        {
+          "text": "Consider the ethics of the decision you’ve made.",
+          "next_id": "reflect-on-choice-1"
+        },
+        {
+          "text": "Look for signs of the secrets resurfacing, even faintly.",
+          "next_id": "search-for-answers-1"
+        }
+      ]
     },
     {
       "id": "end-bad",
       "description": "You choose to defy the Archivists, allowing Omni-Lex to continue existing in secret. A part of you knows this may lead to future repercussions, but the allure of the forbidden knowledge is too tempting to resist. The Archivists’ wrath will come, but you feel a strange satisfaction in preserving Omni-Lex’s truth.",
-      "choices": []
+      "choices": [
+        {
+          "text": "Prepare yourself for the Archivists’ response.",
+          "next_id": "await-archivist-wrath-1"
+        },
+        {
+          "text": "Start developing plans for how to protect Omni-Lex.",
+          "next_id": "protect-omni-lex-1"
+        }
+      ]
     }
+   
   ]
 }

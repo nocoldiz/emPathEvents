@@ -168,23 +168,31 @@
           "next_id": "bad-end"
         }
       ]
-    }
-  ],
-  "endings": {
-    "good-end": {
+    },
+	{
+	"id": "good-end",
       "description": "Em finishes all the tasks with precision and care. The manager acknowledges her hard work and even compliments her on the perfect burger. She has successfully repaid her debt and learned a valuable lesson in patience and perseverance.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  "choices":[]
     },
-    "neutral-end": {
+	{
+			"id": "neutral-end",
+
       "description": "Em gets through the tasks, but she makes a few mistakes along the way. The manager isn’t entirely pleased, but they acknowledge her efforts. She’s still got a lot of work to do before she can consider herself forgiven.",
       "image": "",
-      "sound": ""
-    },
-    "bad-end": {
+      "sound": "",
+	  	  "choices":[]
+
+	},
+	{
+	"id": "bad-end",
       "description": "Em fails to keep up with the fast pace of the kitchen, and the mistakes pile up. The manager is not pleased, and Em has to face the consequences of her carelessness. The debt is far from paid.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  "choices":[]
     }
-  }
+    
+  ]
+
 }

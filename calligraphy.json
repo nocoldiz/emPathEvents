@@ -121,7 +121,8 @@
         "quantity": 1
       },
       "image": "",
-      "sound": ""
+      "sound": "",
+	   "choices": []
     },
     {
       "id": "neutral-end",
@@ -131,13 +132,15 @@
         "quantity": 1
       },
       "image": "",
-      "sound": ""
+      "sound": "",
+	   "choices": []
     },
     {
       "id": "bad-end",
       "description": "The surge of power from the scroll consumes you. You are left with nothing but the overwhelming sensation of loss. The dark energy twists your mind, leaving you a mere shadow of yourself. The library falls silent, and you are trapped in a state between worlds.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	   "choices": []
     },
     {
       "id": "adventure-end",
@@ -147,7 +150,8 @@
         "quantity": 0
       },
       "image": "",
-      "sound": ""
+      "sound": "",
+	   "choices": []
     }
   ]
 }

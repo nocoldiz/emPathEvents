@@ -140,19 +140,24 @@
         "quantity": 1
       },
       "image": "",
+	  	        "choices": [],
+
       "sound": ""
     },
     {
       "id": "neutral-end",
       "description": "You step away, unable to fully grasp what’s happening, but determined not to let it shake you. You walk through the town, accepting the eerie reality but choosing to focus on your own sense of self. As strange as it is, you feel a peculiar comfort in knowing you’re not alone.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	        "choices": []
+
     },
     {
       "id": "bad-end",
       "description": "Panicked, you flee, but every corner, every face is yours. You can’t escape the feeling that you’re trapped in an endless mirror, doomed to live surrounded by reflections of yourself. The world feels smaller, like it’s closing in on you, and you can’t help but wonder if you’ll ever escape.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	        "choices": []
     }
   ]
 }

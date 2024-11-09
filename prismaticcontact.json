@@ -144,6 +144,99 @@
       ],
       "image": "",
       "sound": ""
+    },
+	    {
+      "id": "adventure-8",
+      "description": "You speak in a softer tone, carefully controlling the volume of your voice. The entity seems to respond to your gentler approach, and a faint shimmer of light pulses in acknowledgment. Your voice resonates, but this time it doesn’t cause damage, as if the entity is starting to understand your presence.",
+      "choices": [
+        {
+          "text": "Thank the entity for its understanding and ask about your transformation.",
+          "next_id": "adventure-5"
+        },
+        {
+          "text": "Inquire about the entity's origin, hoping to learn its purpose.",
+          "next_id": "adventure-6"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-10",
+      "description": "You tread cautiously, taking each step with care. The prismatic entity’s light grows brighter, and you feel as though it’s studying your every move. With each careful step, you feel a connection forming, a silent understanding that you mean no harm.",
+      "choices": [
+        {
+          "text": "Continue moving cautiously until you’re directly beneath the entity.",
+          "next_id": "adventure-11"
+        },
+        {
+          "text": "Stop and attempt to reach out mentally to the entity.",
+          "next_id": "adventure-2"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-13",
+      "description": "The entity responds to your question with a surge of images: memories, energies, pieces of yourself. It seems the price is a part of your essence—a fragment of your power and identity. In exchange, the transformation will be reversed, but you’ll be left changed in ways you cannot foresee.",
+      "choices": [
+        {
+          "text": "Accept the terms and offer part of yourself.",
+          "next_id": "end-good"
+        },
+        {
+          "text": "Refuse the terms, deciding the risk is too great.",
+          "next_id": "end-neutral"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-14",
+      "description": "You agree to the entity’s terms, willing to pay the cost to regain your original form. The entity pulses with light, and an intense energy flows through you. Slowly, you feel yourself shrinking, your massive form returning to its normal size, though you sense a permanent change within you.",
+      "choices": [
+        {
+          "text": "Reflect on the experience and walk away with newfound wisdom.",
+          "next_id": "end-good"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-15",
+      "description": "You ask if there’s another way, but the entity remains silent, as if contemplating your question. Finally, it pulses once, a sign that perhaps some things are irreversible, and that choices always have consequences.",
+      "choices": [
+        {
+          "text": "Accept your transformation and move on, hoping to adapt to your new form.",
+          "next_id": "end-neutral"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "end-good",
+      "description": "You sacrificed part of yourself, but in return, the entity grants you insight into its realm. You walk away smaller but enriched, with a powerful understanding of worlds beyond. You feel connected to the universe in a way few others are, carrying a piece of the entity's wisdom with you.",
+      "choices": [],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "end-neutral",
+      "description": "You leave without the transformation reversal, accepting your new form. While questions remain unanswered, you feel a quiet acceptance of your altered state. Perhaps with time, you will learn to live with the change and even find new strengths within it.",
+      "choices": [],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "end-bad",
+      "description": "The entity’s power overwhelms you, and as you resist its terms, it lashes out, leaving you drained. When you regain consciousness, you’re back to your original size but feel hollow, as if a part of you was torn away. The encounter has left scars, ones that may never heal.",
+      "choices": [],
+      "image": "",
+      "sound": ""
     }
   ]
 }

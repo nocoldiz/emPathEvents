@@ -120,17 +120,48 @@
       ],
       "image": "",
       "sound": ""
-    }
-  ],
-  "endings": {
-    "good-end": {
-      "description": "You hold the fish up proudly for Bubba to see, and he claps you on the back. 'Nice work!' you hear him say as you take a moment to admire your catch. The day is still young, and you’ve already made the most of it."
     },
-    "neutral-end": {
-      "description": "You release the fish back into the water, watching it swim away. 'It’s always good to give back,' Bubba remarks with a grin. Even though you didn’t keep the fish, the peaceful day has been rewarding in its own way."
+	    {
+      "id": "good-end",
+      "description": "You hold the fish up proudly for Bubba to see, and he claps you on the back. 'Nice work!' you hear him say as you take a moment to admire your catch. The day is still young, and you’ve already made the most of it.",
+      "choices": [
+        {
+          "text": "Celebrate your success with Bubba and keep fishing.",
+          "next_id": "next-fishing-1"
+        },
+        {
+          "text": "Decide to head back early, savoring the victory.",
+          "next_id": "next-fishing-2"
+        }
+      ]
     },
-    "bad-end": {
-      "description": "The line snaps, and the fish escapes. You sit back, a little disappointed, but Bubba just chuckles. 'It happens to the best of us.' You both sit back, enjoying the peace of the river, knowing that there’s always next time."
+    {
+      "id": "neutral-end",
+      "description": "You release the fish back into the water, watching it swim away. 'It’s always good to give back,' Bubba remarks with a grin. Even though you didn’t keep the fish, the peaceful day has been rewarding in its own way.",
+      "choices": [
+        {
+          "text": "Sit quietly by the water and enjoy the tranquility.",
+          "next_id": "next-fishing-3"
+        },
+        {
+          "text": "Pack up, feeling content with the experience.",
+          "next_id": "next-fishing-4"
+        }
+      ]
+    },
+    {
+      "id": "bad-end",
+      "description": "The line snaps, and the fish escapes. You sit back, a little disappointed, but Bubba just chuckles. 'It happens to the best of us.' You both sit back, enjoying the peace of the river, knowing that there’s always next time.",
+      "choices": [
+        {
+          "text": "Reflect on the day’s lessons and try again.",
+          "next_id": "next-fishing-5"
+        },
+        {
+          "text": "Share a laugh with Bubba and call it a day.",
+          "next_id": "next-fishing-6"
+        }
+      ]
     }
-  }
+  ]
 }

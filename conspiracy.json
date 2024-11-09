@@ -1,4 +1,6 @@
-[
+{
+  "title": "The Scroll of Secrets",
+  "textboxes": [
   {
     "id": "conspiracy-1",
     "description": "As Em drives through a quiet stretch of highway, the old camper's radio crackles to life. A distorted voice begins speaking, interrupting the static. The voice warns of a 'global event' unfolding, something that involves powerful figures pulling the strings behind the scenes.",
@@ -269,7 +271,9 @@
     "description": "The investigation ends here. You've decided that the truth is too dangerous to pursue or perhaps too elusive to uncover. The world continues as it was before, but you'll always wonder if something bigger was at play.",
     "image": "",
     "sound": "sad",
-    "end": "bad"
+    "end": "bad",
+		  	   "choices": []
+
   },
 
   {
@@ -277,7 +281,9 @@
     "description": "You uncover undeniable proof of a global conspiracy and expose it to the world. The truth shocks the public, and although it brings about change, it comes at a personal cost. Em is now marked by powerful enemies, but she finds peace in knowing that the truth was revealed.",
     "image": "",
     "sound": "victorious",
-    "end": "good"
+    "end": "good",
+		  	   "choices": []
+
   },
 
   {
@@ -285,7 +291,9 @@
     "description": "You show your findings to a friend, and they advise you to step back. However, they can't protect you forever. As you investigate further, the conspiracy starts to unravel in dangerous ways. The truth will be exposed, but at what cost?",
     "image": "",
     "sound": "tense",
-    "end": "neutral"
+    "end": "neutral",
+		  	   "choices": []
+
   },
 
   {
@@ -293,7 +301,9 @@
     "description": "The locals seem hesitant to talk, but you learn that they're aware of the global awakening. They’ve seen the signs and are preparing for what’s to come. You're not alone in your pursuit of the truth, and together, you might just survive the coming storm.",
     "image": "",
     "sound": "determined",
-    "end": "good"
+    "end": "good",
+		  	   "choices": []
+
   },
 
   {
@@ -301,7 +311,9 @@
     "description": "You keep searching for more clues, but they lead to nothing concrete. Slowly, the trail goes cold, and you start to doubt whether the conspiracy even exists. Did you just imagine the whole thing?",
     "image": "",
     "sound": "doubt",
-    "end": "bad"
+    "end": "bad",
+		  	   "choices": []
+
   },
 
   {
@@ -309,7 +321,9 @@
     "description": "Em prepares for what she believes is an impending event, gathering resources and allies. The truth may not come immediately, but she's ready for whatever happens. No one will catch her off guard again.",
     "image": "",
     "sound": "resolute",
-    "end": "neutral"
+    "end": "neutral",
+		  	   "choices": []
+
   },
 
   {
@@ -317,6 +331,9 @@
     "description": "You tell the authorities, but they don't believe you. In fact, they seem to be part of the conspiracy. Em is forced to flee, hunted by those she tried to expose. The truth is dangerous, and now she's paying the price.",
     "image": "",
     "sound": "pursued",
-    "end": "bad"
+    "end": "bad",
+		  	   "choices": []
+
   }
 ]
+}

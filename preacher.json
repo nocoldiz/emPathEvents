@@ -124,19 +124,24 @@
         "quantity": 1
       },
       "image": "",
+	  	  	  	  	  	      "choices": [],
       "sound": ""
     },
     {
       "id": "neutral-end",
       "description": "You slip away from the crowd, the preacher’s words leaving a faint sense of unease. Were his statements just the ramblings of a madman, or was there truth in them? You may never know, but the memory of his wild eyes and intense conviction lingers.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	  	  	  	  	      "choices": []
+
     },
     {
       "id": "bad-end",
       "description": "You turn your back on the preacher, dismissing his words as nonsense. But as you walk away, you can’t shake a feeling of dread, as if something unseen is watching you, waiting. For the rest of the night, shadows seem longer, sounds more menacing, and you wonder if you should have listened more carefully.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	"choices": []
+
     }
   ]
 }

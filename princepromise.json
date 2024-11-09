@@ -96,23 +96,29 @@
           "next_id": "good-end"
         }
       ]
-    }
-  ],
-  "endings": {
-    "good-end": {
+    },
+	 {
+      "id": "end-good",
       "description": "Bubba, enlightened by Em’s advice, avoids the scam and learns to be more cautious in the future. He even shares his experience to prevent others from being deceived.",
+      "choices": [],
       "image": "",
       "sound": ""
     },
-    "neutral-end": {
+    {
+      "id": "end-neutral",
       "description": "Bubba realizes the scam but is disappointed, losing some faith in people’s intentions. It’s a bitter lesson, but at least he didn’t lose everything.",
+      "choices": [],
       "image": "",
       "sound": ""
     },
-    "bad-end": {
+    {
+      "id": "end-bad",
       "description": "Despite warnings, Bubba keeps sending money, and soon he’s in serious debt. The prince vanishes without a trace, leaving Bubba heartbroken and financially drained.",
+      "choices": [],
       "image": "",
       "sound": ""
     }
-  }
+  ]
+
+
 }

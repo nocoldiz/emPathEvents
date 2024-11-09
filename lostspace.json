@@ -232,15 +232,19 @@
     {
       "id": "space-15",
       "description": "The aliens take a small genetic sample and, true to their word, provide you with a galactic map. This should help you navigate your way back to familiar star systems, and maybe, with some luck, home.",
-      "next_id": "end"
+      "next_id": "end",
+	  "choices": []
     },
     {
       "id": "space-16",
       "description": "The human-made ship responds and agrees to guide you to the nearest station. You might be able to chart a course home from there.",
-      "next_id": "end"
-    }
-  ],
-  "end": {
+      "next_id": "end",
+	  "choices": []
+    },{
+	      "id": "end",
+	  "choices": [],
+
     "description": "After an arduous journey, you manage to return to a familiar galaxy. This cosmic odyssey has left you with more questions than answers, but you have returned safely, ready to continue your journey."
   }
+  ]
 }

@@ -42,6 +42,7 @@
       "description": "You quietly sit beside him, closing your eyes and focusing on your breathing. The air around you feels peaceful, and Mark eventually speaks. \"You already understand part of the process, Em. Let’s delve deeper.\"",
       "image": "",
       "sound": "",
+	  	  	    "choices": [],
       "next_id": "meditation-5"
     },
     {
@@ -49,6 +50,7 @@
       "description": "Mark observes you closely. \"Good,\" he says, recognizing your commitment. \"Meditation is a way to connect with yourself, the universe, and the silence between breaths. Close your eyes and let your thoughts drift away.\"",
       "image": "",
       "sound": "",
+	  	    "choices": [],
       "next_id": "meditation-6",
       "reward": {
         "id": "focus",
@@ -81,6 +83,7 @@
       "image": "",
       "sound": "",
       "next_id": "end",
+	  	    "choices": [],
       "reward": {
         "id": "inner_peace",
         "quantity": 10
@@ -91,11 +94,13 @@
       "description": "Mark places a hand on your shoulder, offering encouragement. \"Remember, thoughts are like clouds. Let them pass by without engaging. Your mind will naturally clear over time.\" His words help you release lingering worries.",
       "image": "",
       "sound": "",
+	  	  	    "choices": [],
       "next_id": "meditation-8"
     },
     {
       "id": "meditation-8",
       "description": "Following Mark’s advice, you let go of each thought as it comes, allowing it to pass by like a cloud. Slowly, the fog of your mind dissipates, and a sense of clarity settles in.",
+	  	  	  	    "choices": [],
       "image": "",
       "sound": "",
       "next_id": "end",
@@ -108,6 +113,7 @@
   "end": {
     "description": "After your session, Mark smiles. \"Meditation isn’t a destination but a journey. Keep practicing, and you’ll find peace even amidst chaos.\" You feel a renewed sense of calm as you leave the temple, carrying Mark’s wisdom with you.",
     "image": "",
-    "sound": ""
+    "sound": "",
+	    "choices": []
   }
 }

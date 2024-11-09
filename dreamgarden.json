@@ -84,6 +84,7 @@
     {
       "id": "dream-5",
       "description": "You gently pick the flower, feeling its warmth in your hand. It hums a little tune before quieting, leaving you with a sense of calm. The world around you shimmers, and a path of stars appears, leading you onward.",
+	  	  	  	  	  	      "choices": [],
       "next_id": "dream-10",
       "reward": {
         "id": "dream_flower",
@@ -138,6 +139,8 @@
       "id": "dream-8",
       "description": "The flower whispers advice on life, love, and a reminder to water plants more often. The knowledge is soothing, leaving you feeling wiser.",
       "next_id": "end",
+	  	  	  	  	      "choices": [],
+
       "reward": {
         "id": "wisdom",
         "quantity": 5
@@ -145,6 +148,8 @@
     },
     {
       "id": "dream-9",
+	  	  	  	      "choices": [],
+
       "description": "The flower hums a warm tune, and you feel a gentle presence by your side. It stays with you as you walk further through the dream, providing comfort and cheer.",
       "next_id": "end"
     },
@@ -170,6 +175,8 @@
       "id": "dream-11",
       "description": "You dip into the pond and feel yourself surrounded by stars. For a moment, you float through constellations, connected to the universe. When you resurface, you feel rejuvenated.",
       "next_id": "end",
+	  	  	  	      "choices": [],
+
       "reward": {
         "id": "serenity",
         "quantity": 5
@@ -179,6 +186,8 @@
       "id": "dream-12",
       "description": "Staring into the pond, you see flashes of forgotten memories and hidden knowledge. The images are comforting and inspiring.",
       "next_id": "end",
+	  	  	      "choices": [],
+
       "reward": {
         "id": "inspiration",
         "quantity": 5
@@ -188,6 +197,8 @@
       "id": "dream-13",
       "description": "You pick a fruit and wipe it clean, marveling at its radiant colors. As you hold it, it fills you with warmth and light.",
       "next_id": "end",
+	  	      "choices": [],
+
       "reward": {
         "id": "dream_fruit",
         "quantity": 1
@@ -197,6 +208,8 @@
       "id": "dream-14",
       "description": "Climbing to the top, you see the dream garden stretching endlessly. The sky is filled with a thousand colors, and the view is breathtaking.",
       "next_id": "end",
+	  	      "choices": [],
+
       "reward": {
         "id": "dreamview",
         "quantity": 5
@@ -205,14 +218,18 @@
     {
       "id": "dream-15",
       "description": "You float up, becoming one with the stars. Everything around you sparkles, and you feel at peace. Slowly, you drift back to the garden, feeling a profound sense of joy.",
-      "next_id": "end"
-    }
-  ],
-  "end": {
+      "next_id": "end",
+	  	      "choices": []
+
+    },
+	{
+	"id": "end",
     "description": "As you continue to walk through the dream garden, the colors slowly fade. You feel a gentle pull back to reality, bringing with you a sense of calm, joy, and perhaps even a new insight.",
     "reward": {
       "id": "peace",
       "quantity": 10
-    }
+    },
+	      "choices": []
   }
+  ]
 }

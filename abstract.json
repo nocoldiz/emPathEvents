@@ -59,7 +59,8 @@
     },
     {
       "id": "creature-end",
-      "description": "You leave the encounter, the weight of your decision lingering. The abstract creature may never be understood, but you are left to ponder if the balance of fear and trust was ever truly in your hands."
+      "description": "You leave the encounter, the weight of your decision lingering. The abstract creature may never be understood, but you are left to ponder if the balance of fear and trust was ever truly in your hands.",
+	  "choices": []
     }
   ]
 }

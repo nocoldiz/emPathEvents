@@ -1,4 +1,6 @@
 {
+  "title": "Radio repair",
+  "textboxes": [{
   "id": "radio-repair-1",
   "description": "Em is sitting in the camper, frustrated by the broken radio. She hasn’t been able to get a signal for hours. The silence is driving her crazy. She grabs her toolkit and examines the radio, hoping to fix it herself.",
   "image": "",
@@ -166,17 +168,24 @@
   "id": "good-end",
   "description": "Em successfully fixes the radio, and the sound of music fills the camper once again. She relaxes and enjoys the ride with Bubba, knowing that she’s made a small victory.",
   "image": "",
-  "sound": ""
+  "sound": "",
+          "choices": []
+
 },
 {
   "id": "bad-end",
   "description": "The duct tape fix doesn’t last, and the radio is completely silent. Em sighs in frustration, realizing that some things might need professional help.",
   "image": "",
-  "sound": ""
+  "sound": "",
+          "choices": []
+
 },
 {
   "id": "neutral-end",
   "description": "Em decides to let go of the radio issue for now. She drives in silence, content to focus on the road and let the peaceful hum of the engine be her company.",
   "image": "",
-  "sound": ""
+  "sound": "",
+        "choices": []
+
 }
+]}

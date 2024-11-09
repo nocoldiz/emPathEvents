@@ -187,9 +187,5 @@
         }
       ]
     }
-  ],
-  "reward": {
-    "id": "shady-business-deal",
-    "quantity": 1
-  }
+  ]
 }

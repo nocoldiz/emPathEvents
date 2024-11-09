@@ -1,0 +1,146 @@
+{
+  "title": "The Batrachvibe Bash",
+  "textboxes":[
+  {
+    "id": "grocerytrip-1",
+    "description": "Em steps into a rundown gas station, the scent of stale coffee and gasoline thick in the air. Shelves are sparsely stocked, and everything seems coated in a layer of grime. A shady clerk watches her from behind the counter.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Browse the shelves for canned food",
+        "next_id": "grocerytrip-2",
+        "skill_check": {
+          "skill": "observation",
+          "level": 15,
+          "fail": "Most cans are dented, expired, or suspiciously sticky. Em finds little of use."
+        }
+      },
+      {
+        "text": "Approach the clerk to ask about fresh produce",
+        "next_id": "grocerytrip-3",
+        "skill_check": {
+          "skill": "diplomacy",
+          "level": 10,
+          "fail": "The clerk sneers and points Em to a wilting head of lettuce in the corner."
+        }
+      },
+      {
+        "text": "Search the back for cleaning supplies",
+        "next_id": "grocerytrip-4",
+        "skill_check": {
+          "skill": "scavenging",
+          "level": 20,
+          "fail": "Em finds an ancient bottle of bleach, but it’s nearly empty."
+        }
+      }
+    ]
+  },
+  {
+    "id": "grocerytrip-2",
+    "description": "Em scans the shelves and manages to find a can of beans that looks safe. It's not much, but it'll work for now.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Take the can and pay at the counter",
+        "next_id": "grocerytrip-5"
+      },
+      {
+        "text": "Keep looking for more supplies",
+        "next_id": "grocerytrip-6"
+      }
+    ]
+  },
+  {
+    "id": "grocerytrip-3",
+    "description": "The clerk pulls out a dusty crate with a few bruised fruits and vegetables. It’s not fresh, but Em might be able to salvage something edible.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Select a couple of half-decent apples",
+        "next_id": "grocerytrip-7"
+      },
+      {
+        "text": "Decline and leave the produce alone",
+        "next_id": "grocerytrip-6"
+      }
+    ]
+  },
+  {
+    "id": "grocerytrip-4",
+    "description": "Em finds a rack of cleaning supplies, mostly empty. After a quick search, she uncovers a usable sponge and an almost-full bottle of disinfectant.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Add the items to her basket",
+        "next_id": "grocerytrip-5"
+      },
+      {
+        "text": "Put the items back and continue looking around",
+        "next_id": "grocerytrip-6"
+      }
+    ]
+  },
+  {
+    "id": "grocerytrip-5",
+    "description": "Em heads to the counter with her items. The clerk gives her an odd look as he slowly tallies up her purchase, grumbling under his breath.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Pay the man and leave",
+        "next_id": "grocerytrip-8"
+      },
+      {
+        "text": "Try to haggle the price down",
+        "next_id": "grocerytrip-9",
+        "skill_check": {
+          "skill": "bluffing",
+          "level": 25,
+          "fail": "The clerk glares, refusing to budge on the price."
+        }
+      }
+    ]
+  },
+  {
+    "id": "grocerytrip-6",
+    "description": "Em wanders the store a bit longer, realizing there’s not much else worth taking. The shelves are barren and the quality of goods questionable.",
+    "image": "",
+	      "choices": [],
+    "sound": "",
+    "end": "neutral"
+  },
+  {
+    "id": "grocerytrip-7",
+    "description": "The apples are bruised but seem edible enough. Em takes them, hoping for the best.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Head to the counter to pay",
+        "next_id": "grocerytrip-5"
+      }
+    ]
+  },
+  {
+    "id": "grocerytrip-8",
+    "description": "Em hands over the cash, and the clerk mumbles something before shoving her change at her. She leaves with her supplies, feeling a mix of accomplishment and unease.",
+    "image": "",
+	      "choices": [],
+
+    "sound": "",
+    "end": "good"
+  },
+  {
+    "id": "grocerytrip-9",
+    "description": "The clerk begrudgingly agrees to lower the price slightly. Em feels a small victory as she heads out with her items at a discount.",
+    "image": "",
+    "sound": "",
+	      "choices": [],
+    "end": "good"
+  }
+]
+}

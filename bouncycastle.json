@@ -1,4 +1,6 @@
 {
+  "title": "The Liberation of the Bioslaves",
+  "textboxes": [{
   "id": "bouncy-castle-1",
   "description": "Em is walking through a quiet park when she spots something odd in the distance — a massive, inflatable bouncy castle. Intrigued, she decides to check it out, but as she gets closer, she realizes that the castle is far more dangerous than she anticipated. It’s filled with bouncing, monstrous creatures.",
   "image": "",
@@ -186,17 +188,18 @@
   "id": "good-end",
   "description": "Em successfully deflates the bouncy castle and escapes the dangerous creatures inside. She continues her journey, grateful for the close call.",
   "image": "",
-  "sound": ""
+  "sound": "","choices": []
 },
 {
   "id": "bad-end",
   "description": "Em narrowly escapes the bouncy castle, but not without a few bruises. The monsters are still bouncing around inside, and she feels the rush of danger as she moves on.",
   "image": "",
-  "sound": ""
+  "sound": "","choices": []
 },
 {
   "id": "neutral-end",
   "description": "Em leaves the bouncy castle behind and decides it’s best to avoid such places in the future. She takes a moment to catch her breath before continuing on her journey.",
   "image": "",
-  "sound": ""
+  "sound": "","choices": []
 }
+]}

@@ -201,4 +201,74 @@
     },
     {
       "id": "argument-14",
-      "description": "You stay back as Bubba approaches Eris, your heart heavy with uncertainty. Will he come back
+      "description": "You stay back as Bubba approaches Eris, your heart heavy with uncertainty. Will he come back the same, or will this encounter pull him further away from you? You watch them speak, the distance between you feeling as vast as ever.",
+      "choices": [
+        {
+          "text": "Leave, unable to bear watching anymore",
+          "next_id": "argument-end"
+        },
+        {
+          "text": "Wait patiently, hoping he returns to you",
+          "next_id": "argument-17"
+        }
+      ]
+    },
+    {
+      "id": "argument-15",
+      "description": "You confront Eris, your voice filled with anger and frustration. 'Leave him alone! Haven't you done enough?' Eris smirks, clearly amused by your outburst. Bubba looks between the two of you, torn but silent.",
+      "choices": [
+        {
+          "text": "Demand that Bubba choose here and now",
+          "next_id": "argument-5"
+        },
+        {
+          "text": "Back down, realizing confrontation might make things worse",
+          "next_id": "argument-16"
+        }
+      ]
+    },
+    {
+      "id": "argument-16",
+      "description": "You decide to let Bubba and Eris speak alone, stepping back but keeping a watchful eye. The conversation is inaudible from where you stand, but you can see Bubba’s shoulders slumped and Eris’s intense gaze fixed on him.",
+      "choices": [
+        {
+          "text": "Wait until Bubba finishes and offer him support",
+          "next_id": "argument-17"
+        },
+        {
+          "text": "Leave quietly, giving them space",
+          "next_id": "argument-end"
+        }
+      ]
+    },
+    {
+      "id": "argument-17",
+      "description": "Bubba walks back to you, looking drained yet resolute. 'I needed that,' he says, his voice hoarse. 'But I know now that I can’t go back to her.' You feel a wave of relief, grateful he’s come to his senses.",
+      "choices": [
+        {
+          "text": "Embrace him, grateful he chose to stay",
+          "next_id": "argument-good-ending"
+        },
+        {
+          "text": "Encourage him to take time for himself to heal",
+          "next_id": "argument-neutral-ending"
+        }
+      ]
+    },
+    {
+      "id": "argument-end",
+      "description": "The decision hangs heavy in the air. Whether he chooses you or Eris, something between you has changed. The uncertainty lingers as you walk away, unsure if things will ever be the same.",
+      "choices": []
+    },
+    {
+      "id": "argument-good-ending",
+      "description": "Bubba holds you close, his choice bringing a renewed bond between you both. The past with Eris fades as you both step forward together, ready to face whatever comes next, united and stronger.",
+      "choices": []
+    },
+    {
+      "id": "argument-neutral-ending",
+      "description": "You watch Bubba walk away to take time for himself, feeling a bittersweet sense of closure. Though things remain uncertain, there’s hope that he’ll return healed and ready for a fresh start.",
+      "choices": []
+    }
+  ]
+}

@@ -136,23 +136,51 @@
           "next_id": "neutral-end"
         }
       ]
-    }
-  ],
-  "endings": {
-    "good-end": {
+    },
+	 {
+      "id": "good-end",
       "description": "Em awakens later, feeling refreshed and healthy. The fever is gone, thanks to her perseverance, Bubba’s help, or the calming tea. She thanks Bubba, and the two continue on their journey, closer than ever.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Express gratitude to Bubba and enjoy a quiet moment before setting off.",
+          "next_id": "next-adventure-5"
+        },
+        {
+          "text": "Take some time to reflect on the experience and the lessons learned.",
+          "next_id": "next-adventure-6"
+        }
+      ]
     },
-    "neutral-end": {
+    {
+      "id": "neutral-end",
       "description": "Em recovers from the fever, but her body feels drained. She resolves to be more cautious and rest, knowing that she narrowly avoided a worse fate.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Rest and plan the next leg of the journey with a renewed sense of caution.",
+          "next_id": "next-adventure-7"
+        },
+        {
+          "text": "Continue onward, promising to be mindful of her health.",
+          "next_id": "next-adventure-8"
+        }
+      ]
     },
-    "bad-end": {
+    {
+      "id": "bad-end",
       "description": "Em falls deeper into the fevered haze, and her body is too weak to overcome it. Bubba is left hoping for her recovery, but it may be a long, painful journey back to health.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Bubba tends to her, preparing for what may be a long period of healing.",
+          "next_id": "next-adventure-9"
+        },
+        {
+          "text": "Em resigns herself to resting, facing an uncertain recovery.",
+          "next_id": "end-adventure-2"
+        }
+      ]
     }
-  }
+
+  ]
+
+
 }

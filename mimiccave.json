@@ -187,9 +187,5 @@
         }
       ]
     }
-  ],
-  "reward": {
-    "id": "mimic-slayer-token",
-    "quantity": 1
-  }
+  ]
 }

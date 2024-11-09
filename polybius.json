@@ -159,25 +159,29 @@
     },
     {
       "id": "good-end",
-      "description": "You break through the game’s final barrier, and the machine lets out a high-pitched whine, powering down. You feel an intense release, like a weight has lifted from your mind. In the aftermath, you find a strange token inside the machine—a small, glowing artifact, pulsating with a faint light. Perhaps it holds a secret of its own.",
+      "description": "With a final surge, you break through the machine’s last line of defense. As it powers down with a fading whine, a small, glowing artifact emerges from its inner workings, radiating with a subtle pulse. Holding it, you sense it might contain secrets worth unraveling, a testament to the effort you put into shutting down the machine.",
       "reward": {
         "id": "glowing_artifact",
         "quantity": 1
       },
+	  	  	  	      "choices": [],
       "image": "",
       "sound": ""
     },
     {
       "id": "neutral-end",
-      "description": "You walk away from the machine, feeling the pull lessen as you put distance between yourself and the eerie screen. The haunting sound fades, but a strange sense of unfinished business remains. You may have avoided danger, but some questions linger, unanswered.",
+      "description": "You step back from the machine, the intensity subsiding as you walk away. Its influence diminishes with each step, though a faint, unsettling feeling persists. The encounter left some questions unanswered, but you managed to avoid any direct consequences.",
       "image": "",
+	  	  	  	  	      "choices": [],
       "sound": ""
     },
     {
       "id": "bad-end",
-      "description": "As you pull away, the machine’s lights flash erratically. Your mind reels, feeling fractured, as though something foreign has latched onto you. You stumble from the room, but a lingering thought remains, as if the machine’s influence still echoes within you. The memory of that screen haunts you, and you’re not sure if you’ll ever fully escape it.",
+      "description": "As you retreat, the machine flickers with a dark energy, embedding a strange, uneasy sensation in your mind. A lingering presence follows you, an unsettling reminder of the encounter. It feels as if the machine’s reach has extended beyond its physical form, leaving you haunted by its grip.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	  	  	      "choices": []
+
     }
   ]
 }

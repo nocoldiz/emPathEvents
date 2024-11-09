@@ -1,0 +1,151 @@
+{
+  "title": "Sir Alesteir's estate",
+  "textboxes": [
+  {
+    "id": "summonrain-1",
+    "description": "It's a dry, sweltering day, and the land around you is parched. Em decides to attempt a rain summoning ritual to bring relief to the earth. She prepares her ritual tools and considers how best to approach the task.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Use Arcanism to cast a rain-summoning spell",
+        "next_id": "summonrain-2",
+        "skill_check": {
+          "skill": "arcanism",
+          "level": 30,
+          "fail": "The spell fizzles, with only a few drops appearing in the sky before vanishing."
+        }
+      },
+      {
+        "text": "Use Spiritism to invoke the water spirits",
+        "next_id": "summonrain-3",
+        "skill_check": {
+          "skill": "spiritism",
+          "level": 20,
+          "fail": "The spirits seem reluctant, whispering that they cannot help."
+        }
+      },
+      {
+        "text": "Use Convoking to gather local animals as part of a summoning ritual",
+        "next_id": "summonrain-4",
+        "skill_check": {
+          "skill": "convoking",
+          "level": 15,
+          "fail": "The animals scatter, uneasy with the ritual."
+        }
+      }
+    ]
+  },
+  {
+    "id": "summonrain-2",
+    "description": "Em focuses her Arcanism skill, drawing arcane symbols in the air and chanting. Clouds begin to gather overhead, but they're thin and pale.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Focus harder and channel more energy into the spell",
+        "next_id": "summonrain-5",
+        "skill_check": {
+          "skill": "arcanism",
+          "level": 40,
+          "fail": "Em loses control, and a sudden burst of lightning strikes close by!"
+        }
+      },
+      {
+        "text": "Let the spell run its course and hope for the best",
+        "next_id": "summonrain-8"
+      }
+    ]
+  },
+  {
+    "id": "summonrain-3",
+    "description": "Em calls on the water spirits, asking for their assistance in bringing rain. A mist starts to gather, swirling around her as if the spirits are listening.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Thank the spirits and ask them to stay until the rain falls",
+        "next_id": "summonrain-6",
+        "skill_check": {
+          "skill": "spiritism",
+          "level": 25,
+          "fail": "The mist fades away without a drop of rain."
+        }
+      },
+      {
+        "text": "Promise the spirits an offering if they help",
+        "next_id": "summonrain-9"
+      }
+    ]
+  },
+  {
+    "id": "summonrain-4",
+    "description": "Em uses her Convoking skill to gather local birds, frogs, and even a few small mammals, asking them to join her in calling for rain.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Lead them in a rhythmic chant to summon the rain",
+        "next_id": "summonrain-7",
+        "skill_check": {
+          "skill": "convoking",
+          "level": 20,
+          "fail": "The animals scatter, sensing something is wrong."
+        }
+      },
+      {
+        "text": "Scatter seeds as an offering to encourage them to stay",
+        "next_id": "summonrain-10"
+      }
+    ]
+  },
+  {
+    "id": "summonrain-5",
+    "description": "Em pushes her limits, pouring all her energy into the rain spell. The sky darkens, and thunder rolls. Heavy rain begins to fall, drenching the land and finally bringing relief.",
+    "image": "",
+		  "choices": [],
+    "sound": "",
+    "end": "good"
+  },
+  {
+    "id": "summonrain-6",
+    "description": "The spirits linger, gathering more mist around Em until a gentle rain begins to fall. It’s not a downpour, but it brings much-needed moisture to the dry soil.",
+    "image": "",
+    "sound": "",
+		  "choices": [],
+    "end": "neutral"
+  },
+  {
+    "id": "summonrain-7",
+    "description": "The animals join Em in a rhythmic chant, and soon, clouds gather above. A soft, steady rain starts to fall. Em feels a sense of connection with the creatures around her.",
+    "image": "",
+    "sound": "",
+		  "choices": [],
+    "end": "good"
+  },
+  {
+    "id": "summonrain-8",
+    "description": "Em lets the spell take its course, but the clouds drift apart, leaving only a few scattered drops. It seems that her magic wasn’t enough this time.",
+    "image": "",
+    "sound": "",
+    "end": "bad",
+		  "choices": []
+  },
+  {
+    "id": "summonrain-9",
+    "description": "The spirits agree to help in exchange for an offering. They summon a light rain, and Em feels their presence fade with the last drops.",
+    "image": "",
+    "sound": "",
+		  "choices": [],
+    "end": "neutral"
+  },
+  {
+    "id": "summonrain-10",
+    "description": "The animals remain as Em scatters seeds. Rain clouds slowly gather, and a gentle drizzle begins, nourishing the plants and animals around her.",
+    "image": "",
+    "sound": "",
+    "end": "good",
+		  "choices": []
+
+  }
+]}

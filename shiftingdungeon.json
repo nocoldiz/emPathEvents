@@ -1,4 +1,6 @@
 {
+  "title": "The Argument of Shadowstrings",
+  "textboxes": [{
   "id": "shifting-dungeon-1",
   "description": "You stand before the entrance of a massive, ancient dungeon. The stone door creaks open, revealing a dark and labyrinthine maze within. As you step forward, the door slams shut behind you, sealing you inside. The walls seem to pulse, and you can feel the dungeon shifting subtly beneath your feet. There's no clear path, and the only sounds are the faint whispers of distant echoes.",
   "image": "",
@@ -225,4 +227,5 @@
       "next_id": "shifting-dungeon-26"
     }
   ]
+}]
 }

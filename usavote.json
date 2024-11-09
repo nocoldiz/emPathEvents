@@ -3,10 +3,10 @@
   "textboxes": [
     {
       "id": "voting-1",
-      "description": "You arrive at the local voting pool, a long line of citizens waiting to cast their votes. The election is crucial, and the candidates are well-known: Hillary Clinton and George Bush. You know that your choice matters, and you're ready to make your voice heard.",
+      "description": "You arrive at the local voting pool, a long line of citizens waiting to cast their votes. The election is crucial, and the candidates are well-known: Bill Clinton and George Bush. You know that your choice matters, and you're ready to make your voice heard.",
       "choices": [
         {
-          "text": "Vote for Hillary Clinton",
+          "text": "Vote for Bill Clinton",
           "next_id": "voting-2",
           "reward": {
             "id": "political-awareness",
@@ -25,7 +25,7 @@
     },
     {
       "id": "voting-2",
-      "description": "You cast your vote for Hillary Clinton, feeling the weight of the decision. You understand the importance of the upcoming years and hope your choice will make a difference.",
+      "description": "You cast your vote for Bill Clinton, feeling the weight of the decision. You understand the importance of the upcoming years and hope your choice will make a difference.",
       "choices": [
         {
           "text": "Leave the voting pool and head home",

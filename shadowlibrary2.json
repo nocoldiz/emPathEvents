@@ -201,19 +201,24 @@
       "id": "good-end",
       "description": "You open the lockbox, revealing a piece of yourself—a memory from before. The ethereal beings whisper in disappointment, but they release their hold on you. The world of shadows fades, and you wake in the real world, Bubba beside you, free but forever changed.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	        "choices": []
+
     },
     {
       "id": "neutral-end",
       "description": "You step through the misty doorway, feeling a strange tug at your soul. You find yourself back in the real world, but something feels off, as though a part of you stayed behind. Free, but incomplete, you and Bubba leave the library, forever haunted.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	        "choices": []
+
     },
     {
       "id": "bad-end",
       "description": "You fail to retrieve the lockbox in time. The fog thickens, and the beings tighten their grip. You and Bubba are absorbed into the realm of shadows, becoming yet another whisper in the endless fog, lost and forgotten forever.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	        "choices": []
     }
   ]
 }

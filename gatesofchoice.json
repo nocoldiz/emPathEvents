@@ -124,6 +124,8 @@
         "id": "ancient_wisdom",
         "quantity": 1
       },
+	 	  	      "choices": [],
+
       "image": "",
       "sound": ""
     },
@@ -135,10 +137,12 @@
         "quantity": 1
       },
       "image": "",
+	  	  	      "choices": [],
       "sound": ""
     },
     {
       "id": "bad-end",
+	  	  	      "choices": [],
       "description": "The sacrifice feels too great to bear. The knowledge or the future gained is not enough to outweigh the cost of what you lost. Whether it was a memory, a companion, or the years of your life, the void left in your heart cannot be filled. You are left questioning your choices, knowing that some sacrifices are too much to bear.",
       "image": "",
       "sound": ""
@@ -146,6 +150,7 @@
     {
       "id": "adventure-end",
       "description": "The Keeper nods as you leave, no matter what path you chose. 'All paths lead forward, but some may haunt you along the way.' Your journey continues, but you will carry the weight of your decision for the rest of your life.",
+	  	  	      "choices": [],
       "reward": {
         "id": "none",
         "quantity": 0

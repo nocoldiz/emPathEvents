@@ -184,23 +184,49 @@
           "next_id": "bad-end"
         }
       ]
-    }
-  ],
-  "endings": {
-    "good-end": {
+    },
+	{
+      "id": "good-end",
       "description": "With a last-ditch maneuver, Bubba manages to outrun the demon, saving both himself and Em. They escape the fiery hell of the creature’s wrath and make it to safety, shaken but alive.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Celebrate their escape and make plans for the next move.",
+          "next_id": "next-adventure-1"
+        },
+        {
+          "text": "Rest and recover, taking time to assess the damage done.",
+          "next_id": "next-adventure-2"
+        }
+      ]
     },
-    "neutral-end": {
+    {
+      "id": "neutral-end",
       "description": "The Petro-demon is momentarily slowed by the terrain, giving Em and Bubba just enough time to get away. They manage to escape, but their camper is wrecked, and they’re left to survive the aftermath in the wilderness.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Look for shelter and try to repair the camper.",
+          "next_id": "next-adventure-3"
+        },
+        {
+          "text": "Explore the wilderness to find a way back to civilization.",
+          "next_id": "next-adventure-4"
+        }
+      ]
     },
-    "bad-end": {
+    {
+      "id": "bad-end",
       "description": "The demon’s power is too overwhelming. Despite their best efforts, Bubba and Em are overwhelmed by the sheer force of the creature, succumbing to its fiery wrath.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Return to the start and try again, learning from past mistakes.",
+          "next_id": "retry-adventure-1"
+        },
+        {
+          "text": "Accept their fate and let the story end here.",
+          "next_id": "end-adventure-1"
+        }
+      ]
     }
-  }
+  ]
+
 }

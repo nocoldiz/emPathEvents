@@ -9,13 +9,17 @@
           "text": "Choice option 1 text",
           "next_id": "adventure-2",
           "skill_check": {
-            "skill": "charisma",
-            "difficulty": 60
+            "skill": "arcanism",
+            "difficulty": 90
           }
         },
         {
           "text": "Choice option 2 text",
-          "next_id": "adventure-3"
+          "next_id": "adventure-3",
+		   "skill_check": {
+            "skill": "arcanism",
+            "difficulty": 30
+          }
         },
         {
           "text": "Choice option 3 text",
@@ -29,7 +33,11 @@
       "choices": [
         {
           "text": "Continue with choice 1",
-          "next_id": "adventure-5"
+          "next_id": "adventure-5",
+		  "skill_check": {
+            "skill": "genetics",
+            "difficulty": 50
+          }
         },
         {
           "text": "Change your mind and go down a different path",
@@ -43,7 +51,11 @@
       "choices": [
         {
           "text": "Choice 1",
-          "next_id": "adventure-5"
+          "next_id": "adventure-5",
+		  "skill_check": {
+            "skill": "atletics",
+            "difficulty": 30
+          }
         },
         {
           "text": "Choice 2",
@@ -62,12 +74,28 @@
       ]
     },
     {
-      "id": "adventure-end",
+      "id": "good-end",
       "description": "A conclusion for the adventure.",
       "reward": {
         "id": "item_id",
         "quantity": 1
       }
+    },
+		{
+	  "id": "neutral-end",
+	  "description": "A neutral conclusion for the adventure.",
+	  "reward": {
+		"id": "item_id",
+		"quantity": 1
+	  }
+    },
+			{
+	  "id": "bad-end",
+	  "description": "A bad conclusion for the adventure.",
+	  "reward": {
+		"id": "item_id",
+		"quantity": 1
+	  }
     }
   ]
 }

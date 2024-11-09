@@ -1,192 +1,169 @@
 {
-  "title": "The Missing Cab",
+  "title": "The Missing Bus",
   "textboxes": [
     {
-      "id": "missing-cab-1",
-      "description": "You step out onto the busy street, glancing at your watch. You're running late for an important meeting, and a cab is your only hope of getting there in time. You flag down the first cab that passes by, but to your dismay, it speeds right past you. You try again, but the same thing happens. It's as if every cab is deliberately avoiding you. The city feels strangely empty today, and you're starting to get anxious.",
+      "id": "missing-bus-1",
+      "description": "You stand by the worn-out bus stop at the edge of town, glancing at your pocket watch. You're already late for the wizard conference. As you peer down the road, the familiar old bus rumbles past without even a honk or a wave. You swear it had someone sitting at the wheel, but it moves on like you’re invisible. The whole town feels still, except for the occasional crow’s caw and the smell of mist rising from the fields.",
       "choices": [
         {
-          "text": "Walk to the nearest subway station and take the train.",
-          "next_id": "missing-cab-2"
+          "text": "Walk to the town square to see if there's another bus running.",
+          "next_id": "missing-bus-2"
         },
         {
-          "text": "Keep waiting and try flagging down another cab.",
-          "next_id": "missing-cab-3"
+          "text": "Wait for another bus and hope for the best.",
+          "next_id": "missing-bus-3"
         },
         {
-          "text": "Try calling a ride-share service and see if they can send a car.",
-          "next_id": "missing-cab-4"
+          "text": "Wander to the station house to inquire about the schedule.",
+          "next_id": "missing-bus-4"
         }
       ]
     },
     {
-      "id": "missing-cab-2",
-      "description": "You decide to walk to the nearest subway station, hoping the train will get you to your destination faster than waiting for a cab. As you walk, you notice that the streets are eerily quiet. When you finally reach the station, the doors are locked, and no one is around. It's a strange sight—one that makes you wonder if something is wrong.",
+      "id": "missing-bus-2",
+      "description": "You make your way to the town square, where townsfolk amble about or lean against the old well. No other buses seem to be in sight, but there’s something off about the ground—curious symbols appear etched into the cobblestone. The strange markings almost seem to pulse, aligned with your heartbeat. Could they be… leyline markers?",
       "skill_check": {
-        "skill": "exploration",
+        "skill": "arcanism",
         "difficulty": "medium",
-        "fail": "You fail to find a way into the subway station. The area feels deserted, and you're starting to lose hope."
+        "fail": "You try to focus on the symbols, but they blur and distort, leaving you more puzzled."
       },
       "choices": [
         {
-          "text": "Break into the subway station and try to find a way inside.",
-          "next_id": "missing-cab-5"
+          "text": "Follow the symbols to see if they lead to the conference location.",
+          "next_id": "missing-bus-5"
         },
         {
-          "text": "Turn back and look for another way to get to your meeting.",
-          "next_id": "missing-cab-6"
-        },
-        {
-          "text": "Sit and wait to see if someone shows up to open the doors.",
-          "next_id": "missing-cab-7"
+          "text": "Ask a local if they know anything about these etchings.",
+          "next_id": "missing-bus-6"
         }
       ]
     },
     {
-      "id": "missing-cab-3",
-      "description": "You decide to keep waiting. Several cabs pass by, but none stop for you. The city is more crowded than usual, but the cabs seem to avoid the street you're standing on. It's as if there's some invisible barrier preventing them from picking you up. You start to feel paranoid—something is off, but you can't put your finger on it.",
-      "skill_check": {
-        "skill": "mental",
-        "difficulty": "easy",
-        "fail": "You struggle to keep calm, and your anxiety starts to build. You're beginning to feel trapped, and the city feels more suffocating than before."
-      },
+      "id": "missing-bus-3",
+      "description": "You wait by the bus stop, feeling the minutes tick by like hours. Eventually, a rusty old bus appears, driven by an elderly woman with a crooked hat and a slightly dazed expression. 'Hop in if ye don’t mind a bit o’ dirt!' she cackles. You climb aboard, realizing this might not be your usual commute.",
       "choices": [
         {
-          "text": "Walk down the street to a different intersection and try again.",
-          "next_id": "missing-cab-8"
+          "text": "Take a seat and hope for a direct route to the conference.",
+          "next_id": "missing-bus-7"
         },
         {
-          "text": "Give up and try to call a ride-share service again.",
-          "next_id": "missing-cab-9"
-        },
-        {
-          "text": "Wait a little longer, hoping things will change.",
-          "next_id": "missing-cab-10"
+          "text": "Ask the driver about the delay.",
+          "next_id": "missing-bus-8"
         }
       ]
     },
     {
-      "id": "missing-cab-4",
-      "description": "You pull out your phone and open the ride-share app, hoping for a quick solution. You request a ride, but the app tells you that no cars are available in your area. You try again, but the same message pops up. It's becoming increasingly frustrating, and now you feel like you're running out of options.",
-      "skill_check": {
-        "skill": "management",
-        "difficulty": "medium",
-        "fail": "You fail to navigate the app properly, and the more you try, the more confused you become about how to get a ride."
-      },
+      "id": "missing-bus-4",
+      "description": "You walk to the station house, a creaky building where the town’s ancient transportation manager, Mr. Fiddlesticks, fiddles with dusty ledgers and squints at old maps. 'Leylines are all muddled these days,' he mutters as you ask about the bus schedule. He points to a faded map, lines darting every which way across the town.",
       "choices": [
         {
-          "text": "Try using another ride-share app.",
-          "next_id": "missing-cab-11"
+          "text": "Examine the map and try to understand the leylines.",
+          "next_id": "missing-bus-9"
         },
         {
-          "text": "Walk further down the street to a different location and try again.",
-          "next_id": "missing-cab-12"
-        },
-        {
-          "text": "Take the bus instead, hoping for better luck.",
-          "next_id": "missing-cab-13"
+          "text": "Thank Mr. Fiddlesticks and head to the town square to catch a bus.",
+          "next_id": "missing-bus-2"
         }
       ]
     },
     {
-      "id": "missing-cab-5",
-      "description": "You find a way inside the subway station, breaking through a small opening in the gate. However, inside, everything is in disarray. The tracks are empty, and the platform is covered in dust. It seems like no one has used this subway for a long time. There’s no sign of the train coming anytime soon, and you're left feeling a bit more trapped.",
+      "id": "missing-bus-5",
+      "description": "You follow the symbols through the winding streets, finding that they lead to a small alley just off the town square. Here, an old sign points to an abandoned theater, rumored to have been built on one of the strongest leylines in the region. Could the conference be hidden inside?",
       "choices": [
         {
-          "text": "Look for an exit and try to leave the station.",
-          "next_id": "missing-cab-14"
+          "text": "Enter the theater and investigate.",
+          "next_id": "missing-bus-10"
         },
         {
-          "text": "Explore further to see if there’s another way out of the station.",
-          "next_id": "missing-cab-15"
-        },
-        {
-          "text": "Sit and wait for a train that might never arrive.",
-          "next_id": "missing-cab-16"
+          "text": "Go back to the bus stop, reconsidering your options.",
+          "next_id": "missing-bus-3"
         }
       ]
     },
     {
-      "id": "missing-cab-6",
-      "description": "You turn around and walk back, frustrated but determined to find a way to your meeting. However, the streets seem even quieter now. It's as if everyone has disappeared, and the longer you walk, the more the city feels like it's falling apart. You're starting to wonder if you'll ever make it to your destination.",
-      "skill_check": {
-        "skill": "exploration",
-        "difficulty": "medium",
-        "fail": "You lose your bearings, and the city starts to feel more alien. Your destination slips further out of reach, and you feel more disoriented."
-      },
+      "id": "missing-bus-6",
+      "description": "A local, grizzled and toothy, looks at you with squinted eyes. 'Those etchings? They’re ley markers, alright, but only appear when something big is brewin'. Last time I saw ’em, the whole town spun sideways for a week,' he chuckles, leaving you with more questions than answers.",
       "choices": [
         {
-          "text": "Try calling a friend for help or advice.",
-          "next_id": "missing-cab-17"
+          "text": "Head to the theater the man mentioned, intrigued by his tale.",
+          "next_id": "missing-bus-10"
         },
         {
-          "text": "Seek shelter in a nearby building and wait for the situation to change.",
-          "next_id": "missing-cab-18"
-        },
-        {
-          "text": "Keep walking, hoping to find another cab or another way to get to your meeting.",
-          "next_id": "missing-cab-19"
+          "text": "Walk back to the station to look for another bus option.",
+          "next_id": "missing-bus-4"
         }
       ]
     },
     {
-      "id": "missing-cab-7",
-      "description": "You sit on the bench in front of the subway station, waiting. Time passes, and no one arrives to open the doors. The city feels increasingly desolate, and you begin to wonder if you're stuck in some kind of limbo. After a while, you realize that waiting here might not get you anywhere.",
+      "id": "missing-bus-7",
+      "description": "The bus jerks forward and rumbles down side streets, almost like it’s on a winding path of its own making. You notice the route seems to follow an unusual energy, aligning with what you now realize must be the town’s leylines.",
       "choices": [
         {
-          "text": "Break the waiting pattern and go look for an alternative transportation option.",
-          "next_id": "missing-cab-20"
+          "text": "Try casting a spell to better sense the leylines.",
+          "next_id": "missing-bus-11"
         },
         {
-          "text": "Walk away from the subway station and try another part of the city.",
-          "next_id": "missing-cab-21"
-        },
-        {
-          "text": "Go back home, accepting that the day is ruined.",
-          "next_id": "missing-cab-22"
+          "text": "Wait and let the bus take you where it wills.",
+          "next_id": "missing-bus-12"
         }
       ]
     },
     {
-      "id": "missing-cab-8",
-      "description": "You move to a different intersection, but the same problem persists. No cabs stop for you. It's almost as if the universe has conspired to make you late. The frustration is mounting, and you're running out of ideas on how to get to your meeting on time.",
-      "skill_check": {
-        "skill": "mental",
-        "difficulty": "hard",
-        "fail": "The stress becomes overwhelming, and you start to panic. Everything feels out of your control."
-      },
+      "id": "missing-bus-8",
+      "description": "The driver laughs, 'Oh, today’s the leyline day! Buses go where they go. You might end up at your conference, or in the old theater, or maybe where the leylines cross by the river.' Her chuckle isn’t exactly reassuring.",
       "choices": [
         {
-          "text": "Try calling a ride-share service again and hope for better luck.",
-          "next_id": "missing-cab-23"
+          "text": "Continue the journey, trusting fate.",
+          "next_id": "missing-bus-12"
         },
         {
-          "text": "Walk even further in search of a taxi or another ride.",
-          "next_id": "missing-cab-24"
-        },
-        {
-          "text": "Decide to give up and head back home.",
-          "next_id": "missing-cab-25"
+          "text": "Ask the driver to drop you at the theater mentioned.",
+          "next_id": "missing-bus-10"
         }
       ]
     },
     {
-      "id": "missing-cab-9",
-      "description": "You try the ride-share service again, but this time it works—sort of. A car is on its way, but it's estimated to arrive in 20 minutes. That’s too late for your meeting, and you’re left feeling both relieved and frustrated at the same time.",
+      "id": "missing-bus-9",
+      "description": "Studying the map, you realize that the leylines seem to intersect at key places around town—the town square, the old theater, and a small grove near the conference location. The leyline energy could hold a secret route to the wizard meeting.",
       "choices": [
         {
-          "text": "Cancel the ride and try a different transportation method.",
-          "next_id": "missing-cab-26"
+          "text": "Set out for the theater to explore further.",
+          "next_id": "missing-bus-10"
         },
         {
-          "text": "Wait for the ride and hope you’ll make it in time.",
-          "next_id": "missing-cab-27"
-        },
-        {
-          "text": "Walk to the meeting location yourself, hoping you can make it on foot.",
-          "next_id": "missing-cab-28"
+          "text": "Head to the conference by walking the leyline path.",
+          "next_id": "missing-bus-13"
         }
       ]
+    },
+    {
+      "id": "missing-bus-10",
+      "description": "Inside the theater, you find a secret passage behind the stage leading to a hidden meeting room. The wizard conference attendees are deep in discussion, debating leyline disruptions. You've finally made it, and as you sit, you learn that leyline shifts have been causing disturbances in magical transport all over town.",
+      "choices": [
+        {
+          "text": "Stay and learn more about leyline magic.",
+          "next_id": "good-ending"
+        },
+        {
+          "text": "Politely excuse yourself to make it back on time.",
+          "next_id": "neutral-ending"
+        }
+      ]
+    },
+    {
+      "id": "good-ending",
+      "description": "You stay for the whole conference, learning how leyline disturbances affect magical transportation and discovering ways to predict these disruptions. Armed with this knowledge, you leave with newfound respect for the town's hidden magic, and you even feel your arcane skills sharpening.",
+      "choices": []
+    },
+    {
+      "id": "neutral-ending",
+      "description": "Thanking the wizards, you slip out before delving too deeply into leyline theory. You make it to your next stop with little delay, though the events leave you pondering leyline magic for future study.",
+      "choices": []
+    },
+    {
+      "id": "bad-ending",
+      "description": "Confused and disoriented by the leyline’s effects, you end up wandering the streets late into the night, missing the conference entirely. The town’s magic remains a mystery as the bus driver’s words haunt you.",
+      "choices": []
     }
   ]
 }

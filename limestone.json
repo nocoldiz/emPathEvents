@@ -177,7 +177,9 @@
       "id": "adventure-end",
       "description": "You leave the cavern, unsure of what secrets it holds. The limestone, with its mysterious properties, remains untouched. Perhaps you’ll return one day to uncover its full potential—or perhaps not. The world is full of untold mysteries, and sometimes, it’s best to leave them buried.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	  "choices": []
+
     }
   ]
 }

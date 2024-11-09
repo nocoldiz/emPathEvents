@@ -210,4 +210,52 @@
       "description": "You attempt to leave the city entirely, but the roads are blocked by responders and other evacuees. It’s clear that New York will be affected by this attack for some time.",
       "choices": [
         {
+          "text": "Look for an alternative route out of the city",
+          "next_id": "bombing-15"
+        },
+        {
+          "text": "Return to the city center and try to help survivors",
+          "next_id": "bombing-2"
+        }
+      ]
+    },
+    {
+      "id": "bombing-14",
+      "description": "You engage in a fierce struggle with the extremists. The air is thick with magical energy, and every move feels like a life-or-death decision. You manage to overpower a few, but the leaders remain focused, fueling their ritual. The outcome rests on your next action.",
+      "choices": [
+        {
+          "text": "Attempt one final strike to stop the ritual",
+          "next_id": "end-good",
+          "skill_check": {
+            "skill": "arcanism",
+            "difficulty": 85
+          }
+        },
+        {
+          "text": "Retreat to preserve your strength",
+          "next_id": "end-neutral"
+        }
+      ]
+    },
+    {
+      "id": "bombing-15",
+      "description": "After navigating through side streets and hidden pathways, you finally reach the city’s outskirts. From a distance, you witness the ongoing battle for New York. The Petroshintoist attack is relentless, but you’ve managed to escape the immediate danger.",
+      "choices": [
+        {
+          "text": "Reflect on the events and what they mean for the future",
+          "next_id": "end-neutral"
+        },
+        {
+          "text": "Consider returning to help others",
+          "next_id": "bombing-2"
+        }
+      ]
+    },
+    {
+      "id": "bombing-end",
+      "description": "As the news continues to report on the Petroshintoist attacks, you find a moment to process everything. The city may recover, but the scars left by this day will linger. Whatever decisions you made, you know they played a part in shaping the outcome.",
+      "choices": []
+    }
+  ]
+}
          

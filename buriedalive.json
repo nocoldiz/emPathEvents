@@ -184,17 +184,22 @@
       ],
       "image": "",
       "sound": ""
-    }
-  ],
-  "endings": {
-    "good-end": {
+    },
+   {
+	  "id": "good-end",
+	        "choices": [],
       "description": "You run, the feeling of freedom overwhelming. Your limbs are sore, and your breath is ragged, but you’re free. You’ve escaped the grave that nearly consumed you. For now, you live to see another day."
     },
-    "neutral-end": {
+		{
+		"id": "neutral-end",
+			        "choices": [],
       "description": "You lay there for a while, unsure of whether to move forward. Though you’ve escaped immediate death, the danger of your environment still lingers. There’s no certainty in what happens next."
     },
-    "bad-end": {
+{
+	"id": "bad-end",
+		        "choices": [],
       "description": "The darkness consumes you, and with each breath, you grow weaker. The earth closes in, and your chances of escape fade. In the end, you are buried alive, a silent, forgotten soul."
     }
-  }
+  ]
+
 }

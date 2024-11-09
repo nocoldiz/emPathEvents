@@ -201,6 +201,7 @@
     },
     {
       "id": "park-end",
+	        "choices": [],
       "description": "You make your way out of the park, the strange music still echoing in your ears. The place may have been abandoned for years, but you’ll never forget the feeling of being watched. Perhaps you’ll return someday… if only to unravel its secrets."
     }
   ]

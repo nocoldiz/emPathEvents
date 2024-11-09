@@ -181,19 +181,24 @@
       "id": "good-end",
       "description": "You and Bubba manage to escape the library, your heart racing as you breathe in the cool night air. Though the memory of the encounter lingers, you feel a renewed appreciation for the world around you. Together, you vow to be more cautious in your searches for knowledge.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	        "choices": []
+
     },
     {
       "id": "neutral-end",
       "description": "You leave the library with Bubba, shaken but unharmed. The beings may have taken something intangible, but you’re relieved to have escaped. You leave with a lesson learned, and perhaps a new fear of the unknown.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	        "choices": []
+
     },
     {
       "id": "bad-end",
       "description": "The ethereal beings close in, and as their cold touch envelops you, you feel your consciousness slipping away. Darkness fills your vision as you become one with the shadows, your fate sealed within the haunted walls of the library.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	        "choices": []
     }
   ]
 }

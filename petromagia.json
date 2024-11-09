@@ -77,6 +77,8 @@
       "description": "Your confidence impresses the representative. 'We can expedite the deal for a partner as seasoned as you. A one-time investment of 500,000 will give you access to our entire Petro Magia supply chain, plus a preferred partnership.'",
       "image": "",
       "sound": "",
+	  	  	      "choices": [],
+
       "next_id": "petromagia-6",
       "reward": {
         "id": "prestige_points",
@@ -104,6 +106,7 @@
       "description": "You transfer the funds and receive a confirmation. 'Welcome to Petro Magia, Ms. Em. This partnership will open doors you didn’t even know existed.' You feel a surge of power — and the weight of a substantial investment.",
       "image": "",
       "sound": "",
+	  	      "choices": [],
       "next_id": "end",
       "reward": {
         "id": "petromagia_access",
@@ -152,11 +155,13 @@
           }
         }
       ]
-    }
-  ],
-  "end": {
+    },{
+		      "id": "end",
     "description": "With Petro Magia’s partnership secured, you feel a mix of excitement and caution. Only time will tell if this investment brings prosperity... or peril.",
     "image": "",
+	      "choices": [],
     "sound": ""
   }
+  ]
+
 }

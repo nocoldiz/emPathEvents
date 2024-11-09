@@ -236,23 +236,49 @@
           "next_id": "neutral-end"
         }
       ]
-    }
-  ],
-  "endings": {
-    "good-end": {
+    },
+	 {
+      "id": "good-end",
       "description": "Bubba opens up to Em, sharing his thoughts and feelings. It’s a breakthrough in their relationship, and the fishing trip ends with a sense of renewal and understanding. The quiet of the lake served its purpose, and the bond between them grows stronger.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Em reflects on Bubba’s words, feeling a renewed connection.",
+          "next_id": "next-adventure-10"
+        },
+        {
+          "text": "They share a quiet moment, watching the water ripple in the evening light.",
+          "next_id": "next-adventure-11"
+        }
+      ]
     },
-    "neutral-end": {
+    {
+      "id": "neutral-end",
       "description": "The trip ends quietly, with Bubba still keeping his thoughts to himself. Em tries her best, but they both know that time and patience are still needed. They head back home without having fully resolved what was weighing on Bubba’s mind.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Em decides to be patient and give Bubba more time.",
+          "next_id": "next-adventure-12"
+        },
+        {
+          "text": "They pack up and drive home in companionable silence.",
+          "next_id": "next-adventure-13"
+        }
+      ]
     },
-    "bad-end": {
+    {
+      "id": "bad-end",
       "description": "The fishing trip doesn’t help either of them. Bubba remains distant, and Em is left feeling helpless. They both leave the lake with a sense of frustration and unresolved tension.",
-      "image": "",
-      "sound": ""
+      "choices": [
+        {
+          "text": "Em silently resolves to address this another time.",
+          "next_id": "next-adventure-14"
+        },
+        {
+          "text": "They leave the lake, both feeling the weight of unresolved issues.",
+          "next_id": "end-adventure-3"
+        }
+      ]
     }
-  }
+  ]
+
 }

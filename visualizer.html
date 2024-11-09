@@ -106,146 +106,302 @@
     <h2>Adventure Data Input</h2>
 	    <input type="file" id="fileInput" accept=".json">
     <textarea id="jsonInput" placeholder="Paste JSON data here...">{
-  "title": "Flaming Encounter",
+  "title": "The Hunt for the Fink Ployd Vinyl",
   "textboxes": [
     {
-      "id": "flaminggiraffe-1",
-      "description": "You and Bubba are wandering through an arid plain when you see a surreal sight in the distance—a giraffe, peacefully striding along, but completely engulfed in flames. The fire seems harmless to the giraffe, illuminating its calm, graceful movements. Bubba lets out a low whistle, clearly captivated by the sight.",
+      "id": "adventure-1",
+      "description": "The air is thick with anticipation as you enter the dusty old record store, a hidden gem in the heart of the city. The shopkeeper, an old man with a crooked smile, greets you. 'Looking for something special?' he asks. You nod, knowing that today could be the day you find it: the legendary Fink Ployd vinyl. Rumor has it that the record is worth a small fortune and has been hidden away for years.",
       "choices": [
         {
-          "text": "Approach the flaming giraffe cautiously.",
-          "next_id": "flaminggiraffe-2"
+          "text": "Ask the shopkeeper if he has any Fink Ployd records in stock.",
+          "next_id": "adventure-2"
         },
         {
-          "text": "Observe it from a safe distance.",
-          "next_id": "flaminggiraffe-3"
+          "text": "Browse the shelves on your own, hoping to spot the record.",
+          "next_id": "adventure-3"
         },
         {
-          "text": "Attempt to communicate with the giraffe using animal empathy.",
-          "next_id": "flaminggiraffe-4"
+          "text": "Leave the store, thinking it might not be worth the hassle.",
+          "next_id": "bad-end"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "flaminggiraffe-2",
-      "description": "You slowly approach the giraffe, which turns its blazing eyes toward you. It pauses, waiting, as if acknowledging your presence. Its fiery aura radiates intense heat, but you’re intrigued by its tranquility.",
+      "id": "adventure-2",
+      "description": "'Fink Ployd, huh?' The shopkeeper grins knowingly. 'You know, that’s not just any vinyl. It’s a one-of-a-kind edition. But the real question is: are you willing to pay the price to find it?' His cryptic words leave you intrigued, but he refuses to say more. Instead, he points toward a small, unmarked door at the back of the shop. 'Go through there if you’re serious.'",
       "choices": [
         {
-          "text": "Reach out to touch its fiery mane.",
-          "next_id": "flaminggiraffe-5",
-          "skill_check": {
-            "skill": "arcanism",
-            "value": 30,
-            "fail": "You recoil as the flames surge at your touch, singing your fingers slightly."
-          }
+          "text": "Head toward the door, eager to discover the secret.",
+          "next_id": "adventure-4"
         },
         {
-          "text": "Bow respectfully and take a step back.",
-          "next_id": "flaminggiraffe-6"
+          "text": "Ask the shopkeeper for more information about the vinyl.",
+          "next_id": "adventure-5"
+        },
+        {
+          "text": "Leave the shop, doubting the shopkeeper’s intentions.",
+          "next_id": "bad-end"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "flaminggiraffe-3",
-      "description": "You decide to keep a safe distance and simply observe. The giraffe seems at peace, meandering gracefully through the grass, its flames flickering softly in the breeze. As you watch, a calm sense of wonder washes over you.",
+      "id": "adventure-3",
+      "description": "You start browsing the shelves, running your fingers over rows of dusty records. The shop smells of age and nostalgia, but nothing seems to stand out. Hours pass, and you begin to feel a growing sense of frustration. Just as you’re about to give up, you hear the sound of a vinyl being dropped behind you. You turn and spot an older man whispering, 'I’m selling a Fink Ployd, but it's not for anyone. You’ll have to prove your worth.'",
       "choices": [
         {
-          "text": "Take a moment to meditate, drawing strength from the giraffe’s presence.",
-          "next_id": "end-good"
+          "text": "Ask the man how you can prove your worth.",
+          "next_id": "adventure-6"
         },
         {
-          "text": "Decide to leave the giraffe alone and continue your journey.",
-          "next_id": "end-neutral"
+          "text": "Tell the man you’re not interested and leave the store.",
+          "next_id": "bad-end"
+        },
+        {
+          "text": "Try to grab the vinyl and leave without asking more questions.",
+          "next_id": "adventure-7"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "flaminggiraffe-4",
-      "description": "You concentrate, reaching out with your senses to connect with the giraffe’s spirit. A peaceful warmth fills your mind as the giraffe pauses, turning to meet your gaze. It seems to communicate without words, sharing its serenity with you.",
+      "id": "adventure-4",
+      "description": "The door creaks open as you step into a dimly lit back room filled with vintage records and old artifacts. The room smells of musty leather and dust. In the center of the room, there’s a single vinyl spinning on a turntable. The label reads 'Fink Ployd - The Lost Session.' The shopkeeper watches you closely from the shadows. 'So, you’ve made it this far. Do you think you’re ready to claim it?' he asks.",
       "choices": [
         {
-          "text": "Try to understand the origin of its fire.",
-          "next_id": "flaminggiraffe-7",
-          "skill_check": {
-            "skill": "spiritism",
-            "value": 45,
-            "fail": "The connection is brief, and you’re left only with a sense of warmth and peace, but no clear answer."
-          }
+          "text": "Tell him you’re ready and take the vinyl.",
+          "next_id": "adventure-8"
         },
         {
-          "text": "Thank the giraffe silently and bow.",
-          "next_id": "flaminggiraffe-6"
+          "text": "Ask him what you need to do to prove yourself worthy of the vinyl.",
+          "next_id": "adventure-9"
+        },
+        {
+          "text": "Leave the room, feeling the weight of the decision.",
+          "next_id": "bad-end"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "flaminggiraffe-5",
-      "description": "You extend your hand, gently touching the flames that dance along the giraffe's neck. To your surprise, the fire doesn’t burn; instead, it feels like a warm, steady glow. The giraffe bows its head in acknowledgment, and you feel an unusual surge of energy within you.",
+      "id": "adventure-5",
+      "description": "The shopkeeper gives you a strange look. 'More information, you say? Well, if you really want it, you’ll need to answer a riddle.' He smiles slyly. 'Answer correctly, and the vinyl will be yours. Fail, and you’ll be sent out with nothing.'",
       "choices": [
         {
-          "text": "Thank the giraffe and step back respectfully.",
-          "next_id": "end-good"
+          "text": "Accept the challenge and listen to the riddle.",
+          "next_id": "adventure-10"
         },
         {
-          "text": "Ask the giraffe if it has a message for you.",
-          "next_id": "flaminggiraffe-8"
+          "text": "Refuse the riddle, demanding more direct answers.",
+          "next_id": "bad-end"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "flaminggiraffe-6",
-      "description": "You bow to the giraffe, showing it respect. The creature seems to nod in response, and the flames around it flicker in an oddly soothing rhythm. Bubba, watching in quiet awe, seems deeply moved.",
+      "id": "adventure-6",
+      "description": "The older man looks you over, appraising you like a treasure hunter. 'To prove your worth, you must retrieve a certain record from the deepest part of the city, where no one dares to venture. It’s hidden in a place known only to the bravest.' He hands you a small map, its edges frayed from age.",
       "choices": [
         {
-          "text": "Take Bubba's hand and continue on your journey with a newfound sense of peace.",
-          "next_id": "end-good"
+          "text": "Take the map and head to the location.",
+          "next_id": "adventure-11"
         },
         {
-          "text": "Leave the giraffe and return to the path you were traveling.",
-          "next_id": "end-neutral"
+          "text": "Refuse the task and leave the shop.",
+          "next_id": "bad-end"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "flaminggiraffe-7",
-      "description": "Focusing on the spirit connection, you try to uncover the origins of the giraffe’s flames. The warmth intensifies, and you see a vision of an ancient desert, where elemental fire spirits roamed freely. You realize the giraffe has been blessed by these spirits, carrying their energy peacefully through the world.",
+      "id": "adventure-7",
+      "description": "You grab the vinyl, but as soon as you make the move, the older man grabs your wrist, his grip surprisingly strong for his age. 'I wouldn’t do that if I were you,' he warns, eyes narrowing. 'This is not a record to be taken lightly.' He lets go of your arm and slowly backs away, leaving you to wonder if you’ve made the wrong decision.",
       "choices": [
         {
-          "text": "Express gratitude to the giraffe for sharing its story.",
-          "next_id": "end-good"
+          "text": "Apologize and ask what he meant.",
+          "next_id": "adventure-12"
         },
         {
-          "text": "End the connection and leave the giraffe in peace.",
-          "next_id": "end-neutral"
+          "text": "Rush out of the store, keeping the vinyl in hand.",
+          "next_id": "bad-end"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "flaminggiraffe-8",
-      "description": "The giraffe gazes at you with calm wisdom, and in your mind, you hear a gentle message: 'Walk with balance, for life’s flame is both creation and destruction.' You feel humbled by the encounter.",
+      "id": "adventure-8",
+      "description": "You reach out and take the vinyl, feeling a rush of excitement. But just as you do, the shopkeeper speaks again. 'It’s yours now, but it will come at a cost. There are those who will stop at nothing to get their hands on it.' The room goes dark, and the turntable stops spinning.",
       "choices": [
         {
-          "text": "Thank the giraffe for its wisdom and leave with a newfound respect for the fire element.",
-          "next_id": "end-good"
+          "text": "Ask him what the cost will be.",
+          "next_id": "adventure-13"
         },
         {
-          "text": "Bow and return to Bubba, who looks at you in awe.",
-          "next_id": "end-good"
+          "text": "Take the vinyl and leave quickly.",
+          "next_id": "bad-end"
         }
-      ]
+      ],
+      "image": "",
+      "sound": ""
     },
     {
-      "id": "end-good",
-      "description": "You and Bubba continue on your journey, feeling a deep sense of peace from the encounter. The flaming giraffe's serene presence stays with you, a reminder of the balance between beauty and power in the world. Bubba chuckles softly, 'Not every day you meet a flaming giraffe, huh?' You laugh, feeling grateful for the experience.",
+      "id": "adventure-9",
+      "description": "'The price of this vinyl is simple,' the shopkeeper says. 'You must sacrifice something you cherish to claim it. That’s the rule.' His voice grows softer, almost hypnotic. 'Think carefully. Choose wisely.'",
+      "choices": [
+        {
+          "text": "Agree to make the sacrifice.",
+          "next_id": "adventure-14"
+        },
+        {
+          "text": "Refuse and leave the room.",
+          "next_id": "bad-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-10",
+      "description": "The shopkeeper smiles, and the riddle begins: 'I am not alive, but I grow. I don’t have lungs, but I need air. I don’t have a mouth, but water kills me. What am I?'",
+      "choices": [
+        {
+          "text": "Answer 'fire'.",
+          "next_id": "adventure-15"
+        },
+        {
+          "text": "Answer 'a plant'.",
+          "next_id": "adventure-16"
+        },
+        {
+          "text": "Answer 'a cloud'.",
+          "next_id": "bad-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-11",
+      "description": "You follow the map, venturing deeper into the city. The area feels strange, almost alive, as though it’s watching you. At the location marked on the map, you find a sealed door. The challenge now is figuring out how to get inside.",
+      "choices": [
+        {
+          "text": "Search for a way to break into the door.",
+          "next_id": "adventure-17"
+        },
+        {
+          "text": "Look around for any clues that might help you open it.",
+          "next_id": "adventure-18"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-12",
+      "description": "The man chuckles darkly. 'You’ve chosen to ignore the warnings, haven’t you? No one can simply take this vinyl without facing the consequences.' He steps back, his form shifting into something darker. A shadowy figure looms over you, its eyes glowing with malevolent intent.",
+      "choices": [
+        {
+          "text": "Run from the figure.",
+          "next_id": "bad-end"
+        },
+        {
+          "text": "Stand your ground and confront the figure.",
+          "next_id": "bad-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-13",
+      "description": "The shopkeeper’s face hardens. 'The cost is your freedom. You can never escape the reach of the Fink Ployd vinyl once you own it.' The shop fades into darkness, and you find yourself alone in a strange, unrecognizable place.",
+      "choices": [
+        {
+          "text": "Try to escape.",
+          "next_id": "bad-end"
+        },
+        {
+          "text": "Accept your fate.",
+          "next_id": "bad-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-14",
+      "description": "You agree to make the sacrifice, and the vinyl seems to glow with an eerie light. As you take it, something precious to you is taken in return. What was once yours is now lost forever.",
+      "choices": [
+        {
+          "text": "Leave the shop with the vinyl.",
+          "next_id": "good-end"
+        },
+        {
+          "text": "Return the vinyl, unable to live with the cost.",
+          "next_id": "neutral-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-15",
+      "description": "'You are correct,' the shopkeeper says, his smile wide. 'The vinyl is yours now. But remember, it carries a price. Use it wisely.' The shopkeeper vanishes, leaving you to ponder the true cost of your new acquisition.",
+      "choices": [
+        {
+          "text": "Leave the shop with the vinyl.",
+          "next_id": "good-end"
+        },
+        {
+          "text": "Ask if there’s a way to undo your decision.",
+          "next_id": "bad-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "adventure-16",
+      "description": "'Incorrect,' the shopkeeper says, his smile vanishing. 'The price is too high for those who cannot see the truth.' The room around you grows dark, and the vinyl fades from view.",
+      "choices": [
+        {
+          "text": "Apologize and ask for another chance.",
+          "next_id": "bad-end"
+        },
+        {
+          "text": "Leave the shop empty-handed.",
+          "next_id": "bad-end"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "good-end",
+      "description": "You leave the shop with the Fink Ployd vinyl in hand, feeling a sense of triumph. But as you step outside, you can’t shake the feeling that something has changed.",
       "choices": []
     },
     {
-      "id": "end-neutral",
-      "description": "Leaving the giraffe behind, you and Bubba return to the road, feeling a faint sense of wonder. The encounter has left an impression, though it’s hard to define. As you walk, you find yourself pondering the mysteries of the world, and Bubba gives you a knowing smile.",
+      "id": "neutral-end",
+      "description": "You leave the shop, the vinyl still in your possession, but the weight of your sacrifice weighs heavily on your heart. You’re not sure if it was worth it.",
+      "choices": []
+    },
+    {
+      "id": "bad-end",
+      "description": "You leave the shop empty-handed, your dreams dashed. The vinyl, and the mystery it holds, remain elusive, just out of reach.",
       "choices": []
     }
   ]
 }
+
 </textarea>
     <button id="updateGraph">Update Graph</button>
   </div>
@@ -292,7 +448,7 @@
               'label': 'data(label)',
               'curve-style': 'bezier',
               'font-size': '32px',
-              'width': 2,
+              'width': 10,
               'line-color': '#ccc',
               'target-arrow-color': '#ccc',
               'target-arrow-shape': 'triangle'
@@ -318,9 +474,10 @@
           seen.add(textbox.id);
 
           const nodeLabel = textbox.description.length > 50 ? textbox.description.slice(0, 50) + '...' : textbox.description;
-          elements.push({ data: { id: textbox.id, label: nodeLabel, type: 'node', fullText: textbox.description, choices: textbox.choices } });
-
-          textbox.choices.forEach((choice) => {
+          elements.push({ data: { id: textbox.id, label: nodeLabel, type: 'node', fullText: textbox.description, choices: textbox?.choices || [] } });
+		
+		if(textbox?.choices){
+		          textbox?.choices.forEach((choice) => {
             const skillCheckLabel = choice.skill_check ? ` (Skill Check: ${choice.skill_check.skill} ${choice.skill_check.value})` : '';
             const nextTextbox = adventureData.textboxes.find(t => t.id === choice.next_id);
             if (!nextTextbox) {
@@ -339,6 +496,8 @@
 
             if (nextTextbox) traverse(nextTextbox);
           });
+		}
+
         };
 
         traverse(adventureData.textboxes[0]);
@@ -380,7 +539,7 @@ const displayChoices = (choices) => {
       const nextTextbox = adventureData.textboxes.find(t => t.id === choice.next_id);
       if (nextTextbox) {
         $('#nodeDescription').text(nextTextbox.description);
-        displayChoices(nextTextbox.choices);
+        displayChoices(nextTextbox.choices || []);
       }
     });
 

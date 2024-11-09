@@ -1,0 +1,117 @@
+{
+  "title": "Royal convoy",
+  "textboxes": [
+  {
+    "id": "royalride-1",
+    "description": "As Em drives along a dusty road, she spots Lady Margaret Thatcher, impeccably dressed and holding her handbag, standing by the remains of her royal convoy. A swarm of giant insects buzzes ominously in the distance.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Offer Lady Margaret a ride",
+        "next_id": "royalride-2"
+      },
+      {
+        "text": "Drive away quickly, avoiding trouble",
+        "next_id": "royalride-3"
+      }
+    ]
+  },
+  {
+    "id": "royalride-2",
+    "description": "Lady Margaret steps gracefully into the camper, nodding in approval. 'A shame about the convoy,' she remarks coolly, 'but I suppose this old road will do.' The buzzing from the giant insects grows louder.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Speed up to escape the insects",
+        "next_id": "royalride-4",
+        "skill_check": {
+          "skill": "driving",
+          "level": 20,
+          "fail": "Em struggles with the wheel as the swarm gains on them."
+        }
+      },
+      {
+        "text": "Try to lose the insects in a nearby forest",
+        "next_id": "royalride-5",
+        "skill_check": {
+          "skill": "navigation",
+          "level": 25,
+          "fail": "Em takes a wrong turn, driving deeper into the insect-infested territory."
+        }
+      }
+    ]
+  },
+  {
+    "id": "royalride-3",
+    "description": "Em decides to keep driving, ignoring the scene. But as she checks her rearview mirror, she catches a glimpse of the swarm overwhelming the convoy remains, leaving her uneasy.",
+    "image": "",
+		    "choices": [],
+    "sound": "",
+    "end": "neutral"
+  },
+  {
+    "id": "royalride-4",
+    "description": "With a steady hand on the wheel, Em manages to outpace the swarm, leaving the buzzing far behind. Lady Margaret nods approvingly, 'Excellent maneuvering, dear.'",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Continue driving towards a safer location",
+        "next_id": "royalride-6"
+      }
+    ]
+  },
+  {
+    "id": "royalride-5",
+    "description": "Em navigates through the winding forest, dodging branches and potholes. Despite a close call with a tree, she manages to throw off the swarm. Lady Margaret gives her a rare smile.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Find a spot to rest and regroup",
+        "next_id": "royalride-6"
+      }
+    ]
+  },
+  {
+    "id": "royalride-6",
+    "description": "Em pulls over in a clearing. Lady Margaret, visibly relieved, adjusts her attire, thanking Em with a firm handshake. 'It appears, dear Em, that I owe you a great debt.'",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Accept her gratitude and part ways",
+        "next_id": "royalride-7"
+      },
+      {
+        "text": "Ask Lady Margaret if she requires any further assistance",
+        "next_id": "royalride-8",
+        "skill_check": {
+          "skill": "diplomacy",
+          "level": 30,
+          "fail": "Lady Margaret shakes her head politely, preferring to handle matters alone."
+        }
+      }
+    ]
+  },
+  {
+    "id": "royalride-7",
+    "description": "Em and Lady Margaret part ways on good terms, each acknowledging the other's resourcefulness.",
+    "image": "",
+    "sound": "",
+    "end": "good",
+	    "choices": []
+
+  },
+  {
+    "id": "royalride-8",
+    "description": "Lady Margaret considers Em's offer and nods. 'Indeed, perhaps you might accompany me to a nearby safe house.' Together, they continue down the road, sharing stories of past adventures.",
+    "image": "",
+    "sound": "",
+    "end": "good",
+	    "choices": []
+  }
+]
+}

@@ -160,19 +160,24 @@
         "quantity": 1
       },
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	   "choices": []
+
     },
     {
       "id": "neutral-end",
       "description": "You leave the clocks partially synchronized. The main clock ticks more steadily, but a sense of incompletion remains. The room’s tension fades, but you can’t shake the feeling you missed something important. You leave with lingering questions, unsure if the mystery was fully resolved.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	   "choices": []
     },
     {
       "id": "bad-end",
       "description": "Ignoring the smaller clocks, you make adjustments to the main clock. Suddenly, all the clocks chime loudly, creating an overwhelming cacophony. The sound warps your sense of time, leaving you disoriented. You stumble out of the room, but the strange ticking echoes in your mind, a haunting reminder of the encounter.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  	   "choices": []
+
     }
   ]
 }

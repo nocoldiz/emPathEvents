@@ -186,19 +186,17 @@
     {
       "id": "field-12",
       "description": "After all your research, you pack up and prepare to leave the area. The unsettling feeling lingers as you walk away from the site, knowing that there’s still so much left to uncover. The orb you found may hold the key to something far bigger than you realized, but for now, you have to move on.",
-      "choices": [
-        {
-          "text": "End adventure",
-          "next_id": "end"
-        }
-      ]
-    }
-  ],
-  "end": {
+      "choices": []
+    },
+	{
+		      "id": "end",
+      "choices": [],
+
     "description": "You leave the site behind, unsure of what the future holds. The orb may be the key to unraveling greater mysteries, but your research has only just begun. As you make your way back to civilization, you can't shake the feeling that this is only the beginning of a much larger journey. You’ve gained valuable insights, but the unknown still awaits.",
     "reward": {
       "id": "arcane_insight",
       "quantity": 5
     }
   }
+  ]
 }

@@ -164,19 +164,22 @@
         "quantity": 1
       },
       "image": "",
-      "sound": ""
+      "sound": "",
+	  "choices": []
     },
     {
       "id": "neutral-end",
       "description": "The ghostly figure hesitates, then nods, gesturing to you to read a few pages together. As you scan the tome, fragments of ancient wisdom flicker through your mind, though the figure eventually closes the book and departs. You leave with fragments of knowledge, but the sense of a mystery still unsolved.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  "choices": []
     },
     {
       "id": "bad-end",
       "description": "You step back, letting the ghostly figure take the book. It smirks, vanishing with a sense of triumph. You’re left feeling an emptiness—a missed opportunity that might haunt you. The whispers of otherworldly knowledge fade, leaving the aisle quiet and unyielding.",
       "image": "",
-      "sound": ""
+      "sound": "",
+	  "choices": []
     }
   ]
 }
