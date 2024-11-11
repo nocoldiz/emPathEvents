@@ -1,0 +1,295 @@
+
+
+{
+  "passages": [
+    {
+      "text": "The road is bumpy, and the wind is starting to pick up as you and Bubba drive through the desolate wasteland. The camper's tires groan under the rough terrain, and just as you’re about to suggest pulling over for a break, there’s a sudden boom! The camper jerks violently, and a sharp hiss of air fills the cabin.\n\n“We’re flat!” Bubba yells, his voice laced with frustration. You glance out the window to see the front tire blown to bits—likely from a landmine. You groan in disbelief. Of course, you'd end up in a minefield.\n\nA quick scan of the area shows that the whole place is rigged with landmines, and to make things worse, strange, glowing arcane squids are floating in the air, their tentacles shimmering as they float lazily past.\n\n“We gotta fix this wheel, and fast,” Bubba says, eyes darting nervously as he grabs a spare tire from the back of the camper.\n\n[[Change the tire without any magic]]\n[[arcane, 20, You fail to detect any landmaine ->Use arcane magic to detect safe zones]]\n[[stealth, 50, You accidentally trigger off a landmine, you survive by an inch and your hair are now a mess->Use stealth to sneak through the minefield]]\n[[Try to use the squids as a distraction]]",
+      "links": [
+        {
+          "name": "Change the tire without any magic",
+          "link": "Change the tire without any magic",
+          "pid": "3"
+        },
+        {
+          "name": "arcane, 20, You fail to detect any landmaine ",
+          "link": "Use arcane magic to detect safe zones",
+          "pid": "4"
+        },
+        {
+          "name": "stealth, 50, You accidentally trigger off a landmine, you survive by an inch and your hair are now a mess",
+          "link": "Use stealth to sneak through the minefield",
+          "pid": "6"
+        },
+        {
+          "name": "Try to use the squids as a distraction",
+          "link": "Try to use the squids as a distraction",
+          "pid": "2"
+        }
+      ],
+      "name": "Start",
+      "pid": "1",
+      "position": {
+        "x": "625",
+        "y": "175"
+      }
+    },
+    {
+      "text": "You realize the squids might not be entirely harmless. If you can control their movement, perhaps you can use them as a distraction to clear a path for the tire replacement. A bit of manipulation could force the squids to hover over the landmines, causing them to detonate safely away from you and Bubba.\n\n[[elementalism, 70,  -> Detonate the squids.]]\n[[Try another method ->Start]]",
+      "links": [
+        {
+          "name": "elementalism, 70,  ",
+          "link": " Detonate the squids.",
+          "pid": "7"
+        },
+        {
+          "name": "Try another method ",
+          "link": "Start",
+          "pid": "1"
+        }
+      ],
+      "name": "Try to use the squids as a distraction",
+      "pid": "2",
+      "position": {
+        "x": "975",
+        "y": "250"
+      }
+    },
+    {
+      "text": "You’re not sure if you want to waste energy with spells—this is just a tire change after all. You figure if you’re careful enough, maybe you can get the job done without blowing everything up. You hand Bubba a wrench and get to work.\n\n[[engineering, 40, fail->Start replacing the tire]]\n",
+      "links": [
+        {
+          "name": "engineering, 40, fail",
+          "link": "Start replacing the tire",
+          "pid": "8"
+        }
+      ],
+      "name": "Change the tire without any magic",
+      "pid": "3",
+      "position": {
+        "x": "425",
+        "y": "400"
+      }
+    },
+    {
+      "text": "You have a moment of clarity and realize that your magic might be the key to navigating this minefield. You’ve never used arcane magic for detecting landmines before, but the squids seem to be connected to some sort of arcane energy field. If you can harness their energy, you might be able to spot safe zones.\n\nThe arcane squids swirl around you, their tentacles glowing brightly. You concentrate, channeling your magic into the ground beneath your feet. A soft hum resonates from the earth, and slowly, glowing lines form, marking the paths where it’s safe to walk.\n\nYou step cautiously, following the lines you've created, and make it to the camper's tire. [[Start replacing the tire]] \n[[Get back to driving]]",
+      "links": [
+        {
+          "name": "Start replacing the tire",
+          "link": "Start replacing the tire",
+          "pid": "8"
+        },
+        {
+          "name": "Get back to driving",
+          "link": "Get back to driving",
+          "pid": "5"
+        }
+      ],
+      "name": "Use arcane magic to detect safe zones",
+      "pid": "4",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You and Bubba climb back into the camper, nerves still taut from the mine blast. The engine rumbles to life, and the wheels crunch over the rough, debris-strewn terrain as you begin to drive cautiously forward.\n\nThe minefield sprawls in every direction, and the arcane squids drift about, pulsing with an eerie glow as they hover just above the ground. Their hum fills the air, adding a surreal tension as you ease the camper ahead, trying to avoid both mines and squids.\n\nYou take a breath, considering your options.\n\n[[Cautious Slow Drive]]\n[[Quick Burst with a Magic Shield]]\n[[Heavy Braking and Quick Reflexes]]",
+      "links": [
+        {
+          "name": "Cautious Slow Drive",
+          "link": "Cautious Slow Drive",
+          "pid": "12"
+        },
+        {
+          "name": "Quick Burst with a Magic Shield",
+          "link": "Quick Burst with a Magic Shield",
+          "pid": "10"
+        },
+        {
+          "name": "Heavy Braking and Quick Reflexes",
+          "link": "Heavy Braking and Quick Reflexes",
+          "pid": "11"
+        }
+      ],
+      "name": "Get back to driving",
+      "pid": "5",
+      "position": {
+        "x": "575",
+        "y": "575"
+      }
+    },
+    {
+      "text": "You know that the key to surviving this might be careful movement. The squids might be a distraction, but if you can move quietly and precisely, maybe you can avoid setting off any mines. Bubba looks at you, uncertain but trusting.\n\nYou crouch low, moving with extreme caution. Each step feels like a gamble as you move past the squids, which seem oddly indifferent to your presence. Your feet hover inches above the ground as you make your way to the blown-out tire. \n\nJust as you’re about to replace the wheel, you hear a click beneath your foot—there’s a mine right under you! \n\nYou stay perfectly still, barely breathing. The slightest pressure might set off the mine. You glance at Bubba, who has gone pale, watching helplessly.\n\n[[Convoking, 40, The mine refuses to disarm, ticking ominously as you step back in dread.-> Attempt to summon a small field of protection around the mine]]\n[[Kinetics, 35, You miscalculate the energy flow, causing the mine to jolt threateningly. You take a step back, unsure.->Try to safely siphon energy from the mine]]",
+      "links": [
+        {
+          "name": "Convoking, 40, The mine refuses to disarm, ticking ominously as you step back in dread.",
+          "link": " Attempt to summon a small field of protection around the mine",
+          "pid": "14"
+        },
+        {
+          "name": "Kinetics, 35, You miscalculate the energy flow, causing the mine to jolt threateningly. You take a step back, unsure.",
+          "link": "Try to safely siphon energy from the mine",
+          "pid": "15"
+        }
+      ],
+      "name": "Use stealth to sneak through the minefield",
+      "pid": "6",
+      "position": {
+        "x": "825",
+        "y": "350"
+      }
+    },
+    {
+      "text": "You focus on the squids, your magic pulling their ethereal bodies closer. They start to twitch, their glowing tentacles vibrating as they form into clusters above the minefield. One by one, the squids hover over mines, setting them off in controlled explosions.\nWith the path ahead clear, you and Bubba replace the tire and get back on the road with barely a scratch.\n\n[[Drive away]] ",
+      "links": [
+        {
+          "name": "Drive away",
+          "link": "Drive away",
+          "pid": "9"
+        }
+      ],
+      "name": " Detonate the squids.",
+      "pid": "7",
+      "position": {
+        "x": "975",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You kneel beside the blown-out tire, trying to ignore the distant hum of the squids as you tighten bolts. Suddenly, a loud bang echoes through the field—one of the squids has triggered a mine! The explosion sends debris flying, but miraculously, you and Bubba remain unharmed. You finish the tire swap, but the tension is palpable.\n[[Get back to driving]] ",
+      "links": [
+        {
+          "name": "Get back to driving",
+          "link": "Get back to driving",
+          "pid": "5"
+        }
+      ],
+      "name": "Start replacing the tire",
+      "pid": "8",
+      "position": {
+        "x": "425",
+        "y": "525"
+      }
+    },
+    {
+      "text": "With the tire finally fixed, you and Bubba climb back into the camper. The floating squids have scattered from the explosion, but the minefield stretches ahead, packed with unseen dangers. The only way forward is through, and every move counts.\n\nBubba looks at you, his brow furrowed. “Guess it's time to drive real careful, Em. Got any ideas?”\n\nYou take a breath, considering your options.\n\n[[Cautious Slow Drive]]\n[[Quick Burst with a Magic Shield]]\n[[Heavy Braking and Quick Reflexes]]",
+      "links": [
+        {
+          "name": "Cautious Slow Drive",
+          "link": "Cautious Slow Drive",
+          "pid": "12"
+        },
+        {
+          "name": "Quick Burst with a Magic Shield",
+          "link": "Quick Burst with a Magic Shield",
+          "pid": "10"
+        },
+        {
+          "name": "Heavy Braking and Quick Reflexes",
+          "link": "Heavy Braking and Quick Reflexes",
+          "pid": "11"
+        }
+      ],
+      "name": "Drive away",
+      "pid": "9",
+      "position": {
+        "x": "1025",
+        "y": "600"
+      }
+    },
+    {
+      "text": "You mutter a quick CamelCase incantation, summoning a shimmering magical shield around the camper. With a nod to Bubba, you accelerate quickly, hoping to make it through before the shield fades.\n\nThe camper jolts forward as you zip through the minefield, the magical shield flickering with every bump and blast. Just as you reach the end, the shield drops with a pop, leaving the camper unprotected—but you've made it across. Bubba lets out a cheer, and you breathe a sigh of relief, thanking your quick thinking and that magical boost.\n[[Continue...]]]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
+        }
+      ],
+      "name": "Quick Burst with a Magic Shield",
+      "pid": "10",
+      "position": {
+        "x": "650",
+        "y": "725"
+      }
+    },
+    {
+      "text": "You decide to try a combination of quick stops and sudden turns, navigating the field in short, controlled bursts. Keeping your reflexes sharp, you brake whenever something looks off, then accelerate out of danger.\n\nAfter several hair-raising stops and zigzags, you finally see the other side of the minefield. You and Bubba high-five, exhausted but exhilarated. It’s been a dangerous path, but you’ve outmaneuvered every obstacle. You press onward, glad to leave the mines and squids behind.\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
+        }
+      ],
+      "name": "Heavy Braking and Quick Reflexes",
+      "pid": "11",
+      "position": {
+        "x": "825",
+        "y": "775"
+      }
+    },
+    {
+      "text": "You grip the steering wheel firmly and start moving at a snail's pace, eyes scanning the ground ahead for any sign of a mine. Each inch feels like a gamble, but you stay focused, maneuvering with the utmost care.\n\nDespite a few nerve-wracking moments, you and Bubba make it through the minefield without incident. The camper creaks with relief as you hit solid ground on the other side. You both let out a shaky laugh and share a fist bump—it's been a harrowing journey, but you made it!\n[[Continue...]]]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
+        }
+      ],
+      "name": "Cautious Slow Drive",
+      "pid": "12",
+      "position": {
+        "x": "1050",
+        "y": "725"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "13",
+      "position": {
+        "x": "800",
+        "y": "925"
+      }
+    },
+    {
+      "text": "You mutter a quick incantation under your breath, trying to invoke a field that will dampen any sudden energy release from the mine.\n\nThe mine’s mechanism clicks as the field holds, giving you enough time to step away. You breathe a sigh of relief as the threat slowly fades\n[[Replace the wheel in peace and resume driving ->Get back to driving]]",
+      "links": [
+        {
+          "name": "Replace the wheel in peace and resume driving ",
+          "link": "Get back to driving",
+          "pid": "5"
+        }
+      ],
+      "name": " Attempt to summon a small field of protection around the mine",
+      "pid": "14",
+      "position": {
+        "x": "725",
+        "y": "475"
+      }
+    },
+    {
+      "text": "With focused breaths, you extend your hand toward the mine, attempting to draw out its energy and render it safe.\n\nThe energy flow stabilizes, and you step back slowly, releasing the siphoned energy safely into the ground. You’ve disarmed it. Bubba lets out a shaky laugh, and you both exhale in relief\n[[Replace the wheel in peace and resume driving ->Get back to driving]]",
+      "links": [
+        {
+          "name": "Replace the wheel in peace and resume driving ",
+          "link": "Get back to driving",
+          "pid": "5"
+        }
+      ],
+      "name": "Try to safely siphon energy from the mine",
+      "pid": "15",
+      "position": {
+        "x": "875",
+        "y": "500"
+      }
+    }
+  ],
+  "name": "The Landmine Incident",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "EB057892-CACF-4976-9C12-B3FE7A56E10F"
+}
+

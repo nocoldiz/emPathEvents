@@ -1,0 +1,243 @@
+
+
+{
+  "passages": [
+    {
+      "text": "Em takes a sip from a water bottle she found in the camper. Almost instantly, a strange sensation washes over her. Colors intensify, and the walls begin to shimmer. Bubba, noticing her distress, looks concerned. \"Em, you alright?\" he asks.\n\n[[Tell Bubba that something feels off -> Tell Bubba]]\n[[Try to ignore the feeling and focus -> Focus]]",
+      "links": [
+        {
+          "name": "Tell Bubba that something feels off ",
+          "link": " Tell Bubba",
+          "pid": "2"
+        },
+        {
+          "name": "Try to ignore the feeling and focus ",
+          "link": " Focus",
+          "pid": "3"
+        }
+      ],
+      "name": "Intro",
+      "pid": "1",
+      "position": {
+        "x": "800",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Tell Bubba\n\nEm explains the odd sensations to Bubba. He nods understandingly, looking at the bottle with suspicion. \"That water might be… tainted. I’ll help you through it,\" he says calmly.\n\n[[Ask Bubba to keep talking to you to keep grounded ->Keep talking]]\n[[Attempt to calm down by observing the surroundings -> Observe]]",
+      "links": [
+        {
+          "name": "Ask Bubba to keep talking to you to keep grounded ",
+          "link": "Keep talking",
+          "pid": "4"
+        },
+        {
+          "name": "Attempt to calm down by observing the surroundings ",
+          "link": " Observe",
+          "pid": "5"
+        }
+      ],
+      "name": " Tell Bubba",
+      "pid": "2",
+      "position": {
+        "x": "737.5",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Focus\n\nEm tries to shake off the strange feeling, but the colors around her begin to intensify. The world bends and twists, making it difficult to focus.\n\n[[Ask Bubba for help -> Tell Bubba]]\n[[Lie down and close your eyes, hoping it passes -> Lie Down]]",
+      "links": [
+        {
+          "name": "Ask Bubba for help ",
+          "link": " Tell Bubba",
+          "pid": "2"
+        },
+        {
+          "name": "Lie down and close your eyes, hoping it passes ",
+          "link": " Lie Down",
+          "pid": "6"
+        }
+      ],
+      "name": " Focus",
+      "pid": "3",
+      "position": {
+        "x": "862.5",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Keep Talking\n\nBubba starts talking to Em, his voice a steady anchor in a sea of colors and shapes. \"Remember, it’s all just in your mind. Focus on my voice,\" he says.\n\n[[Listen intently to Bubba’s voice -> Listen to Bubba]]\n[[Try to laugh it off, thinking it’s just a trip -> Laugh it Off]]\n[[Wait for the trip to fade off]]",
+      "links": [
+        {
+          "name": "Listen intently to Bubba’s voice ",
+          "link": " Listen to Bubba",
+          "pid": "7"
+        },
+        {
+          "name": "Try to laugh it off, thinking it’s just a trip ",
+          "link": " Laugh it Off",
+          "pid": "8"
+        },
+        {
+          "name": "Wait for the trip to fade off",
+          "link": "Wait for the trip to fade off",
+          "pid": "11"
+        }
+      ],
+      "name": "Keep talking",
+      "pid": "4",
+      "position": {
+        "x": "675",
+        "y": "575"
+      }
+    },
+    {
+      "text": "Observe\n\nEm attempts to ground herself by focusing on her surroundings, but the more she looks, the more things seem to come alive. The walls breathe, and patterns dance around her.\n\n[[Panic and ask Bubba for help -> Tell Bubba]]\n[[Embrace the experience and see where it leads -> Embrace It]]",
+      "links": [
+        {
+          "name": "Panic and ask Bubba for help ",
+          "link": " Tell Bubba",
+          "pid": "2"
+        },
+        {
+          "name": "Embrace the experience and see where it leads ",
+          "link": " Embrace It",
+          "pid": "9"
+        }
+      ],
+      "name": " Observe",
+      "pid": "5",
+      "position": {
+        "x": "800",
+        "y": "575"
+      }
+    },
+    {
+      "text": "Lie Down\n\nLying down, Em closes her eyes, but instead of calming down, a kaleidoscope of colors fills her mind. The patterns seem to pulse to the beat of her heart.\n\n[[Try to control your breathing -> Control Breathing]]",
+      "links": [
+        {
+          "name": "Try to control your breathing ",
+          "link": " Control Breathing",
+          "pid": "10"
+        }
+      ],
+      "name": " Lie Down",
+      "pid": "6",
+      "position": {
+        "x": "987.5",
+        "y": "575"
+      }
+    },
+    {
+      "text": "Em focuses on Bubba’s voice, and slowly the intensity of the colors fades. The world begins to settle, and she feels a sense of calm.\nGood End",
+      "name": " Listen to Bubba",
+      "pid": "7",
+      "position": {
+        "x": "600",
+        "y": "700"
+      }
+    },
+    {
+      "text": "Em’s laughter rings out, light and carefree, as she watches the bizarre shapes twist and dance before her. The colors swirl in ways that make no sense, yet they’re oddly amusing. She shares the moment with Bubba, who chuckles beside her, his familiar voice grounding her in the madness. His easy laughter is like a tether, pulling her back when the intensity of the visions starts to get too much. She feels a warmth in his presence, like a steady hand in a storm. With Bubba by her side, the hallucinations become less intimidating and more like a strange, shared joke between old friends.\n\n[[Continue enjoying the trip]]\n[[Ask Bubba if he’s seeing the same thing]]",
+      "links": [
+        {
+          "name": "Continue enjoying the trip",
+          "link": "Continue enjoying the trip",
+          "pid": "13"
+        },
+        {
+          "name": "Ask Bubba if he’s seeing the same thing",
+          "link": "Ask Bubba if he’s seeing the same thing",
+          "pid": "14"
+        }
+      ],
+      "name": " Laugh it Off",
+      "pid": "8",
+      "position": {
+        "x": "750",
+        "y": "700"
+      }
+    },
+    {
+      "text": "Em surrenders to the hallucinations, exploring the strange world her mind creates. She begins to lose track of time, drifting deeper into the visions.\n[[id:lsdtrip->Wake up somewhere sometime...]]",
+      "links": [
+        {
+          "name": "id:lsdtrip",
+          "link": "Wake up somewhere sometime...",
+          "pid": "12"
+        }
+      ],
+      "name": " Embrace It",
+      "pid": "9",
+      "position": {
+        "x": "925",
+        "y": "700"
+      }
+    },
+    {
+      "text": "Em focuses on her breath, each inhale steady and deliberate, like a gentle anchor pulling her back to reality. The vibrant swirl of colors begins to lose its intensity, the edges of the shapes softening, and the sound of her own breathing becomes more distinct against the surreal backdrop. As she exhales slowly, the overwhelming rush of sensations starts to fade. The world around her, once pulsating and chaotic, becomes more defined and calm. She feels her mind slowly clearing, the haze lifting.\n[[Wait for the trip to fade off]] ",
+      "links": [
+        {
+          "name": "Wait for the trip to fade off",
+          "link": "Wait for the trip to fade off",
+          "pid": "11"
+        }
+      ],
+      "name": " Control Breathing",
+      "pid": "10",
+      "position": {
+        "x": "1125",
+        "y": "700"
+      }
+    },
+    {
+      "text": "",
+      "name": "Wait for the trip to fade off",
+      "pid": "11",
+      "position": {
+        "x": "725",
+        "y": "900"
+      }
+    },
+    {
+      "text": "",
+      "name": "Wake up somewhere sometime...",
+      "pid": "12",
+      "position": {
+        "x": "925",
+        "y": "900"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue enjoying the trip",
+      "pid": "13",
+      "position": {
+        "x": "550",
+        "y": "925"
+      }
+    },
+    {
+      "text": "Em tilts her head, eyeing Bubba with a mischievous grin. The colors around her are still swirling wildly, and the shapes seem to shift in ways that don’t make sense. She glances over at Bubba, wondering if he’s experiencing the same bizarre hallucinations.\n\n“Bubba,” she says with a light laugh, “Are you seeing this too, or am I losing my mind here?”\n\nBubba looks at her with a raised eyebrow, then surveys the kaleidoscope of shapes and patterns in the air. He scratches his chin thoughtfully, the corners of his mouth twitching as if he’s trying to decide if he’s playing along or genuinely unsure.\n\n“You’re not alone, Em,” Bubba says with a grin, his voice calm and steady. “I see it too. But I gotta say, I think this is one of the more colorful trips we've had.\"\n\nEm laughs again, the tension in her chest easing as Bubba’s casual response helps to ground her even more. The strange sensations aren’t so overwhelming now, and she feels a little less lost in the whirlwind of colors and shapes.\n[[Get lost in words and shapes->Keep talking]]",
+      "links": [
+        {
+          "name": "Get lost in words and shapes",
+          "link": "Keep talking",
+          "pid": "4"
+        }
+      ],
+      "name": "Ask Bubba if he’s seeing the same thing",
+      "pid": "14",
+      "position": {
+        "x": "825",
+        "y": "1050"
+      }
+    }
+  ],
+  "name": "LsdEm",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "AC763B96-65DB-478D-9C05-DED4E9AE6096"
+}
+

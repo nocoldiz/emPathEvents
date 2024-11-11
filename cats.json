@@ -1,135 +1,210 @@
+
+
 {
-  "title": "Cat Conundrum",
-  "textboxes": [
+  "uuid": "0E1B2E85-230C-49FF-B4E5-779C9B775A30",
+  "name": "Cats",
+  "creator": "Twine",
+  "creatorVersion": "2.9.2",
+  "schemaName": "Twine to JSON",
+  "schemaVersion": "0.0.6",
+  "createdAtMs": 1731270625362,
+  "passages": [
     {
-      "id": "cat-1",
-      "description": "You and Bubba have been traveling for hours when you arrive at a small, bustling village. As you walk through the streets, you notice a number of stray cats darting around, seemingly everywhere. Bubba chuckles, noticing the confusion in your eyes. 'What's the deal with cats?' you ask. Bubba shrugs, 'They’re tricky, always doing their own thing. You’ll figure it out.' But you’re not sure how to approach these mysterious creatures.",
-      "choices": [
+      "name": "Start",
+      "tags": "",
+      "id": "1",
+      "text": "You and Bubba have been traveling for hours when you arrive at a small, bustling village. As you walk through the streets, you notice a number of stray cats darting around, seemingly everywhere. Bubba chuckles, noticing the confusion in your eyes. 'What's the deal with cats?' you ask. Bubba shrugs, 'They’re tricky, always doing their own thing. You’ll figure it out.' But you’re not sure how to approach these mysterious creatures.\n\n[[animals, 10, The cat hisses at you->Try to pet one of the cats]]\n[[Ask advice]]\n[[Ignore cats]]",
+      "links": [
         {
-          "text": "Try to pet one of the cats.",
-          "next_id": "cat-2"
+          "linkText": "animals, 10, The cat hisses at you",
+          "passageName": "Try to pet one of the cats",
+          "original": "[[animals, 10, The cat hisses at you->Try to pet one of the cats]]"
         },
         {
-          "text": "Ask Bubba for advice on how to interact with them.",
-          "next_id": "cat-3"
+          "linkText": "Ask advice",
+          "passageName": "Ask advice",
+          "original": "[[Ask advice]]"
         },
         {
-          "text": "Ignore the cats and keep walking.",
-          "next_id": "cat-4"
+          "linkText": "Ignore cats",
+          "passageName": "Ignore cats",
+          "original": "[[Ignore cats]]"
         }
-      ]
+      ],
+      "cleanText": "You and Bubba have been traveling for hours when you arrive at a small, bustling village. As you walk through the streets, you notice a number of stray cats darting around, seemingly everywhere. Bubba chuckles, noticing the confusion in your eyes. 'What's the deal with cats?' you ask. Bubba shrugs, 'They’re tricky, always doing their own thing. You’ll figure it out.' But you’re not sure how to approach these mysterious creatures."
     },
     {
-      "id": "cat-2",
-      "description": "You crouch down and extend your hand toward one of the cats. It looks at you for a moment, then swats at your hand, hissing in irritation before bolting off. You sit back, stunned. 'What did I do wrong?' you ask, feeling defeated. Bubba smirks, 'Cats aren’t like dogs. They don’t just want attention on their terms.'",
-      "choices": [
+      "name": "Try to pet one of the cats",
+      "tags": "",
+      "id": "2",
+      "text": "You crouch down and extend your hand toward one of the cats. It looks at you for a moment, then swats at your hand, hissing in irritation before bolting off. You sit back, stunned. 'What did I do wrong?' you ask, feeling defeated. Bubba smirks, 'Cats aren’t like dogs. They don’t just want attention on their terms.\n\n[[Try again]]\n[[Ask advice]]",
+      "links": [
         {
-          "text": "Try again with a different cat, more cautiously.",
-          "next_id": "cat-5"
+          "linkText": "Try again",
+          "passageName": "Try again",
+          "original": "[[Try again]]"
         },
         {
-          "text": "Ask Bubba how to approach them more carefully.",
-          "next_id": "cat-3"
-        },
-        {
-          "text": "Give up and walk away.",
-          "next_id": "cat-4"
+          "linkText": "Ask advice",
+          "passageName": "Ask advice",
+          "original": "[[Ask advice]]"
         }
-      ]
+      ],
+      "cleanText": "You crouch down and extend your hand toward one of the cats. It looks at you for a moment, then swats at your hand, hissing in irritation before bolting off. You sit back, stunned. 'What did I do wrong?' you ask, feeling defeated. Bubba smirks, 'Cats aren’t like dogs. They don’t just want attention on their terms."
     },
     {
-      "id": "cat-3",
-      "description": "Bubba shrugs. 'Cats are unpredictable. You need to show them respect, not chase after them. Just let them come to you.' He gestures toward a few nearby cats lounging in the sun. 'Try sitting quietly and see if they approach.' You nod and take his advice, watching the cats closely.",
-      "choices": [
+      "name": "Ask advice",
+      "tags": "",
+      "id": "3",
+      "text": "Bubba shrugs. 'Cats are unpredictable. You need to show them respect, not chase after them. Just let them come to you.' He gestures toward a few nearby cats lounging in the sun. 'Try sitting quietly and see if they approach.' You nod and take his advice, watching the cats closely.\n\n[[Sit quietly]]\n[[Try to offer food to the cats to entice them closer. ->Food]]",
+      "links": [
         {
-          "text": "Sit quietly and wait to see if one of the cats approaches you.",
-          "next_id": "cat-6"
+          "linkText": "Sit quietly",
+          "passageName": "Sit quietly",
+          "original": "[[Sit quietly]]"
         },
         {
-          "text": "Try to offer food to the cats to entice them closer.",
-          "next_id": "cat-7"
+          "linkText": "Try to offer food to the cats to entice them closer.",
+          "passageName": "Food",
+          "original": "[[Try to offer food to the cats to entice them closer. ->Food]]"
         }
-      ]
+      ],
+      "cleanText": "Bubba shrugs. 'Cats are unpredictable. You need to show them respect, not chase after them. Just let them come to you.' He gestures toward a few nearby cats lounging in the sun. 'Try sitting quietly and see if they approach.' You nod and take his advice, watching the cats closely."
     },
     {
-      "id": "cat-4",
-      "description": "You decide that the cats aren’t worth your time, so you continue walking through the village. However, as you pass by a corner, you hear a soft meow. You turn to see a small kitten staring at you with big eyes. It seems different from the others.",
-      "choices": [
+      "name": "Ignore cats",
+      "tags": "",
+      "id": "4",
+      "text": "You decide that the cats aren’t worth your time, so you continue walking through the village. However, as you pass by a corner, you hear a soft meow. You turn to see a small kitten staring at you with big eyes. It seems different from the others.\n\n[[Kneel]]\n[[Keep walking]]",
+      "links": [
         {
-          "text": "Kneel down and offer your hand to the kitten.",
-          "next_id": "cat-8"
+          "linkText": "Kneel",
+          "passageName": "Kneel",
+          "original": "[[Kneel]]"
         },
         {
-          "text": "Keep walking, not wanting to get involved with any more cats.",
-          "next_id": "cat-9"
+          "linkText": "Keep walking",
+          "passageName": "Keep walking",
+          "original": "[[Keep walking]]"
         }
-      ]
+      ],
+      "cleanText": "You decide that the cats aren’t worth your time, so you continue walking through the village. However, as you pass by a corner, you hear a soft meow. You turn to see a small kitten staring at you with big eyes. It seems different from the others."
     },
     {
-      "id": "cat-5",
-      "description": "You approach another cat, moving more cautiously this time. You extend your hand slowly, allowing the cat to sniff you first. It eyes you suspiciously, then slowly rubs against your hand. You feel a sense of accomplishment, but Bubba laughs. 'Nice try. You’ve earned their trust, but they’ll probably wander off soon. Cats are always on the move.'",
-      "choices": [
+      "name": "Try again",
+      "tags": "",
+      "id": "5",
+      "text": "You approach another cat, moving more cautiously this time. You extend your hand slowly, allowing the cat to sniff you first. It eyes you suspiciously, then slowly rubs against your hand. You feel a sense of accomplishment, but Bubba laughs. 'Nice try. You’ve earned their trust, but they’ll probably wander off soon. Cats are always on the move.\n[[Stay patient and wait for the cat to interact further. ->Sit quietly]] \n[[Ask Bubba if there’s a way to bond with them more permanently. ->Ask advice]]",
+      "links": [
         {
-          "text": "Stay patient and wait for the cat to interact further.",
-          "next_id": "cat-6"
+          "linkText": "Stay patient and wait for the cat to interact further.",
+          "passageName": "Sit quietly",
+          "original": "[[Stay patient and wait for the cat to interact further. ->Sit quietly]]"
         },
         {
-          "text": "Ask Bubba if there’s a way to bond with them more permanently.",
-          "next_id": "cat-3"
+          "linkText": "Ask Bubba if there’s a way to bond with them more permanently.",
+          "passageName": "Ask advice",
+          "original": "[[Ask Bubba if there’s a way to bond with them more permanently. ->Ask advice]]"
         }
-      ]
+      ],
+      "cleanText": "You approach another cat, moving more cautiously this time. You extend your hand slowly, allowing the cat to sniff you first. It eyes you suspiciously, then slowly rubs against your hand. You feel a sense of accomplishment, but Bubba laughs. 'Nice try. You’ve earned their trust, but they’ll probably wander off soon. Cats are always on the move."
     },
     {
-      "id": "cat-6",
-      "description": "You wait quietly, watching as the cat begins to relax. After a few moments, it curls up next to you, purring softly. Bubba nods in approval. 'See? They come around when they feel like it.' You smile, feeling a sense of peace as you pet the cat.",
-      "choices": [
+      "name": "Sit quietly",
+      "tags": "",
+      "id": "6",
+      "text": "You wait quietly, watching as the cat begins to relax. After a few moments, it curls up next to you, purring softly. Bubba nods in approval. 'See? They come around when they feel like it.' You smile, feeling a sense of peace as you pet the cat.\n[[Enjoy the calm moment and continue petting the cat.]]\n[[animals, 10, The cat hisses at you  ->Try to pet one of the cats]]",
+      "links": [
         {
-          "text": "Enjoy the calm moment and continue petting the cat.",
-          "next_id": "cat-10"
+          "linkText": "Enjoy the calm moment and continue petting the cat.",
+          "passageName": "Enjoy the calm moment and continue petting the cat.",
+          "original": "[[Enjoy the calm moment and continue petting the cat.]]"
         },
         {
-          "text": "Get up and try to find more cats to interact with.",
-          "next_id": "cat-4"
+          "linkText": "animals, 10, The cat hisses at you",
+          "passageName": "Try to pet one of the cats",
+          "original": "[[animals, 10, The cat hisses at you  ->Try to pet one of the cats]]"
         }
-      ]
+      ],
+      "cleanText": "You wait quietly, watching as the cat begins to relax. After a few moments, it curls up next to you, purring softly. Bubba nods in approval. 'See? They come around when they feel like it.' You smile, feeling a sense of peace as you pet the cat."
     },
     {
-      "id": "cat-7",
-      "description": "You grab a small piece of food from your pack and offer it to the cats. However, they seem more interested in each other than the food, ignoring you completely. Bubba chuckles from nearby. 'Food isn’t the key. You gotta earn their trust first.'",
-      "choices": [
+      "name": "Kneel",
+      "tags": "",
+      "id": "7",
+      "text": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. 'Guess you’ve figured out cats after all.' You continue your journey, the kitten content in your embrace. Perhaps there’s more to these creatures than you first thought.\n[[Return to the camper]]",
+      "links": [
         {
-          "text": "Sit quietly and wait again.",
-          "next_id": "cat-6"
+          "linkText": "Return to the camper",
+          "passageName": "Return to the camper",
+          "original": "[[Return to the camper]]"
+        }
+      ],
+      "cleanText": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. 'Guess you’ve figured out cats after all.' You continue your journey, the kitten content in your embrace. Perhaps there’s more to these creatures than you first thought."
+    },
+    {
+      "name": "Keep walking",
+      "tags": "",
+      "id": "8",
+      "text": "You keep walking, but the soft meow of the kitten echoes in your ears. It’s a strange feeling—like you’ve left something behind. Bubba gives you an odd look but doesn’t say anything. Maybe the cats aren’t so bad after all.\n[[Return to the camper]]",
+      "links": [
+        {
+          "linkText": "Return to the camper",
+          "passageName": "Return to the camper",
+          "original": "[[Return to the camper]]"
+        }
+      ],
+      "cleanText": "You keep walking, but the soft meow of the kitten echoes in your ears. It’s a strange feeling—like you’ve left something behind. Bubba gives you an odd look but doesn’t say anything. Maybe the cats aren’t so bad after all."
+    },
+    {
+      "name": "Enjoy the calm moment and continue petting the cat.",
+      "tags": "",
+      "id": "9",
+      "text": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. \"Guess you’ve figured out cats after all.\" You continue your journey, the kitten content in your embrace. When you return to the camper, the air feels subtly different—quieter, almost as if the space itself is adjusting to the kitten’s presence. You settle the kitten on a cushion beside you, watching it curl up and purr softly.\n\nThat night, the kitten curls up next to you in bed. As you drift off, the dream is strange—its glowing eyes and soft purring fill your mind, and though it doesn’t speak, you feel as if it’s trying to communicate.\n\nYou wake in the night to find the kitten staring out the window, eyes wide and glowing faintly. It meows softly, a sound that resonates deep in your chest, as if echoing across dimensions. For a moment, you feel an unspoken connection, something deeper than mere companionship. Then, the kitten returns to your side, curling up peacefully again. But you wonder, as you drift back to sleep, what secrets it truly holds.\n[[Enjoy your new kitten]]\n{item: 'kitten'}",
+      "links": [
+        {
+          "linkText": "Enjoy your new kitten",
+          "passageName": "Enjoy your new kitten",
+          "original": "[[Enjoy your new kitten]]"
+        }
+      ],
+      "cleanText": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. \"Guess you’ve figured out cats after all.\" You continue your journey, the kitten content in your embrace. When you return to the camper, the air feels subtly different—quieter, almost as if the space itself is adjusting to the kitten’s presence. You settle the kitten on a cushion beside you, watching it curl up and purr softly.\n\nThat night, the kitten curls up next to you in bed. As you drift off, the dream is strange—its glowing eyes and soft purring fill your mind, and though it doesn’t speak, you feel as if it’s trying to communicate.\n\nYou wake in the night to find the kitten staring out the window, eyes wide and glowing faintly. It meows softly, a sound that resonates deep in your chest, as if echoing across dimensions. For a moment, you feel an unspoken connection, something deeper than mere companionship. Then, the kitten returns to your side, curling up peacefully again. But you wonder, as you drift back to sleep, what secrets it truly holds.\n\n{item: 'kitten'}"
+    },
+    {
+      "name": "Food",
+      "tags": "",
+      "id": "10",
+      "text": "You grab a small piece of food from your pack and offer it to the cats. However, they seem more interested in each other than the food, ignoring you completely. Bubba chuckles from nearby. 'Food isn’t the key. You gotta earn their trust first.\n[[Sit quietly and wait for one of the cats ->Sit quietly]]\n[[Return to the camper]]",
+      "links": [
+        {
+          "linkText": "Sit quietly and wait for one of the cats",
+          "passageName": "Sit quietly",
+          "original": "[[Sit quietly and wait for one of the cats ->Sit quietly]]"
         },
         {
-          "text": "Try offering food to a different cat.",
-          "next_id": "cat-5"
+          "linkText": "Return to the camper",
+          "passageName": "Return to the camper",
+          "original": "[[Return to the camper]]"
         }
-      ]
+      ],
+      "cleanText": "You grab a small piece of food from your pack and offer it to the cats. However, they seem more interested in each other than the food, ignoring you completely. Bubba chuckles from nearby. 'Food isn’t the key. You gotta earn their trust first."
     },
     {
-      "id": "cat-8",
-      "description": "The kitten hesitates for a moment but then trots over to you, rubbing its head against your hand. You smile, feeling a connection with the tiny creature. Bubba looks impressed. 'Looks like you’ve got a knack for this after all.'",
-      "choices": [
-        {
-          "text": "Pick up the kitten and cradle it in your arms.",
-          "next_id": "cat-10"
-        },
-        {
-          "text": "Leave the kitten and continue walking through the village.",
-          "next_id": "cat-9"
-        }
-      ]
+      "name": "Enjoy your new kitten",
+      "tags": "",
+      "id": "11",
+      "text": "",
+      "links": [],
+      "cleanText": ""
     },
     {
-      "id": "cat-9",
-      "description": "You keep walking, but the soft meow of the kitten echoes in your ears. It’s a strange feeling—like you’ve left something behind. Bubba gives you an odd look but doesn’t say anything. Maybe the cats aren’t so bad after all.",
-      "choices": []
-    },
-    {
-      "id": "cat-10",
-      "description": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. 'Guess you’ve figured out cats after all.' You continue your journey, the kitten content in your embrace. Perhaps there’s more to these creatures than you first thought.",
-      "choices": []
+      "name": "Return to the camper",
+      "tags": "",
+      "id": "12",
+      "text": "",
+      "links": [],
+      "cleanText": ""
     }
   ]
 }
+

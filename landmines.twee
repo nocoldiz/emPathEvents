@@ -1,0 +1,138 @@
+:: StoryTitle
+The Landmine Incident
+
+
+:: StoryData
+{
+  "ifid": "EB057892-CACF-4976-9C12-B3FE7A56E10F",
+  "format": "Twison",
+  "format-version": "0.0.1",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: \ Attempt to summon a small field of protection around the mine {"position":"725,475","size":"100,100"}
+You mutter a quick incantation under your breath, trying to invoke a field that will dampen any sudden energy release from the mine.
+
+The mine’s mechanism clicks as the field holds, giving you enough time to step away. You breathe a sigh of relief as the threat slowly fades
+[[Replace the wheel in peace and resume driving ->Get back to driving]]
+
+
+:: \ Detonate the squids. {"position":"975,375","size":"100,100"}
+You focus on the squids, your magic pulling their ethereal bodies closer. They start to twitch, their glowing tentacles vibrating as they form into clusters above the minefield. One by one, the squids hover over mines, setting them off in controlled explosions.
+With the path ahead clear, you and Bubba replace the tire and get back on the road with barely a scratch.
+
+[[Drive away]] 
+
+
+:: Cautious Slow Drive {"position":"1050,725","size":"100,100"}
+You grip the steering wheel firmly and start moving at a snail's pace, eyes scanning the ground ahead for any sign of a mine. Each inch feels like a gamble, but you stay focused, maneuvering with the utmost care.
+
+Despite a few nerve-wracking moments, you and Bubba make it through the minefield without incident. The camper creaks with relief as you hit solid ground on the other side. You both let out a shaky laugh and share a fist bump—it's been a harrowing journey, but you made it!
+[[Continue...]]]]
+
+
+:: Change the tire without any magic {"position":"425,400","size":"100,100"}
+You’re not sure if you want to waste energy with spells—this is just a tire change after all. You figure if you’re careful enough, maybe you can get the job done without blowing everything up. You hand Bubba a wrench and get to work.
+
+[[engineering, 40, fail->Start replacing the tire]]
+
+
+
+:: Continue... {"position":"800,925","size":"100,100"}
+
+
+
+:: Drive away {"position":"1025,600","size":"100,100"}
+With the tire finally fixed, you and Bubba climb back into the camper. The floating squids have scattered from the explosion, but the minefield stretches ahead, packed with unseen dangers. The only way forward is through, and every move counts.
+
+Bubba looks at you, his brow furrowed. “Guess it's time to drive real careful, Em. Got any ideas?”
+
+You take a breath, considering your options.
+
+[[Cautious Slow Drive]]
+[[Quick Burst with a Magic Shield]]
+[[Heavy Braking and Quick Reflexes]]
+
+
+:: Get back to driving {"position":"575,575","size":"100,100"}
+You and Bubba climb back into the camper, nerves still taut from the mine blast. The engine rumbles to life, and the wheels crunch over the rough, debris-strewn terrain as you begin to drive cautiously forward.
+
+The minefield sprawls in every direction, and the arcane squids drift about, pulsing with an eerie glow as they hover just above the ground. Their hum fills the air, adding a surreal tension as you ease the camper ahead, trying to avoid both mines and squids.
+
+You take a breath, considering your options.
+
+[[Cautious Slow Drive]]
+[[Quick Burst with a Magic Shield]]
+[[Heavy Braking and Quick Reflexes]]
+
+
+:: Heavy Braking and Quick Reflexes {"position":"825,775","size":"100,100"}
+You decide to try a combination of quick stops and sudden turns, navigating the field in short, controlled bursts. Keeping your reflexes sharp, you brake whenever something looks off, then accelerate out of danger.
+
+After several hair-raising stops and zigzags, you finally see the other side of the minefield. You and Bubba high-five, exhausted but exhilarated. It’s been a dangerous path, but you’ve outmaneuvered every obstacle. You press onward, glad to leave the mines and squids behind.
+[[Continue...]]
+
+
+:: Quick Burst with a Magic Shield {"position":"650,725","size":"100,100"}
+You mutter a quick CamelCase incantation, summoning a shimmering magical shield around the camper. With a nod to Bubba, you accelerate quickly, hoping to make it through before the shield fades.
+
+The camper jolts forward as you zip through the minefield, the magical shield flickering with every bump and blast. Just as you reach the end, the shield drops with a pop, leaving the camper unprotected—but you've made it across. Bubba lets out a cheer, and you breathe a sigh of relief, thanking your quick thinking and that magical boost.
+[[Continue...]]]]
+
+
+:: Start {"position":"625,175","size":"100,100"}
+The road is bumpy, and the wind is starting to pick up as you and Bubba drive through the desolate wasteland. The camper's tires groan under the rough terrain, and just as you’re about to suggest pulling over for a break, there’s a sudden boom! The camper jerks violently, and a sharp hiss of air fills the cabin.
+
+“We’re flat!” Bubba yells, his voice laced with frustration. You glance out the window to see the front tire blown to bits—likely from a landmine. You groan in disbelief. Of course, you'd end up in a minefield.
+
+A quick scan of the area shows that the whole place is rigged with landmines, and to make things worse, strange, glowing arcane squids are floating in the air, their tentacles shimmering as they float lazily past.
+
+“We gotta fix this wheel, and fast,” Bubba says, eyes darting nervously as he grabs a spare tire from the back of the camper.
+
+[[Change the tire without any magic]]
+[[arcane, 20, You fail to detect any landmaine ->Use arcane magic to detect safe zones]]
+[[stealth, 50, You accidentally trigger off a landmine, you survive by an inch and your hair are now a mess->Use stealth to sneak through the minefield]]
+[[Try to use the squids as a distraction]]
+
+
+:: Start replacing the tire {"position":"425,525","size":"100,100"}
+You kneel beside the blown-out tire, trying to ignore the distant hum of the squids as you tighten bolts. Suddenly, a loud bang echoes through the field—one of the squids has triggered a mine! The explosion sends debris flying, but miraculously, you and Bubba remain unharmed. You finish the tire swap, but the tension is palpable.
+[[Get back to driving]] 
+
+
+:: Try to safely siphon energy from the mine {"position":"875,500","size":"100,100"}
+With focused breaths, you extend your hand toward the mine, attempting to draw out its energy and render it safe.
+
+The energy flow stabilizes, and you step back slowly, releasing the siphoned energy safely into the ground. You’ve disarmed it. Bubba lets out a shaky laugh, and you both exhale in relief
+[[Replace the wheel in peace and resume driving ->Get back to driving]]
+
+
+:: Try to use the squids as a distraction {"position":"975,250","size":"100,100"}
+You realize the squids might not be entirely harmless. If you can control their movement, perhaps you can use them as a distraction to clear a path for the tire replacement. A bit of manipulation could force the squids to hover over the landmines, causing them to detonate safely away from you and Bubba.
+
+[[elementalism, 70,  -> Detonate the squids.]]
+[[Try another method ->Start]]
+
+
+:: Use arcane magic to detect safe zones {"position":"625,375","size":"100,100"}
+You have a moment of clarity and realize that your magic might be the key to navigating this minefield. You’ve never used arcane magic for detecting landmines before, but the squids seem to be connected to some sort of arcane energy field. If you can harness their energy, you might be able to spot safe zones.
+
+The arcane squids swirl around you, their tentacles glowing brightly. You concentrate, channeling your magic into the ground beneath your feet. A soft hum resonates from the earth, and slowly, glowing lines form, marking the paths where it’s safe to walk.
+
+You step cautiously, following the lines you've created, and make it to the camper's tire. [[Start replacing the tire]] 
+[[Get back to driving]]
+
+
+:: Use stealth to sneak through the minefield {"position":"825,350","size":"100,100"}
+You know that the key to surviving this might be careful movement. The squids might be a distraction, but if you can move quietly and precisely, maybe you can avoid setting off any mines. Bubba looks at you, uncertain but trusting.
+
+You crouch low, moving with extreme caution. Each step feels like a gamble as you move past the squids, which seem oddly indifferent to your presence. Your feet hover inches above the ground as you make your way to the blown-out tire. 
+
+Just as you’re about to replace the wheel, you hear a click beneath your foot—there’s a mine right under you! 
+
+You stay perfectly still, barely breathing. The slightest pressure might set off the mine. You glance at Bubba, who has gone pale, watching helplessly.
+
+[[Convoking, 40, The mine refuses to disarm, ticking ominously as you step back in dread.-> Attempt to summon a small field of protection around the mine]]
+[[Kinetics, 35, You miscalculate the energy flow, causing the mine to jolt threateningly. You take a step back, unsure.->Try to safely siphon energy from the mine]]

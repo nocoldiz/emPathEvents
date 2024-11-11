@@ -470,26 +470,26 @@
         const seen = new Set();
 
         const traverse = (textbox) => {
-          if (seen.has(textbox.id)) return;
-          seen.add(textbox.id);
+          if (seen.has(textbox.name)) return;
+          seen.add(textbox.name);
 
-          const nodeLabel = textbox.description.length > 50 ? textbox.description.slice(0, 50) + '...' : textbox.description;
-          elements.push({ data: { id: textbox.id, label: nodeLabel, type: 'node', fullText: textbox.description, choices: textbox?.choices || [] } });
+          const nodeLabel = textbox.text.length > 50 ? textbox.text.slice(0, 50) + '...' : textbox.text;
+          elements.push({ data: { id: textbox.id, label: nodeLabel, type: 'node', fullText: textbox.text, choices: textbox?.links || [] } });
 		
-		if(textbox?.choices){
-		          textbox?.choices.forEach((choice) => {
+		if(textbox?.links){
+		          textbox?.links.forEach((choice) => {
             const skillCheckLabel = choice.skill_check ? ` (Skill Check: ${choice.skill_check.skill} ${choice.skill_check.value})` : '';
-            const nextTextbox = adventureData.textboxes.find(t => t.id === choice.next_id);
+            const nextTextbox = adventureData.passages.find(t => t.id === choice.passageName);
             if (!nextTextbox) {
               // If the target node doesn't exist, create an "END" node
               elements.push({
-                data: { id: choice.next_id, label: 'END', type: 'node' }
+                data: { id: choice.passageName, label: 'END', type: 'node' }
               });
             }
             elements.push({
               data: {
                 source: textbox.id,
-                target: choice.next_id,
+                target: choice.passageName,
                 label: choice.text + skillCheckLabel
               }
             });
@@ -500,7 +500,7 @@
 
         };
 
-        traverse(adventureData.textboxes[0]);
+        traverse(adventureData.passages[0]);
         return elements;
       };
 
@@ -536,10 +536,10 @@ const displayChoices = (choices) => {
 
     // When the choice button is clicked, it triggers the next textbox
     choiceButton.on('click', function() {
-      const nextTextbox = adventureData.textboxes.find(t => t.id === choice.next_id);
+      const nextTextbox = adventureData.passages.find(t => t.name === choice?.passageName || choice?.link);
       if (nextTextbox) {
-        $('#nodeDescription').text(nextTextbox.description);
-        displayChoices(nextTextbox.choices || []);
+        $('#nodeDescription').text(nextTextbox?.text);
+        displayChoices(nextTextbox.links || []);
       }
     });
 
@@ -552,7 +552,7 @@ const displayChoices = (choices) => {
       // Event listener to show the modal with the node's full text
       cy.on('tap', 'node', function(event) {
         const node = event.target;
-        const fullText = node.data('fullText');
+        const fullText = node.data('text');
         const choices = node.data('choices');
         $('#nodeDescription').text(fullText);
         displayChoices(choices);

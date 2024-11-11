@@ -1,0 +1,255 @@
+:: StoryTitle
+LostStars
+
+
+:: StoryData
+{
+  "ifid": "6BCCB30C-1CC8-495D-8776-DB8979FA3436",
+  "format": "Twison",
+  "format-version": "0.0.1",
+  "start": "Passaggio senza titolo",
+  "zoom": 1
+}
+
+
+:: ... {"position":"700,1225","size":"100,100"}
+
+
+
+:: Accept alien help {"position":"925,700","size":"100,100"}
+The alien ship beams you aboard. Inside, a group of shimmering, translucent beings communicates with you telepathically. They seem interested in Earth and offer to help you return in exchange for some genetic samples.
+
+[[Agree and give them a sample ->Give sample]] 
+[[Refuse and ask to be dropped off at the outpost ->Dock with outpost]]
+
+
+:: Activate portal {"position":"487.5,950","size":"100,100"}
+Em’s fingers hover over the ancient console, her heart racing as she attempts to initiate the unstable portal. The machine hums to life with a violent shudder, the air around her vibrating with energy. Suddenly, a burst of light erupts from the console, and the portal swirls open with a thunderous roar.
+
+Just as she’s about to step through, the light flickers and distorts. A message flashes across the screen: Warning: Temporal Distortion Detected. Before she can react, a shadowy figure steps through the portal, its form distorted and flickering like a broken hologram. It locks eyes with her, its voice eerily familiar.
+
+"You shouldn’t have done that," the figure says, its voice hollow and strained. "The portal wasn’t meant to bring you here…"
+
+Em stares in shock as the figure steps forward, revealing a version of herself, distorted and twisted, wearing a dark, tattered version of her witch robes. The figure smiles coldly, and as it raises its hand, the world around Em begins to unravel, the walls of the outpost flickering in and out of existence.
+
+"You've just opened the door to your own destruction," the twisted version of herself says, and the portal begins to collapse, dragging her in with it.
+[[id:selfbossfight->Face yourself]]
+
+
+:: Ask for delucidations {"position":"1725,700","size":"100,100"}
+The man pauses, looking at you with a mixture of amusement and pity, as if your ignorance were an old, familiar friend. “Ah, it’s not exactly ‘news’ in the traditional sense. More like... an inevitability. You’re standing in a very peculiar part of space, one that doesn’t quite obey the rules of physics or time. This region, the one you thought was just some forgotten patch of the universe... it’s the Great Attractor.”
+
+You blink, the name like a sharp sting against the back of your skull. “The Great Attractor? What does that even mean?”
+
+The woman, who had been silent up until now, steps forward, her gaze unsettlingly calm. “It’s a force, Em, one you can’t quite perceive unless you’ve been... touched by it. It’s a point in space that seems to draw everything in its vicinity toward it, bending the very fabric of reality around it. Galaxies, stars, even time and space—they all bend, warping and collapsing in its wake.”
+
+“But... why here? Why us?” you ask, your breath catching as a sense of dread begins to creep up your spine.
+
+The man shakes his head slowly. “You’re not just in the Great Attractor’s gravitational pull. You’re standing on the edge of something much worse.” His words hang in the air, heavy, like the weight of a door that’s about to open to something you can’t turn back from.
+
+“Think of it like this,” the woman says, her voice dropping to a whisper, “The Great Attractor doesn’t just bend space. It feeds on it. It devours the moments, the experiences, the lives of those unfortunate enough to fall into its orbit. It is a demon of the desert—an entity that has no mercy, no understanding. It takes, but it doesn’t give back.”
+
+Your stomach twists. The idea of a cosmic force, a silent, hungry beast that devours all that it touches, seems too unfathomable, too vast. But the more you hear, the more the air around you seems to press in, as though reality itself is suffocating under the weight of this revelation.
+
+“This region of space," the man continues, “has been marked by the Great Attractor for eons. It’s not a place of exploration or wonder. It’s the edge of an abyss—a place where time, reality, and identity collapse into an endless void. That’s why so many end up here, lost... consumed.”
+
+The woman pauses, her eyes narrowing, almost pityingly, as she looks at you. “You’re not just lost in space, Em. You’re lost in something much darker. You’ve already felt its pull. That disorientation you’ve experienced? That confusion? It’s the Attractor playing with your perception. And it’s just the beginning.”
+
+Suddenly, a cold shiver crawls up your spine. You can almost feel the Attractor’s presence now—not just as a force of physics, but as something far older, far more malevolent. A consciousness, a primal scream from beyond the edges of space and time, echoing across your very being.
+
+“It’s not just a cosmic anomaly,” you murmur, the realization creeping into your mind. “It’s alive... it’s waiting...”
+
+The woman nods solemnly, her voice barely above a whisper. “The Great Attractor is not just a thing. It’s a demon. A desert god. A void that thrives on the very essence of reality itself. And it has claimed this region, bound it to its will. Whatever you’ve experienced out here—those strange, fractured realities? They are its doing. Its hunger, reaching out across dimensions, pulling everything into its maw.”
+
+And as you stand there, staring into the infinite void, the strangest thought strikes you—the Great Attractor has always been here. Watching. Watching.Watching.. It knew you’d come.
+
+And then, as the ship disappears into the void, the last thing you hear is the distant, hollow scream of a being that has never known mercy, calling you into the black, endless desert.
+[[Realize the scream]]
+
+
+:: Disarm alarm {"position":"700,1100","size":"100,100"}
+[[Look for a way to disarm the alarm ->Disarm alarm]]
+
+Em rushes to the central control panel, her heart pounding as the blaring alarm echoes through the outpost. She scans the console, frantically pressing buttons and trying to read the unfamiliar symbols. Her breath comes in short bursts as she frantically searches for a way to stop the countdown. The screen flickers, showing a series of error messages and corrupted data, each more cryptic than the last.
+
+"Come on, come on!" she mutters, trying to force the machine to cooperate.
+
+As the seconds tick down, she pulls a lever in desperation. The alarm cuts out for a brief moment—just enough time for Em to think she’s succeeded. But before she can catch her breath, the console flashes a final message: "Self-Destruct Engaged. Fail-safe override unavailable."
+
+A sudden, low hum fills the room as the walls begin to shake, the countdown continuing without mercy.
+
+Defeated, Em watches as the screen flashes one last, cryptic phrase before the entire system shuts down. "Warning: Entity approaching from the Psychosphere. Initiating feedback loop."
+
+A sudden, overwhelming sensation fills Em’s mind. It’s as though the very air around her is thickening, her vision blurring, and her thoughts being pulled in every direction at once. She hears it—a primal scream, raw and piercing, reverberating through the psychosphere. It’s not her scream. It’s not anyone’s. It’s a sound older than time itself, echoing through the fabric of reality.
+
+Her body goes rigid, and her mind struggles to hold onto its sense of self. The scream intensifies, seeping deeper into her consciousness, like a distortion in the world that’s about to consume everything. But before she can process what’s happening, the world flickers and the adventure abruptly cuts off, leaving only the fading echo of that maddening sound.
+
+The screen goes black.
+[[...]]
+
+
+:: Dock with outpost {"position":"612.5,700","size":"100,100"}
+You manage to dock with the outpost. The inside is silent, covered in a layer of dust. It looks abandoned. Still, you find a control panel with logs that might hold clues to what happened here—or how to get back to Earth.
+
+[[Search for information on the control panel ->Search panel]] [[Search the outpost for supplies ->Search supplies]]
+
+
+:: Enter temple {"position":"800,825","size":"100,100"}
+
+
+
+:: Explore planet {"position":"775,700","size":"100,100"}
+You land on the planet and step out into a barren, rocky landscape under a strange purple sky. You spot an ancient temple structure nearby with markings that seem oddly familiar. As you approach, you feel a presence watching you.
+
+[[id:alientemple->Enter temple]] 
+[[Return to the camper and try another route ->Return to camper]]
+
+
+:: Face yourself {"position":"362.5,1075","size":"100,100"}
+
+
+
+:: Give sample {"position":"1025,875","size":"100,100"}
+You hesitate for a moment, but the shimmering, translucent beings radiate an aura of calm, almost as if they understand your concerns. Through their telepathic communication, they express a deep curiosity about Earth and its inhabitants, their knowledge of biology far beyond human comprehension. They make it clear that their interest lies in the genetic diversity of humans, and in exchange for a sample, they’ll assist in bringing you back to your home planet.
+
+Reluctantly, you agree. "Fine," you say, "but be careful with it. I don't know what you're going to do with it, but I'll trust you."
+
+The beings send a wave of gratitude through your mind, their understanding of your biology growing clearer with each passing second. They study your body in intricate detail, mapping your DNA and analyzing the various components of your human form. The process is surreal, as if you’re connected to them on a level beyond the physical, your mind intertwined with theirs.
+
+Once the sample is collected, they gently set you back down on the floor of their ship. Without warning, they place their hands on your temples and you feel a strange shift. A warmth floods your senses, and the sensation of floating begins to fade.
+
+As they release you, the beings convey an image of Earth—its blue oceans and sprawling continents—vivid and clear in your mind. The ship hums and vibrates gently, its alien technology humming to life as a portal opens before you. Through the shimmering threshold, you see the familiar sight of your camper parked near a forest clearing.
+
+"Your world," one of the aliens communicates in your mind, "has many wonders. We now understand your biology... and we will return you home."
+
+With a soft, almost musical hum, the ship drops you and your camper onto solid ground, your feet back on the soil of Earth. The portal fades, and you’re left standing in the quiet, familiar woods. Bubba, who had been anxiously pacing outside, looks up in shock as you reappear.
+
+"Well," Bubba says, glancing at the now-vanishing alien ship, "that was one wild ride."
+
+You shake your head in disbelief, trying to process everything. But one thing is clear: the aliens now understand the complexity of human life, and thanks to your help, they’ve gained insights that might shape their future encounters with Earth.
+
+As the camper hums to life, you feel a strange sense of connection to the stars. The universe, it seems, is much bigger than you ever imagined.
+
+
+:: Go back to your travels {"position":"487.5,1075","size":"100,100"}
+
+
+
+:: Inspect the dashboard {"position":"737.5,450","size":"100,100"}
+You manage to reboot the camper’s electronic systems, revealing a faint signal indicating an unknown star system nearby. It’s faint but could provide a path home. However, the dashboard indicates low fuel levels.
+
+[[Follow the faint signal toward the star system ->Travel to the star system]] [[Conserve fuel and stay put, hoping for rescue ->Wait for rescue]]
+
+
+:: Investigate asteroid {"position":"1050,625","size":"100,100"}
+As you investigate the crystals, you realize they radiate a kind of energy you've never encountered before. Using your tools, you manage to extract some of this energy, which seems to restore partial power to the camper. But the crystals' extraction process triggers a strange, low hum from the asteroid.
+
+[[Quickly retreat to the camper and take off ->Retreat]] [[Investigate the humming sound ->Investigate humming]]
+
+
+:: Investigate humming {"position":"1212.5,750","size":"100,100"}
+You approach the source of the hum and realize it’s emanating from a fissure in the asteroid. Peering inside, you see a small, pulsating device that resembles an alien artifact. It might be a power source or something even more valuable.
+
+[[Take the artifact ->Take artifact]] 
+[[Leave the artifact alone and return to the camper ->Return to camper]]
+
+
+:: Leave outpost {"position":"612.5,950","size":"100,100"}
+Em steps back from the console, her mind buzzing with the implications of what she’s just learned. The outpost, built by travelers from another dimension, was more than just a base—it was a staging ground for experiments with portals, a link to countless other worlds.
+
+As she begins to gather her things, she notices a small, hidden compartment in the wall. Curiosity piqued, she opens it and finds a small, metallic object—a device that seems to pulse with an otherworldly energy. She doesn’t recognize it, but it feels important, like it was left specifically for her to find.
+
+As she picks it up, the device activates, projecting a holographic map of interconnected dimensions. The last dot on the map blinks ominously, a line leading directly to Earth. But there’s something strange about it: the map’s path doesn't just lead to Earth—it points to a time before her own existence, a place in history that’s been erased from all records.
+
+The map's final message appears: “The time loop has already begun. You are the key.”
+
+Em stares at the projection, realization dawning on her. The portal wasn’t just a way to travel between dimensions—it was a way to rewrite time itself. But what does it mean for her, and why is she the one chosen to close the loop?
+
+The device flickers off in her hands, leaving her with more questions than answers—and a chilling feeling that she's just scratched the surface of something far larger and far older than she ever imagined.
+[[Go back to your travels]]
+
+
+:: Look outside {"position":"862.5,450","size":"100,100"}
+You scan the surroundings and spot a massive asteroid nearby, dotted with strange, glowing crystals. They pulse with energy, casting a faint light across the void. Your intuition tells you these might hold some kind of power source.
+
+[[Investigate the asteroid and its crystals ->Investigate asteroid]] [[Ignore the asteroid and conserve your resources ->Stay put]]
+
+
+:: Observe ship {"position":"1600,575","size":"100,100"}
+The hum of the ship grows louder, and soon, it hovers just within reach of your camper. It’s sleek, almost clinical in design, like something out of a futuristic dream. A hatch opens with a soft hiss, and a group of figures step out, their suits a strange combination of high-tech armor and mundane everyday wear. They glance around, taking in the surroundings with the sharp eyes of experienced travelers.
+
+"Didn't expect to find anyone out here," one of them says, his voice surprisingly calm, like he’s making casual conversation.
+
+You step forward, wariness making you pause before you speak. “What is this? Who are you?”
+
+The man tilts his head, blinking slowly as though considering the question. “Oh, right. You haven’t heard, have you? About the news?”
+
+“News?” You ask, confusion creeping into your voice. “What news?”
+[[Ask for delucidations]]
+
+
+:: Passaggio senza titolo {"position":"800,325","size":"100,100"}
+You exit the highway, intending to make a quick stop, but as soon as you turn off, you feel a strange shift in gravity. The camper shakes violently, and the landscape outside blurs into a swirling vortex. After what feels like an eternity, everything goes still. You find yourself in the quiet expanse of space, far from any familiar stars.
+
+[[Examine the camper’s dashboard for any signal ->Inspect the dashboard]] [[Peer out the window to assess your surroundings ->Look outside]]
+
+
+:: Realize the scream {"position":"1725,825","size":"100,100"}
+
+
+
+:: Retreat {"position":"1087.5,750","size":"100,100"}
+
+
+
+:: Return home {"position":"1525,875","size":"100,100"}
+
+
+
+:: Return to camper {"position":"1000,1000","size":"100,100"}
+
+
+
+:: Search panel {"position":"550,825","size":"100,100"}
+You manage to hack into the control panel, which reveals that the outpost was used by travelers from another dimension. One of the logs mentions a portal that may connect back to Earth, but it’s highly unstable.
+
+[[Attempt to activate the portal ->Activate portal]] 
+[[Gather information and leave ->Leave outpost]]
+
+
+:: Search supplies {"position":"675,825","size":"100,100"}
+You search the outpost and find some emergency supplies—food, water, and a small plasma weapon. Just as you collect them, an alarm blares, signaling the outpost’s self-destruct sequence.
+
+[[Hurry back to the camper ->Return to camper]] 
+[[Look for a way to disarm the alarm ->Disarm alarm]]
+
+
+:: Signal ship {"position":"1525,750","size":"100,100"}
+The human-made ship responds and agrees to guide you to the nearest station. You might be able to chart a course home from there.
+
+[[End ->Return home]]
+
+
+:: Stay put {"position":"1275,475","size":"100,100"}
+You refuse the telepathic offer, opting to stay with your camper. After a few moments, the ship vanishes, leaving you alone once again in the vast emptiness of space. Hours pass before you spot a small speck moving toward you—another ship, but this one looks human-made.
+
+[[Signal the ship and request assistance ->Signal ship]] 
+[[Wait and observe before approaching ->Observe ship]]
+
+
+:: Take artifact {"position":"1337.5,875","size":"100,100"}
+You carefully reach out and grasp the pulsating artifact. The moment your fingers touch it, a strange warmth spreads through your hand, and you feel an odd hum reverberating up your arm. The device is small, about the size of a marble, and it’s made of a smooth, metallic substance that seems to shimmer with an iridescent glow. As you hold it, the intricate patterns carved into its surface seem to shift and change, as if they are alive.
+
+But before you can fully examine it, the artifact begins to react. Its glow intensifies, and with a sudden, sharp pulse, it contracts, shrinking down to the size of a pebble in your hand. The hum grows louder, a high-pitched frequency that almost makes your ears ring. Then, just as quickly as it shrank, it vanishes from your grasp in a flash of light, leaving your hand empty.
+
+
+:: Travel to the star system {"position":"650,575","size":"100,100"}
+You guide the camper toward the faint signal, navigating carefully. The controls feel sluggish, but you manage to approach a small, dim star surrounded by rocky planets. One planet has a small outpost—a beacon of hope.
+
+[[Attempt to dock with the outpost ->Dock with outpost]] [[Land on the nearby planet and explore ->Explore planet]]
+
+
+:: Wait for rescue {"position":"800,575","size":"100,100"}
+You decide to stay put, conserving fuel and supplies. Hours pass in the silence of space. Just when hope seems lost, a bright light appears from nowhere—a ship unlike anything you’ve seen, sleek and shimmering with alien tech. It hails you telepathically, asking if you need assistance.
+
+[[Accept their help ->Accept alien help]] [[Refuse and wait for a more familiar solution ->Stay put]]
