@@ -1,7 +1,7 @@
 
 
 {
-  "uuid": "0E1B2E85-230C-49FF-B4E5-779C9B775A30",
+  "uupid": "0E1B2E85-230C-49FF-B4E5-779C9B775A30",
   "name": "Cats",
   "creator": "Twine",
   "creatorVersion": "2.9.2",
@@ -12,23 +12,23 @@
     {
       "name": "Start",
       "tags": "",
-      "id": "1",
+      "pid": "1",
       "text": "You and Bubba have been traveling for hours when you arrive at a small, bustling village. As you walk through the streets, you notice a number of stray cats darting around, seemingly everywhere. Bubba chuckles, noticing the confusion in your eyes. 'What's the deal with cats?' you ask. Bubba shrugs, 'They’re tricky, always doing their own thing. You’ll figure it out.' But you’re not sure how to approach these mysterious creatures.\n\n[[animals, 10, The cat hisses at you->Try to pet one of the cats]]\n[[Ask advice]]\n[[Ignore cats]]",
       "links": [
         {
-          "linkText": "animals, 10, The cat hisses at you",
-          "passageName": "Try to pet one of the cats",
-          "original": "[[animals, 10, The cat hisses at you->Try to pet one of the cats]]"
+          "name": "animals, 10, The cat hisses at you",
+          "link": "Try to pet one of the cats",
+          "pid": "[[animals, 10, The cat hisses at you->Try to pet one of the cats]]"
         },
         {
-          "linkText": "Ask advice",
-          "passageName": "Ask advice",
-          "original": "[[Ask advice]]"
+          "name": "Ask advice",
+          "link": "Ask advice",
+          "pid": "[[Ask advice]]"
         },
         {
-          "linkText": "Ignore cats",
-          "passageName": "Ignore cats",
-          "original": "[[Ignore cats]]"
+          "name": "Ignore cats",
+          "link": "Ignore cats",
+          "pid": "[[Ignore cats]]"
         }
       ],
       "cleanText": "You and Bubba have been traveling for hours when you arrive at a small, bustling village. As you walk through the streets, you notice a number of stray cats darting around, seemingly everywhere. Bubba chuckles, noticing the confusion in your eyes. 'What's the deal with cats?' you ask. Bubba shrugs, 'They’re tricky, always doing their own thing. You’ll figure it out.' But you’re not sure how to approach these mysterious creatures."
@@ -36,18 +36,18 @@
     {
       "name": "Try to pet one of the cats",
       "tags": "",
-      "id": "2",
+      "pid": "2",
       "text": "You crouch down and extend your hand toward one of the cats. It looks at you for a moment, then swats at your hand, hissing in irritation before bolting off. You sit back, stunned. 'What did I do wrong?' you ask, feeling defeated. Bubba smirks, 'Cats aren’t like dogs. They don’t just want attention on their terms.\n\n[[Try again]]\n[[Ask advice]]",
       "links": [
         {
-          "linkText": "Try again",
-          "passageName": "Try again",
-          "original": "[[Try again]]"
+          "name": "Try again",
+          "link": "Try again",
+          "pid": "[[Try again]]"
         },
         {
-          "linkText": "Ask advice",
-          "passageName": "Ask advice",
-          "original": "[[Ask advice]]"
+          "name": "Ask advice",
+          "link": "Ask advice",
+          "pid": "[[Ask advice]]"
         }
       ],
       "cleanText": "You crouch down and extend your hand toward one of the cats. It looks at you for a moment, then swats at your hand, hissing in irritation before bolting off. You sit back, stunned. 'What did I do wrong?' you ask, feeling defeated. Bubba smirks, 'Cats aren’t like dogs. They don’t just want attention on their terms."
@@ -55,18 +55,18 @@
     {
       "name": "Ask advice",
       "tags": "",
-      "id": "3",
+      "pid": "3",
       "text": "Bubba shrugs. 'Cats are unpredictable. You need to show them respect, not chase after them. Just let them come to you.' He gestures toward a few nearby cats lounging in the sun. 'Try sitting quietly and see if they approach.' You nod and take his advice, watching the cats closely.\n\n[[Sit quietly]]\n[[Try to offer food to the cats to entice them closer. ->Food]]",
       "links": [
         {
-          "linkText": "Sit quietly",
-          "passageName": "Sit quietly",
-          "original": "[[Sit quietly]]"
+          "name": "Sit quietly",
+          "link": "Sit quietly",
+          "pid": "[[Sit quietly]]"
         },
         {
-          "linkText": "Try to offer food to the cats to entice them closer.",
-          "passageName": "Food",
-          "original": "[[Try to offer food to the cats to entice them closer. ->Food]]"
+          "name": "Try to offer food to the cats to entice them closer.",
+          "link": "Food",
+          "pid": "[[Try to offer food to the cats to entice them closer. ->Food]]"
         }
       ],
       "cleanText": "Bubba shrugs. 'Cats are unpredictable. You need to show them respect, not chase after them. Just let them come to you.' He gestures toward a few nearby cats lounging in the sun. 'Try sitting quietly and see if they approach.' You nod and take his advice, watching the cats closely."
@@ -74,18 +74,18 @@
     {
       "name": "Ignore cats",
       "tags": "",
-      "id": "4",
+      "pid": "4",
       "text": "You decide that the cats aren’t worth your time, so you continue walking through the village. However, as you pass by a corner, you hear a soft meow. You turn to see a small kitten staring at you with big eyes. It seems different from the others.\n\n[[Kneel]]\n[[Keep walking]]",
       "links": [
         {
-          "linkText": "Kneel",
-          "passageName": "Kneel",
-          "original": "[[Kneel]]"
+          "name": "Kneel",
+          "link": "Kneel",
+          "pid": "[[Kneel]]"
         },
         {
-          "linkText": "Keep walking",
-          "passageName": "Keep walking",
-          "original": "[[Keep walking]]"
+          "name": "Keep walking",
+          "link": "Keep walking",
+          "pid": "[[Keep walking]]"
         }
       ],
       "cleanText": "You decide that the cats aren’t worth your time, so you continue walking through the village. However, as you pass by a corner, you hear a soft meow. You turn to see a small kitten staring at you with big eyes. It seems different from the others."
@@ -93,18 +93,18 @@
     {
       "name": "Try again",
       "tags": "",
-      "id": "5",
+      "pid": "5",
       "text": "You approach another cat, moving more cautiously this time. You extend your hand slowly, allowing the cat to sniff you first. It eyes you suspiciously, then slowly rubs against your hand. You feel a sense of accomplishment, but Bubba laughs. 'Nice try. You’ve earned their trust, but they’ll probably wander off soon. Cats are always on the move.\n[[Stay patient and wait for the cat to interact further. ->Sit quietly]] \n[[Ask Bubba if there’s a way to bond with them more permanently. ->Ask advice]]",
       "links": [
         {
-          "linkText": "Stay patient and wait for the cat to interact further.",
-          "passageName": "Sit quietly",
-          "original": "[[Stay patient and wait for the cat to interact further. ->Sit quietly]]"
+          "name": "Stay patient and wait for the cat to interact further.",
+          "link": "Sit quietly",
+          "pid": "[[Stay patient and wait for the cat to interact further. ->Sit quietly]]"
         },
         {
-          "linkText": "Ask Bubba if there’s a way to bond with them more permanently.",
-          "passageName": "Ask advice",
-          "original": "[[Ask Bubba if there’s a way to bond with them more permanently. ->Ask advice]]"
+          "name": "Ask Bubba if there’s a way to bond with them more permanently.",
+          "link": "Ask advice",
+          "pid": "[[Ask Bubba if there’s a way to bond with them more permanently. ->Ask advice]]"
         }
       ],
       "cleanText": "You approach another cat, moving more cautiously this time. You extend your hand slowly, allowing the cat to sniff you first. It eyes you suspiciously, then slowly rubs against your hand. You feel a sense of accomplishment, but Bubba laughs. 'Nice try. You’ve earned their trust, but they’ll probably wander off soon. Cats are always on the move."
@@ -112,18 +112,18 @@
     {
       "name": "Sit quietly",
       "tags": "",
-      "id": "6",
+      "pid": "6",
       "text": "You wait quietly, watching as the cat begins to relax. After a few moments, it curls up next to you, purring softly. Bubba nods in approval. 'See? They come around when they feel like it.' You smile, feeling a sense of peace as you pet the cat.\n[[Enjoy the calm moment and continue petting the cat.]]\n[[animals, 10, The cat hisses at you  ->Try to pet one of the cats]]",
       "links": [
         {
-          "linkText": "Enjoy the calm moment and continue petting the cat.",
-          "passageName": "Enjoy the calm moment and continue petting the cat.",
-          "original": "[[Enjoy the calm moment and continue petting the cat.]]"
+          "name": "Enjoy the calm moment and continue petting the cat.",
+          "link": "Enjoy the calm moment and continue petting the cat.",
+          "pid": "[[Enjoy the calm moment and continue petting the cat.]]"
         },
         {
-          "linkText": "animals, 10, The cat hisses at you",
-          "passageName": "Try to pet one of the cats",
-          "original": "[[animals, 10, The cat hisses at you  ->Try to pet one of the cats]]"
+          "name": "animals, 10, The cat hisses at you",
+          "link": "Try to pet one of the cats",
+          "pid": "[[animals, 10, The cat hisses at you  ->Try to pet one of the cats]]"
         }
       ],
       "cleanText": "You wait quietly, watching as the cat begins to relax. After a few moments, it curls up next to you, purring softly. Bubba nods in approval. 'See? They come around when they feel like it.' You smile, feeling a sense of peace as you pet the cat."
@@ -131,13 +131,13 @@
     {
       "name": "Kneel",
       "tags": "",
-      "id": "7",
+      "pid": "7",
       "text": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. 'Guess you’ve figured out cats after all.' You continue your journey, the kitten content in your embrace. Perhaps there’s more to these creatures than you first thought.\n[[Return to the camper]]",
       "links": [
         {
-          "linkText": "Return to the camper",
-          "passageName": "Return to the camper",
-          "original": "[[Return to the camper]]"
+          "name": "Return to the camper",
+          "link": "Return to the camper",
+          "pid": "[[Return to the camper]]"
         }
       ],
       "cleanText": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. 'Guess you’ve figured out cats after all.' You continue your journey, the kitten content in your embrace. Perhaps there’s more to these creatures than you first thought."
@@ -145,13 +145,13 @@
     {
       "name": "Keep walking",
       "tags": "",
-      "id": "8",
+      "pid": "8",
       "text": "You keep walking, but the soft meow of the kitten echoes in your ears. It’s a strange feeling—like you’ve left something behind. Bubba gives you an odd look but doesn’t say anything. Maybe the cats aren’t so bad after all.\n[[Return to the camper]]",
       "links": [
         {
-          "linkText": "Return to the camper",
-          "passageName": "Return to the camper",
-          "original": "[[Return to the camper]]"
+          "name": "Return to the camper",
+          "link": "Return to the camper",
+          "pid": "[[Return to the camper]]"
         }
       ],
       "cleanText": "You keep walking, but the soft meow of the kitten echoes in your ears. It’s a strange feeling—like you’ve left something behind. Bubba gives you an odd look but doesn’t say anything. Maybe the cats aren’t so bad after all."
@@ -159,13 +159,13 @@
     {
       "name": "Enjoy the calm moment and continue petting the cat.",
       "tags": "",
-      "id": "9",
+      "pid": "9",
       "text": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. \"Guess you’ve figured out cats after all.\" You continue your journey, the kitten content in your embrace. When you return to the camper, the air feels subtly different—quieter, almost as if the space itself is adjusting to the kitten’s presence. You settle the kitten on a cushion beside you, watching it curl up and purr softly.\n\nThat night, the kitten curls up next to you in bed. As you drift off, the dream is strange—its glowing eyes and soft purring fill your mind, and though it doesn’t speak, you feel as if it’s trying to communicate.\n\nYou wake in the night to find the kitten staring out the window, eyes wide and glowing faintly. It meows softly, a sound that resonates deep in your chest, as if echoing across dimensions. For a moment, you feel an unspoken connection, something deeper than mere companionship. Then, the kitten returns to your side, curling up peacefully again. But you wonder, as you drift back to sleep, what secrets it truly holds.\n[[Enjoy your new kitten]]\n{item: 'kitten'}",
       "links": [
         {
-          "linkText": "Enjoy your new kitten",
-          "passageName": "Enjoy your new kitten",
-          "original": "[[Enjoy your new kitten]]"
+          "name": "Enjoy your new kitten",
+          "link": "Enjoy your new kitten",
+          "pid": "[[Enjoy your new kitten]]"
         }
       ],
       "cleanText": "You cradle the kitten in your arms, feeling its tiny purrs vibrating against your chest. Bubba gives you a warm smile. \"Guess you’ve figured out cats after all.\" You continue your journey, the kitten content in your embrace. When you return to the camper, the air feels subtly different—quieter, almost as if the space itself is adjusting to the kitten’s presence. You settle the kitten on a cushion beside you, watching it curl up and purr softly.\n\nThat night, the kitten curls up next to you in bed. As you drift off, the dream is strange—its glowing eyes and soft purring fill your mind, and though it doesn’t speak, you feel as if it’s trying to communicate.\n\nYou wake in the night to find the kitten staring out the window, eyes wide and glowing faintly. It meows softly, a sound that resonates deep in your chest, as if echoing across dimensions. For a moment, you feel an unspoken connection, something deeper than mere companionship. Then, the kitten returns to your side, curling up peacefully again. But you wonder, as you drift back to sleep, what secrets it truly holds.\n\n{item: 'kitten'}"
@@ -173,18 +173,18 @@
     {
       "name": "Food",
       "tags": "",
-      "id": "10",
+      "pid": "10",
       "text": "You grab a small piece of food from your pack and offer it to the cats. However, they seem more interested in each other than the food, ignoring you completely. Bubba chuckles from nearby. 'Food isn’t the key. You gotta earn their trust first.\n[[Sit quietly and wait for one of the cats ->Sit quietly]]\n[[Return to the camper]]",
       "links": [
         {
-          "linkText": "Sit quietly and wait for one of the cats",
-          "passageName": "Sit quietly",
-          "original": "[[Sit quietly and wait for one of the cats ->Sit quietly]]"
+          "name": "Sit quietly and wait for one of the cats",
+          "link": "Sit quietly",
+          "pid": "[[Sit quietly and wait for one of the cats ->Sit quietly]]"
         },
         {
-          "linkText": "Return to the camper",
-          "passageName": "Return to the camper",
-          "original": "[[Return to the camper]]"
+          "name": "Return to the camper",
+          "link": "Return to the camper",
+          "pid": "[[Return to the camper]]"
         }
       ],
       "cleanText": "You grab a small piece of food from your pack and offer it to the cats. However, they seem more interested in each other than the food, ignoring you completely. Bubba chuckles from nearby. 'Food isn’t the key. You gotta earn their trust first."
@@ -192,7 +192,7 @@
     {
       "name": "Enjoy your new kitten",
       "tags": "",
-      "id": "11",
+      "pid": "11",
       "text": "",
       "links": [],
       "cleanText": ""
@@ -200,7 +200,7 @@
     {
       "name": "Return to the camper",
       "tags": "",
-      "id": "12",
+      "pid": "12",
       "text": "",
       "links": [],
       "cleanText": ""

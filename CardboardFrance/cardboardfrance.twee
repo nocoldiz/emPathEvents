@@ -1,0 +1,414 @@
+:: StoryTitle
+Cardboard France
+
+
+:: StoryData
+{
+  "ifid": "B46B922E-78C1-4FA5-B98B-5FEE169BF195",
+  "format": "Twison",
+  "format-version": "0.0.1",
+  "start": "Start",
+  "tag-colors": {
+    "Shop": "blue"
+  },
+  "zoom": 0.6
+}
+
+
+:: \ Ask the orb about Cardboard Paris {"position":"1100,400","size":"100,100"}
+With a gentle tap, you hold the galaxy orb in your hands, whispering, “Tell me, what is this place, this Cardboard Paris?” The orb pulses faintly in response, a soft hum resonating within it as though it’s gathering its ancient knowledge.
+
+A subtle voice, barely more than a whisper, begins to echo from within the orb. “Cardboard Paris is… a dream,” it says, “a half-finished thought suspended between realms.” The swirling galaxies inside the orb shimmer, giving off images that flicker and fade as quickly as they appear. You glimpse a workshop of sorts, cluttered with sketches and fragments of cardboard prototypes. Strange, shadowy hands move deftly, assembling buildings, figures, even the Eiffel Tower itself.
+
+“It was created by… a Forgotten Architect,” the voice continues. “This world was meant to be a perfect model city, a timeless vision. But something—something went wrong.”
+
+The orb grows warm in your hands, and a vision fills your mind. You see the Architect as a shadowy figure surrounded by endless stacks of cardboard, each piece meticulously crafted. They worked tirelessly, creating Paris over and over, but every time they completed it, the city collapsed, unable to withstand the weight of its own illusion. So, they abandoned it, leaving behind this unfinished realm, trapped between dream and reality.
+
+Bubba, watching you with a puzzled but intrigued expression, asks, “So this whole place—it’s just leftovers from some... cardboard architect?”
+
+You nod, still holding the orb as it fades back to its inert state. “It’s a place that was never meant to be complete,” you murmur, feeling a strange sympathy for this strange, fragile world.
+
+[[Go somewhere else->Visit the town]] 
+
+
+:: \ Attempt to cook the slugs {"position":"1900,150","size":"100,100"}
+You take a deep breath and reach for a nearby skillet. The slugs slide out of your hands, leaving a sticky residue.
+[[alchemy, 25, The mixture bubbles over, emitting a pungent smell that draws cardboard rats. ->Add a touch of alchemy to enhance the flavor]]
+[[cooking, 30, You misjudge the heat and burn the slugs to a crisp. -> Try a traditional recipe]]
+
+
+:: \ Commune with the galaxy inside {"position":"1200,650","size":"100,100"}
+You close your eyes, focusing on the swirling galaxy in the orb. A faint hum fills the air, and you feel a tingling warmth in your fingers. Suddenly, your mind is flooded with images of Cardboard Paris from an outsider’s perspective. The entire town is visible from above, a dreamlike mosaic shifting and reshaping itself as you watch.
+
+One figure stands out—a shadowy presence darting between the shops, watching you and Bubba with an intense, silent curiosity.
+
+[[intuition, 35, You sense that the figure may be the creator of Cardboard Paris -> Follow the presence]]
+
+[[observation, 40, You focus on the figure’s details to learn more about them -> Get a glimpse of the creator’s face]]
+
+
+:: \ Continue... {"position":"1075,1525","size":"100,100"}
+
+
+
+:: \ Depart {"position":"1725,950","size":"100,100"}
+Bubba tips his hat and opens the door to the camper. You both climb inside, and the hum of the liminal engine fills the air. As the camper starts rolling away, Bubba adjusts the controls and casts one last look at the leaning Eiffel Tower. "Time to head to the next place," he says, his voice low but full of excitement. The world beyond shifts, and with each turn of the wheels, you're whisked away to new dimensions and strange adventures.
+[[ Continue...]] 
+
+
+:: \ Enter the hidden shop {"position":"1225,425","size":"100,100"}
+You push past a painted cardboard alleyway that’s almost imperceptible until you’re right in front of it. It’s narrower than the others and shrouded in strange, hand-drawn graffiti of wide-eyed owls and black cats. A tiny shop emerges at the end of the alley with a crudely painted sign that reads, "Les Curiosités Mouvantes"—The Moving Curiosities.
+
+Bubba steps inside with you, his eyes lighting up as he points at a display of “moving” trinkets. Tiny cardboard clocks tick on the shelves, their hands twitching and spinning in random directions. Among the bizarre items, you notice an odd artifact: a cardboard orb painted to look like a swirling galaxy.
+
+You reach for it, and as you touch it, the galaxy inside shifts, like it’s truly alive.
+
+[[arcanism, 45, The orb responds to your touch, sparking with faint magic -> Commune with the galaxy inside]]
+
+[[convoking, 30, You attempt to summon the orb’s “spirit” for answers -> Ask the orb about Cardboard Paris]]
+
+
+:: \ Find a vendor willing to “bargain” {"position":"1550,500","size":"100,100"}
+As you navigate the rows of makeshift stalls, a voice calls out from behind a stack of painted barrels. A cardboard figure with a drawn-on mustache and monocle peers out, waving a paper hand.
+
+“Ah, mademoiselle, monsieur! You look like people of exquisite taste! I am Pierre, purveyor of the finest wares in all of Cardboard Paris!” His voice is cartoonishly thick with a faux French accent.
+
+Bubba chuckles, leaning over to whisper, “Betcha he’s got some hidden treasures here.”
+
+Pierre winks dramatically, gesturing to his table filled with a mix of peculiar items: small chinese boxes, a string of goblin ears, and a potion bottle filled with glittery liquid labeled “Essence of the Eiffel.”
+
+[[appraisal, 20, You spot an item that looks genuinely valuable among the trinkets -> Pick up the shimmering pendant]]
+
+[[bluffing, 25, You decide to haggle with Pierre, curious if he’ll break character -> Test Pierre's patience]]
+
+
+:: \ Follow the presence {"position":"1100,825","size":"100,100"}
+You step forward, trusting your instinct to lead you. Bubba’s voice calls faintly behind, but it’s quickly swallowed by the thickening fog around you. The shadowy figure moves deeper into the maze of Cardboard Paris, always just out of reach. You follow, hypnotized, compelled by a force you can't explain. You feel the air grow colder, and the walls close in, the world reshaping itself like cardboard folding inward, trapping you within.
+
+[[observation, 40, You focus on the figure’s details to learn more about them -> Get a glimpse of the creator’s face]]
+[[Get close to the figure]]
+[[Retract-> Enter the hidden shop]]
+
+
+:: \ Get a glimpse of the creator’s face {"position":"1275,825","size":"100,100"}
+As you focus on the figure, an unsettling chill spreads through you, a darkness that seeps in from the edges of your vision. The galaxy in the orb dims, and for a moment, the entire world feels hazy, as if you’re viewing it from the bottom of a murky pool.
+The presence is still there.
+
+[[observation, 35, You have lost sight of the presence -> Follow the presence]]
+[[Retract-> Enter the hidden shop]]
+
+
+:: \ He grins, enjoying the strange new flavor. {"position":"1975,750","size":"100,100"}
+Bubba grins broadly, taking another bite. “Well, I’ll be! This is somethin’ else, Em! Where’d you learn to make this?” He leans back in his chair, looking pleased. "Not bad for a stew from another dimension." You laugh, the warmth of the meal filling both your bellies and the camper.
+
+As you clean up, Bubba’s laughter is contagious, and for the moment, the strange world around you feels a little more familiar. You share a quiet moment before revving up the liminal engine, ready for your next adventure. You’re not sure where you’ll end up next, but with a full belly and Bubba by your side, you feel ready for whatever comes next.
+
+{{item: slugrecipeem}}
+
+[[ Continue...]] 
+
+
+
+:: \ Investigate the pendant’s aura more closely {"position":"1375,650","size":"100,100"}
+Holding the pendant up to the light, you narrow your focus, letting your senses hone in on the magic within. The warm glow intensifies as you study it, a faint golden light spreading over your fingers.
+
+Suddenly, a vision flashes through your mind—scenes of an ancient workshop, the silhouette of a hooded figure hunched over the very pendant in your hands. You feel a rush of history and power, as if the pendant contains a piece of some grand mystery.
+
+But as you pull back, Pierre’s face darkens. “Ah, mademoiselle,” he says with an edge to his tone, “perhaps you look too closely.”
+
+The air grows tense as Pierre’s form flickers, revealing a deeper shadow beneath his paper exterior. You realize, too late, that something otherworldly is watching you through him.
+
+[[Return the pendant and step out of the shop->Visit the shops]]
+
+
+:: \ Investigate the strange taste further {"position":"400,625","size":"100,100"}
+Your senses sharpen, and you focus on the taste—a peculiar energy pulses through the NOTHING, almost like it’s enchanted. Suddenly, you feel a pull, like the NOTHING is trying to connect with your spirit.
+
+[[spiritism, 50, The NOTHING rejects you, leaving you with a disorienting nausea. ->Spit out the NOTHING]]
+
+[[empathy, 30, You manage to connect, sensing the NOTHING’s memories of strange worlds. -> Listen to the NOTHING’s “tale”]]
+
+
+:: \ Listen to the NOTHING’s “tale” {"position":"500,725","size":"100,100"}
+ The slug’s “memory” seeps into your mind, revealing a history of worlds layered atop each other, like a story in the pages of a book. You see fleeting images of places you’ve never been—underwater forests, skies filled with floating islands, deserts made of glass.
+
+Bubba waves a hand in front of your face. “Em, you with me?”
+
+A strange calm washes over you as you focus on the subtle whispers of the slug’s memories. You can sense the depth of the worlds it has traveled through—places that twist and defy logic, ruled by unknown forces, touched by strange magic. The memories are fragmented, like shards of a dream, but you can feel them pressing into your soul, leaving a cold, unsettling knowledge behind.
+
+End: The slug seems to settle on your palm, its soft glow flickering as you absorb its tale. Bubba watches you with concern, his eyes narrowing as he steps closer. “What’s goin’ on in that head of yours, Em?” he asks, his voice serious. You blink, the strange images in your mind beginning to fade, but the weight of them lingers. “It’s… hard to explain,” you reply, feeling a mix of awe and unease. Bubba nods knowingly, his grin returning. “Well, we’ll figure it out on the road, like always.” He opens the camper door, and you both climb inside. The liminal engine hums as you drive away, the weight of the slug’s tale still in your mind. Whatever it showed you, there’s no turning back now, and the road ahead promises more revelations in strange and unfamiliar places.
+Option
+[[navigation, 40, You struggle to shake off the surreal visions. -> Return to the camper with Bubba]]
+
+
+:: \ Nod approvingly to Bubba {"position":"175,600","size":"100,100"}
+As you swallow, a fiery sensation suddenly spreads through your stomach, sharp and relentless. Your grimace is impossible to hide as the heat intensifies, spreading from your gut to the tips of your fingers. You feel the world around you blur, the streets of Cardboard Paris warping, colors bleeding together like watercolors in the rain.
+
+Bubba’s laughter fades into a worried murmur. “Em? You alright there?”
+
+Your vision swims, and for a moment, you see something beyond Cardboard Paris—a dark, endless void, pulsing with the same bizarre, fleshy texture as the NOTHING. The pain sharpens, twisting your insides. You double over, clutching your stomach, but the burning doesn’t stop; it spreads, as if it’s consuming you from the inside.
+[[Spit out the NOTHING]]
+[[Don't spit out the NOTHING]]
+
+
+:: \ Pick up the shimmering pendant {"position":"1600,800","size":"100,100"}
+You scan the items, fingers hovering over the strange collection. Amid the jumble of painted cardboard trinkets and fake antiques, something catches your eye—a pendant that, unlike the rest, glows with a soft, warm shimmer. The light dances within the gem, almost like a heartbeat, drawing you closer.
+
+Pierre’s eyes narrow slightly as he sees your interest. “Ah, mademoiselle has a discerning eye! That is no ordinary pendant. They say it holds a piece of the real Eiffel Tower’s magic, eh?” He leans closer, whispering theatrically, “A true collector’s item.”
+
+You can sense a faint magic pulsing from it, distinct from the shallow enchantments on the other “treasures.” Something about it feels real.
+
+Bubba grins. “You found somethin’ good there, Em?”
+
+[[intuition, 25, You sense something off about Pierre’s story -> Question him about the pendant]] 
+[[appraisal, 30, You focus on the pendant to gauge its magic -> Investigate the pendant’s aura more closely]]
+
+
+:: \ Question him about the pendant {"position":"1700,375","size":"100,100"}
+You give Pierre a skeptical look, tilting the pendant toward him. “A piece of the real Eiffel Tower’s magic? That sounds… unlikely. What’s the real story here?”
+
+Pierre’s smile falters, and a strange glint appears in his eye. “Ah, you are sharp, mademoiselle. I did not expect you to be quite so… inquisitive.” His accent slips, his voice turning low and almost growling.
+
+The cardboard figure’s paper features twist, and for a moment, you glimpse a darkness beneath—a flickering shadow looking back at you with a chilling intensity. “I see you are not as naive as most travelers to Cardboard Paris.”
+
+He steps back, melding into the shadow, but his voice lingers. “Be careful with that pendant, Em. It remembers its true owner… and they might just come looking.”
+
+{{item: parisoendant}}
+
+[[Step out of the shop-->Visit the town]]
+
+
+:: \ Return to the camper with Bubba {"position":"425,875","size":"100,100"}
+
+
+
+:: \ Serve Bubba a bowl of the stew {"position":"1775,600","size":"100,100"}
+You ladle the finished stew into two bowls, the savory aroma filling the camper as you hand one to Bubba. His eyes widen, impressed by the hearty meal. "Well, shoot, Em, this smells amazing!" he says, taking a bite. You watch him for a moment, eagerly awaiting his reaction.
+
+Bubba pauses mid-bite, his eyes narrowing as he processes the flavor. "This tastes like... like something I've never had before," he mutters. You grin, secretly pleased with yourself. The flavors are bold and comforting, with just the right balance of spice. "I think it's a hit," you reply, and Bubba nods enthusiastically, finishing his bowl. As you both relax and savor the meal, the camper hums along the road, taking you further from the strange town. Wherever your next stop is, you're ready, knowing you can handle whatever culinary curveballs come your way.
+
+{{item: slugrecipetraditional}}
+
+[[ Continue...]] 
+
+
+:: \ Share your creation with Bubba {"position":"2000,475","size":"100,100"}
+You add a few exotic spices, herbs from another dimension that you picked up during your travels. The result is a stew that glows faintly, an iridescent shimmer dancing on the surface. You pour a generous amount into two bowls and hand one to Bubba, who raises an eyebrow at the odd color.
+
+[[cooking, 40, Bubba takes a hesitant bite and his eyes widen in surprise. -> He grins, enjoying the strange new flavor.]] [[You apologize and adjust the flavor for next time. -> Attempt to cook the slugs]]
+
+
+:: \ Test Pierre's patience {"position":"1400,875","size":"100,100"}
+You place your hands on your hips, giving Pierre a discerning look. “I dunno, Pierre. This here Essence of the Eiffel looks like it came straight out of a kid's glitter stash. I think you could do better.”
+
+Pierre gasps dramatically, his paper mustache drooping. “Mademoiselle! Sacrebleu! This is a rare Parisian elixir! But... for you, perhaps a discount. Just this once.”
+
+He lowers the price to half of whatever the imaginary currency is in Cardboard Paris. Bubba leans in, grinning. “I reckon we’ve just out-bargained a cardboard Frenchman. Now that’s somethin’ I didn’t think I’d do today.”
+
+You tuck the potion bottle into your bag with a grin, and Bubba pats you on the shoulder as you both head back toward the camper. As the Eiffel Tower leans in the distance, you can’t help but feel you’ve left a bit of magic in Cardboard Paris—a place that was always meant to be a surreal, fleeting dream.
+
+{item: parisianelixir} 
+
+ [[ Continue...]] 
+
+
+:: \ Try a traditional recipe {"position":"1850,425","size":"100,100"}
+You quickly abandon the skillet, the burnt smell filling the air. Instead, you rummage through the camper's pantry, pulling out ingredients for a more traditional recipe. You focus, deciding to make a hearty stew that will hopefully be less… disastrous. The soft clink of pots and pans is soothing as you chop vegetables and prepare a base for the dish.
+
+[[cooking, 20, You expertly chop and season the ingredients, creating a flavorful stew. -> Serve Bubba a bowl of the stew]] [[cooking, 50, You add a few spices and herbs from another dimension, giving the stew an otherworldly flavor. -> Share your creation with Bubba]]
+
+
+:: \ Try eating the transformed slugs anyway {"position":"2275,925","size":"100,100"}
+You take a deep breath and decide to try a bite of the enhanced slug first. The moment it hits your tongue, a wave of sweetness floods your senses, followed by a surprising kick of spice. It’s unlike anything you’ve ever tasted, a harmonious balance of flavors that makes your taste buds sing.
+
+[[arcanism, 40, The magic effect is overwhelming, but in a good way. The flavors continue to evolve. ->Serve the slugs to Bubba]] [[arcanism, 60, The magic is too potent, and the flavor becomes almost too intense, leaving a strange aftertaste. -> Try to balance the flavor with a spell of neutralization]]
+
+
+:: \ Try to adjust the flavor further {"position":"2075,1200","size":"100,100"}
+
+
+
+:: \ Try to balance the flavor with a spell of neutralization {"position":"2325,1100","size":"100,100"}
+Realizing the flavor may be too much, you quickly cast a spell to neutralize the overpowering taste. A faint green aura surrounds the slugs, and the intense sweetness begins to mellow, turning into a more balanced flavor. You take a cautious bite again and find it much more palatable.
+
+[[transmutation, 50, The neutralized flavor is now unbalanced, and the dish is ruined. ->Offer Bubba a bite]] 
+[[transmutation, 30, The flavor is still odd, but now it has an earthy undertone. -> Try to adjust the flavor further]]
+[[Serve the slugs to Bubba]] 
+
+
+:: Add a touch of alchemy to enhance the flavor {"position":"2275,550","size":"100,100"}
+ You wave your hand over the skillet, summoning a faint blue glow. The slugs shimmer, looking… somewhat less slimy? Bubba watches, amused.
+
+[[arcanism, 35, The spell backfires, turning the slugs into literal stones. ->Enhance the flavor]]
+
+[[transmutation, 40, You accidentally turn the slugs into tiny cardboard slugs. Bubba chuckles. -> Try eating the transformed slugs anyway]]
+
+
+:: Climb the Eiffel Tower {"position":"800,575","size":"100,100"}
+You approach the leaning tower, craning your neck as you look up. The structure sways slightly in the breeze, but that only adds to the challenge. You grip one of the steel bars, surprised to find it warm, almost like living skin. Bubba barks a word of encouragement from below as you begin to climb, each step bringing you closer to the top. Halfway up, you spot a platform where a small, rusted telescope is mounted, aimed at the sky.
+
+[[Peer through the telescope]]
+[[athletics, 30,The stairs crumble beneath you, blocking the access to the top->Keep climbing to the top]]
+
+
+:: Depart {"position":"875,1175","size":"100,100"}
+
+
+
+:: Don't spit out the NOTHING {"position":"100,800","size":"100,100"}
+You manage to force a weak smile, nodding at Bubba even as every nerve in your body screams. He raises an eyebrow but shrugs, taking another bite of NOTHING himself. But as he does, a glint of realization flashes in his eyes, and his smile fades. “Wait… Em, that ain’t right.”
+
+Before you can reply, the ground below you begins to tremble. The world around you starts collapsing, the painted shops peeling away, the cardboard Eiffel Tower crumbling into dust. You stumble, clutching Bubba’s arm as the NOTHING inside you surges, a growing blackness.
+
+The last thing you see is Bubba reaching out to you, eyes filled with panic and helplessness as the dark flames of the NOTHING consume you both.
+[[Enter NOTHINGHAM]]
+
+
+:: Eat nothing {"position":"400,475","size":"100,100"}
+You take a tentative bite, trying to mimic the painted locals’ ecstatic expressions. The NOTHING… surprisingly tastes like mushrooms, with an odd, fleshy aftertaste. Bubba laughs. “Guess this NOTHING is better than it look, huh?”
+{hunger: 20}
+[[bluffing, 40, You force a smile, hoping no one notices your grimace. -> Nod approvingly to Bubba]]
+
+[[intuition, 25, You sense a strange energy from the NOTHING. -> Investigate the strange taste further]]
+[[Do something else->Visit the town]] 
+
+
+:: Enhance the flavor {"position":"1825,1150","size":"100,100"}
+You decide to shift your focus and instead cast a spell to enhance the flavor of the slugs. With a flick of your wrist, a soft blue glow envelops the skillet. Bubba watches with an amused grin as the slugs begin to shimmer slightly, as if their very essence is being infused with magical energy. The kitchen air fills with a subtle, sweet fragrance.
+
+[[Offer Bubba a bite]] 
+[[Try the first bite yourself]]
+
+
+:: Enter NOTHINGHAM {"position":"100,925","size":"100,100"}
+
+
+
+:: Get close to the figure {"position":"1125,975","size":"100,100"}
+Finally, you reach a small alcove where the figure stops, turning to face you. For the first time, you see a faint glint of eyes under the hood—empty, hollow eyes that seem to absorb the light itself. The figure smiles, an unsettling grin. “You wanted to know the secrets of Cardboard Paris?” it whispers, voice like paper crinkling. "Now, you are a part of it."
+
+In an instant, your body feels stiff, your limbs freezing in place. You try to move, but your skin feels coarse and rough. You look down and see your fingers flattening, transforming into paper, the texture turning into cardboard. The world around you fades as you become part of this half-real city, forever locked in a frozen, unfinished dream.
+
+[[id:cardboard->Live the rest of your life as a cardboard person]]
+
+
+:: Inspect the eggs more closely {"position":"700,1075","size":"100,100"}
+You lean in to get a closer look, fascinated by the soft glow and hum of the eggs. As you reach out to touch one, it shudders under your hand, and a thin crack appears. Slowly, a tiny creature, a mixture of snail and firefly, emerges, blinking up at you with wide, curious eyes. It lets out a soft chime, like a tiny bell.
+
+The creature flutters to your shoulder, glowing softly. You carefully make your way back down, your new companion illuminating the way. Bubba waits at the bottom, leaning against the camper, a satisfied smile on his face. As you approach, the creature on your shoulder chirps, catching Bubba’s attention. He grins, tipping his cowboy hat. “Well, look at that, Em. Looks like we got ourselves a little friend.” With a hearty laugh, he pats the camper’s side and heads inside. The engine hums to life, the liminal engine crackling with energy, as the two of you set off, the flickering glow of the creature accompanying you into the unknown.
+
+{item: cardboardcritter}
+[[ Continue...]] 
+
+
+:: Keep climbing to the top {"position":"775,825","size":"100,100"}
+Ignoring the strange telescope, you continue your climb to the top of the leaning tower. When you finally reach the peak, you’re greeted by an unexpected sight—a nest of iridescent, shimmering eggs nestled in the metal bars. They emit a soft hum, like a tiny chorus. Each egg seems to pulse gently, as if something inside is responding to your presence.
+
+[[Inspect the eggs more closely]]
+[[Leave the eggs undisturbed and climb back down]]
+
+
+:: Learn the customs {"position":"425,250","size":"100,100"}
+You take a seat at one of the cardboard bistro tables and look around. The painted locals mime eating absolute NOTHING from the table, though it’s unclear if they actually enjoy it. Bubba leans in, whispering, “Think we have to follow their lead?”
+
+[[empathy, 20, You attempt to mimic the painted smiles but feel strangely unsettled. ->Eat nothing]]
+[[Go somewhere else->Visit the town]]
+
+
+:: Leave the eggs undisturbed and climb back down {"position":"950,1050","size":"100,100"}
+You resist the urge to touch the delicate eggs, respecting the strange life within them. Carefully, you start your descent, glancing back to see the shimmering nest receding into the distance.
+
+ Back on the ground, you feel a subtle sense of reverence for the mysteries of this world. Bubba stands beside the camper, gazing up at you, his expression unreadable. “You know, Em,” he says, as you approach, “sometimes the best thing to do is just leave things as they are.”
+ [[Depart]]
+ [[Keep exporing the town->Visit the town]] 
+
+
+:: Live the rest of your life as a cardboard person {"position":"1100,1125","size":"100,100"}
+
+
+
+:: Offer Bubba a bite {"position":"2225,1450","size":"100,100"}
+You hand Bubba the plate, and he takes another bite, pausing for a moment as the new flavor hits him. He raises an eyebrow, then breaks into a grin. “Well, I’ll be! Not bad, Em. Not bad at all.” His laughter fills the camper, and the journey ahead feels a little lighter with the success of the meal.
+
+With your strange, but successful dinner behind you, the two of you prepare for the next leg of your journey. Bubba, as always, is ready for whatever comes next, and you, too, feel the excitement of the unknown stir within you.
+[[ Continue...]] 
+
+
+:: Peer through the telescope {"position":"650,925","size":"100,100"}
+You carefully bend over the telescope and peer through the cracked lens. At first, all you see are streaks and smudges, but then the image sharpens. Instead of a normal view, the telescope seems to be peering into a different world—a swirling, otherworldly city where enormous floating eyes drift lazily through purple clouds. Just as you’re about to pull back, one of the eyes seems to look directly at you, blinking slowly.
+
+[[Wave at the eye]]
+[[Step back from the telescope uneasily->Climb the Eiffel Tower]]
+
+
+:: Serve the slugs to Bubba {"position":"2050,1000","size":"100,100"}
+You offer Bubba a bite, suppressing a grimace as he leans in, bracing himself. He takes a nibble, and immediately his face contorts in horror. His eyes go wide, and he quickly spits it out, coughing.
+
+“Oh, Em,” he chokes, wiping his mouth with the back of his hand. “That tastes like somethin’ that crawled out of the swamp, took a bath in skunk oil, and called itself dinner!”
+
+You glance down at the skillet, where the slugs sit in a murky, gelatinous pool. The smell hits you—sharp, sour, and somehow damp—and suddenly you’re not sure how you managed to take a bite yourself.
+
+Bubba chuckles, recovering. “Well, I reckon not every dish can be a winner. Guess even magic has its limits, huh?”
+
+You both share a relieved laugh, pushing the skillet away. The camper hums back to life, and the two of you continue down the winding road, stomachs growling and a little wiser about the perils of experimental cuisine in strange worlds.
+[[ Continue...]] 
+
+
+:: Spit out the NOTHING {"position":"250,1150","size":"100,100"}
+The nauseous sensation intensifies, and you can no longer hold back. You force yourself to spit the NOTHING out, feeling its magical energy slip away from your senses like a receding wave. As it falls to the ground with a sickening squelch, the world seems to right itself, though your stomach remains unsettled.
+
+Bubba looks at you with a bemused grin, his cowboy hat tilted slightly as he leans against the camper. "You alright there, Em? You look like you've seen a ghost." You shake your head, wiping your mouth and trying to clear the dizziness. "That NOTHING wasn't what it seemed." Bubba chuckles and pats your back as you stumble into the camper. "Well, let's get on the road before we end up attracting more trouble." The liminal engine whirs to life as the camper lurches forward, leaving the strange town behind, the world ahead ripe with more mysteries. 
+
+You settle into the seat, the nagging feeling of something amiss still lingering, but Bubba’s easygoing presence helps you push it aside. There’s always something new waiting on the other side of the next dimension.
+[[ Continue...]] 
+
+
+:: Start {"position":"1325,50","size":"100,100"}
+The camper rattles over cobbled roads, and you find yourself in a strange town made entirely of painted cardboard. Fake bistros line the streets, and cardboard cutouts of "locals" pose with stiff berets and striped shirts. Bubba sniffs the air, catching the distinct aroma of… cardboard? Mixed with something slimy and salty.
+
+“Welcome to ‘France,’” a cutout labeled Tour Guide says, a speech bubble popping up with instructions: Try the famous escargot!
+
+A little stand with painted slugs on the menu stands before you. Bubba raises an eyebrow. “Guess we’re doing this?”
+
+
+[[cooking, 10, The slugs slip right out of your hands, nearly flinging into Bubba's face. -> Attempt to cook the slugs]]
+[[Visit the town instead->Visit the town]]
+[[Ignore the fake french town and depart -> Depart]]
+
+
+:: Try the first bite yourself {"position":"1700,1300","size":"100,100"}
+You pick up a fork, eyeing the now-glimmering slugs. The sweet aroma is promising, but there’s an underlying, almost metallic tang that reminds you of the potion mishaps back in Witch School. You steel yourself, spearing one slug and lifting it to your mouth.
+
+As you take the first bite, the flavor is...confusing. There’s a burst of sweetness, but it quickly turns sour, with a sharp, prickly aftertaste that stings the back of your throat. The slug’s texture is oddly rubbery, springing back against your teeth.
+
+Bubba raises an eyebrow, his grin fading. “Uh, that good, huh?”
+
+You force a smile, swallowing with effort. “Well, it’s...unique.”
+
+
+:: Visit the shops {"position":"1300,275","size":"100,100"}
+You wander deeper into the makeshift market, each cardboard stall labeled with wild, artistic names. There's La Petite Phantasmagorie, with brightly colored scarves fluttering in a paper breeze, L'Armurerie du Faux Paris, a mock weapon shop, and Bouquet des Fantômes, where cardboard bouquets are arranged in vases that teeter on their “stems.”
+
+[[Exploration, 25, Your keen eye catches a small, hidden alley with a “secret” shop -> Enter the hidden shop]]
+
+[[navigation, 20, You lead Bubba through the maze of faux shops, getting a feel for the layout -> Find a vendor willing to “bargain”]]
+
+[[Go somewhere else->Visit the town]] 
+
+
+:: Visit the town {"position":"900,250","size":"100,100"}
+You take a stroll around, observing the "cobblestone" streets that feel oddly spongy and moisty. The town square features a replica of the Eiffel Tower, but it’s missing one leg and leans at an alarming angle. You notice some cardboard townsfolk pointing at the slugs with exaggerated cartoonish smiles.
+
+Bubba peers closer, grinning. "Think it's a challenge?"
+
+[[observation, 60, You accidentally knock over a cardboard table and draw some fake glares. ->Learn the customs]]
+[[Climb the Eiffel Tower]]
+[[Visit the shops]]
+
+
+:: Wave at the eye {"position":"650,550","size":"100,100"}
+You give the floating eye a friendly wave. To your surprise, it winks back, then rotates and disappears from view. A strange warmth settles over you, and you feel as if something—or someone—is now watching over you, almost like a protective presence. You pull back from the telescope, feeling a strange sense of comfort.
+
+ You climb back down, feeling lighter, as if the universe has given you a friendly nod. As you reach the ground, Bubba tilts his head at you, sensing the change in your energy.
+ {mood: 30}
+ [[Visit the town]] 
