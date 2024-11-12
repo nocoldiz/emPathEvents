@@ -1,0 +1,80 @@
+Start
+
+Em takes a sip from a water bottle she found in the camper. Almost instantly, a strange sensation washes over her. Colors intensify, and the walls begin to shimmer. Bubba, noticing her distress, looks concerned. "Em, you alright?" he asks.
+
+[[Tell Bubba that something feels off -> Tell Bubba]]
+[[Try to ignore the feeling and focus -> Focus]]
+
+----------------------------
+Tell Bubba
+
+Em explains the odd sensations to Bubba. He nods understandingly, looking at the bottle with suspicion. "That water might be… tainted. I’ll help you through it," he says calmly.
+
+[[Ask Bubba to keep talking to you to keep grounded ->Keep talking]]
+[[observation, 20, The wall in front of you shift revealing paradoxical geometries -> Attempt to calm down by observing the surroundings]]
+
+----------------------------
+Focus
+
+Em tries to shake off the strange feeling, but the colors around her begin to intensify. The world bends and twists, making it difficult to focus.
+
+[[Ask Bubba for help -> Tell Bubba]]
+[[Lie down and close your eyes, hoping it passes -> Lie Down]]
+
+----------------------------
+Keep talking
+
+Bubba starts talking to Em, his voice a steady anchor in a sea of colors and shapes. "Remember, it’s all just in your mind. Focus on my voice," he says.
+
+[[Listen intently to Bubba’s voice -> Listen to Bubba]]
+[[toxicology, 60, You don't find anything funny in this trip -> Laugh it Off]]
+[[Wait for the trip to fade off]]
+
+----------------------------
+Attempt to calm down by observing the surroundings
+
+Em attempts to ground herself by focusing on her surroundings, but the more she looks, the more things seem to come alive. The walls breathe, and patterns dance around her.
+
+[[Panic and ask Bubba for help -> Tell Bubba]]
+[[Embrace the experience and see where it leads -> Embrace It]]
+
+----------------------------
+Lie Down
+
+Lying down, Em closes her eyes, but instead of calming down, a kaleidoscope of colors fills her mind. The patterns seem to pulse to the beat of her heart.
+
+[[meditation, 30, You are too distracted by the shapes to actually focus on your breath -> Try to control your breathing]]
+
+----------------------------
+Try to control your breathing
+
+Em focuses on her breath, each inhale steady and deliberate, like a gentle anchor pulling her back to reality. The vibrant swirl of colors begins to lose its intensity, the edges of the shapes softening, and the sound of her own breathing becomes more distinct against the surreal backdrop. As she exhales slowly, the overwhelming rush of sensations starts to fade. The world around her, once pulsating and chaotic, becomes more defined and calm. She feels her mind slowly clearing, the haze lifting.
+[[Wait for the trip to fade off]] 
+
+----------------------------
+Laugh it off
+
+Em’s laughter rings out, light and carefree, as she watches the bizarre shapes twist and dance before her. The colors swirl in ways that make no sense, yet they’re oddly amusing. She shares the moment with Bubba, who chuckles beside her, his familiar voice grounding her in the madness. His easy laughter is like a tether, pulling her back when the intensity of the visions starts to get too much. She feels a warmth in his presence, like a steady hand in a storm. With Bubba by her side, the hallucinations become less intimidating and more like a strange, shared joke between old friends.
+
+[[Continue enjoying the trip]]
+[[Ask Bubba if he’s seeing the same thing]]
+
+----------------------------
+Ask Bubba if he’s seeing the same thing
+
+Em tilts her head, eyeing Bubba with a mischievous grin. The colors around her are still swirling wildly, and the shapes seem to shift in ways that don’t make sense. She glances over at Bubba, wondering if he’s experiencing the same bizarre hallucinations.
+
+“Bubba,” she says with a light laugh, “Are you seeing this too, or am I losing my mind here?”
+
+Bubba looks at her with a raised eyebrow, then surveys the kaleidoscope of shapes and patterns in the air. He scratches his chin thoughtfully, the corners of his mouth twitching as if he’s trying to decide if he’s playing along or genuinely unsure.
+
+“You’re not alone, Em,” Bubba says with a grin, his voice calm and steady. “I see it too. But I gotta say, I think this is one of the more colorful trips we've had."
+
+Em laughs again, the tension in her chest easing as Bubba’s casual response helps to ground her even more. The strange sensations aren’t so overwhelming now, and she feels a little less lost in the whirlwind of colors and shapes.
+[[Get lost in words and shapes->Keep talking]]
+
+----------------------------
+Embrace it
+
+Em surrenders to the hallucinations, exploring the strange world her mind creates. She begins to lose track of time, drifting deeper into the visions.
+[[id:lsdtrip->Wake up somewhere sometime...]]

@@ -1,0 +1,150 @@
+{
+  "title": "The crossroads curse",
+  "textboxes": 
+    [
+  {
+    "id": "crossroads-curse-1",
+    "description": "You wake up to find Bubba looking unusually downcast. He explains that, after a late-night argument with the Witch of the Crossroads, he’s been cursed with bad luck for an entire day. Almost on cue, he stumbles over a shoelace and hits his head on the doorframe. Today might be a long day...",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Try to cheer Bubba up and head out anyway",
+        "next_id": "crossroads-curse-2"
+      },
+      {
+        "text": "Prepare some charms to counteract the curse",
+        "next_id": "crossroads-curse-3",
+        "skill_check": {
+          "skill": "arcanism",
+          "level": 25,
+          "fail": "The charm fizzles in your hand, refusing to hold any magic. Looks like the curse is too strong for quick magic fixes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "crossroads-curse-2",
+    "description": "You decide to just get through the day. First stop: the local convenience store. Bubba tries to grab some snacks but drops every single item he touches. The cashier raises an eyebrow as he sheepishly picks them up.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Help him with the groceries",
+        "next_id": "crossroads-curse-4",
+        "skill_check": {
+          "skill": "management",
+          "level": 20,
+          "fail": "You manage to help Bubba, but every time you take something from his hands, it slips right through your fingers. It's almost like the curse is spreading!"
+        }
+      },
+      {
+        "text": "Suggest he wait outside to avoid any more incidents",
+        "next_id": "crossroads-curse-5"
+      }
+    ]
+  },
+  {
+    "id": "crossroads-curse-3",
+    "description": "You gather some herbs and start preparing a charm to counteract the curse. The charm feels slightly warm to the touch, but it’s hard to say if it’s strong enough.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Give the charm to Bubba and hope for the best",
+        "next_id": "crossroads-curse-6"
+      },
+      {
+        "text": "Keep the charm in case things get worse later",
+        "next_id": "crossroads-curse-7"
+      }
+    ]
+  },
+  {
+    "id": "crossroads-curse-4",
+    "description": "Bubba finally manages to buy his snacks, though not without a lot of fumbling. Next, you head to the park to try and relax. But on the way, Bubba’s shoelace snaps, causing him to trip over and land right in a puddle.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Laugh it off and suggest he take off his shoes",
+        "next_id": "crossroads-curse-8"
+      },
+      {
+        "text": "Offer him the charm you prepared earlier",
+        "next_id": "crossroads-curse-9"
+      }
+    ]
+  },
+  {
+    "id": "crossroads-curse-5",
+    "description": "Bubba waits outside while you finish up the groceries. You see him waving at someone, only to accidentally knock over a flower pot on the store’s display shelf. He looks at you, sheepish but unfazed.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Go pay for the damages and move on",
+        "next_id": "crossroads-curse-10"
+      },
+      {
+        "text": "Apologize and quickly head to the park",
+        "next_id": "crossroads-curse-11"
+      }
+    ]
+  },
+  {
+    "id": "crossroads-curse-6",
+    "description": "You hand Bubba the charm, and he instantly brightens up, thinking the worst is over. But just as he says that, a bird flies by and drops... well, something unfortunate on his shoulder. He sighs in resignation.",
+    "image": "",
+    "sound": "",
+    "end": "neutral",
+		      "choices": []
+
+  },
+  {
+    "id": "crossroads-curse-7",
+    "description": "Deciding to save the charm, you pocket it for later. The day continues as a series of mishaps: Bubba slips, drops items, and even accidentally steps on a small frog (thankfully unharmed). At the end of the day, though battered, you both laugh it off.",
+    "image": "",
+    "sound": "",
+    "end": "good",
+		      "choices": []
+
+  },
+  {
+    "id": "crossroads-curse-8",
+    "description": "You suggest Bubba take off his shoes to avoid any more shoelace disasters. He hesitates but agrees, and the two of you stroll through the park, laughing at the absurdity of it all. The curse feels more manageable with a lighter attitude.",
+    "image": "",
+    "sound": "",
+    "end": "good",
+		      "choices": []
+
+  },
+  {
+    "id": "crossroads-curse-9",
+    "description": "You hand Bubba the charm, but as he takes it, it slips out of his hands and shatters on the ground. A wave of bad luck washes over the two of you. On the way back, everything that could go wrong does, from flat tires to losing your keys.",
+    "image": "",
+    "sound": "",
+    "end": "bad",
+		      "choices": []
+
+  },
+  {
+    "id": "crossroads-curse-10",
+    "description": "You pay for the damages and hurry to the park. Despite the rocky start, Bubba manages to enjoy the day. You end up having a picnic by a pond, finding some peace in the simple moments.",
+    "image": "",
+    "sound": "",
+    "end": "good",
+		      "choices": []
+
+  },
+  {
+    "id": "crossroads-curse-11",
+    "description": "You decide to avoid paying and leave in a rush. However, as you get back on the road, you both notice a police car tailing you. It seems bad luck follows in more ways than one today.",
+    "image": "",
+    "sound": "",
+    "end": "bad",
+	      "choices": []
+
+  }
+]
+}

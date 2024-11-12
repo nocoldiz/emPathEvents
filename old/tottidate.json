@@ -1,0 +1,166 @@
+{
+  "title": "Coffee with the King of Rome",
+  "textboxes": [
+    {
+      "id": "totti-1",
+      "description": "You walk into a small, bustling cafe in Rome, the aroma of espresso and baked goods filling the air. Sitting at a corner table is none other than Francesco Totti himself. His gaze shifts to you, and he offers a grin as he waves you over. As you approach, you notice he’s already ordered two coffees and a tray of pastries.",
+      "choices": [
+        {
+          "text": "Introduce yourself and thank him for the coffee.",
+          "next_id": "totti-2"
+        },
+        {
+          "text": "Play it cool, acting as though you're just here for coffee.",
+          "next_id": "totti-3"
+        }
+      ]
+    },
+    {
+      "id": "totti-2",
+      "description": "Totti grins at you, leaning back in his chair. 'Ahó, quanno mai t’avrei visto venì fino a qua solo pe’ ‘na tazzina, eh?' His Romanesco dialect is thick, and you catch maybe half of what he’s saying. It seems he’s just surprised you’d come all this way. He gestures to the coffee, giving you a friendly wink. 'Ma daje, pijate sto caffè, me sa che c’avemo un bel po’ de chiacchiere da fa.'",
+      "choices": [
+        {
+          "text": "Try to keep up with his dialect and tell him about your recent adventures.",
+          "next_id": "totti-4"
+        },
+        {
+          "text": "Ask if he knows about the Solomon ritual. (Requires knowledge skill check: Language - Romanesco, 30)",
+          "next_id": "totti-5",
+          "skill_check": {
+            "skill": "language",
+            "value": 30,
+            "fail": "Totti stares at you blankly as you attempt to explain, his brow furrowing. He mutters, 'Ma che stai a dì?' You realize you've completely lost him, and he changes the topic to last night’s football game."
+          }
+        }
+      ]
+    },
+    {
+      "id": "totti-3",
+      "description": "You sit down and nod casually, as though it’s just another day. Totti chuckles, clearly amused. 'M’avevano detto che eri ‘na tipa interessante, ma non pensavo fino a sto punto.' His eyes gleam with intrigue, and it seems he’s aware of your connection to the ritual. 'E dimme un po’, com’è stato convocà er Re Salomone?'",
+      "choices": [
+        {
+          "text": "Try to explain it in simple terms.",
+          "next_id": "totti-4"
+        },
+        {
+          "text": "Change the subject to football, hoping he won’t press further.",
+          "next_id": "totti-6"
+        }
+      ]
+    },
+    {
+      "id": "totti-4",
+      "description": "You do your best to bridge the language gap and explain your mystical adventures. Totti listens intently, occasionally nodding with a glimmer of understanding. 'Ahò, mo’ ce stamo a capì! Me pari ‘na sorta de stregona moderna, nun se vede spesso in giro, sai?' He seems genuinely fascinated, but his Roman dialect still makes it hard to follow completely. Nonetheless, the warmth in his smile is reassuring.",
+      "choices": [
+        {
+          "text": "Ask if he believes in magic.",
+          "next_id": "totti-7"
+        },
+        {
+          "text": "Ask him if he’d ever participate in a ritual himself.",
+          "next_id": "totti-8"
+        }
+      ]
+    },
+    {
+      "id": "totti-5",
+      "description": "With a confident smile, you broach the topic of the Solomon ritual. Totti narrows his eyes, tilting his head. 'Ahó, me sa che te capisco meno de quanto credi, però intanto damme er caffè e magari ce se intende.' He laughs heartily, signaling that he knows something about it but is equally confused by your mystic jargon. 'Sai, a Roma se parla tanto de magie e stregonerie, ma è raro trovajene una vera.'",
+      "choices": [
+        {
+          "text": "Press him to reveal what he knows about the ritual.",
+          "next_id": "totti-9"
+        },
+        {
+          "text": "Lighten the mood with a joke, mentioning football magic.",
+          "next_id": "totti-10"
+        }
+      ]
+    },
+    {
+      "id": "totti-6",
+      "description": "You quickly pivot to football, mentioning last night’s match. Totti’s eyes light up. 'Ahò, mo parlamo de cose serie! L’ultima partita è stata una sofferenza, ma a ‘sto giro me so’ sentito come quanno stavo in campo.' He goes off, describing the game in vivid detail, his passion for football as strong as ever. The Solomon ritual slips from his mind as he becomes animated, making you smile.",
+      "choices": [
+        {
+          "text": "Enjoy the conversation about football and keep it lighthearted.",
+          "next_id": "totti-11"
+        },
+        {
+          "text": "Ask him what he knows about supernatural events.",
+          "next_id": "totti-12"
+        }
+      ]
+    },
+    {
+      "id": "totti-7",
+      "description": "Totti leans in, his expression contemplative. 'Magia… chissà. Magari ce credo, ma non troppo, capito? Certe cose bisogna vedele pe’ crede.' He shrugs, as if caught between skepticism and curiosity. 'Ma tu sembri tipo che ne sa qualcosa de più, tipo... hai visto l’invisibile, no?'",
+      "choices": [
+        {
+          "text": "Nod, letting him know he’s not far off.",
+          "next_id": "totti-13"
+        },
+        {
+          "text": "Laugh, saying you’re not sure yourself.",
+          "next_id": "totti-14"
+        }
+      ]
+    },
+    {
+      "id": "totti-8",
+      "description": "Totti chuckles, looking down at his coffee. 'Io, a fa’ riti? Ahò, già me ce vedo! Però oh, se serve pe’ vince ‘na partita, magari je faccio ‘na pensata, no?' He laughs heartily, clearly half-joking but still curious. 'Ma raccontame un po’, com’è che te sei ritrovata co’ ‘ste cose strane?'",
+      "choices": [
+        {
+          "text": "Share your journey into the mystical world.",
+          "next_id": "totti-15"
+        },
+        {
+          "text": "Ask him if he’s ever seen anything unexplainable.",
+          "next_id": "totti-16"
+        }
+      ]
+    },
+    {
+      "id": "totti-9",
+      "description": "Totti narrows his eyes slightly, a sly grin appearing on his face. 'Guarda che io mica so’ uno sprovveduto. Qua a Roma c’è de tutto, pure quello che non se vede. Ma certe cose forse è mejo non dirle troppo forte.' He taps the table knowingly, as if he knows more than he’s letting on.",
+      "choices": [
+        {
+          "text": "Smile, thanking him for his discretion.",
+          "next_id": "totti-17"
+        },
+        {
+          "text": "Ask what he’s hiding from you.",
+          "next_id": "totti-18"
+        }
+      ]
+    },
+    {
+      "id": "totti-10",
+      "description": "You make a joke about 'football magic,' which gets a hearty laugh from Totti. 'Ahò, si dice che c’ho i piedi magici, ma ancora nun ho visto ‘na bacchetta, eh?' He winks, clearly enjoying the casual banter.",
+      "choices": [
+        {
+          "text": "Continue the lighthearted chat.",
+          "next_id": "totti-11"
+        },
+        {
+          "text": "Ask if he’d like to know more about real magic.",
+          "next_id": "totti-12"
+        }
+      ]
+    },
+    {
+      "id": "totti-11",
+      "description": "The conversation shifts fully into football, and Totti regales you with tales from his career. As he talks, you realize he’s genuinely down-to-earth, enjoying the coffee and company as though you were just old friends catching up.",
+      "choices": [
+        {
+          "text": "Thank him and share a few of your own stories.",
+          "next_id": "totti-17"
+        },
+        {
+          "text": "Ask if he’d ever consider becoming a mystical guide.",
+          "next_id": "totti-16"
+        }
+      ]
+    }
+	]
+}
+    
+     

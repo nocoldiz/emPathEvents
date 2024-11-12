@@ -1,0 +1,147 @@
+{
+  "title": "Sir Alesteir's estate",
+  "textboxes": [
+  {
+    "id": "summonhelp-1",
+    "description": "Em arrives at Sir Alesteir Crowley’s secluded estate, where an aura of mystery hangs in the air. Crowley, looking frazzled and unusually anxious, greets her at the door. 'Em, I've done something rather… puzzling. I could use your expertise.'",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Agree to help Crowley investigate his summoning",
+        "next_id": "summonhelp-2"
+      },
+      {
+        "text": "Politely decline, sensing something strange in the air",
+        "next_id": "summonhelp-3"
+      }
+    ]
+  },
+  {
+    "id": "summonhelp-2",
+    "description": "Crowley leads Em to a dimly lit room. In the center, a swirling mist hovers, twisting and morphing into shapes that defy comprehension. Occasionally, she catches a glimpse of eyes, wings, or symbols that disappear as quickly as they appear.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Try to analyze the creature’s form",
+        "next_id": "summonhelp-4",
+        "skill_check": {
+          "skill": "observation",
+          "level": 25,
+          "fail": "The shapes confuse her senses, leaving her feeling dizzy and disoriented."
+        }
+      },
+      {
+        "text": "Attempt a simple banishment ritual",
+        "next_id": "summonhelp-5",
+        "skill_check": {
+          "skill": "arcanism",
+          "level": 20,
+          "fail": "The ritual barely affects the creature, which seems to grow even more agitated."
+        }
+      }
+    ]
+  },
+  {
+    "id": "summonhelp-3",
+    "description": "Em decides against helping Crowley, feeling that this summoning is more complex than it appears. As she leaves, a haunting whisper follows her out, sending chills down her spine.",
+    "image": "",
+			  "choices": [],
+    "sound": "",
+    "end": "neutral"
+  },
+  {
+    "id": "summonhelp-4",
+    "description": "Em observes the entity closely, noticing faint symbols floating within it. Each shape and form seems to relate to a forgotten language.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Attempt to communicate using ancient symbols",
+        "next_id": "summonhelp-6",
+        "skill_check": {
+          "skill": "linguistics",
+          "level": 30,
+          "fail": "Her words seem to agitate the creature, causing the room to darken as it pulses with energy."
+        }
+      },
+      {
+        "text": "Try another approach to calm it down",
+        "next_id": "summonhelp-7",
+        "skill_check": {
+          "skill": "spiritism",
+          "level": 30,
+          "fail": "The creature doesn’t respond well to her attempts, emitting a low, haunting sound."
+        }
+      }
+    ]
+  },
+  {
+    "id": "summonhelp-5",
+    "description": "Em begins a rudimentary banishment, but the entity merely wavers, refusing to leave. Crowley raises an eyebrow. 'Perhaps it needs a… softer touch?'",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Attempt a soothing chant",
+        "next_id": "summonhelp-6",
+        "skill_check": {
+          "skill": "music",
+          "level": 25,
+          "fail": "The creature shudders, clearly unaffected, as Em struggles to find the right tone."
+        }
+      }
+    ]
+  },
+  {
+    "id": "summonhelp-6",
+    "description": "Em’s words reach the creature, and it pauses, giving her a moment of silence. Crowley nods, intrigued. 'You’re on to something, Em.'",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Seal the creature within a containment spell",
+        "next_id": "summonhelp-8",
+        "skill_check": {
+          "skill": "transmutation",
+          "level": 35,
+          "fail": "The spell flickers as the entity resists, leaving the containment incomplete."
+        }
+      },
+      {
+        "text": "Let the creature dissipate naturally",
+        "next_id": "summonhelp-9"
+      }
+    ]
+  },
+  {
+    "id": "summonhelp-7",
+    "description": "The entity responds poorly, filling the room with an uncomfortable energy. Crowley looks worried, his usual confidence shaken.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Attempt a stronger banishment spell",
+        "next_id": "summonhelp-8"
+      }
+    ]
+  },
+  {
+    "id": "summonhelp-8",
+    "description": "With a final spell, Em manages to trap the creature’s energy, neutralizing its presence. Crowley sighs in relief. 'You’ve done it, Em. That… thing won’t bother us again.'",
+    "image": "",
+    "sound": "",
+    "end": "good",
+		  "choices": []
+  },
+  {
+    "id": "summonhelp-9",
+    "description": "Em releases the entity slowly, watching as it fades into mist. Crowley appears thoughtful. 'Perhaps that was the right choice. Some mysteries are better left unsolved.'",
+    "image": "",
+    "sound": "",
+    "end": "good",
+	  "choices": []
+  }
+]
+}

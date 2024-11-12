@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Passage Table</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+      text-align: left;
+    }
+    .copy-btn {
+      padding: 5px 10px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+    }
+    .copy-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Passages Table</h2>
+<input type="file" id="jsonFileInput" accept=".json">
+<table id="passagesTable">
+  <thead>
+    <tr>
+      <th>PID</th>
+      <th>Text</th>
+      <th>Copy Text</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script>
+  document.getElementById('jsonFileInput').addEventListener('change', function(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      const content = e.target.result;
+      try {
+        const data = JSON.parse(content);
+        const passages = data.passages;
+        const tableBody = document.querySelector("#passagesTable tbody");
+        tableBody.innerHTML = "";
+
+        passages.forEach(passage => {
+          const row = document.createElement("tr");
+          const pidCell = document.createElement("td");
+          const textCell = document.createElement("td");
+          const copyButtonCell = document.createElement("td");
+          const copyButton = document.createElement("button");
+
+          pidCell.textContent = passage.pid;
+
+          // Display only the text before the first '[' symbol
+          const displayText = passage.text.split('[')[0];
+          textCell.textContent = displayText;
+
+          copyButton.textContent = "Copy";
+          copyButton.classList.add("copy-btn");
+
+          // Copy only the displayed text (before the '[')
+          copyButton.addEventListener("click", () => {
+            navigator.clipboard.writeText(displayText).catch(err => {
+              console.error("Failed to copy text: ", err);
+            });
+          });
+
+          copyButtonCell.appendChild(copyButton);
+          row.appendChild(pidCell);
+          row.appendChild(textCell);
+          row.appendChild(copyButtonCell);
+          tableBody.appendChild(row);
+        });
+      } catch (error) {
+        console.error("Error parsing JSON:", error);
+      }
+    };
+
+    reader.readAsText(file);
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,420 @@
+Start
+
+You and Bubba find yourselves in a bizarre, endless store, the shelves stretching out so far ahead that they disappear into the horizon. The store’s aisles curve in impossible ways, twisting around corners that can’t possibly exist. The air smells of old paper, spices, and something faintly metallic.
+Bubba looks around, clearly intrigued, but also a little unnerved. 'I’ve seen some weird places, Em, but this… this takes the cake.'
+You nod, scanning the shelves. There are strange trinkets and peculiar items everywhere: old lanterns that seem to flicker with no flame, jars filled with shimmering dust, and books with spines that seem to change when you’re not looking.
+'Let’s set up camp,' you say, deciding it might be best to rest for a bit and figure out what’s going on. You pull out your tent, and Bubba starts gathering firewood, though there’s no telling where it’s coming from.
+[[camping, 10, The store seems quiet, but you get the feeling it’s watching you, maybe is best to not camp->Set up the tent]]
+[[observation, 8, You notice that the store shifts whenever you turn away->Check the shelves]]
+[[intuition, 7, Something feels off about the endless aisles->Check the store’s entrance again]]
+
+----------------------------
+Set up the tent
+
+You unfurl the tent, placing it on the soft, strange floor that seems to hum beneath you. Bubba grins as he gathers some firewood that appears to come out of nowhere. The store’s eerie silence makes you feel like you’re being watched, though there’s no one around.
+'This is definitely a place that’s not supposed to exist,' Bubba mutters, glancing nervously at the aisles.
+[[Ignore the feeling of being watched and just enjoy camping with Bubba->Enjoy camping]]
+[[history, 12, You’ve heard of stores like this, but only in ancient legends->Recall the stories]]
+[[diplomacy, 5, You don't find anyone nearby->Call out]]
+----------------------------
+Enjoy camping
+
+You and Bubba settle into the strange camping spot you’ve made, the hum of the floor beneath your feet echoing in the silence. The atmosphere feels almost dreamlike, as though time doesn’t flow properly here. You take a deep breath, trying to shake the feeling that you’re being watched, but the eeriness of the place lingers.
+
+As you get up to explore, you notice a few strange items left scattered around the shelves—trinkets that seem to radiate a soft, almost magical glow. You wander over to one shelf and find a small, intricately carved box. It seems old, maybe centuries old, but it’s strangely preserved, as if untouched by time.
+
+“Look at this,” you murmur, holding it up to Bubba. He steps closer, his curiosity piqued.
+
+“What is it? A puzzle box or something?”
+
+You shake your head, unsure. As you carefully open it, you find an antique compass inside. But this isn’t any normal compass—the needle spins erratically, pointing in random directions.
+
+“Is it broken?” Bubba asks.
+
+You test it. The compass seems to react to the environment, moving erratically with the hum of the floor. You tuck it into your bag, feeling a strange connection to the device. Whatever this store is, it seems to be more than just a place—it might be a doorway to something larger.
+
+After a few days of scavenging and exploring, the two of you decide to pack up and continue. You find some more strange items, including a delicate, glowing stone, which you keep in your pocket for later. The campsite feels like a small pocket of peace in the otherwise unsettling store.
+
+Finally, after three days, you feel a shift in the air. The once-shifting walls now feel more stable, and you find a door that had been hidden behind a series of shelves. It opens easily, leading you outside to the bright, welcoming light of the outside world. You’re free at last.
+
+You exchange a relieved smile with Bubba as you step into the fresh air, the strange items from the shelves safely tucked away. Whatever this place was, it’s over now.
+
+[[Continue...]]
+----------------------------
+Check the store’s entrance again
+
+You walk back to where you entered, but you find that the entrance is gone—there’s no door, no window, no trace of where you came from. The aisles continue endlessly in all directions, and the walls now seem to be made of a shifting, liquid-like material that reflects odd colors. The air is thick and oppressive, and the atmosphere feels increasingly unnatural.
+
+"Uh, Em, I’m getting a bad feeling about this," Bubba says, stepping closer to you, his voice tight with unease. "We’ve gotta get out of here."
+
+You turn to look around, but everything looks the same—strange and alien, and now even more distorted. The walls pulse as if alive. Every movement you make echoes unnervingly through the space.
+
+[[astronomy, 62, You attempt to understand the celestial patterns reflected in the walls->Attempt to map the environment]]
+[[geology, 68, You analyze the shifting material of the walls->Stabilize the surroundings]]
+[[cybernetics, 73, You try to interface with the walls using your cybernetic implants->Hack into the liquid material]]
+[[dowsing, 64, You try to detect any hidden pathways or exits->Search for a hidden exit]]
+
+----------------------------
+Search for a hidden exit
+
+You pull out your dowsing rods and begin to scan the area, hoping to detect any hidden paths or exits. As you walk carefully through the shifting aisles, the rods vibrate in your hands, indicating something faintly ahead.
+
+You follow the sensation, the rods guiding you as you approach what seems like an alcove in the walls—an opening that wasn’t there moments ago. The walls, still shifting, reveal a narrow gap, just wide enough for you to slip through.
+
+Bubba gives you a skeptical look. "You sure about this?" he asks.
+
+The rods pulse one last time, confirming the path is real. You nod. "This is it. Let’s go."
+[[Enter the gap]]
+
+----------------------------
+Enter the gap
+
+You take a deep breath, your dowsing rods pulsing in your hands as you approach the gap. The walls tremble slightly, and the flickering lights grow erratic, casting strange shadows across the narrow passage. With no time to waste and no other options left, you gesture to Bubba.
+
+“Let’s go,” you say, stepping into the gap.
+
+As you squeeze through, the air around you feels different—heavier, colder. You hear strange whispers, like distant voices calling your name from all directions. Bubba follows you, but his steps falter. “I don’t like this, Em,” he mutters, but it’s too late to turn back now.
+
+The gap leads you deeper into the labyrinthine structure, and as you go, the walls seem to close in around you. Your footsteps echo unnervingly, and the faint hum of the machinery becomes a distant thrum beneath your feet. You’re getting closer to something, but you’re not sure what.
+
+Suddenly, the passageway opens up into a large chamber. At first, it appears empty, but then you notice something that makes your blood run cold.
+
+In the center of the room stands a massive figure—hulking, twisted, and strangely mechanical. It seems to be a grotesque fusion of flesh and metal, a distorted amalgamation of the facility’s many secrets. The figure’s eyes are dark, cold voids that seem to devour the light, and its limbs twitch erratically, as though testing the space around it. The figure’s presence is overpowering, and the air feels thick with a palpable sense of dread.
+
+Before you can react, a voice booms through the chamber, deep and guttural, vibrating through your bones.
+
+“INTERLOPERS.”
+
+The ground beneath you shakes as the figure steps forward, its heavy footfalls echoing. Bubba stumbles back, his eyes wide with terror. “Em… What the hell is that thing?”
+
+The figure lunges forward, its metallic limbs scraping the floor with an unnatural screech. It's faster than it should be for its size. A cold wave of energy washes over you, and you instinctively reach for your weapon.
+
+“YOU HAVE COME TOO FAR. NOW YOU WILL PAY.”
+
+The room flickers and distorts as the figure moves to strike, its massive, claw-like hand swinging through the air with deadly precision. You barely manage to dodge, the sharp edges of its appendages narrowly missing you.
+
+[[id: clawfight->Prepare to fight]]
+
+
+----------------------------
+Press buttons at random
+
+You stare at the metallic panel next to the terminal, your hand hovering over a large, unmarked button. You’ve been trapped here for what feels like too long, and the pressure of the strange atmosphere is starting to get to you. The countdown, the messages, the cold, sterile space—it all feels like a trap.
+
+With no other options and a growing sense of urgency, you press the button at random.
+
+A sudden, deafening mechanical whirring fills the room, and the lights flicker above you. For a moment, everything goes black, and your heart races, but then a sharp, artificial voice fills the room again, echoing in every corner:
+
+"ERROR. RANDOM INPUT DETECTED."
+
+The walls around you tremble, and the floor beneath your feet seems to shift, causing you to stumble. Your mind races, but there’s no time to second-guess your decision now. The whirring intensifies, and a series of high-pitched tones begin to play—like a computer trying to process something it doesn’t understand.
+
+Suddenly, a large compartment in the floor opens with a hydraulic hiss, revealing a long, dark shaft leading down into an unknown abyss. The edges of the shaft are lined with bright, flickering lights, and there’s a faint sound coming from deep within—a low, almost rhythmic thumping, like something large moving down there.
+
+Before you can fully comprehend what’s happening, a mechanical arm extends from the ceiling and grabs you by the arm with unnatural strength, pulling you toward the shaft’s edge.
+
+"WARNING. UNAUTHORIZED ACCESS DETECTED. SYSTEM ERROR."
+
+Bubba’s voice cuts through the panic, and you turn to see him stumbling out of nowhere, as if he just materialized back into existence. “Em! What did you do?” he yells, trying to reach you.
+
+The mechanical arm is tightening its grip, and the lights flicker again. It’s like the entire room is alive now, responding to your mistake.
+
+"SUBJECT IN DANGER. AUTOMATED PROTOCOL ACTIVATED."
+
+You have a split second to act before the arm drags you into the abyss below.
+
+[[Try to free yourself from the mechanical arm->Wrestling]]
+[[Push Bubba away to keep him safe->Stealth]]
+[[Press another button in a desperate attempt to stop the system->Cybernetics]]
+
+----------------------------
+Let the coundown finish
+
+The countdown reaches zero, and the terminal’s screen goes black. For a few seconds, all is silent. Then, you hear the hum of nearby machines intensify, as if they are waking up. You stand frozen in place, not sure if you’re meant to run, hide, or prepare for what’s to come.
+
+The walls flicker momentarily, displaying strange symbols and diagrams—none of them making any sense to you. It’s as if this whole place is meant to observe or store information about you. The atmosphere shifts once more, colder now, almost sterile in its precision.
+
+You move to the terminal to try to interact, but before you can, another message appears:
+
+“EXTERNAL SUBJECT. YOU HAVE BEEN SELECTED. INITIATING TESTING SEQUENCE.”
+[[id: testending->Testing ending]]
+----------------------------
+Hack into the liquid material
+
+You activate the cybernetic implant in your arm, linking it to your internal network. The walls seem to pulse in rhythm with your movements as you try to interface with them. You focus your neural patterns, pushing the data streams from your implants into the liquid substance that surrounds you.
+
+A sharp buzz in your skull signals a connection, but it’s not what you expected. The wall responds, not with access to any hidden systems, but with an invasive, overwhelming surge of information—images, sounds, voices—all jumbled and distorted. It’s as if you’ve accessed the thoughts of the walls themselves.
+
+The flood of data overwhelms you. Your vision blurs as flashes of impossible images streak past your consciousness—holographic visions of faraway places, strange symbols, cryptic messages. A low hum fills the air, vibrating through your entire body. Just as you're about to disconnect, the ground beneath your feet shifts violently.
+
+Your vision snaps back into focus, but it’s not the room you were just in. You find yourself in an entirely different environment—a small, sterile room with rows upon rows of humming servers and data terminals. The walls here are clean, smooth, and white, and you can hear the faint sound of machinery working in the background.
+
+Bubba isn’t with you. In fact, you’re alone. The environment is stark, with no windows, no doors—just rows of equipment. Your head is spinning from the unexpected transition, and the last thing you remember was the pulsating liquid walls of the strange, shifting aisles.
+
+[[Inspect the equipment]]
+----------------------------
+Stabilize the surroundings
+
+You kneel down to inspect the walls more closely. The liquid material shifts beneath your fingertips, a strange substance that seems part organic, part mineral. It feels slick, almost like molten glass, yet it doesn’t burn you. It reflects odd colors—pinks, blues, and purples—in ways that seem impossible for regular materials.
+
+You realize this isn’t just a wall—this is a manifestation of unstable, shifting geological forces. A form of rock, liquefied and manipulated by powerful forces beyond your understanding. If you can stabilize it, the walls might stop shifting, and perhaps you can re-establish some semblance of order.
+
+Drawing on your geological knowledge, you attempt to apply pressure at key points, trying to lock the material into a more stable form. As you press your palms against the liquid wall, you feel a strange resistance. For a moment, it seems like the material might respond to you—then it pushes back violently, causing the walls to ripple.
+
+----------------------------
+Attempt to map the environment
+
+You focus on the flickering patterns in the walls, trying to recognize any celestial bodies or cosmic alignment. The strange, liquid material seems to shimmer in ways that mirror the night sky—constellations twisting unnaturally, stars bleeding into each other.
+
+You realize that the patterns aren’t random; they seem to be forming a map—a map of an entirely different reality, one where time and space bend in unpredictable ways.
+
+But as you try to trace the stars, they shift and twist, mocking your efforts. The sense of disorientation is overwhelming, and for a moment, you lose your sense of direction entirely. The map you’ve begun to chart flickers out of existence, leaving you feeling helpless.
+
+Bubba grabs your arm, pulling you away from the shifting walls. "This is bad, Em. We need a new plan."
+
+----------------------------
+Inspect the equipment
+
+A terminal in the corner of the room flickers to life, displaying a message that seems to be addressing you:
+
+"ACCESS GRANTED.
+WELCOME TO THE DATA CORE."
+
+Suddenly, a low mechanical voice fills the room, and the terminal begins to relay unsettling data:
+
+"Subjugation complete. External subject: Em, located. Commence observation and monitoring."
+
+A feeling of dread sweeps over you. This wasn’t a random shift in location. You’ve been moved to a secure, isolated data facility, and it seems like you’ve been identified as an “external subject.”
+
+What is this place? Who or what is monitoring you? And more importantly, what is your role in all of this?
+
+You hear the soft clicking of machinery around you, like gears winding into motion. A countdown begins on the terminal’s screen: "5… 4… 3…"
+
+[[Try pressing buttons at random->Press buttons at random]]
+[[Let the coundown finish]]
+
+----------------------------
+Wrestling
+
+You summon every ounce of strength you have and pull at the mechanical arm with all your might. It’s cold, rigid, and unnaturally strong, but you manage to twist your arm free just in time. You fall backward onto the floor as the arm retracts, and the compartment below you shuts with a loud slam.
+
+Bubba rushes to your side, breathless. “That was way too close, Em.”
+[[Wait]]
+
+----------------------------
+Stealth
+
+In the heat of the moment, you quickly duck and roll away from the mechanical arm’s reach, managing to escape its grip just before it pulls you into the abyss. Bubba yells in alarm, but you’re already on your feet, hidden beneath the shadow of a nearby terminal.
+
+The arm retracts, and the system seems to reset, the hum of machinery dulling slightly. You’re safe—for now.
+
+“What the hell was that?” Bubba mutters, eyes wide with disbelief.
+
+“I think we’ve made it angry,” you reply, still feeling the aftershocks of the close call.
+[[Wait]]
+
+----------------------------
+Cybernetics
+
+You don’t hesitate for a second. You activate your cybernetic implant and attempt to send a counter-signal to the system controlling the mechanical arm. The room buzzes with energy as you desperately try to override its protocols.
+
+The arm stutters, its movement slowing as the system attempts to recalibrate, but your implants manage to inject a scrambling signal. For a moment, it seems like the arm is going to stop. It’s struggling, its movements jerky as if it’s malfunctioning.
+
+And then—success. The arm lets go, retracting sharply into the ceiling.
+
+"ACCESS TERMINATED. SYSTEM RESET."
+
+The lights flicker one last time before returning to normal. You and Bubba are left standing in the now-still room, your heart still pounding from the ordeal.
+
+Bubba looks at you with wide eyes. “That was close. Too close.”
+[[Wait]]
+
+----------------------------
+
+Wait
+
+The room, now quiet and unnervingly still, feels suffocating. The sterile white walls glisten under the harsh artificial light, and the strange hum of machinery is the only sound that fills the air. It’s as if the entire facility has paused in response to your recent interference, waiting for your next move.
+
+Bubba’s footsteps echo as he paces nervously. “We need to get out of here, Em. Whatever this place is, it’s not something we should stick around to figure out.”
+
+You agree, but you’re not sure where to go. Every direction seems to lead into the same oppressive void of machinery. The doors are sealed, the walls unyielding. But just as you start to lose hope, something changes.
+
+The floor beneath you shudders once more, not violently like before, but with a soft, mechanical precision. Then, the wall to your left slides open with a quiet hiss, revealing a narrow passageway bathed in dim light. It’s an exit, or at least, it seems to be.
+
+Without a word, you and Bubba move toward it, the air growing colder as you approach. The passageway stretches ahead, its walls lined with more of those strange symbols you encountered earlier—this time, they appear less cryptic, almost familiar. As you step forward, you notice that the walls seem to pulse with a faint, rhythmic energy, like a heartbeat.
+
+The passage narrows further as you proceed, the silence in the space broken only by the sound of your footsteps and Bubba’s heavy breathing. Time feels warped here, and every moment seems to stretch longer than it should.
+
+Finally, after what feels like an eternity, you reach a large, sealed door at the end of the passage. A keypad is mounted beside it, its screen glowing a soft green. You approach it cautiously, your hand hovering over the interface. You don’t have much time, but the message displayed on the screen seems to imply it’s meant for you:
+
+“ACCESS GRANTED.
+SUBJECT: EM. EXIT READY.”
+
+A sharp metallic click fills the air as the door unlocks, and it slides open smoothly, revealing an entirely different world on the other side.
+
+The air is thick with the scent of fresh grass and salt from the sea. You’re standing on the edge of a cliff, overlooking an expansive landscape—an unfamiliar coast. Below, a city sprawls across the horizon, ancient in design, yet alive with movement. It feels strange, out of place, but you’re certain it’s the exit you were searching for.
+
+Bubba stares in disbelief, his voice barely a whisper. "What… what is this place?"
+
+You step forward, the wind picking up as it whips around you. The world beyond feels like a strange blend of the real and the unreal, a place that doesn’t belong in the same reality you’ve known.
+
+With no other choice but to move forward, you and Bubba leave the data center behind, stepping into the unknown.
+
+The door slides shut behind you, and the world you’ve escaped from vanishes without a trace. You’re left in a new place, its mysteries waiting to unfold.
+
+[[Explore this new place]]
+----------------------------
+
+Let the coundown finish
+The countdown reaches zero, and the terminal’s screen goes black. For a few seconds, all is silent. Then, you hear the hum of nearby machines intensify, as if they are waking up. You stand frozen in place, not sure if you’re meant to run, hide, or prepare for what’s to come.
+
+The walls flicker momentarily, displaying strange symbols and diagrams—none of them making any sense to you. It’s as if this whole place is meant to observe or store information about you. The atmosphere shifts once more, colder now, almost sterile in its precision.
+
+You move to the terminal to try to interact, but before you can, another message appears:
+
+“EXTERNAL SUBJECT. YOU HAVE BEEN SELECTED. INITIATING TESTING SEQUENCE.”
+[[id: testending->Testing ending]]
+----------------------------
+Try to find another exit
+
+You push forward through the shifting aisles, determined to find a way out. The shelves twist around you, rearranging themselves faster than you can keep up with. Every time you think you’ve found a path, it disappears behind you, replaced by more impossibly endless shelves.
+After what feels like hours, you come to a sudden stop. A doorway appears before you—seemingly out of nowhere, bathed in a faint light. You walk toward it cautiously, heart pounding, hoping this is the exit you’ve been searching for.
+As you step through the door, the world shifts. You’re no longer in the store, but standing in an open field under a strange sky. Bubba is beside you, looking equally confused.
+'Well, I guess that worked,' he says, still looking around.
+But something feels off. You have no idea where you are, and the air feels too still. It might be an escape… but it’s still a mystery.
+[[Continue]]
+----------------------------
+Walk toward the glowing light at the end of the aisle
+
+The end of the aisle glows faintly, a soft, inviting light beckoning you forward. Bubba looks hesitant but follows you anyway. As you walk closer, you realize the light seems to warp around you, bending and twisting in impossible ways.
+[[exploration, 30, The light feels strange and comforting->Step into the light]]
+[[camping, 10, The tent is out of sight->Turn back toward the tent]]
+[[diplomacy, 60, Maybe the light has an answer for you but does not answer your call->Call out to the light]]
+----------------------------
+Step into the light
+
+You take a deep breath and step into the glowing light. The world around you warps, and you feel a strange, weightless sensation. You try to take a step forward, but the light engulfs you entirely. For a moment, everything goes dark.
+When you open your eyes, you find yourself standing in a completely different place—still inside the store, but it looks different. The shelves are more chaotic, and the aisles twist at strange angles. Bubba is gone.
+'What happened?' you whisper to yourself.
+Suddenly, the light flickers, revealing a hidden door in the distance. You can’t help but feel that it’s your way out.
+[[Open the door]]
+----------------------------
+Call out the light
+
+You call out to the light, your voice echoing through the aisles. The light pulses brighter for a moment, and you think you hear a faint voice answer, but it’s impossible to make out the words.
+Suddenly, the light shifts, forming a figure—an ancient being that seems to be made of pure light. It steps forward, speaking in a language you don’t understand, but you feel the words in your chest as though they’re being spoken directly to your heart.
+[[Step into the light]] 
+[[Turn back toward the tent]] 
+----------------------------
+Use your knowledge of languages to crack it
+
+You take a step back and examine the symbols more critically. These aren’t just magical runes—they appear to be part of a complex code. Your mind begins to churn through the possibilities, trying to decipher their meaning. You recognize some of the shapes as old language patterns, likely of a lost civilization.
+
+After a few moments, you manage to piece the symbols together. It seems to be a cryptic message:
+"Only the blood of the forgotten will open the gate."
+
+As the realization hits, the symbols on the shelf glow brighter for a moment. Suddenly, you hear a creaking sound from the back of the room, followed by the distinct shifting of stone. The shelf slides forward, revealing a hidden compartment in the wall. Inside lies a small chest.
+
+Bubba steps forward, cautiously. "Is this... what it meant?" he asks, his voice tinged with awe.
+[[Open che chest]]
+[[Keep investigating the symbols->Investigate the symbols]] 
+----------------------------
+Investigate the symbols
+
+You approach one of the shelves, your curiosity piqued by the strange symbols etched into the wood. They pulse faintly with light, like they’re alive. As you run your fingers over the symbols, the air around you vibrates.
+'What are these?' you wonder aloud, but Bubba shrugs, clearly unsettled.
+[[arcanism, 20, You feel a slight magical presence in the symbols->Try to decipher their meaning]]
+[[cryptography, 80, The symbols seem like a Java code->Use your knowledge of languages to crack it]]
+[[history, 60, These symbols remind you of ancient wards->Check protection wards]]
+
+----------------------------
+Check the shelf
+
+You find small crystal that now pulses with the power you’ve absorbed from the symbols.
+{reward: soulgem}
+
+----------------------------
+Check protection wards
+
+You place your fingers along the lines of the symbols, recalling the old texts you’ve read. The patterns seem familiar; these are wards, but they aren’t the usual protective runes you would expect. Instead, these seem like warnings, perhaps to ward off an intrusion or prevent something from escaping.
+
+As you trace the symbols, a ripple of cold air sweeps through the room. The markings seem to be reacting to your touch, like they’re aware of your presence. With a shiver down your spine, you pull your hand away, but not before you notice something strange: the symbols have changed. They've begun to glow a dark crimson hue, pulsating with an ominous rhythm.
+
+"What did you do?" Bubba asks, backing away. "I think we’ve just triggered something.”
+
+Suddenly, the ground trembles. A low rumble echoes from deeper within the facility. You feel an overwhelming sensation of danger—a dark force has been awakened.
+
+[[id: darkforce->Face the dark force]] 
+
+----------------------------
+Recall the stories
+
+You sit down on a nearby crate, the hum of the floor beneath you as steady and unsettling as ever. You close your eyes, trying to recall what you know about places like this—ancient stores that aren’t supposed to exist, appearing in forgotten corners of the world, sometimes in dreams, sometimes in legends.
+
+Your mind wanders back to old stories you’ve heard over the years—tales of wandering merchants who spoke of selling goods in places that shifted between dimensions. Of stores that existed in both the past and the future, in places that had no real physical location but rather were built upon an ever-changing landscape of time itself. You remember one story in particular: a store built atop the ruins of an ancient temple, its shelves filled with items that seemed to rewrite reality with every touch. In this store, things you bought would change with you; they would grow or decay depending on your own state of mind. But the most chilling part of the story was always the same—no one ever left the store in the same way they entered.
+
+The weight of the legend feels like a veil settling over your thoughts. The more you think, the more it becomes clear that this place is part of a much older network—a system of stores scattered across forgotten dimensions, some of which might have been abandoned, and others that still pulse with energy.
+
+As you gather your thoughts, Bubba looks at you quizzically. “You okay, Em?”
+
+You nod, but you don’t feel entirely sure. This place feels too familiar now. The ancient stories weren't just stories after all. They were warnings.
+
+Suddenly, the store’s walls shift and warp around you, as if responding to your thoughts. It’s unsettling, but you can’t help but feel that you're on the brink of understanding something vast and incomprehensible.
+
+Perhaps there’s a way to find an exit. Or perhaps there’s something else you're meant to uncover here.
+
+[[Explore deeper to see if the walls reveal more clues.->Shelves]] 
+[[Look for a door—anything that might lead to an exit.->Try to find another exit]]
+
+----------------------------
+Call out
+
+You glance around the shelves, the eerie silence hanging in the air. There’s no sign of life—no people, no creatures, no movement except for the shifting aisles. The idea of being completely alone in this strange, unchanging place makes your skin crawl.
+
+Bubba watches you, his brow furrowed with concern. “You think someone’s here? Or are we just stuck with the walls for company?”
+
+“Well, there might be someone,” you reply, thinking that maybe there’s some hidden figure, some entity that knows the way out—or at least has answers about this place. If anything, you need some sort of contact to ground yourself.
+
+You clear your throat and call out, “Hello? Is anyone here?”
+
+Your voice echoes, the sound unnervingly loud in the silent space. For a moment, nothing happens. Then, faintly, you hear something—a low, almost imperceptible murmur that seems to come from deep within the aisles.
+
+Bubba’s eyes widen. “You heard that too, right?”
+
+You nod. The murmur turns into a soft, rhythmic sound, like a chant or a melody, distant and muffled but unmistakable. It seems to be coming from deeper within the store. Something—or someone—is responding.
+
+With a cautious glance at Bubba, you decide to investigate the source of the sound. You follow the trail, your heart pounding in your chest as you step deeper into the store’s endless aisles. As you move, the walls seem to ripple with the sound, like they’re alive, echoing back your every step.
+
+The chanting grows louder, and soon, you find yourself at the edge of a strange, glowing circle etched into the floor, surrounded by ancient symbols. In the center of the circle stands a figure—a cloaked individual, too indistinct to make out fully, who seems to be the source of the strange hum that has filled the air.
+
+The figure doesn’t speak but raises one hand, gesturing for you to come closer. Something about the figure feels strangely familiar, as though you’ve encountered them before—or maybe you will in some future time.
+
+Your curiosity piqued, you step forward, prepared for whatever answers they may hold.
+
+[[id: chantingcircle->Step into the circle and see what happens next.]]
+----------------------------
+Open the chest
+
+You find a small chest containing an ancient map and a key that seems to correspond to an old lock you’ve seen before.
+{reward: ancientMap}
+[reward: forgottenKey}
+
+----------------------------
+Try to communicate with the walls
+
+You place your hand against the pulsating walls, feeling the energy vibrate through your fingertips. The walls respond to your touch, shifting slightly and revealing a series of glowing symbols. The strange energy surges, and a voice, soft and distant, seems to speak directly into your mind.
+"You seek answers, but they are not for you."
+The walls start to hum louder, and you feel yourself being drawn into them, as if the space is swallowing you whole. For a moment, the world around you fades to black.
+When your vision returns, you’re standing in the center of the store once more, but everything has changed. The aisles are now completely still. Bubba stands by the tent, looking worried, but no longer seems to recognize you.
+The walls have reset everything. It’s as if you’ve been trapped in an endless loop.
+[[Loop back->Intro]] 
+
+----------------------------
+Turn back toward the tent
+
+You trust your instincts and decide to leave the glowing light behind. You turn around and walk back toward the tent, but as you do, the aisles around you begin to twist. The shelves shift, making it harder to find your way back.
+The eerie silence returns, and you start to feel as though the store is mocking you, shifting just out of reach every time you think you’re near the tent.
+'Maybe this was a mistake,' Bubba mutters, having somehow reappeared behind you. 'We’re trapped, Em.'
+The aisles stretch into infinity, and you realize that the way out might not exist at all.
+[[intuition, 30, The walls seem to pulse with a strange energy->Try to communicate with the walls]]
+[[exploration, 40, The shelves are still shifting->Try to find another exit]]

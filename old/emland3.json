@@ -1,0 +1,174 @@
+{
+  "title": "The Goblin Rebellion",
+  "textboxes": [
+    {
+      "id": "goblin-1",
+      "description": "Em-Land is now under Soviet occupation, and the flags of the USSR wave proudly over your once-sovereign territory. Bubba stands beside you, arms crossed, frustration evident on his face. You can’t stand seeing your land in the hands of the invaders any longer. 'We need a plan,' Bubba says, 'and we need allies.' After some thought, you come to a decision. Goblin mercenaries are known for their chaotic, unpredictable tactics. They might be just the allies you need. The only question is how to convince them.",
+      "choices": [
+        {
+          "text": "Travel to the goblin stronghold and offer them a hefty sum of gold.",
+          "next_id": "goblin-2"
+        },
+        {
+          "text": "Attempt to sneak into their camp and broker a deal with the goblin leader in secret.",
+          "next_id": "goblin-3"
+        },
+        {
+          "text": "Convince the goblins by offering to help them loot Soviet resources in exchange for their assistance.",
+          "next_id": "goblin-4"
+        }
+      ]
+    },
+    {
+      "id": "goblin-2",
+      "description": "You travel to the goblin stronghold, a rickety collection of huts and makeshift walls deep within a fog-covered forest. The goblins are a rough lot, but their leader, Grizzlefang, is a shrewd negotiator. After some haggling, Grizzlefang agrees to assist you, but not without his price. He wants a significant amount of resources from Em-Land once it's taken back. The goblins are mercenaries, after all.",
+      "choices": [
+        {
+          "text": "Agree to the terms and prepare for the assault.",
+          "next_id": "goblin-5"
+        },
+        {
+          "text": "Try to negotiate a better deal by promising even more rewards once Em-Land is free.",
+          "next_id": "goblin-6",
+          "skill_check": {
+            "skill": "diplomacy",
+            "value": 60,
+            "fail": "Grizzlefang grows impatient and walks away, leaving you with fewer options."
+          }
+        }
+      ]
+    },
+    {
+      "id": "goblin-3",
+      "description": "Under the cover of night, you sneak into the goblin camp. It’s a dangerous move, but you know the goblins can’t resist the opportunity for a quick, profitable venture. The goblin leader, Grizzlefang, is sitting by a fire, laughing with his underlings. He notices you, eyes narrowing with suspicion. 'What brings a human like you into goblin territory?' he asks, his voice rough.",
+      "choices": [
+        {
+          "text": "Explain that you need their help to take back Em-Land from the Soviets.",
+          "next_id": "goblin-2"
+        },
+        {
+          "text": "Offer him a bribe of gold and magic items in exchange for assistance.",
+          "next_id": "goblin-7",
+          "skill_check": {
+            "skill": "persuasion",
+            "value": 50,
+            "fail": "Grizzlefang scoffs, clearly unimpressed by your offer, and orders you to leave his camp."
+          }
+        }
+      ]
+    },
+    {
+      "id": "goblin-4",
+      "description": "You find a group of goblins looting a Soviet supply caravan nearby. It’s a chaotic scene, with goblins shouting and carrying off barrels of food and supplies. You approach the leader of the group, a wily goblin named Snaggles, and make your offer. In exchange for helping you retake Em-Land, you promise a share of the Soviet plunder. Snaggles grins, showing sharp teeth. 'Deal,' he says, rubbing his hands together. 'We’ll show the Soviets what we’re made of.'",
+      "choices": [
+        {
+          "text": "Head back to Em-Land with the goblins and prepare for the assault.",
+          "next_id": "goblin-8"
+        },
+        {
+          "text": "Ask Snaggles to lead a reconnaissance mission to scout the Soviet defenses first.",
+          "next_id": "goblin-9",
+          "skill_check": {
+            "skill": "stealth",
+            "value": 70,
+            "fail": "The reconnaissance mission fails, and the Soviets discover the goblins' presence, tightening security around Em-Land."
+          }
+        }
+      ]
+    },
+    {
+      "id": "goblin-5",
+      "description": "With the goblins on your side, you march toward Em-Land, ready to take back what’s yours. The goblins' unpredictable tactics are working in your favor, confusing and frustrating the Soviet forces. They can’t keep up with the guerrilla-style attacks, and morale among the Soviets is beginning to falter. Bubba stands by your side, ready to take action at a moment’s notice.",
+      "choices": [
+        {
+          "text": "Launch a surprise attack on the Soviet supply lines to weaken their position.",
+          "next_id": "goblin-10"
+        },
+        {
+          "text": "Create a diversion and send a small group of goblins to sabotage Soviet communications.",
+          "next_id": "goblin-11",
+          "skill_check": {
+            "skill": "engineering",
+            "value": 75,
+            "fail": "The sabotage fails, and the Soviets strengthen their defenses even more."
+          }
+        }
+      ]
+    },
+    {
+      "id": "goblin-6",
+      "description": "You try to negotiate a better deal with Grizzlefang, offering more wealth and resources once Em-Land is free. However, the goblin leader isn’t easily swayed by promises alone. 'You’ll have to prove yourself before I lift a finger,' he growls. 'Show me that you can handle yourself in battle, and then we’ll talk.'",
+      "choices": [
+        {
+          "text": "Accept his challenge and fight one of the goblins to prove your worth.",
+          "next_id": "goblin-12"
+        },
+        {
+          "text": "Offer to perform a service for the goblins, such as clearing out a rival group of goblins.",
+          "next_id": "goblin-13",
+          "skill_check": {
+            "skill": "combat",
+            "value": 60,
+            "fail": "You fail to impress the goblins, who lose interest in your offer and prepare to leave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "goblin-7",
+      "description": "You offer Grizzlefang a bribe, but the goblin leader is unimpressed. He shakes his head, clearly uninterested in gold and magic items. 'We goblins don’t need your shiny trinkets. We want chaos and fun!' he exclaims, waving his hands dramatically. 'But you’ve got my attention. I’ll help you, but first, show me something that’ll get me excited.'",
+      "choices": [
+        {
+          "text": "Agree to do something reckless and chaotic in front of Grizzlefang to prove your worth.",
+          "next_id": "goblin-14"
+        },
+        {
+          "text": "Offer a different reward, such as land or influence after the land is taken back.",
+          "next_id": "goblin-6"
+        }
+      ]
+    },
+    {
+      "id": "goblin-8",
+      "description": "The goblins are ready, and you march to Em-Land. The attack is quick and chaotic, with goblins swarming over Soviet positions and causing chaos. The Soviets are completely caught off guard. However, their reinforcements arrive quickly, and you’re faced with a tough choice—hold your position or retreat to regroup.",
+      "choices": [
+        {
+          "text": "Fight to the last goblin, determined to hold Em-Land at all costs.",
+          "next_id": "goblin-15"
+        },
+        {
+          "text": "Retreat and regroup, planning a more strategic attack.",
+          "next_id": "goblin-16"
+        }
+      ]
+    },
+    {
+      "id": "goblin-9",
+      "description": "Snaggles and a small team of goblins head off to scout the Soviet defenses. After several tense hours, they return with valuable information—there’s a weak point in the Soviet perimeter near the old Em-Land watchtower. This could be the key to taking back the land.",
+      "choices": [
+        {
+          "text": "Head to the watchtower and launch a focused attack on the weak point.",
+          "next_id": "goblin-17"
+        },
+        {
+          "text": "Send in the goblins to sneak around the enemy and take the watchtower by surprise.",
+          "next_id": "goblin-18"
+        }
+      ]
+    },
+    {
+      "id": "goblin-10",
+      "description": "Your surprise attack on the Soviet supply lines is a success. The enemy is caught off guard, and their logistics are severely disrupted. This gives you and the goblins the edge in the battle for Em-Land. But the Soviets are regrouping. They won’t stay down for long.",
+      "choices": [
+        {
+          "text": "Push forward with a final assault to take back Em-Land completely.",
+          "next_id": "goblin-19"
+        },
+        {
+          "text": "Prepare for a defensive stand to protect your new gains.",
+          "next_id": "goblin-20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "title": "The Abstract Creature",
+  "textboxes":[
+  {
+    "id": "backwater-1",
+    "description": "You find yourself stranded in a small, fog-shrouded town after your camper breaks down. The place is called 'Sychimew'. No one seems to have a clear memory of how they arrived, or how long they’ve been there. The air is thick with the scent of mildew, and strange, almost inaudible whispers echo between the dilapidated buildings. You head into the local inn to inquire about help for your broken-down camper. The innkeeper, a man with hollow eyes, greets you with a slow nod but doesn’t say anything. He points silently toward a door at the far end of the room. 'You'll find answers in there,' he mutters. 'They always do.'",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Enter the door the innkeeper pointed to",
+        "next_id": "backwater-2"
+      },
+      {
+        "text": "Ask the innkeeper what he meant by 'They always do'",
+        "next_id": "backwater-3"
+      }
+    ]
+  },
+  {
+    "id": "backwater-2",
+    "description": "You enter the room, which appears to be an office of sorts. On the desk sits a massive pile of papers, with a single typewritten sheet placed on top. The text reads, 'You are hereby summoned for questioning regarding the phenomenon of existence. Failure to respond will result in immediate cessation of being. Please proceed to the courthouse.' Below, there is a date. It's the same date as today. You glance around the room, but there’s no other sign of life.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Leave the room and ask someone else about the courthouse",
+        "next_id": "backwater-4"
+      },
+      {
+        "text": "Decide to go directly to the courthouse to find out more",
+        "next_id": "backwater-5"
+      },
+      {
+        "text": "Sit down and attempt to comprehend the sheet of paper",
+        "next_id": "backwater-6"
+      }
+    ]
+  },
+  {
+    "id": "backwater-3",
+    "description": "The innkeeper stares at you without blinking, his face completely devoid of expression. After an uncomfortable pause, he whispers, 'You will know everything, but you must choose. The courthouse is where the questions end, but it is also where the answers begin. Decide for yourself.' He then hands you a strange black stone, cold to the touch, and vanishes. The rest of the inn is eerily silent, the patrons frozen in place, all staring at you.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Follow the innkeeper’s advice and go to the courthouse",
+        "next_id": "backwater-5"
+      },
+      {
+        "text": "Examine the stone closely to try to understand its meaning",
+        "next_id": "backwater-7"
+      }
+    ]
+  },
+  {
+    "id": "backwater-4",
+    "description": "You leave the room and approach the first person you see, an old woman with a hunched back, sitting on a bench near a window. She looks at you blankly and says, 'The courthouse is not the answer. Not yet.' When you ask where you should go instead, she just repeats, 'It’s all in the paperwork.' As you try to make sense of her words, the fog outside thickens, almost as if the town itself is closing in on you.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Head to the courthouse despite the woman’s warning",
+        "next_id": "backwater-5"
+      },
+      {
+        "text": "Ask the woman for more details about the paperwork",
+        "next_id": "backwater-8"
+      }
+    ]
+  },
+  {
+    "id": "backwater-5",
+    "description": "You make your way to the courthouse, a strange, towering building that looks like it was constructed by an architect who had never seen a real building before. The walls are shifting and growing at strange angles, and the doors open on their own. Inside, the atmosphere is thick with tension. A clerk at the counter hands you a form, which seems to be exactly the same as the typewritten sheet from the office. 'Fill out the form, or your being will be questioned,' the clerk says, not looking at you. You begin filling it out, but the questions seem impossible to answer. Every time you write something down, the question changes.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Continue filling out the form, hoping for the best",
+        "next_id": "backwater-9"
+      },
+      {
+        "text": "Ask the clerk what is going on",
+        "next_id": "backwater-10"
+      }
+    ]
+  },
+  {
+    "id": "backwater-6",
+    "description": "You sit down and stare at the sheet of paper for what feels like hours. The typewritten words begin to change and twist before your eyes, forming shapes and symbols that seem to have meaning but are impossible to comprehend. The more you try to make sense of it, the less you feel like yourself. Eventually, your mind starts to warp and bend, and you’re unsure if you’ve even been here at all. A voice in the distance murmurs, 'You have made your choice, but you will never leave.'",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Try to escape the room, even though you don’t know where to go",
+        "next_id": "backwater-11"
+      },
+      {
+        "text": "Attempt to destroy the form and break free from the confusion",
+        "next_id": "backwater-12"
+      }
+    ]
+  },
+  {
+    "id": "backwater-7",
+    "description": "The stone pulses in your hand, and suddenly, you’re no longer standing in the inn. You’re in the courthouse, surrounded by people who seem to be waiting for something. A man steps forward, his eyes black as night, and says, 'The paperwork has begun. Your time has come.' Everything around you feels strangely distorted as if you’ve entered another dimension, one where time and space no longer make sense.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Follow the man into the courtroom",
+        "next_id": "backwater-13"
+      },
+      {
+        "text": "Try to leave and find your way back to the inn",
+        "next_id": "backwater-14"
+      }
+    ]
+  },
+  {
+    "id": "backwater-8",
+    "description": "The woman doesn’t answer your question. Instead, she smiles faintly and says, 'They will come for you soon. You will never leave.' The fog outside is now so thick you can hardly see anything beyond the window. The town feels like it is closing in on you. Everything seems strangely off-kilter, and the weight of the air makes it difficult to breathe. The townspeople move slower now, as though they are trapped in a dream.",
+    "image": "",
+    "sound": "",
+    "choices": [
+      {
+        "text": "Run to the courthouse despite the unsettling feeling",
+        "next_id": "backwater-5"
+      },
+      {
+        "text": "Sit down with the woman and wait for something to happen",
+        "next_id": "backwater-15"
+      }
+    ]
+  },
+  {
+    "id": "backwater-9",
+    "description": "The form continues to change as you fill it out, becoming increasingly strange and abstract. Every answer you provide just raises more questions, and the act of filling it out makes you question your very existence. Eventually, the room begins to close in on you, and the walls pulse with an unnatural energy. A deep voice echoes, 'You have filled out the form. Now you must accept the consequences.'",
+    "image": "",
+    "sound": "",
+    "end": "bad",
+		"choices":[]
+
+  },
+  {
+    "id": "backwater-10",
+    "description": "The clerk doesn’t respond. Instead, they stare at you with hollow eyes, as if they’ve already seen your fate. The more you ask questions, the more your words are lost, absorbed by the silence around you. You’re left with the unsettling sense that you’ve been caught in a trap that you can’t escape from.",
+    "image": "",
+    "sound": "",
+    "end": "bad",
+		"choices":[]
+
+  },
+  {
+    "id": "backwater-11",
+    "description": "You try to leave the room, but the walls stretch impossibly, and the door seems to move further away with every step you take. The air grows thick, and your vision starts to blur. The strange voice says again, 'You cannot leave until the form is completed. You cannot leave until you’ve been questioned.'",
+    "image": "",
+    "sound": "",
+    "end": "bad",
+	"choices":[]
+  }
+  ]
+  }

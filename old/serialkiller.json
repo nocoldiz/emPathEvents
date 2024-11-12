@@ -1,0 +1,209 @@
+{
+  "title": "Hunted",
+  "textboxes": [
+    {
+      "id": "hunted-1",
+      "description": "You and Bubba are parked in a secluded, quiet area near a dense forest. The night is eerily calm, the sounds of the forest muffled by the fog. It’s been a long day, and you both settle into the camper to rest. Bubba sits by the window, staring out into the fog as you start to fall asleep. Suddenly, you hear a faint sound—footsteps. Then a thud, followed by a soft scraping noise against the side of the camper. Bubba’s head snaps to attention, his eyes narrowing.",
+      "choices": [
+        {
+          "text": "Investigate the noise outside.",
+          "next_id": "hunted-2"
+        },
+        {
+          "text": "Wake Bubba fully and prepare to defend yourself.",
+          "next_id": "hunted-3"
+        },
+        {
+          "text": "Stay quiet and wait to see if it goes away.",
+          "next_id": "hunted-4"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-2",
+      "description": "You quietly open the door to peer outside. The fog is thick, and visibility is poor. You can barely make out shapes in the distance, but you feel like something—someone—is watching. A faint rustling catches your attention, and you hear something heavy dragging along the ground. You turn back to Bubba, who is already moving toward the back of the camper.",
+      "choices": [
+        {
+          "text": "Warn Bubba and prepare to fight.",
+          "next_id": "hunted-5"
+        },
+        {
+          "text": "Quickly lock the door and wait for the intruder to make a move.",
+          "next_id": "hunted-6"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-3",
+      "description": "Bubba is already awake, grabbing his crowbar from under his bunk. He gestures for you to stay quiet as he crouches near the door. You can hear something—or someone—moving around the camper, pacing slowly. Bubba’s eyes narrow as he looks for a way to make a surprise move.",
+      "choices": [
+        {
+          "text": "Go outside and confront whoever is making the noise.",
+          "next_id": "hunted-7"
+        },
+        {
+          "text": "Wait for the person to make a move and act accordingly.",
+          "next_id": "hunted-8"
+        },
+        {
+          "text": "Use the camper’s tools to make a distraction and escape.",
+          "next_id": "hunted-9"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-4",
+      "description": "You wait, holding your breath, hoping that the noise will stop. The sounds continue for a while before abruptly going quiet. For a moment, there’s only silence. Then, you hear a sharp scrape against the camper’s door—a metal sound, like a blade testing the edge. It’s clear the intruder is still out there and now knows you’re awake.",
+      "choices": [
+        {
+          "text": "Try to sneak out and confront the intruder.",
+          "next_id": "hunted-7"
+        },
+        {
+          "text": "Quietly wake Bubba and plan a defense.",
+          "next_id": "hunted-3"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-5",
+      "description": "Bubba opens the door with swift motion, crowbar raised. The moment he steps outside, you hear a low, cold voice say, 'You shouldn't have come here.' The fog shifts, and a tall, lanky figure steps out, a glint of steel visible in their hand. A cruel smile spreads across the figure’s face, their eyes locked on you both. A serial killer. You are the prey.",
+      "choices": [
+        {
+          "text": "Run for the woods and lose them in the fog.",
+          "next_id": "hunted-10"
+        },
+        {
+          "text": "Stay and fight with Bubba.",
+          "next_id": "hunted-11"
+        },
+        {
+          "text": "Try to reason with the killer and offer to leave peacefully.",
+          "next_id": "hunted-12"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-6",
+      "description": "You lock the door just as you hear footsteps circling the camper. You can hear the killer’s breath and the sound of something scraping against the side. They are testing the door, looking for an entry point. You grip the nearest weapon, trying to stay calm. Bubba moves quietly to the back window, scanning the surroundings.",
+      "choices": [
+        {
+          "text": "Look for an escape route out of the camper.",
+          "next_id": "hunted-10"
+        },
+        {
+          "text": "Wait and see if the killer will try to break in.",
+          "next_id": "hunted-13"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-7",
+      "description": "You burst out of the door, taking the killer by surprise for a moment. They stagger back, but quickly recover, brandishing a blade that catches the dim light. Bubba follows closely behind, charging with the crowbar. The killer sneers, raising their weapon to strike.",
+      "choices": [
+        {
+          "text": "Try to disarm the killer and fight them off.",
+          "next_id": "hunted-14"
+        },
+        {
+          "text": "Retreat and look for an opportunity to escape.",
+          "next_id": "hunted-15"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-8",
+      "description": "You wait and watch, the tension rising. The killer steps toward the door, listening closely. Suddenly, you hear the sharp sound of a blade scraping along the camper's door, and the killer makes their move, lunging forward with a gleam of steel.",
+      "choices": [
+        {
+          "text": "Block the door and defend with whatever you can.",
+          "next_id": "hunted-11"
+        },
+        {
+          "text": "Make a run for it, trying to get outside and escape.",
+          "next_id": "hunted-15"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-9",
+      "description": "You quickly grab a tool from inside the camper—maybe a wrench or hammer—and throw it outside to create a noise. The killer steps toward the noise, and for a brief moment, you have a chance to escape. Bubba grabs your arm, pulling you to the back exit.",
+      "choices": [
+        {
+          "text": "Escape into the woods.",
+          "next_id": "hunted-10"
+        },
+        {
+          "text": "Wait and see if the distraction works.",
+          "next_id": "hunted-13"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-10",
+      "description": "You both sprint into the foggy woods, trying to lose the killer. The sound of pursuit is close behind, but the fog is thick enough that you can’t tell if they are gaining on you. Your heart pounds, and every snap of a twig feels like the killer’s footsteps. Bubba pulls you into a small ravine to hide, holding his breath.",
+      "choices": [
+        {
+          "text": "Wait quietly and try to lose the killer in the forest.",
+          "next_id": "hunted-16"
+        },
+        {
+          "text": "Try to find a weapon in the forest to defend yourself.",
+          "next_id": "hunted-17"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-11",
+      "description": "You and Bubba fight fiercely, but the killer is quick and skilled. The blade narrowly misses you as Bubba strikes with the crowbar. The fight is intense, and you barely manage to avoid the killer’s blows. But just as you’re starting to tire, a loud noise from the distance catches the killer’s attention, and they turn to investigate.",
+      "choices": [
+        {
+          "text": "Take the opportunity to escape.",
+          "next_id": "hunted-10"
+        },
+        {
+          "text": "Press the attack and try to finish the fight.",
+          "next_id": "hunted-18"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    },
+    {
+      "id": "hunted-12",
+      "description": "You try to reason with the killer, offering to leave peacefully. The killer stops, staring at you with a cold gaze. They speak, 'There’s no running from me.' The killer then advances with a twisted grin, no longer interested in talking.",
+      "choices": [
+        {
+          "text": "Defend yourself against the killer.",
+          "next_id": "hunted-11"
+        },
+        {
+          "text": "Try to escape and warn Bubba.",
+          "next_id": "hunted-15"
+        }
+      ],
+      "image": "",
+      "sound": ""
+    }
+  ]
+}
