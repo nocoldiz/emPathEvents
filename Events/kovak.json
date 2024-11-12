@@ -1,0 +1,95 @@
+
+
+{
+  "passages": [
+    {
+      "text": "The sun is setting over a war-torn city, and the air is thick with smoke. You’ve been following the trail of a notorious Bosnian war criminal, a man named Kovač, who’s been evading capture for years. As a part-time war journalist, you’ve had to hone your skills not just in writing, but in gathering information, navigating dangerous places, and using magic when necessary.\n\nBubba, your ever-loyal companion, walks beside you, keeping a wary eye on the crowd. You’ve tracked Kovač to a dilapidated building at the edge of the city, a likely hideout. According to your sources, he’s holed up inside, preparing to leave the country.\n\nYou take a deep breath, adjusting the camera strapped to your shoulder. You need to get to him before he vanishes again—and you need to find out everything he knows. The stakes are high.\n\n[[Use your spiritism skills to sense his presence inside the building->Good Ending]]\n\n[[Enter the building cautiously, trying to blend in with the crowd->Neutral Ending]]\n\n[[Use a distraction spell to draw him out into the open->Bad Ending]]",
+      "links": [
+        {
+          "name": "Use your spiritism skills to sense his presence inside the building",
+          "link": "Good Ending",
+          "pid": "2"
+        },
+        {
+          "name": "Enter the building cautiously, trying to blend in with the crowd",
+          "link": "Neutral Ending",
+          "pid": "3"
+        },
+        {
+          "name": "Use a distraction spell to draw him out into the open",
+          "link": "Bad Ending",
+          "pid": "4"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "625",
+        "y": "250"
+      }
+    },
+    {
+      "text": "You focus your senses, channeling your spiritism magic to feel the subtle traces of Kovač's energy lingering in the building. A cold shiver runs down your spine as you detect a faint aura of aggression and fear within. You smile, knowing you’re on the right track.\n\nYou enter the building through a broken side door, moving swiftly and quietly. Your magical senses guide you through the crumbling halls until you find Kovač in a small, dimly lit room, packing a bag. He doesn’t hear you approach in time. Before he can react, you’re on him—your interrogation sharp and direct. He’s too shaken by your presence and the weight of the magic you wield to resist. Within minutes, you’ve got the information you need, and the police are en route to take him down.\n [[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Good Ending",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You enter the building cautiously, blending in with the few remaining civilians who are taking shelter in the ruins. The sound of the war outside still echoes in the distance, but your focus is solely on Kovač.\n\nYou make your way through the building, following the tips you’ve gathered from your sources. However, as you move deeper into the structure, it becomes clear that you’ve been followed. The moment you spot Kovač, he disappears into a dark hallway, slipping out of sight. You manage to follow him into a cramped room, but he’s already gone—vanishing into the shadows. He leaves behind only a cryptic note, an indication that your search isn’t over.\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Neutral Ending",
+      "pid": "3",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You decide to take a more direct approach, using a spell of confusion to create a distraction that will lure Kovač out into the open. You gather your energy and cast the spell, filling the area with a burst of disorienting magic. The chaos you’ve created is effective—too effective.\n\nIn the confusion, a group of armed men emerges, all with connections to Kovač. They catch you off guard, and before you can react, you’re surrounded. They’re not interested in interrogation, and soon you’re forced to retreat, leaving the building empty-handed and a bit worse for wear. The trail goes cold, and Kovač escapes once again.\n[[Continue...]]\n",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Bad Ending",
+      "pid": "4",
+      "position": {
+        "x": "750",
+        "y": "375"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "5",
+      "position": {
+        "x": "600",
+        "y": "525"
+      }
+    }
+  ],
+  "name": "Event Kovak",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "6e5f690d-6dc2-42d2-afb0-996656b6335b"
+}
+

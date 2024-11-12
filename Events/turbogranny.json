@@ -1,0 +1,95 @@
+
+
+{
+  "passages": [
+    {
+      "text": "As you and Bubba navigate the winding, foggy mountain road, a strange sight appears in your rearview mirror—a hunched figure on a motorcycle, speeding toward you at an alarming rate. The figure is an old woman, her wild hair streaming behind her as she grips the handlebars with a fierce determination. She lets out a shrill cackle as she gets closer, her bike rumbling with an unnatural, powerful engine.\n\nBubba barks in alarm as the \"Turbo Granny\" revs her engine, pulling up dangerously close behind you. It’s clear she’s not planning to let you escape easily.\n[[Try to outmaneuver her on the sharp turns->Good Ending]]\n\n[[Attempt a defensive spell to slow her down->Neutral Ending]]\n\n[[Floor the gas and go all out->Bad Ending]]",
+      "links": [
+        {
+          "name": "Try to outmaneuver her on the sharp turns",
+          "link": "Good Ending",
+          "pid": "2"
+        },
+        {
+          "name": "Attempt a defensive spell to slow her down",
+          "link": "Neutral Ending",
+          "pid": "3"
+        },
+        {
+          "name": "Floor the gas and go all out",
+          "link": "Bad Ending",
+          "pid": "4"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "625",
+        "y": "250"
+      }
+    },
+    {
+      "text": "You grip the wheel tightly, expertly weaving through the hairpin turns and using the narrow curves to your advantage. Turbo Granny, clearly not as skilled on the twisting road, struggles to keep up, her bike wobbling as she takes each turn. Eventually, with one last sharp curve, she loses control, veering off the road in a puff of dust and cursing as she disappears from view. You and Bubba share a relieved grin as you speed down the mountain, safely out of her reach.\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Good Ending",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You quickly mutter a slowing spell, focusing on the ground beneath Turbo Granny’s bike. The road becomes slick with a thin layer of enchanted oil, causing her to skid slightly as she approaches, though she doesn’t give up. The spell buys you just enough time to increase your lead, but her distant cackling tells you she’ll be back to chase you another day.\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Neutral Ending",
+      "pid": "3",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "Deciding that speed is your best bet, you slam down the gas pedal, sending the camper barreling down the mountain road. The engine roars, and Bubba yelps as you hit breakneck speeds, but Turbo Granny is faster. She closes the distance with ease, reaching out and raking her bony fingers along the side of the camper. Sparks fly, and the camper shudders as she laughs wildly. You manage to escape, but not without a few scrapes and dents—and the unsettling knowledge that you haven’t seen the last of her.\n[[Continue...]]\n",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Bad Ending",
+      "pid": "4",
+      "position": {
+        "x": "750",
+        "y": "375"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "5",
+      "position": {
+        "x": "600",
+        "y": "525"
+      }
+    }
+  ],
+  "name": "Event Turbogranny",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "ccc5b1ac-871d-4de9-8141-42589691fd0f"
+}
+

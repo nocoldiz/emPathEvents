@@ -1,0 +1,95 @@
+
+
+{
+  "passages": [
+    {
+      "text": "You’re sitting in the camper, flipping through a magical tome, when suddenly a strange flash fills the room. The air crackles with energy, and before you can react, a man in a slightly outdated outfit appears right in front of you—John Titor, the time traveler from the future.\n\nHe blinks in confusion, looking around the cramped space. \"This isn’t right… I was supposed to be in 2036,\" he mutters, checking his watch. \"What dimension is this? Is this some kind of alternate timeline?\"\n\nBubba, who’s been napping in the corner, suddenly springs to his feet, snarling loudly at the intruder. His fur bristles, and he paces back and forth, clearly furious at the unexpected guest.\n\n\"Who is this?!\" Bubba growls, his tail flicking angrily. \"Why is he in our camper?!\"\n\nJohn Titor looks even more confused now, clearly not understanding what’s happening. \"I didn’t mean to... I just... where am I?\"\n[[Ask John what he was doing before he arrived->Neutral Ending]]\n\n[[Try to calm Bubba down and offer Titor a ride out of the dimension->Good Ending]]\n\n[[Tell John he has to leave immediately and drop him off somewhere far away->Bad Ending]]",
+      "links": [
+        {
+          "name": "Ask John what he was doing before he arrived",
+          "link": "Neutral Ending",
+          "pid": "3"
+        },
+        {
+          "name": "Try to calm Bubba down and offer Titor a ride out of the dimension",
+          "link": "Good Ending",
+          "pid": "2"
+        },
+        {
+          "name": "Tell John he has to leave immediately and drop him off somewhere far away",
+          "link": "Bad Ending",
+          "pid": "4"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "625",
+        "y": "250"
+      }
+    },
+    {
+      "text": "You try your best to calm Bubba down, petting him gently and speaking in soothing tones. \"It’s alright, Bubba. Let’s hear him out.\"\n\nJohn Titor, still a little disoriented, watches you with cautious interest as you turn to him. \"How about a ride out of this dimension? You can’t stay here forever.\"\n\nAfter some hesitation, he nods, seemingly grateful for the offer. \"I think that’s a good idea. I wasn’t expecting to end up in… whatever this is.\"\n\nYou drive the camper to a nearby portal, and after a brief but intense moment, John Titor steps through. Bubba, while still grumbling, seems satisfied that the strange visitor is gone.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Good Ending",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You ask John what he was doing right before he arrived. His eyes widen as he tries to gather his thoughts. \"I was in the middle of a time jump… I must’ve miscalculated… I didn’t mean to land here.\"\n\nHis confusion is palpable, but it doesn’t do much to calm Bubba down. The dog continues to bark at him, agitated by the strange man’s sudden appearance. Eventually, you give up trying to reason with Bubba and reluctantly decide to ask John to leave. He mutters an apology before stepping out of the camper, though he looks just as confused about the whole ordeal as you do.\n\nBubba’s growls subside as the camper is finally calm again.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Neutral Ending",
+      "pid": "3",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You’ve had enough. You glare at John Titor, your patience wearing thin. \"You need to leave. Right now. Get out of the camper.\"\n\nJohn looks bewildered, clearly not understanding why you’re so upset. But Bubba, sensing your frustration, is now even angrier. He growls loudly, backing up toward the door. You open the camper door, and with a firm shove, you push John out.\n\n\"Go find your timeline elsewhere!\" Bubba barks, his tail wagging furiously.\n\nAs John stumbles away, you slam the door shut, grateful to have the peace restored. Bubba gives one last, satisfied snarl before settling back down for a nap.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Bad Ending",
+      "pid": "4",
+      "position": {
+        "x": "750",
+        "y": "375"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "5",
+      "position": {
+        "x": "600",
+        "y": "525"
+      }
+    }
+  ],
+  "name": "Event Titor",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "1c5a1f66-c74d-4df5-b6b5-dafaefd4dcce"
+}
+

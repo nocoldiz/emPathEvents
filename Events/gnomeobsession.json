@@ -1,0 +1,95 @@
+
+
+{
+  "passages": [
+    {
+      "text": "You’ve always had a knack for jumping from one obsession to the next, and today is no different. After coming across an obscure text on the history of enchanted garden gnomes in a dusty second-hand bookstore, you suddenly find yourself consumed with a new hyperfixation. You can’t think about anything else but finding out everything there is to know about these curious creatures. The book detailed their magical properties—how they can either protect your home or, in rare cases, act as tiny guardians of forbidden knowledge.\n\nBubba watches as you pour over the pages, your fingers tracing the illustrations of these gnomes with wild excitement. It’s only when you nearly knock over the coffee mug for the third time that you realize it’s time to take action. You need to find one—a real gnome.\n\n\"Let’s go, Bubba,\" you say, standing up with determination. \"We’re going gnome hunting.\"\n    [[Track down a rumored gnome collector in the next town->Neutral Ending]]\n\n    [[Search the local woods for enchanted gnomes->Good Ending]]\n\n    [[Use magic to summon a gnome and see what happens->Bad Ending]]\n\n",
+      "links": [
+        {
+          "name": "Track down a rumored gnome collector in the next town",
+          "link": "Neutral Ending",
+          "pid": "3"
+        },
+        {
+          "name": "Search the local woods for enchanted gnomes",
+          "link": "Good Ending",
+          "pid": "2"
+        },
+        {
+          "name": "Use magic to summon a gnome and see what happens",
+          "link": "Bad Ending",
+          "pid": "4"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "625",
+        "y": "250"
+      }
+    },
+    {
+      "text": "With nothing more than a rough map and a gut feeling, you head into the nearby woods, certain that somewhere out there, hidden among the trees, lies an enchanted gnome. Bubba growls quietly beside you, alert to the quiet rustle of leaves. You search for hours, pulling at vines and peering under fallen logs, until, finally, you spot something shiny peeking out from behind a large boulder.\n\nIt’s a small gnome, no taller than a foot, but its eyes glow faintly. As you approach, it doesn’t scurry away or vanish—it simply stands still, watching you curiously. You gently kneel, your heart racing, and ask it if it will join you. After a long moment, it gives a tiny nod, and you carefully lift it into your arms. You’ve found your first enchanted gnome, and it feels like a huge victory.\n\nBubba, despite his skepticism, seems intrigued. The gnome follows you back to the camper, sitting quietly by your side. You have a new companion now, one that’s both adorable and possibly a tiny protector.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Good Ending",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You head to the nearest town, following whispers of an eccentric collector who supposedly has a vast collection of enchanted gnomes. The journey is slow, and Bubba grows increasingly annoyed with your distracted ramblings about their magical abilities. When you finally meet the collector, they seem more amused by your enthusiasm than anything else. They show you their collection, but it turns out that most of the gnomes are just ordinary garden statues—no magic involved.\n\nWhile you didn’t find anything extraordinary, you do leave with a small, somewhat enchanted gnome that the collector claims has a \"mild\" protective aura. Bubba isn’t impressed, but you’re already planning your next fixated pursuit. The gnome sits quietly in the corner of the camper, its glass eyes staring into the distance.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Neutral Ending",
+      "pid": "3",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "Eager to avoid the tiresome search for a real gnome, you decide to use magic to summon one instead. You gather your ingredients, muttering an incantation under your breath. The air around you shifts as the spell takes hold, and soon a small figure materializes—except it’s not quite what you were expecting.\n\nThe gnome that appears is nothing like the cute little creatures in the book. This one is made of sharp, jagged stone and seems incredibly... angry. It doesn’t look at all friendly. Before you can react, it begins to scurry around the camper, knocking things over and causing chaos. Bubba barks loudly, chasing after it, but the gnome evades him with surprising agility.\n\nYou struggle to contain the creature as it causes more and more damage, realizing too late that maybe you should have just stuck to finding one the old-fashioned way. The gnome finally disappears back into thin air, leaving behind a trail of destruction. Bubba sits down, exhausted, while you begin to clean up the mess.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Bad Ending",
+      "pid": "4",
+      "position": {
+        "x": "750",
+        "y": "375"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "5",
+      "position": {
+        "x": "600",
+        "y": "525"
+      }
+    }
+  ],
+  "name": "Event Gnome hunters",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "2f3d151f-ef20-4819-862a-5e48ae63c3be"
+}
+

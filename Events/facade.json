@@ -1,0 +1,104 @@
+
+
+{
+  "passages": [
+    {
+      "text": "You and Bubba are traveling down an ancient, overgrown path when you spot a grand stone archway partially hidden behind a thicket of vines. The archway is covered in mysterious runes, and large, iron doors stand ominously ajar. The structure is ancient, weathered, but clearly designed to impress, its sheer size and design suggesting that whatever lies beyond must be of great importance.\n\nA deep, cold wind flows from the opening, sending a shiver down your spine. Bubba growls softly, his hackles raised. You feel a pull of curiosity. This might be the entrance to something truly significant.\n\n\"Let’s see what’s inside, Bubba,\" you mutter, pushing forward through the thick vines and stepping through the threshold.\n[[Examine the runes carefully before entering->Good Ending]]\n\n[[Push forward boldly, eager to discover the secrets within->Neutral Ending]]\n\n[[Attempt to magically probe the entrance from a distance->Bad Ending]]",
+      "links": [
+        {
+          "name": "Examine the runes carefully before entering",
+          "link": "Good Ending",
+          "pid": "2"
+        },
+        {
+          "name": "Push forward boldly, eager to discover the secrets within",
+          "link": "Neutral Ending",
+          "pid": "3"
+        },
+        {
+          "name": "Attempt to magically probe the entrance from a distance",
+          "link": "Bad Ending",
+          "pid": "4"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "625",
+        "y": "250"
+      }
+    },
+    {
+      "text": "You take a moment to examine the intricate runes on the archway, using your knowledge of ancient languages and magic. The symbols, when deciphered, reveal a warning—this dungeon was once meant to test a great hero, but its purpose was lost over time. With this newfound knowledge, you proceed cautiously, ready for whatever comes next.\n\nAs you step through the archway, the grand stone doors creak shut behind you. The floor opens up into a surprisingly small, humble stone room. The only thing inside is a single pedestal with a dusty old tome resting on it. Bubba sniffs around, clearly unimpressed. The tome, when opened, reveals that it’s a simple guide on how to brew basic potions. You feel slightly deflated by the underwhelming discovery, but at least you gained some useful knowledge.\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Good Ending",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You step forward without hesitation, the anticipation rising in your chest. The stone doors shut behind you with a resounding thud, echoing through the empty space. As you make your way into the dungeon, the grandeur of the entrance quickly fades, and you find yourself in a small, simple stone room. The only feature is a chest in the center, covered in dust. You open it, only to find a handful of ancient coins and a few old scrolls that seem more decorative than useful. The dungeon’s impressive facade turns out to be nothing more than a glorified storage room.\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Neutral Ending",
+      "pid": "3",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You grow impatient, feeling the need to get inside and discover what this impressive dungeon holds. You decide to probe it with a quick spell to sense any magical energies lurking within. You channel your magic toward the entrance, but something goes wrong. The spell ricochets off the stone archway, creating a wave of energy that causes the ground to rumble beneath you. The doors slam shut with a thunderous crash, and you find yourself trapped inside.\n\nThe cavernous echo you’d expected to hear dies out quickly, revealing only a small, dank room. The walls are covered in moss, and the only thing inside is a large stone bowl with an old relic floating within. It’s a simple trinket, a mere bauble of little value. With frustration building, you realize the dungeon entrance was all show—and you’ve wasted both your time and energy on something far less exciting than you’d imagined.\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Bad Ending",
+      "pid": "4",
+      "position": {
+        "x": "750",
+        "y": "375"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "5",
+      "position": {
+        "x": "600",
+        "y": "525"
+      }
+    },
+    {
+      "text": "",
+      "name": "Passaggio senza titolo 1",
+      "pid": "6",
+      "position": {
+        "x": "925",
+        "y": "375"
+      }
+    }
+  ],
+  "name": "Event Facade",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "6911ad59-bdb9-47de-836e-5f690d6dc272"
+}
+

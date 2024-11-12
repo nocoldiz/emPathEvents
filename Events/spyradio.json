@@ -1,0 +1,95 @@
+
+
+{
+  "passages": [
+    {
+      "text": "You’re driving down an empty road, the hum of the camper's engine filling the air. Bubba is napping in the back, his snores gentle but rhythmic. You idly flip through the radio channels, looking for something to occupy your mind. You pass through static-filled stations, and then—there’s a strange, almost haunting frequency.\n\nYou pause for a moment, intrigued by the odd hum coming from the speakers. The static crackles, and then—voices.\n\n“...Yeah, I think I’ve just had enough of the whole dimension-hopping thing, Bubba. I mean, there’s only so many weird places you can visit before they all start to blend together, right?”\n\nYou freeze, recognizing your voice instantly. The conversation continues.\n\n“You’re probably right,” Bubba’s voice follows, his tone just as familiar. “But what about Beagle? You sure you don’t want to make it there?”\n\nIt’s your conversation—last night. The radio seems to be replaying your discussion, word for word, as if it happened all over again.\n[[Turn off the radio and pretend it never happened->Neutral Ending]]\n\n[[Try to talk to the radio and see if it responds->Good Ending]]\n\n[[Follow the radio signal to its source->Bad Ending]]",
+      "links": [
+        {
+          "name": "Turn off the radio and pretend it never happened",
+          "link": "Neutral Ending",
+          "pid": "3"
+        },
+        {
+          "name": "Try to talk to the radio and see if it responds",
+          "link": "Good Ending",
+          "pid": "2"
+        },
+        {
+          "name": "Follow the radio signal to its source",
+          "link": "Bad Ending",
+          "pid": "5"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "600",
+        "y": "250"
+      }
+    },
+    {
+      "text": "You can’t let this go. \"Hello?\" you call out, unsure if you’re speaking to the radio or just the void. \"Who’s playing this?\"\n\nThe radio crackles, but then it clears up as a low, almost amused voice responds. “Is this... Em? Oh, so you finally caught on.”\n\nYour heart races as you grip the wheel tighter. “What’s going on? How is this even possible?”\n\nThe voice laughs lightly. “You’d be surprised how easy it is to tap into your frequency. You’ve been asking the wrong questions all along.”\n\nJust as quickly as it began, the radio goes silent. Bubba stirs in the backseat, looking at you quizzically.\n\n\"Who was that?\" he asks, now fully awake.\n\nYou stare at the empty radio dial, still processing the strange exchange. \"I don’t know, but I think we just made contact with something beyond our understanding.\"\n\nThe camper continues down the road, and for the first time, you feel like there’s something else, something watching and listening.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "4"
+        }
+      ],
+      "name": "Good Ending",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You shiver as the conversation continues to play, getting a little too close for comfort. You slam your hand down on the radio, switching it off abruptly. The silence is deafening. Bubba, who’s been half-awake this whole time, stirs and looks at you curiously.\n\n\"What’s wrong?\" he asks, tail flicking lazily.\n\n\"Nothing,\" you reply quickly, brushing it off. \"Just a weird frequency.\"\n\nYou drive in silence for a while, the unsettling feeling slowly fading as you focus on the road. Bubba yawns and goes back to sleep, but you can’t shake the eerie sense that the universe is somehow listening in on you.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "4"
+        }
+      ],
+      "name": "Neutral Ending",
+      "pid": "3",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "4",
+      "position": {
+        "x": "600",
+        "y": "525"
+      }
+    },
+    {
+      "text": "Something about the strange replaying of your conversation makes you curious. You grab the wheel, turning it sharply as you follow the static signal. It grows louder, more urgent, and your surroundings start to blur as you race toward its source.\n\nEventually, you find yourself in an abandoned clearing. The radio crackles loudly as the camper comes to a stop. No buildings, no signs of life—just an empty field. The radio now screams your name in distorted waves, the conversation from last night repeating endlessly.\n\nBefore you can react, the ground beneath you begins to tremble. A dark shape looms on the horizon, and you realize too late that you’ve walked straight into a trap—a realm of endless noise, where time and space distort. The camper’s radio blares relentlessly, as you’re sucked into the chaos.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "4"
+        }
+      ],
+      "name": "Bad Ending",
+      "pid": "5",
+      "position": {
+        "x": "750",
+        "y": "375"
+      }
+    }
+  ],
+  "name": "Event Radio Spy",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "2a5e48ae-63c3-4e7d-8ce1-11dca50a2aac"
+}
+

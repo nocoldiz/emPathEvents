@@ -1,0 +1,88 @@
+
+
+{
+  "passages": [
+    {
+      "text": "You’re in the camper, driving through yet another surreal dimension, when something strange happens. You hear a voice. Not Bubba’s, not any magical entities you might have summoned—but a voice coming from nowhere.\n\n\"Em paused for a moment, staring at the strange, shifting landscape outside the camper,\" the voice narrates casually, as if it’s commenting on your actions. You freeze, looking around.\n\n\"Wait. What was that?\" you murmur, furrowing your brow.\n\nThe voice continues, undeterred. \"She couldn't shake the feeling that something was watching her.\"\n\n\"Are you… talking about me?\" You glance at Bubba, who’s busy sniffing the floor, seemingly unaffected by the oddness.\n[[Call out to the narrator and demand answers->Neutral Ending]]\n\n[[Try to use magic to find the narrator->Good Ending]]\n\n[[Ignore it and continue your journey->Bad Ending]]",
+      "links": [
+        {
+          "name": "Call out to the narrator and demand answers",
+          "link": "Neutral Ending",
+          "pid": "3"
+        },
+        {
+          "name": "Try to use magic to find the narrator",
+          "link": "Good Ending",
+          "pid": "2"
+        },
+        {
+          "name": "Ignore it and continue your journey",
+          "link": "Bad Ending",
+          "pid": "4"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "625",
+        "y": "250"
+      }
+    },
+    {
+      "text": "Curiosity piqued, you decide to try something new. \"Alright, narrator, how about this: I’m going to use magic to find you. You can’t hide from me now!\"\n\nYou pull out a small spellbook and begin chanting a spell to locate the source of the voice. The camper shakes slightly as magic crackles in the air.\n\nFor a moment, nothing happens. Then, suddenly, a strange ripple fills the air, and the voice speaks again, slightly more nervous now. \"Wait, wait! No need to get aggressive! I’m just narrating your actions. I’m not really here!\"\n\nYou pause, realizing you’ve somehow made the narrator nervous. \"So you’re not even real?\"\n\n\"Not in the traditional sense, no,\" the voice admits. \"I exist to tell your story, but I’m not a physical being.\"\n\nYou let out a small laugh, feeling more in control. \"Well, that’s strange, but fine. I guess we’ll both just get along then.\"\n\nThe voice doesn’t respond, but you sense a faint chuckle before it quiets again. With the mystery cleared up, you continue on your journey, a little less weirded out by the idea of being narrated.",
+      "name": "Good Ending",
+      "pid": "2",
+      "position": {
+        "x": "500",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You can’t stand it anymore. \"Hey! Who’s talking? Who are you?!\"\n\nThe voice stops, as if surprised by your outburst. There’s a long pause before it responds, \"I—uh, I’m the narrator. I’m the one telling your story.\"\n\nYou blink, bewildered. \"The narrator? But… you're in my head?\" You look around the camper, half-expecting to see someone hidden in the corner.\n\n\"Well, not in your head, exactly,\" the voice clarifies. \"More like... narrating your actions. Kind of like this.\"\n\nYou sit in stunned silence. \"So… you’re like, an invisible storyteller? That’s creepy.\"\n\nThe voice chuckles. \"Yeah, I guess it is a bit weird. But don’t worry, I’m just here to tell your story.\"\n\n\"Well,\" you grumble, \"I don’t like it. Can you shut up for a bit?\"\n\nThe voice falls silent, leaving you with a lingering sense of unease. You continue your journey, feeling a little more self-conscious than before.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Neutral Ending",
+      "pid": "3",
+      "position": {
+        "x": "625",
+        "y": "375"
+      }
+    },
+    {
+      "text": "You decide to ignore the voice and continue your journey. \"Whatever,\" you mutter, \"I don’t have time for this weirdness.\"\n\nBut the voice keeps going. \"Em drove through the thickening fog, unaware of the dangers lurking ahead. Little did she know, the road would soon twist into an unexpected confrontation.\"\n\nIt keeps narrating, detailing your every movement, as though you aren’t even in control. You try to ignore it, but the voice grows louder, more insistent, describing even your smallest actions with alarming precision.\n\nAs you drive on, the discomfort builds. The voice continues its monologue, and you’re left feeling like you’re being controlled, unable to break free from the invisible hand that is shaping your actions.\n\n[[Continue...]]\n",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "5"
+        }
+      ],
+      "name": "Bad Ending",
+      "pid": "4",
+      "position": {
+        "x": "750",
+        "y": "375"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "5",
+      "position": {
+        "x": "600",
+        "y": "525"
+      }
+    }
+  ],
+  "name": "Event Spacetime Narration",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "b5dafaef-d4dc-4e32-8723-58ea786c312a"
+}
+
