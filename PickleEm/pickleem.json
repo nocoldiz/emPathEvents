@@ -1,0 +1,166 @@
+
+
+{
+  "passages": [
+    {
+      "text": "ìIt was supposed to be a quiet day. Just you, Bubba, and the open road. But, as with most things post-squishing, peace never lasts long.\n\nYou wake up in the camper, feeling… small. And oddly stiff. The world towers above you—Bubba’s boots, the camper table, even the crumbs on the floor look like boulders. It takes a moment to process what’s happened, and then it hits you like a bag of spell ingredients.\n\nYou’ve been turned into a pickle.\n\nA literal, tiny, green, slightly damp pickle. You lie there, helpless, staring up at the camper ceiling. Bubba, who had been snacking on pickles last night, looks down and gasps.\n\n“Em?! Is that you? As a…pickle?”\n\nYou feel the urge to sigh but have no mouth, so all you can do is lie there, staring at him in silent despair.\n\n[[Observation, 20, You try to remember if you cast any strange spells last night, but being a pickle doesn’t exactly help your memory. -> Let Bubba poke you for signs of life]]\n\n[[Exploration, 15, You struggle to wriggle yourself around, hoping for a clue or sign nearby. -> Try moving toward the edge of the table]]",
+      "links": [
+        {
+          "name": "Observation, 20, You try to remember if you cast any strange spells last night, but being a pickle doesn’t exactly help your memory. ",
+          "link": " Let Bubba poke you for signs of life",
+          "pid": "2"
+        },
+        {
+          "name": "Exploration, 15, You struggle to wriggle yourself around, hoping for a clue or sign nearby. ",
+          "link": " Try moving toward the edge of the table",
+          "pid": "7"
+        }
+      ],
+      "name": "Intro",
+      "pid": "1",
+      "position": {
+        "x": "525",
+        "y": "400"
+      }
+    },
+    {
+      "text": "Bubba sets you gently on the camper table and pokes you with a hesitant finger. “This… doesn’t seem ideal, Em,” he says, frowning. “Why on earth would you turn yourself into a pickle?”\n\nYou would roll your eyes if you had eyes that moved. But no, here you are: a soggy, helpless pickle with no plan and no explanation.\n\n“Well, we’ve got to fix this,” Bubba says. He opens his spellbook, which has grown worn from years of magical misadventures.\n\n“Hold on,” he mumbles, flipping through the pages. “Maybe I’ll find a ReversePickleSpell somewhere in here…”\n\n[[Cryptography, 25, The symbols in the spellbook look different from this briny perspective. -> Hope Bubba figures out a spell to help you]]\n\n[[Spiritism, 30, You try to channel some magic to guide him from within the jar. -> Attempt to telepathically communicate directions to Bubba]]\n",
+      "links": [
+        {
+          "name": "Cryptography, 25, The symbols in the spellbook look different from this briny perspective. ",
+          "link": " Hope Bubba figures out a spell to help you",
+          "pid": "8"
+        },
+        {
+          "name": "Spiritism, 30, You try to channel some magic to guide him from within the jar. ",
+          "link": " Attempt to telepathically communicate directions to Bubba",
+          "pid": "9"
+        }
+      ],
+      "name": " Let Bubba poke you for signs of life",
+      "pid": "2",
+      "position": {
+        "x": "525",
+        "y": "525"
+      }
+    },
+    {
+      "text": "Hours pass, and Bubba’s “research” consists mostly of flipping through pages, glancing back at you, and muttering under his breath. Just when you think he might finally be onto something, he suddenly grins.\n\n“I’ve got it, Em! I know how to fix this. Just… give me a minute.”\n\nBut rather than crafting a spell, he lifts you—pickle body and all—and places you in a jar. The jar rolls as Bubba begins to sprint out of the camper, mumbling about something called a “Pickle Recon” plan. You’re not sure what’s going on, but it doesn’t feel reassuring.\n\nOutside, you hear shouting—a group of raccoons, decked out in bizarre, makeshift armor, is congregating near the camper. Bubba barrels out, holding you high.\n\n“BEHOLD! The Pickle Witch!”\n\nThe raccoons eye you warily, chittering to each other in confusion.\n\n“Uh, Bubba? I don’t think this is gonna work,” you mutter to yourself, resigned to whatever bizarre path Bubba has chosen.\n\n[[Intuition, 35, You sense the raccoons are unimpressed and slightly annoyed. -> Watch helplessly as Bubba tries to negotiate with the raccoons]]\n\n[[Spiritism, 40, You focus all your energy on trying to end this mess yourself. -> Attempt to cast a desperate spell to transform back]]",
+      "links": [
+        {
+          "name": "Intuition, 35, You sense the raccoons are unimpressed and slightly annoyed. ",
+          "link": " Watch helplessly as Bubba tries to negotiate with the raccoons",
+          "pid": "4"
+        },
+        {
+          "name": "Spiritism, 40, You focus all your energy on trying to end this mess yourself. ",
+          "link": " Attempt to cast a desperate spell to transform back",
+          "pid": "10"
+        }
+      ],
+      "name": " Hope that Bubba figures out a spell to help you",
+      "pid": "3",
+      "position": {
+        "x": "525",
+        "y": "650"
+      }
+    },
+    {
+      "text": "The raccoons are clearly not buying Bubba’s pitch. They chitter and gesture aggressively with tiny, sharpened sticks, and it’s clear they have no intention of letting you off the hook.\n\nSuddenly, one of the raccoons grabs the jar and rolls it out of Bubba’s hands. You tumble down a small hill, bouncing wildly. The raccoons cheer as you roll away, a helpless pickle in a jar, until finally, you stop at the bottom. There, you lie in the dirt, trapped in the glass.\n\nBubba scrambles down after you, apologizing profusely as he finally retrieves the jar.\n\n“Sorry, Em,” he says. “That didn’t go… quite as planned.”\n\nHe looks back at the raccoons, who have now turned their attention to a suspicious-looking dumpster nearby.\n\n[[Back to the camper, with Bubba promising to “do better next time” ->End]]",
+      "links": [
+        {
+          "name": "Back to the camper, with Bubba promising to “do better next time” ",
+          "link": "End",
+          "pid": "6"
+        }
+      ],
+      "name": " Watch helplessly as Bubba tries to negotiate with the raccoons",
+      "pid": "4",
+      "position": {
+        "x": "525",
+        "y": "775"
+      }
+    },
+    {
+      "text": "Gathering all your willpower, you manage to roll yourself just a few inches closer to the portal. The shimmering light grows brighter, and you feel a faint tug—a glimmer of hope that maybe this whole ordeal might finally come to an end.\n\nYou close your imaginary eyes, focusing on reversing the curse. Just as you reach the edge of the portal, a strange warmth envelops you, like stepping into sunlight.\n\nIn a flash, you’re back to your usual self, fully human and utterly relieved. Bubba comes barreling down the hill after you, looking both relieved and proud.\n\n“I knew you’d figure it out, Em!” he says, throwing his arms around you.\n\nYou sigh, brushing the pickle brine off your sleeves. “Let’s never, ever mention this again, Bubba.”\n\n“Deal,” he says with a grin. But you have a sinking feeling he won’t let you live this down anytime soon.\n\n[[Back in the camper, savoring the relief of having limbs again->End]]",
+      "links": [
+        {
+          "name": "Back in the camper, savoring the relief of having limbs again",
+          "link": "End",
+          "pid": "6"
+        }
+      ],
+      "name": " Roll toward the portal and pray for the best",
+      "pid": "5",
+      "position": {
+        "x": "525",
+        "y": "900"
+      }
+    },
+    {
+      "text": "",
+      "name": "End",
+      "pid": "6",
+      "position": {
+        "x": "525",
+        "y": "1025"
+      }
+    },
+    {
+      "text": "Instead of relying on magic or Bubba’s schemes, you wriggle as hard as you can, managing to tip the jar over. You roll yourself, inch by inch, toward the edge of the camper’s countertop and take a terrifying plunge down to the floor.\n\nThe jar shatters, leaving you free to roll across the floor, heading for an open door where the raccoons have left a portal device lying unattended.\n\nThis is it, you think. My escape.\n\nWith one last wriggle, you push yourself into the portal, and with a flash, you’re back in human form, standing in an empty field far from the camper. Bubba catches up, panting, as you dust yourself off.\n\n“I knew you’d make it, Em,” he says with a grin. “I was, uh, getting the spell ready back in the camper.”\n\nYou roll your eyes. “Right. Sure you were.”\n\n[[Walk back to the camper, laughing about the ridiculous adventure you just survived->End]]",
+      "links": [
+        {
+          "name": "Walk back to the camper, laughing about the ridiculous adventure you just survived",
+          "link": "End",
+          "pid": "6"
+        }
+      ],
+      "name": " Try moving toward the edge of the table",
+      "pid": "7",
+      "position": {
+        "x": "900",
+        "y": "475"
+      }
+    },
+    {
+      "text": "",
+      "name": " Hope Bubba figures out a spell to help you",
+      "pid": "8",
+      "position": {
+        "x": "462.5",
+        "y": "1150"
+      }
+    },
+    {
+      "text": "",
+      "name": " Attempt to telepathically communicate directions to Bubba",
+      "pid": "9",
+      "position": {
+        "x": "587.5",
+        "y": "1150"
+      }
+    },
+    {
+      "text": "In a moment of sheer desperation, you focus every ounce of magical energy you have on trying to undo the curse. You’ve never cast a spell from within a pickle, but with em.Path’s strange rules, there’s a slim chance it might work.\n\nYou gather your strength, calling on every ounce of spirit energy you have left. The air around you shimmers, the jar vibrates, and suddenly—poof!—you’re back to normal.\n\nYou blink, feeling light-headed but grateful. Bubba stares at you, wide-eyed.\n\n“It worked! You actually cast from… inside a pickle?!”\n\nYou nod, barely able to believe it yourself. “Let’s just… keep this between us, okay?”\n\nBubba grins. “Deal. But, Em?”\n\nYou raise an eyebrow.\n\n“You were… kind of a big dill.”\n\nYou sigh, shaking your head. “Let’s go.”\n\n[[Head back to the camper, ready to leave this ordeal behind->End]]",
+      "links": [
+        {
+          "name": "Head back to the camper, ready to leave this ordeal behind",
+          "link": "End",
+          "pid": "6"
+        }
+      ],
+      "name": " Attempt to cast a desperate spell to transform back",
+      "pid": "10",
+      "position": {
+        "x": "775",
+        "y": "775"
+      }
+    }
+  ],
+  "name": "Pickle Em",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "34ACBAB2-87D8-4A25-BBD6-4E6E27543014"
+}
+
