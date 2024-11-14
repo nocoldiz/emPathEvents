@@ -1,0 +1,195 @@
+
+
+{
+  "passages": [
+    {
+      "text": "Lorem ipsum\n{money:400}[[arcanism, 50, Success message, Failmessage, Skill check info]]\n[[arcanism, 50, Success message, Skill check->Skill check]]\n[[Get item]]\n[[id:test->Call encounter id]]",
+      "links": [
+        {
+          "name": "arcanism, 50, Success message, Failmessage, Skill check info",
+          "link": "arcanism, 50, Success message, Failmessage, Skill check info",
+          "pid": "9"
+        },
+        {
+          "name": "arcanism, 50, Success message, Skill check",
+          "link": "Skill check",
+          "pid": "2"
+        },
+        {
+          "name": "Get item",
+          "link": "Get item",
+          "pid": "3"
+        },
+        {
+          "name": "id:test",
+          "link": "Call encounter id",
+          "pid": "4"
+        }
+      ],
+      "name": "Start",
+      "pid": "1",
+      "position": {
+        "x": "800",
+        "y": "325"
+      }
+    },
+    {
+      "text": "[[Continue...]]\n[[Empty box with return]]\n[[ActionName->Labeled box with return]]\n[[Empty box]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "10"
+        },
+        {
+          "name": "Empty box with return",
+          "link": "Empty box with return",
+          "pid": "11"
+        },
+        {
+          "name": "ActionName",
+          "link": "Labeled box with return",
+          "pid": "12"
+        },
+        {
+          "name": "Empty box",
+          "link": "Empty box",
+          "pid": "13"
+        }
+      ],
+      "name": "Skill check",
+      "pid": "2",
+      "position": {
+        "x": "575",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Got sniper rifle\n\n{item: sniperrifle}\n[[Change mood]]\n[[Get multiple objects]]\n[[Get money]]\n[[Lose money]]",
+      "links": [
+        {
+          "name": "Change mood",
+          "link": "Change mood",
+          "pid": "5"
+        },
+        {
+          "name": "Get multiple objects",
+          "link": "Get multiple objects",
+          "pid": "6"
+        },
+        {
+          "name": "Get money",
+          "link": "Get money",
+          "pid": "7"
+        },
+        {
+          "name": "Lose money",
+          "link": "Lose money",
+          "pid": "8"
+        }
+      ],
+      "name": "Get item",
+      "pid": "3",
+      "position": {
+        "x": "750",
+        "y": "450"
+      }
+    },
+    {
+      "text": "",
+      "name": "Call encounter id",
+      "pid": "4",
+      "position": {
+        "x": "925",
+        "y": "525"
+      }
+    },
+    {
+      "text": "{mood:50}",
+      "name": "Change mood",
+      "pid": "5",
+      "position": {
+        "x": "587.5",
+        "y": "625"
+      }
+    },
+    {
+      "text": "Get different things objects\n\n{item:sniperrifle}\n{mood:-40}\n{item:ironsword}\n",
+      "name": "Get multiple objects",
+      "pid": "6",
+      "position": {
+        "x": "725",
+        "y": "625"
+      }
+    },
+    {
+      "text": "Get money debug\n\n{money:400}",
+      "name": "Get money",
+      "pid": "7",
+      "position": {
+        "x": "875",
+        "y": "700"
+      }
+    },
+    {
+      "text": "\nLose money\n{money:-400}",
+      "name": "Lose money",
+      "pid": "8",
+      "position": {
+        "x": "750",
+        "y": "825"
+      }
+    },
+    {
+      "text": "",
+      "name": "arcanism, 50, Success message, Failmessage, Skill check info",
+      "pid": "9",
+      "position": {
+        "x": "1075",
+        "y": "425"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "10",
+      "position": {
+        "x": "400",
+        "y": "525"
+      }
+    },
+    {
+      "text": "AAAAaqdsdad",
+      "name": "Empty box with return",
+      "pid": "11",
+      "position": {
+        "x": "450",
+        "y": "700"
+      }
+    },
+    {
+      "text": "Return from this",
+      "name": "Labeled box with return",
+      "pid": "12",
+      "position": {
+        "x": "575",
+        "y": "825"
+      }
+    },
+    {
+      "text": "",
+      "name": "Empty box",
+      "pid": "13",
+      "position": {
+        "x": "450",
+        "y": "825"
+      }
+    }
+  ],
+  "name": "Adventure",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "8DEF5AF6-956A-4C49-9C01-3F663AFB8A22"
+}
+

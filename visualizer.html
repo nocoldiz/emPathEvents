@@ -1,545 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adventure Graph Visualizer</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
-  <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script> <!-- Cytoscape.js -->
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      height: 100vh;
-      margin: 0;
-      background-color: #f0f0f0;
-    }
-    #sidebar {
-      width: 300px;
-      padding: 20px;
-      background-color: #333;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
-    }
-    #sidebar textarea {
-      width: 100%;
-      height: 60vh;
-      resize: none;
-      padding: 10px;
-      font-size: 14px;
-      color: #333;
-    }
-    #sidebar button {
-      padding: 10px;
-      font-size: 16px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    #sidebar button:hover {
-      background-color: #0056b3;
-    }
-    #cy {
-      flex-grow: 1;
-      background-color: #fff;
-    }
 
-    /* Modal/overlay styling */
-    #modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-      display: none;
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-    }
-    #modalContent {
-      background-color: #fff;
-      padding: 20px;
-      width: 80%;
-      max-width: 800px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      text-align: left;
-      margin: auto;
-    }
-    #modal h2 {
-      margin-top: 0;
-    }
-    #closeModal {
-      background-color: #007bff;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      cursor: pointer;
-      float: right;
-    }
-    #closeModal:hover {
-      background-color: #0056b3;
-    }
-    .choice-button {
-      display: block;
-      background-color: #007bff;
-      color: white;
-      padding: 10px;
-      margin: 10px 0;
-      text-align: center;
-      cursor: pointer;
-      font-size: 16px;
-    }
-    .choice-button:hover {
-      background-color: #0056b3;
-    }
-  </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Graph Visualizer</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://unpkg.com/cytoscape/dist/cytoscape.min.js"></script>
+    <!-- Cytoscape.js -->
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          display: flex;
+          height: 100vh;
+          margin: 0;
+          background-color: #f0f0f0;
+        }
+        #sidebar {
+          width: 300px;
+          padding: 20px;
+          background-color: #333;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        #sidebar textarea {
+          width: 100%;
+          height: 60vh;
+          resize: none;
+          padding: 10px;
+          font-size: 14px;
+          color: #333;
+        }
+        #sidebar button {
+          padding: 10px;
+          font-size: 16px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          cursor: pointer;
+        }
+        #sidebar button:hover {
+          background-color: #0056b3;
+        }
+        #cy {
+          flex-grow: 1;
+          background-color: #fff;
+        }
+    
+        /* Modal/overlay styling */
+        #modal {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+          display: none;
+          justify-content: center;
+          align-items: center;
+          z-index: 1000;
+        }
+        #modalContent {
+          background-color: #fff;
+          padding: 20px;
+          width: 80%;
+          max-width: 800px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          text-align: left;
+          margin: auto;
+        }
+        #modal h2 {
+          margin-top: 0;
+        }
+        #closeModal {
+          background-color: #007bff;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+          float: right;
+        }
+        #closeModal:hover {
+          background-color: #0056b3;
+        }
+        .choice-button {
+          display: block;
+          background-color: #007bff;
+          color: white;
+          padding: 10px;
+          margin: 10px 0;
+          text-align: center;
+          cursor: pointer;
+          font-size: 16px;
+        }
+        .choice-button:hover {
+          background-color: #0056b3;
+        }
+    </style>
 </head>
+
 <body>
 
-  <div id="sidebar">
-    <h2>Adventure Data Input</h2>
-	    <input type="file" id="fileInput" accept=".json">
-    <textarea id="jsonInput" placeholder="Paste JSON data here...">{
-  "title": "The Hunt for the Fink Ployd Vinyl",
-  "textboxes": [
-    {
-      "id": "adventure-1",
-      "description": "The air is thick with anticipation as you enter the dusty old record store, a hidden gem in the heart of the city. The shopkeeper, an old man with a crooked smile, greets you. 'Looking for something special?' he asks. You nod, knowing that today could be the day you find it: the legendary Fink Ployd vinyl. Rumor has it that the record is worth a small fortune and has been hidden away for years.",
-      "choices": [
-        {
-          "text": "Ask the shopkeeper if he has any Fink Ployd records in stock.",
-          "next_id": "adventure-2"
-        },
-        {
-          "text": "Browse the shelves on your own, hoping to spot the record.",
-          "next_id": "adventure-3"
-        },
-        {
-          "text": "Leave the store, thinking it might not be worth the hassle.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-2",
-      "description": "'Fink Ployd, huh?' The shopkeeper grins knowingly. 'You know, that’s not just any vinyl. It’s a one-of-a-kind edition. But the real question is: are you willing to pay the price to find it?' His cryptic words leave you intrigued, but he refuses to say more. Instead, he points toward a small, unmarked door at the back of the shop. 'Go through there if you’re serious.'",
-      "choices": [
-        {
-          "text": "Head toward the door, eager to discover the secret.",
-          "next_id": "adventure-4"
-        },
-        {
-          "text": "Ask the shopkeeper for more information about the vinyl.",
-          "next_id": "adventure-5"
-        },
-        {
-          "text": "Leave the shop, doubting the shopkeeper’s intentions.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-3",
-      "description": "You start browsing the shelves, running your fingers over rows of dusty records. The shop smells of age and nostalgia, but nothing seems to stand out. Hours pass, and you begin to feel a growing sense of frustration. Just as you’re about to give up, you hear the sound of a vinyl being dropped behind you. You turn and spot an older man whispering, 'I’m selling a Fink Ployd, but it's not for anyone. You’ll have to prove your worth.'",
-      "choices": [
-        {
-          "text": "Ask the man how you can prove your worth.",
-          "next_id": "adventure-6"
-        },
-        {
-          "text": "Tell the man you’re not interested and leave the store.",
-          "next_id": "bad-end"
-        },
-        {
-          "text": "Try to grab the vinyl and leave without asking more questions.",
-          "next_id": "adventure-7"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-4",
-      "description": "The door creaks open as you step into a dimly lit back room filled with vintage records and old artifacts. The room smells of musty leather and dust. In the center of the room, there’s a single vinyl spinning on a turntable. The label reads 'Fink Ployd - The Lost Session.' The shopkeeper watches you closely from the shadows. 'So, you’ve made it this far. Do you think you’re ready to claim it?' he asks.",
-      "choices": [
-        {
-          "text": "Tell him you’re ready and take the vinyl.",
-          "next_id": "adventure-8"
-        },
-        {
-          "text": "Ask him what you need to do to prove yourself worthy of the vinyl.",
-          "next_id": "adventure-9"
-        },
-        {
-          "text": "Leave the room, feeling the weight of the decision.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-5",
-      "description": "The shopkeeper gives you a strange look. 'More information, you say? Well, if you really want it, you’ll need to answer a riddle.' He smiles slyly. 'Answer correctly, and the vinyl will be yours. Fail, and you’ll be sent out with nothing.'",
-      "choices": [
-        {
-          "text": "Accept the challenge and listen to the riddle.",
-          "next_id": "adventure-10"
-        },
-        {
-          "text": "Refuse the riddle, demanding more direct answers.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-6",
-      "description": "The older man looks you over, appraising you like a treasure hunter. 'To prove your worth, you must retrieve a certain record from the deepest part of the city, where no one dares to venture. It’s hidden in a place known only to the bravest.' He hands you a small map, its edges frayed from age.",
-      "choices": [
-        {
-          "text": "Take the map and head to the location.",
-          "next_id": "adventure-11"
-        },
-        {
-          "text": "Refuse the task and leave the shop.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-7",
-      "description": "You grab the vinyl, but as soon as you make the move, the older man grabs your wrist, his grip surprisingly strong for his age. 'I wouldn’t do that if I were you,' he warns, eyes narrowing. 'This is not a record to be taken lightly.' He lets go of your arm and slowly backs away, leaving you to wonder if you’ve made the wrong decision.",
-      "choices": [
-        {
-          "text": "Apologize and ask what he meant.",
-          "next_id": "adventure-12"
-        },
-        {
-          "text": "Rush out of the store, keeping the vinyl in hand.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-8",
-      "description": "You reach out and take the vinyl, feeling a rush of excitement. But just as you do, the shopkeeper speaks again. 'It’s yours now, but it will come at a cost. There are those who will stop at nothing to get their hands on it.' The room goes dark, and the turntable stops spinning.",
-      "choices": [
-        {
-          "text": "Ask him what the cost will be.",
-          "next_id": "adventure-13"
-        },
-        {
-          "text": "Take the vinyl and leave quickly.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-9",
-      "description": "'The price of this vinyl is simple,' the shopkeeper says. 'You must sacrifice something you cherish to claim it. That’s the rule.' His voice grows softer, almost hypnotic. 'Think carefully. Choose wisely.'",
-      "choices": [
-        {
-          "text": "Agree to make the sacrifice.",
-          "next_id": "adventure-14"
-        },
-        {
-          "text": "Refuse and leave the room.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-10",
-      "description": "The shopkeeper smiles, and the riddle begins: 'I am not alive, but I grow. I don’t have lungs, but I need air. I don’t have a mouth, but water kills me. What am I?'",
-      "choices": [
-        {
-          "text": "Answer 'fire'.",
-          "next_id": "adventure-15"
-        },
-        {
-          "text": "Answer 'a plant'.",
-          "next_id": "adventure-16"
-        },
-        {
-          "text": "Answer 'a cloud'.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-11",
-      "description": "You follow the map, venturing deeper into the city. The area feels strange, almost alive, as though it’s watching you. At the location marked on the map, you find a sealed door. The challenge now is figuring out how to get inside.",
-      "choices": [
-        {
-          "text": "Search for a way to break into the door.",
-          "next_id": "adventure-17"
-        },
-        {
-          "text": "Look around for any clues that might help you open it.",
-          "next_id": "adventure-18"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-12",
-      "description": "The man chuckles darkly. 'You’ve chosen to ignore the warnings, haven’t you? No one can simply take this vinyl without facing the consequences.' He steps back, his form shifting into something darker. A shadowy figure looms over you, its eyes glowing with malevolent intent.",
-      "choices": [
-        {
-          "text": "Run from the figure.",
-          "next_id": "bad-end"
-        },
-        {
-          "text": "Stand your ground and confront the figure.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-13",
-      "description": "The shopkeeper’s face hardens. 'The cost is your freedom. You can never escape the reach of the Fink Ployd vinyl once you own it.' The shop fades into darkness, and you find yourself alone in a strange, unrecognizable place.",
-      "choices": [
-        {
-          "text": "Try to escape.",
-          "next_id": "bad-end"
-        },
-        {
-          "text": "Accept your fate.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-14",
-      "description": "You agree to make the sacrifice, and the vinyl seems to glow with an eerie light. As you take it, something precious to you is taken in return. What was once yours is now lost forever.",
-      "choices": [
-        {
-          "text": "Leave the shop with the vinyl.",
-          "next_id": "good-end"
-        },
-        {
-          "text": "Return the vinyl, unable to live with the cost.",
-          "next_id": "neutral-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-15",
-      "description": "'You are correct,' the shopkeeper says, his smile wide. 'The vinyl is yours now. But remember, it carries a price. Use it wisely.' The shopkeeper vanishes, leaving you to ponder the true cost of your new acquisition.",
-      "choices": [
-        {
-          "text": "Leave the shop with the vinyl.",
-          "next_id": "good-end"
-        },
-        {
-          "text": "Ask if there’s a way to undo your decision.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "adventure-16",
-      "description": "'Incorrect,' the shopkeeper says, his smile vanishing. 'The price is too high for those who cannot see the truth.' The room around you grows dark, and the vinyl fades from view.",
-      "choices": [
-        {
-          "text": "Apologize and ask for another chance.",
-          "next_id": "bad-end"
-        },
-        {
-          "text": "Leave the shop empty-handed.",
-          "next_id": "bad-end"
-        }
-      ],
-      "image": "",
-      "sound": ""
-    },
-    {
-      "id": "good-end",
-      "description": "You leave the shop with the Fink Ployd vinyl in hand, feeling a sense of triumph. But as you step outside, you can’t shake the feeling that something has changed.",
-      "choices": []
-    },
-    {
-      "id": "neutral-end",
-      "description": "You leave the shop, the vinyl still in your possession, but the weight of your sacrifice weighs heavily on your heart. You’re not sure if it was worth it.",
-      "choices": []
-    },
-    {
-      "id": "bad-end",
-      "description": "You leave the shop empty-handed, your dreams dashed. The vinyl, and the mystery it holds, remain elusive, just out of reach.",
-      "choices": []
-    }
-  ]
-}
-
-</textarea>
-    <button id="updateGraph">Update Graph</button>
-  </div>
-
-  <div id="cy"></div>
-
-  <!-- Modal overlay for node details -->
-  <div id="modal">
-    <div id="modalContent">
-      <button id="closeModal">Close</button>
-      <h2>Node Details</h2>
-      <p id="nodeDescription"></p>
-      <div id="choicesList"></div>
+    <div id="sidebar">
+        <h2>Adventure Data Input</h2>
+        <input type="file" id="fileInput" accept=".json">
+        <textarea id="jsonInput" placeholder="Paste JSON data here..."></textarea>
+        <button id="updateGraph">Update Graph</button>
+		<button id="startAdventure">Start Adventure</button>
     </div>
-  </div>
 
-  <script>
-    $(document).ready(function() {
-      // Initialize Cytoscape
-      const cy = cytoscape({
-        container: document.getElementById('cy'),
-        style: [
-          {
-            selector: 'node',
-            style: {
-              'shape': 'square',
-              'content': 'data(label)',
-              'background-color': '#007bff',
-              'color': '#fff',
-              'text-valign': 'center',
-              'text-halign': 'center',
-              'width': '450px',
-              'height': '250px',
-              'border-width': '2px',
-              'border-color': '#333',
-              'border-radius': '10px',
-              'text-wrap': 'wrap',
-              'font-size': '32px'
-            }
-          },
-          {
-            selector: 'edge',
-            style: {
-              'label': 'data(label)',
-              'curve-style': 'bezier',
-              'font-size': '32px',
-              'width': 10,
-              'line-color': '#ccc',
-              'target-arrow-color': '#ccc',
-              'target-arrow-shape': 'triangle'
-            }
-          }
-        ],
-        layout: {
-          name: 'breadthfirst',
-          directed: true,
-          padding: 10
-        }
-      });
+    <div id="cy"></div>
 
-      let adventureData;
+    <!-- Modal overlay for node details -->
+    <div id="modal">
+        <div id="modalContent">
+            <button id="closeModal">Close</button>
+            <h2>Node Details</h2>
+            <p id="nodeDescription"></p>
+            <div id="choicesList"></div>
+        </div>
+    </div>
 
-      // Function to create the graph from JSON data
-      const createGraph = (adventureData) => {
-        const elements = [];
-        const seen = new Set();
-
-        const traverse = (textbox) => {
-          if (seen.has(textbox.name)) return;
-          seen.add(textbox.name);
-
-          const nodeLabel = textbox.text.length > 50 ? textbox.text.slice(0, 50) + '...' : textbox.text;
-          elements.push({ data: { id: textbox.id, label: nodeLabel, type: 'node', fullText: textbox.text, choices: textbox?.links || [] } });
-		
-		if(textbox?.links){
-		          textbox?.links.forEach((choice) => {
-            const skillCheckLabel = choice.skill_check ? ` (Skill Check: ${choice.skill_check.skill} ${choice.skill_check.value})` : '';
-            const nextTextbox = adventureData.passages.find(t => t.id === choice.passageName);
-            if (!nextTextbox) {
-              // If the target node doesn't exist, create an "END" node
-              elements.push({
-                data: { id: choice.passageName, label: 'END', type: 'node' }
-              });
-            }
-            elements.push({
-              data: {
-                source: textbox.id,
-                target: choice.passageName,
-                label: choice.text + skillCheckLabel
+    <script>
+        $(document).ready(function() {
+          // Initialize Cytoscape
+          const cy = cytoscape({
+            container: document.getElementById('cy'),
+            style: [
+              {
+                selector: 'node',
+                style: {
+                  'shape': 'square',
+                  'content': 'data(label)',
+                  'background-color': '#007bff',
+                  'color': '#fff',
+                  'text-valign': 'center',
+                  'text-halign': 'center',
+                  'width': '450px',
+                  'height': '250px',
+                  'border-width': '2px',
+                  'border-color': '#333',
+                  'border-radius': '10px',
+                  'text-wrap': 'wrap',
+                  'font-size': '32px'
+                }
+              },
+              {
+                selector: 'edge',
+                style: {
+                  'label': 'data(label)',
+                  'curve-style': 'bezier',
+                  'font-size': '32px',
+                  'width': 10,
+                  'line-color': '#ccc',
+                  'target-arrow-color': '#ccc',
+                  'target-arrow-shape': 'triangle'
+                }
               }
-            });
-
-            if (nextTextbox) traverse(nextTextbox);
+            ],
+            layout: {
+              name: 'breadthfirst',
+              directed: true,
+              padding: 10
+            }
           });
-		}
-
-        };
-
-        traverse(adventureData.passages[0]);
-        return elements;
-      };
-
-      // Function to update the graph with new JSON data
-      const updateGraph = () => {
-        const jsonData = $('#jsonInput').val();
-        try {
-          adventureData = JSON.parse(jsonData);
-          const elements = createGraph(adventureData);
-          cy.elements().remove();
-          cy.add(elements);
-          cy.layout({ name: 'breadthfirst', directed: true, padding: 10 }).run();
-          cy.center();
-        } catch (error) {
-          alert(error);
-        }
-      };
-
-      // Function to display the choices in the modal with skill information
+    
+          let adventureData;
+    
+          // Function to create the graph from JSON data
+          const createGraph = (adventureData) => {
+            const elements = [];
+            const seen = new Set();
+    
+            const traverse = (textbox) => {
+              if (seen.has(textbox.name)) return;
+              seen.add(textbox.name);
+    
+              const nodeLabel = textbox.text.length > 50 ? textbox.text.slice(0, 50) + '...' : textbox.text;
+              elements.push({ data: { id: textbox.id, label: nodeLabel, type: 'node', fullText: textbox.text, choices: textbox?.links || [] } });
+    		
+    		if(textbox?.links){
+    		          textbox?.links.forEach((choice) => {
+                const skillCheckLabel = choice.skill_check ? ` (Skill Check: ${choice.skill_check.skill} ${choice.skill_check.value})` : '';
+                const nextTextbox = adventureData.passages.find(t => t.id === choice.passageName);
+                if (!nextTextbox) {
+                  // If the target node doesn't exist, create an "END" node
+                  elements.push({
+                    data: { id: choice.passageName, label: 'END', type: 'node' }
+                  });
+                }
+                elements.push({
+                  data: {
+                    source: textbox.id,
+                    target: choice.passageName,
+                    label: choice.text + skillCheckLabel
+                  }
+                });
+    
+                if (nextTextbox) traverse(nextTextbox);
+              });
+    		}
+    
+            };
+    
+            traverse(adventureData.passages[0]);
+            return elements;
+          };
+    
+          // Function to update the graph with new JSON data
+          const updateGraph = () => {
+            const jsonData = $('#jsonInput').val();
+            try {
+              adventureData = JSON.parse(jsonData);
+              const elements = createGraph(adventureData);
+              cy.elements().remove();
+              cy.add(elements);
+              cy.layout({ name: 'breadthfirst', directed: true, padding: 10 }).run();
+              cy.center();
+            } catch (error) {
+              alert(error);
+            }
+          };
+    
+          // Function to display the choices in the modal with skill information
 const displayChoices = (choices) => {
   const choicesList = $('#choicesList');
   choicesList.empty();
 
   choices.forEach(choice => {
-    const skillCheckLabel = choice.skill_check ? ` (${choice.skill_check.skill} ${choice.skill_check.value})` : '';
-    const choiceButton = $(`<div class="choice-button">${choice.text}${skillCheckLabel}</div>`);
+    let splitLabel = choice.name.split(',');
+    const skillCheckLabel = splitLabel[1] ? ` (${splitLabel[0]} ${splitLabel[1]})` : '';
+
+    const choiceButton = $(`<div class="choice-button">${choice.link}${skillCheckLabel}</div>`);
 
     // If a skill check exists and has a fail state, append it as red and small text
-    if (choice.skill_check && choice.skill_check.fail) {
-      const failMessage = $(`<div class="fail-message" style="color: red; font-size: 16px;">${choice.skill_check.fail}</div>`);
+    if (splitLabel[1] && splitLabel[2]) {
+      const failMessage = $(`<div class="fail-message" style="color: red; font-size: 16px;">${splitLabel[2]}</div>`);
       choiceButton.append(failMessage);
     }
 
-    // When the choice button is clicked, it triggers the next textbox
+    // When the choice button is clicked, it triggers the next textbox or closes modal if choice is "Continue..."
     choiceButton.on('click', function() {
-      const nextTextbox = adventureData.passages.find(t => t.name === choice?.passageName || choice?.link);
-      if (nextTextbox) {
-        $('#nodeDescription').text(nextTextbox?.text);
-        displayChoices(nextTextbox.links || []);
+      if (choice.name === "Continue...") {
+        $('#modal').fadeOut();
+      } else {
+        const nextTextbox = adventureData.passages.find(t => t?.pid === choice?.pid);
+		let tmp = nextTextbox?.text.split('[')[0]
+        const splittedText = tmp.replace(/\n/g, '<br>') || tmp;
+		
+        if (nextTextbox) {
+          $('#nodeDescription').html(splittedText); // Use .html() to render <br> tags
+          displayChoices(nextTextbox.links || []);
+        } else {
+          $('#modal').fadeOut();
+        }
       }
     });
 
@@ -548,45 +267,70 @@ const displayChoices = (choices) => {
   });
 };
 
+// Event listener to show the modal with the node's full text
+cy.on('tap', 'node', function(event) {
+  const node = event.target;
+  const fullText = node.data('fullText').split('[')[0].replace(/\n/g, '<br>'); // Convert newlines to <br> for full text
+  const choices = node.data('choices');
+  
+  $('#nodeDescription').html(fullText); // Use .html() to render <br> tags
+  displayChoices(choices);
+  $('#modal').fadeIn();
+});
 
-      // Event listener to show the modal with the node's full text
-      cy.on('tap', 'node', function(event) {
-        const node = event.target;
-        const fullText = node.data('text');
-        const choices = node.data('choices');
-        $('#nodeDescription').text(fullText);
-        displayChoices(choices);
-        $('#modal').fadeIn();
-      });
+          // Event listener to show the modal with the node's full text
+          cy.on('tap', 'node', function(event) {
+            const node = event.target;
+            const fullText = node.data('text');
+            const choices = node.data('choices');
+            $('#nodeDescription').text(fullText);
+            displayChoices(choices);
+            $('#modal').fadeIn();
+          });
+    
+          // Close the modal when the "close" button is clicked
+          $('#closeModal').on('click', function() {
+            $('#modal').fadeOut();
+          });
+    
+          // Close the modal if the user clicks outside of it
+          $(window).on('click', function(event) {
+            if ($(event.target).is('#modal')) {
+              $('#modal').fadeOut();
+            }
+          });
+            $('#startAdventure').on('click', function() {
+			            const jsonData = $('#jsonInput').val();
 
-      // Close the modal when the "close" button is clicked
-      $('#closeModal').on('click', function() {
-        $('#modal').fadeOut();
-      });
+			    adventureData = JSON.parse(jsonData);
 
-      // Close the modal if the user clicks outside of it
-      $(window).on('click', function(event) {
-        if ($(event.target).is('#modal')) {
-          $('#modal').fadeOut();
-        }
-      });
-
-      $('#updateGraph').on('click', updateGraph);
-	  $('#fileInput').on('change', function(event) {
-        const file = event.target.files[0];
-        if (file && file.name.endsWith('.json')) {
-          const reader = new FileReader();
-          reader.onload = function(e) {
-            $('#jsonInput').val(e.target.result);
-            updateGraph();
-          };
-          reader.readAsText(file);
-        } else {
-          alert('Please select a valid JSON file.');
-        }
-      });
-    });
-  </script>
+            const startNode = adventureData.passages.find(passage => passage.pid === "1");
+            if (startNode) {
+                const fullText = startNode.text.replace(/\n/g, '<br>');
+                $('#nodeDescription').html(fullText);
+                displayChoices(startNode.links || []);
+                $('#modal').fadeIn();
+            } else {
+                alert('Starting passage with pid = 1 not found.');
+            }
+        });
+          $('#updateGraph').on('click', updateGraph);
+    	  $('#fileInput').on('change', function(event) {
+            const file = event.target.files[0];
+            if (file && file.name.endsWith('.json')) {
+              const reader = new FileReader();
+              reader.onload = function(e) {
+                $('#jsonInput').val(e.target.result);
+                updateGraph();
+              };
+              reader.readAsText(file);
+            } else {
+              alert('Please select a valid JSON file.');
+            }
+          });
+        });
+    </script>
 
 </body>
+
 </html>

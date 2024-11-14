@@ -1,0 +1,466 @@
+
+
+{
+  "passages": [
+    {
+      "text": "Il camper è parcheggiato sotto una fioca luce al neon, il buio della notte che abbraccia la stazione di servizio deserta. Di fronte a te, una fila di distributori automatici e un paio di individui dall'aspetto losco che sbirciano furtivi le auto di passaggio. Con aria decisa e lo sguardo determinato, ti prepari a fare un'intervista da vera giornalista investigativa, alla Brumotti. Ti schiarisci la voce e, con tono enfatico, esclami:\n\n[[\"ABBOMBAZZA!\"]]\n[[\"BUONASEES!\"]]\n[[Riparti e te ne vai]]",
+      "links": [
+        {
+          "name": "\"ABBOMBAZZA!\"",
+          "link": "\"ABBOMBAZZA!\"",
+          "pid": "2"
+        },
+        {
+          "name": "\"BUONASEES!\"",
+          "link": "\"BUONASEES!\"",
+          "pid": "4"
+        },
+        {
+          "name": "Riparti e te ne vai",
+          "link": "Riparti e te ne vai",
+          "pid": "3"
+        }
+      ],
+      "name": "Passaggio senza titolo",
+      "pid": "1",
+      "position": {
+        "x": "675",
+        "y": "175"
+      }
+    },
+    {
+      "text": "Ti piazzi proprio di fronte al tipo, così vicino che potrebbe annusare il tuo profumo a chilometri di distanza. Lui ti guarda, visibilmente a disagio, mentre cominci ad assillarlo senza pietà.\n\n\"Ohhh, ma che fai, eh? Vendendo l'acqua? E cosa ci metti dentro, zucchero o… LSD?!?\"\n\nIl tizio cerca di allontanarsi, ma tu lo segui, puntando il dito in modo drammatico e continuando a urlare come se fossi in diretta nazionale.\n\n[[observation, 20, Lui sembra impassibile, ma noti un tic nervoso -> Gli fai domande ancora più invasive]]\n[[Fai finta di avere informazioni compromettenti su di lui -> \"So tutto, eh! L’ho letto nei fascicoli!\"]] \n[[Urla più forte \"ABBOMBAZZA!\" come per minacciarlo -> \"Confessa, spacciatore di bottiglie!\"]]\n[[Avvicinati]]",
+      "links": [
+        {
+          "name": "observation, 20, Lui sembra impassibile, ma noti un tic nervoso ",
+          "link": " Gli fai domande ancora più invasive",
+          "pid": "10"
+        },
+        {
+          "name": "Fai finta di avere informazioni compromettenti su di lui ",
+          "link": " \"So tutto, eh! L’ho letto nei fascicoli!\"",
+          "pid": "11"
+        },
+        {
+          "name": "Urla più forte \"ABBOMBAZZA!\" come per minacciarlo ",
+          "link": " \"Confessa, spacciatore di bottiglie!\"",
+          "pid": "12"
+        },
+        {
+          "name": "Avvicinati",
+          "link": "Avvicinati",
+          "pid": "5"
+        }
+      ],
+      "name": "\"ABBOMBAZZA!\"",
+      "pid": "2",
+      "position": {
+        "x": "800",
+        "y": "300"
+      }
+    },
+    {
+      "text": "Dopo aver dato un’ultima occhiata agli individui sospetti, scuoti la testa e decidi che non è il caso di metterti nei guai. La stazione di servizio deserta e il suo silenzio inquietante ti fanno sentire a disagio. Chiudi il camper e metti in moto. Non hai voglia di infilarti in un’altra di quelle strane situazioni, non oggi.\n\n\"Meno male che c’è sempre un’altra stazione di servizio dietro l’angolo… ABBOMBAZZA!\" esclamate mentre lasci il posto alle tue spalle, i fari che illuminano la strada vuota. Il viaggio continua, forse verso un'avventura più calma.\n\n[[Guarda la strada davanti a te, pensierosa…]]\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Guarda la strada davanti a te, pensierosa…",
+          "link": "Guarda la strada davanti a te, pensierosa…",
+          "pid": "25"
+        },
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": "Riparti e te ne vai",
+      "pid": "3",
+      "position": {
+        "x": "575",
+        "y": "325"
+      }
+    },
+    {
+      "text": "Ti schiarisci la voce e, con aria di superiorità, urli a pieni polmoni \"BUONASEES!\". I tuoi occhi si spalancano con energia, pronto a scoprire tutto. Gli individui loschi alzano la testa, sorpresi, e uno di loro cerca di farsi più piccolo mentre l’altro, visibilmente confuso, ti osserva come se fossi appena scesa da un altro pianeta.\n\n\"Ehi, voi due!\" continui, \"Cosa state facendo qui? Spacciatori di bottiglie d'acqua? ABBOMBAZZA, ditemi la verità!\"\n\nTi avvicini con il microfono finto che hai improvvisato, pronta a lanciarti in un’altra delle tue interviste da professionista. Ma i due sembrano più imbarazzati che spaventati. Non riesci a capire se sono colpevoli o se semplicemente sono degli insicuri che stanno cercando di vendere qualche trucchetto.\n\n[[\"ABBOMBAZZA!\"]] ",
+      "links": [
+        {
+          "name": "\"ABBOMBAZZA!\"",
+          "link": "\"ABBOMBAZZA!\"",
+          "pid": "2"
+        }
+      ],
+      "name": "\"BUONASEES!\"",
+      "pid": "4",
+      "position": {
+        "x": "900",
+        "y": "150"
+      }
+    },
+    {
+      "text": "Ti avvicini così tanto al tizio che quasi inciampa indietro. Lui ti guarda nervoso, stringendo la sua bottiglia d'acqua troppo trasparente. Tu, con un ghigno da reporter instancabile, gli fai la domanda a bruciapelo:\n\n\"Cos'è, vendi acqua o vendi viaggi psichedelici? Eh? Con l'LSD disciolto nelle bottigliette, vero?\"\n\nLui balbetta, ma tu non lo lasci parlare. Alzi il tono e, con un gesto teatrale, gli strappi la bottiglia dalle mani.\n\n[[Bevi un sorso per verificare se è davvero LSD]]",
+      "links": [
+        {
+          "name": "Bevi un sorso per verificare se è davvero LSD",
+          "link": "Bevi un sorso per verificare se è davvero LSD",
+          "pid": "6"
+        }
+      ],
+      "name": "Avvicinati",
+      "pid": "5",
+      "position": {
+        "x": "700",
+        "y": "450"
+      }
+    },
+    {
+      "text": "Sorsi l’acqua. Al primo momento sembra solo acqua fresca, ma dopo pochi secondi senti una sensazione strana che ti pervade. Le luci iniziano a distorcersi, i colori diventano abbaglianti, e tutto il mondo intorno a te si anima in un turbine di visioni psichedeliche.\n\n\"Ma... ABBOMBAZZA...\" riesci a sussurrare prima che la realtà inizi a collassare su se stessa.\n\nIniziano a spuntare creature colorate e contorte, con occhi che sembrano scrutarti fino all’anima. Grandi insetti fluorescenti, draghi fatti di fumo arcobaleno, e gatti con ali di fuoco si materializzano nella stazione di servizio. Le creature si muovono e ridacchiano, e anche il sospetto, ora, sembra trasformato in un enorme granchio dallo sguardo minaccioso.\n\n\"Ma che cavolo è successo qua?! ABBOMBAZZA!\"\n\n[[Scappa dalle creature che ti inseguono]] [[Affronta i mostri psichedelici, con coraggio o follia]] [[Cerca Bubba per chiedere aiuto]]",
+      "links": [
+        {
+          "name": "Scappa dalle creature che ti inseguono",
+          "link": "Scappa dalle creature che ti inseguono",
+          "pid": "7"
+        },
+        {
+          "name": "Affronta i mostri psichedelici, con coraggio o follia",
+          "link": "Affronta i mostri psichedelici, con coraggio o follia",
+          "pid": "8"
+        },
+        {
+          "name": "Cerca Bubba per chiedere aiuto",
+          "link": "Cerca Bubba per chiedere aiuto",
+          "pid": "9"
+        }
+      ],
+      "name": "Bevi un sorso per verificare se è davvero LSD",
+      "pid": "6",
+      "position": {
+        "x": "800",
+        "y": "550"
+      }
+    },
+    {
+      "text": "Giri i tacchi e scappi via, ma le creature psichedeliche ti inseguono, ridendo e facendo scoppiare bolle di luce dietro di te. Ogni passo è un nuovo colore, un altro suono distorto che ti confonde.\n\n\"Aiuto, Bubba! Dove sei? ABBOMBAZZA, sono circondata!\"\n\n[[navigation, 25, Non trovi una via di fuga -> Torna alla realtà poco alla volta]] \n[[Non trovi via d’uscita -> Il mondo psichedelico ti avvolge completamente]]",
+      "links": [
+        {
+          "name": "navigation, 25, Non trovi una via di fuga ",
+          "link": " Torna alla realtà poco alla volta",
+          "pid": "16"
+        },
+        {
+          "name": "Non trovi via d’uscita ",
+          "link": " Il mondo psichedelico ti avvolge completamente",
+          "pid": "17"
+        }
+      ],
+      "name": "Scappa dalle creature che ti inseguono",
+      "pid": "7",
+      "position": {
+        "x": "600",
+        "y": "575"
+      }
+    },
+    {
+      "text": "Decidi di affrontare queste apparizioni in modo eroico, brandendo la tua bottiglia d'acqua come fosse un'arma. Le creature ridacchiano, emettendo suoni bizzarri, e avanzano verso di te. Con un grido confuso e un altro \"ABBOMBAZZA!\", ti lanci all'attacco contro un drago di fumo che ti avvolge con una scia di profumo dolciastro.\n\n[[elementalism, 40, Riesci a evocare una magia che fa dissolvere le creature momentaneamente -> Le creature scompaiono, ma il pericolo non è finito]] [[Le creature ti sovrastano -> Ritorna al camper in preda alla paranoia]]",
+      "links": [
+        {
+          "name": "elementalism, 40, Riesci a evocare una magia che fa dissolvere le creature momentaneamente ",
+          "link": " Le creature scompaiono, ma il pericolo non è finito",
+          "pid": "18"
+        },
+        {
+          "name": "Le creature ti sovrastano ",
+          "link": " Ritorna al camper in preda alla paranoia",
+          "pid": "19"
+        }
+      ],
+      "name": "Affronta i mostri psichedelici, con coraggio o follia",
+      "pid": "8",
+      "position": {
+        "x": "800",
+        "y": "675"
+      }
+    },
+    {
+      "text": "Realizzi che hai assolutamente bisogno di Bubba. Ti guardi intorno, ma il camper si è trasformato in una specie di galeone volante, e Bubba sembra essere diventato il capitano di questa strana nave, con una benda sull'occhio e un papagallo psichedelico sulla spalla.\n\n\"Bubba, aiuto! C’è l’LSD in questa cavolo d’acqua!\"\n\nBubba ti osserva e ride, come se fosse tutto normale. \"Beh, cara, questa è proprio la nostra solita fortuna!\" esclama, mentre tutto intorno si dissolve in una risata cosmica.\n\n[[Continue...]]",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": "Cerca Bubba per chiedere aiuto",
+      "pid": "9",
+      "position": {
+        "x": "675",
+        "y": "725"
+      }
+    },
+    {
+      "text": "\"Eh, cosa fai qui? Chi ti manda, eh? A chi rispondi, alla Mafia delle Bottigliette? Perché io ti sto sgamando, lo sai, vero?\"\n\nL’uomo suda visibilmente e balbetta qualcosa, ma tu non lo lasci parlare. Ti metti ancora più vicino e fissi i suoi occhi.\n[[Prova un altro ->\"ABBOMBAZZA!\"]]\n[[Avvicinati]] ",
+      "links": [
+        {
+          "name": "Prova un altro ",
+          "link": "\"ABBOMBAZZA!\"",
+          "pid": "2"
+        },
+        {
+          "name": "Avvicinati",
+          "link": "Avvicinati",
+          "pid": "5"
+        }
+      ],
+      "name": " Gli fai domande ancora più invasive",
+      "pid": "10",
+      "position": {
+        "x": "375",
+        "y": "475"
+      }
+    },
+    {
+      "text": "Con uno sguardo determinato e una sicurezza che non proviene da nessuna parte, ti avvicini all'individuo più nervoso dei due. Gli lanci un sorriso smagliante, poi ti avvicini lentamente, come se avessi appena scoperto un incredibile segreto.\n\n\"So tutto, eh!\" esclami con enfasi, sfoderando la tua carta da giornalista investigativa. \"L’ho letto nei fascicoli! Non pensare di poterti nascondere! Tu e la tua compagnia… eh, con quelle bottiglie… che non sono solo acqua, vero?\"\n\nSi agita, guardando nervosamente l’altro compagno, ma non sembra in grado di contrattaccare. \"Che cosa… cosa stai dicendo?\" mormora, la sua voce tremante.\n\n\"Non fare il finto tonto! I fascicoli parlano chiaro!\" ripeti, guardandolo dritto negli occhi, cercando di non ridere. \"Tu e i tuoi amici siete tutti nel mio radar!\"",
+      "name": " \"So tutto, eh! L’ho letto nei fascicoli!\"",
+      "pid": "11",
+      "position": {
+        "x": "900",
+        "y": "475"
+      }
+    },
+    {
+      "text": "Con un ultimo \"ABBOMBAZZA!\" urlato a pieni polmoni, noti che il tipo ha ormai i nervi a fior di pelle. Cerca di scappare, ma tu lo segui come un segugio, facendo domande a raffica.\n\n\"Dove vai? Eh? Scappi? Cos’hai da nascondere, eh? ABBOMBAZZA, adesso mi dici tutto!\"\nLui lascia cadere una bottiglia e si dilegua urlando\n[[toxicology, 30,  -> Esamina la bottiglia sospetta]] \n[[Continua a urlargli dietro in modo fastidioso -> \"Non pensare di scamparla così, caro!\"]]",
+      "links": [
+        {
+          "name": "toxicology, 30,  ",
+          "link": " Esamina la bottiglia sospetta",
+          "pid": "13"
+        },
+        {
+          "name": "Continua a urlargli dietro in modo fastidioso ",
+          "link": " \"Non pensare di scamparla così, caro!\"",
+          "pid": "14"
+        }
+      ],
+      "name": " \"Confessa, spacciatore di bottiglie!\"",
+      "pid": "12",
+      "position": {
+        "x": "1075",
+        "y": "500"
+      }
+    },
+    {
+      "text": "Ti chini a raccogliere la bottiglia lasciata cadere dal sospetto, curiosa di scoprire se contiene davvero LSD. Osservi il liquido trasparente, notando piccole iridescenze che fluttuano nell’acqua come minuscoli arcobaleni.\n\n\"Se è davvero quello che penso…\" borbotti, e tiri fuori un piccolo kit portatile di analisi alchemica. Lo scuoti un po' e versi alcune gocce del liquido su una striscia reattiva che cambia immediatamente colore.\n\n[[chemistry, 30, Non riesci a confermare la presenza di sostanze allucinogene -> Decidi di tenerla come prova]] \n[[Bevi un sorso per verificare se è davvero LSD]] ",
+      "links": [
+        {
+          "name": "chemistry, 30, Non riesci a confermare la presenza di sostanze allucinogene ",
+          "link": " Decidi di tenerla come prova",
+          "pid": "24"
+        },
+        {
+          "name": "Bevi un sorso per verificare se è davvero LSD",
+          "link": "Bevi un sorso per verificare se è davvero LSD",
+          "pid": "6"
+        }
+      ],
+      "name": " Esamina la bottiglia sospetta",
+      "pid": "13",
+      "position": {
+        "x": "1012.5",
+        "y": "625"
+      }
+    },
+    {
+      "text": "Mentre l'uomo si dilegua in fretta verso l'uscita della stazione, tu gli corri dietro, nonostante i tuoi tacchi e i tuoi modi teatrali. \"Non pensare di scamparla così, caro! Sappiamo tutti cosa fai qui! ABBOMBAZZA, ti troverò comunque!\"\n\nI passanti ti osservano come se fossi impazzita, ma a te non importa. Continui a gridare frasi a caso per aumentare la tensione e metterlo ancor più alle strette.\n\n[[ Esamina la bottiglia sospetta]] ",
+      "links": [
+        {
+          "name": " Esamina la bottiglia sospetta",
+          "link": " Esamina la bottiglia sospetta",
+          "pid": "13"
+        }
+      ],
+      "name": " \"Non pensare di scamparla così, caro!\"",
+      "pid": "14",
+      "position": {
+        "x": "1200",
+        "y": "625"
+      }
+    },
+    {
+      "text": "",
+      "name": "Continue...",
+      "pid": "15",
+      "position": {
+        "x": "700",
+        "y": "1075"
+      }
+    },
+    {
+      "text": "Corri in tutte le direzioni, cercando disperatamente una via d'uscita da questo incubo psichedelico, ma ogni strada sembra portare solo a nuovi e inquietanti colori. Le creature ti seguono, ridendo e sussurrando frasi incomprensibili che rimbombano nella tua mente.\n\nDopo quello che sembra un’eternità, inizi a notare che i colori stanno sbiadendo. Le creature si dissolvono lentamente nell’aria come fumo, lasciando spazio al familiare asfalto e alle fredde luci della stazione di servizio. Respiri profondamente, rendendoti conto che la visione sta finalmente svanendo. Ti senti esausta ma sollevata.\n\n\"Mai più acqua dagli sconosciuti… ABBOMBAZZA!\" mormori, riprendendo fiato e dirigendoti stancamente verso il camper.\n\n[[Riparti col camper, ancora stordita dall'esperienza->Continue...]]",
+      "links": [
+        {
+          "name": "Riparti col camper, ancora stordita dall'esperienza",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": " Torna alla realtà poco alla volta",
+      "pid": "16",
+      "position": {
+        "x": "412.5",
+        "y": "825"
+      }
+    },
+    {
+      "text": "Ti rendi conto, con crescente panico, che non c’è scampo. Le strade intorno a te si chiudono in una spirale infinita di colori, suoni e risate distorte. Le creature psichedeliche ti circondano, ballando e facendo esplodere bolle di luce che ti avvolgono completamente. L’aria è densa e irrespirabile, e senti di non poterti muovere.\n\nTi lasci cadere a terra, incapace di sfuggire a questa prigione di visioni. Mentre il mondo psichedelico ti avvolge completamente, la tua mente si perde in un turbinio di forme e colori, un abisso senza fine.\n\nQuando finalmente riapri gli occhi, sei distesa nel camper. Non sai come sei tornata qui, ma sei completamente esausta e sconvolta. Non ricordi tutto ciò che è successo, ma la sensazione di quel mondo folle ti rimane addosso.\n\n\"Basta esperimenti… ABBOMBAZZA…\" sussurri, ancora intontita.\n\n[[Riparti col camper, sperando di lasciarti questo incubo alle spalle->Continue...]]",
+      "links": [
+        {
+          "name": "Riparti col camper, sperando di lasciarti questo incubo alle spalle",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": " Il mondo psichedelico ti avvolge completamente",
+      "pid": "17",
+      "position": {
+        "x": "537.5",
+        "y": "825"
+      }
+    },
+    {
+      "text": "Concentrando la tua energia, mormori una formula magica in perfetto stile CamelCase, sperando che funzioni. \"DissolveMonsters!\" urli, mentre un’onda di energia arcobaleno scivola dalle tue mani e colpisce le creature. Una dopo l’altra, si dissolvono in una nuvola di scintille.\n\nRespiri profondamente, il mondo sembra più stabile… ma solo per un momento. Noti che una strana nebbia si sta formando intorno a te, e senti un ronzio provenire dal sottosuolo. Non sei al sicuro ancora.\n\n[[Insegui la nebbia fino alla fonte -> \"Voglio scoprire chi sta facendo tutto questo!\"]] [[Torna al camper per riorganizzarti ->Torna al camper per riorganizzarti]]",
+      "links": [
+        {
+          "name": "Insegui la nebbia fino alla fonte ",
+          "link": " \"Voglio scoprire chi sta facendo tutto questo!\"",
+          "pid": "20"
+        },
+        {
+          "name": "Torna al camper per riorganizzarti ",
+          "link": "Torna al camper per riorganizzarti",
+          "pid": "21"
+        }
+      ],
+      "name": " Le creature scompaiono, ma il pericolo non è finito",
+      "pid": "18",
+      "position": {
+        "x": "950",
+        "y": "775"
+      }
+    },
+    {
+      "text": "Nonostante i tuoi tentativi di resistere, le creature psichedeliche si ammassano intorno a te, i loro occhi fissi e ghignanti che sembrano leggerti nella mente. I tuoi nervi cedono. Corri verso il camper con il cuore in gola, con ogni ombra e ogni rumore che ti segue come un’ombra persecutrice.\n\nFinalmente raggiungi il camper e chiudi la porta a chiave, nascondendoti dentro. Il mondo esterno è diventato un vortice di colori e suoni che rimbalzano nella tua testa. Respiri profondamente, cercando di calmarti.\n\n[[Chiudi tutte le finestre e cerca di riposare finché l’effetto passa]] [[Cerca un antidoto nella tua borsa da strega -> \"Devo aver qualcosa che mi riporti alla realtà...\"]]",
+      "links": [
+        {
+          "name": "Chiudi tutte le finestre e cerca di riposare finché l’effetto passa",
+          "link": "Chiudi tutte le finestre e cerca di riposare finché l’effetto passa",
+          "pid": "22"
+        },
+        {
+          "name": "Cerca un antidoto nella tua borsa da strega ",
+          "link": " \"Devo aver qualcosa che mi riporti alla realtà...\"",
+          "pid": "23"
+        }
+      ],
+      "name": " Ritorna al camper in preda alla paranoia",
+      "pid": "19",
+      "position": {
+        "x": "1100",
+        "y": "775"
+      }
+    },
+    {
+      "text": "Decidi di non lasciare nulla al caso. La nebbia sembra provenire dall'altra parte della stazione di servizio, dove un antico pozzo abbandonato si intravede tra le ombre. Ti avvicini con cautela, il cuore che batte veloce, pronta a scoprire cosa si nasconde.\n\nProprio mentre stai per indagare più a fondo, la nebbia si dissolve, come se non fosse mai esistita, lasciandoti sola con mille domande irrisolte. Decidi che la cosa migliore è allontanarti da questo luogo inquietante. Torni al camper, accendi il motore, e parti con la sensazione di essere appena sfuggita a un’ombra misteriosa.\n\n\"La prossima volta niente esperimenti con le bottigliette, ABBOMBAZZA...\" mormori, accelerando e lasciando la stazione nel buio.\n\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": " \"Voglio scoprire chi sta facendo tutto questo!\"",
+      "pid": "20",
+      "position": {
+        "x": "800",
+        "y": "825"
+      }
+    },
+    {
+      "text": "Una volta chiuse tutte le finestre del camper, ti sdrai e provi a calmare il battito. Il mondo fuori è ancora una sfilata di colori strani e visioni contorte, ma almeno sei al sicuro all’interno.\n\nTi lasci andare a un sonno agitato, ma al risveglio tutto è tornato normale. Le visioni sono svanite e l’incubo è solo un vago ricordo. Decidi di lasciare il posto prima che qualcosa di ancora più bizzarro accada. Con un lungo sbadiglio, ti sistemi alla guida e metti in moto.\n\n\"Le soste notturne non fanno più per me…\" sospiri, riprendendo la strada e giurando di non fermarti mai più in una stazione così.\n\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": "Torna al camper per riorganizzarti",
+      "pid": "21",
+      "position": {
+        "x": "825",
+        "y": "925"
+      }
+    },
+    {
+      "text": "Una volta chiuse tutte le finestre del camper, ti sdrai e provi a calmare il battito. Il mondo fuori è ancora una sfilata di colori strani e visioni contorte, ma almeno sei al sicuro all’interno.\n\nTi lasci andare a un sonno agitato, ma al risveglio tutto è tornato normale. Le visioni sono svanite e l’incubo è solo un vago ricordo. Decidi di lasciare il posto prima che qualcosa di ancora più bizzarro accada. Con un lungo sbadiglio, ti sistemi alla guida e metti in moto.\n\n\"Le soste notturne non fanno più per me…\" sospiri, riprendendo la strada e giurando di non fermarti mai più in una stazione così.\n\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": "Chiudi tutte le finestre e cerca di riposare finché l’effetto passa",
+      "pid": "22",
+      "position": {
+        "x": "1000",
+        "y": "975"
+      }
+    },
+    {
+      "text": "Frughi disperatamente nella tua borsa fino a trovare una piccola ampolla di Pozione Purificatrice. La bevi sperando di annullare gli effetti, e lentamente il mondo intorno a te smette di ribollire di colori psichedelici.\n\nCon la mente più lucida, ti riprendi e torni al camper, ancora un po' stordita ma felice di aver mantenuto il controllo. Ti sistemi al volante, decisa a riprendere il viaggio.\n\n\"ABBOMBAZZA, basta soste in posti strani! Bubba, preparati: si parte!\" esclami, accendendo il motore e riprendendo il tuo cammino verso nuove avventure.\n\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": " \"Devo aver qualcosa che mi riporti alla realtà...\"",
+      "pid": "23",
+      "position": {
+        "x": "1225",
+        "y": "900"
+      }
+    },
+    {
+      "text": "Metti la bottiglietta sospetta nel vano del camper, immaginando che potrà essere utile più avanti per risolvere questo mistero. Riparti, lasciandoti alle spalle la stazione di servizio e gli strani avvenimenti con una sensazione di inquietudine.\n\nDopo qualche chilometro, però, noti le luci lampeggianti di una pattuglia alle tue spalle. Prima ancora che tu possa reagire, due agenti ti fanno cenno di accostare. Sbuffi e ti fermi, abbassando il finestrino con un sorriso innocente.\n\n\"Signora,\" dice uno dei poliziotti, lanciando un'occhiata sospettosa all'interno del camper, \"possiamo dare un’occhiata al suo veicolo? Siamo in cerca di sostanze sospette…\"\n\nNon hai nulla da nascondere — almeno, è quello che pensi — e lasci che controllino. Ma quando uno dei poliziotti apre il vano dove hai messo la bottiglietta, la trova immediatamente.\n\n\"E questo cos’è?\" chiede, guardando il liquido trasparente. Tu balbetti una spiegazione vaga sull’indagine in corso, e che sospetti ci sia LSD, ma non puoi confermarlo. Il poliziotto solleva un sopracciglio.\n\n\"Ah, capisco… LSD, davvero? Bene, faremo delle verifiche.\"\n\nDopo pochi minuti, un tecnico con un piccolo kit esamina la bottiglia e agita il liquido con cautela. Il suo volto diventa sempre più perplesso mentre esamina il campione.\n\n\"Non è LSD…\" annuncia infine. \"In effetti, non è nulla di conosciuto. Ha… proprietà sconosciute, forse instabili.\"\n\nI poliziotti si guardano l'un l'altro con espressioni di sospetto misto a confusione, e prima che tu possa spiegare, ti fanno un cenno di seguirli.\n\n\"Signorina, la preghiamo di seguirci per ulteriori accertamenti.\"\n\n\"Aspettate, è solo acqua strana… ABBOMBAZZA!\" protesti, ma non c’è nulla da fare. Finisci per essere scortata alla centrale di polizia locale, mentre i poliziotti, visibilmente nervosi, tengono la bottiglietta a distanza.\n\nE così, la tua indagine sull’acqua LSD si conclude con un malinteso surreale, un arresto ingiustificato, e una bottiglietta che, a quanto pare, potrebbe essere molto più misteriosa di quanto avevi immaginato…\n\n[[Fine - Decidi di non immischiarti più in cose strane… O forse sì.-->Continue...]]",
+      "links": [
+        {
+          "name": "Fine - Decidi di non immischiarti più in cose strane… O forse sì.-",
+          "link": "Continue...",
+          "pid": "15"
+        }
+      ],
+      "name": " Decidi di tenerla come prova",
+      "pid": "24",
+      "position": {
+        "x": "887.5",
+        "y": "1125"
+      }
+    },
+    {
+      "text": "",
+      "name": "Guarda la strada davanti a te, pensierosa…",
+      "pid": "25",
+      "position": {
+        "x": "575",
+        "y": "450"
+      }
+    }
+  ],
+  "name": "Brumotti",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.9.2",
+  "ifid": "DCE43134-900F-48D8-AEE9-1E0D32DA0804"
+}
+

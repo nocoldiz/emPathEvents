@@ -3,7 +3,7 @@
 {
   "passages": [
     {
-      "text": "The camper rattles over cobbled roads, and you find yourself in a strange town made entirely of painted cardboard. Fake bistros line the streets, and cardboard cutouts of \"locals\" pose with stiff berets and striped shirts. Bubba sniffs the air, catching the distinct aroma of… cardboard? Mixed with something slimy and salty.\n\n“Welcome to ‘France,’” a cutout labeled Tour Guide says, a speech bubble popping up with instructions: Try the famous escargot!\n\nA little stand with painted slugs on the menu stands before you. Bubba raises an eyebrow. “Guess we’re doing this?”{id:test}\n\n\n[[cooking, 10, The slugs slip right out of your hands, nearly flinging into Bubba's face. -> Attempt to cook the slugs]]\n[[Visit the town instead->Visit the town]]\n[[Ignore the fake french town and depart -> Depart]]",
+      "text": "The camper rattles over cobbled roads, and you find yourself in a strange town made entirely of painted cardboard. Fake bistros line the streets, and cardboard cutouts of \"locals\" pose with stiff berets and striped shirts. Bubba sniffs the air, catching the distinct aroma of… cardboard? Mixed with something slimy and salty.\n\n“Welcome to ‘France,’” a cutout labeled Tour Guide says, a speech bubble popping up with instructions: Try the famous escargot!\n\nA little stand with painted slugs on the menu stands before you. Bubba raises an eyebrow. “Guess we’re doing this?”\n\n\n[[cooking, 10, The slugs slip right out of your hands, nearly flinging into Bubba's face. -> Attempt to cook the slugs]]\n[[Visit the town instead->Visit the town]]\n[[Ignore the fake french town and depart -> Depart]]",
       "links": [
         {
           "name": "cooking, 10, The slugs slip right out of your hands, nearly flinging into Bubba's face. ",
@@ -18,7 +18,7 @@
         {
           "name": "Ignore the fake french town and depart ",
           "link": " Depart",
-          "pid": "28"
+          "pid": "27"
         }
       ],
       "name": "Start",
@@ -39,12 +39,12 @@
         {
           "name": "Climb the Eiffel Tower",
           "link": "Climb the Eiffel Tower",
-          "pid": "15"
+          "pid": "14"
         },
         {
           "name": "Visit the shops",
           "link": "Visit the shops",
-          "pid": "30"
+          "pid": "29"
         }
       ],
       "name": "Visit the town",
@@ -123,12 +123,12 @@
         {
           "name": "cooking, 20, You expertly chop and season the ingredients, creating a flavorful stew. ",
           "link": " Serve Bubba a bowl of the stew",
-          "pid": "21"
+          "pid": "20"
         },
         {
           "name": "cooking, 50, You add a few spices and herbs from another dimension, giving the stew an otherworldly flavor. ",
           "link": " Share your creation with Bubba",
-          "pid": "22"
+          "pid": "21"
         }
       ],
       "name": " Try a traditional recipe",
@@ -170,19 +170,19 @@
         {
           "name": "Offer Bubba a bite",
           "link": "Offer Bubba a bite",
-          "pid": "24"
+          "pid": "23"
         },
         {
           "name": "Try the first bite yourself",
           "link": "Try the first bite yourself",
-          "pid": "46"
+          "pid": "43"
         }
       ],
       "name": "Enhance the flavor",
       "pid": "8",
       "position": {
-        "x": "1825",
-        "y": "1150"
+        "x": "2075",
+        "y": "875"
       }
     },
     {
@@ -191,19 +191,19 @@
         {
           "name": "arcanism, 40, The magic effect is overwhelming, but in a good way. The flavors continue to evolve. ",
           "link": "Serve the slugs to Bubba",
-          "pid": "25"
+          "pid": "24"
         },
         {
           "name": "arcanism, 60, The magic is too potent, and the flavor becomes almost too intense, leaving a strange aftertaste. ",
           "link": " Try to balance the flavor with a spell of neutralization",
-          "pid": "26"
+          "pid": "25"
         }
       ],
       "name": " Try eating the transformed slugs anyway",
       "pid": "9",
       "position": {
-        "x": "2275",
-        "y": "925"
+        "x": "2325",
+        "y": "875"
       }
     },
     {
@@ -217,7 +217,7 @@
         {
           "name": "Don't spit out the NOTHING",
           "link": "Don't spit out the NOTHING",
-          "pid": "42"
+          "pid": "40"
         }
       ],
       "name": " Nod approvingly to Bubba",
@@ -238,7 +238,7 @@
         {
           "name": "empathy, 30, You manage to connect, sensing the NOTHING’s memories of strange worlds. ",
           "link": " Listen to the NOTHING’s “tale”",
-          "pid": "29"
+          "pid": "28"
         }
       ],
       "name": " Investigate the strange taste further",
@@ -249,12 +249,12 @@
       }
     },
     {
-      "text": "The nauseous sensation intensifies, and you can no longer hold back. You force yourself to spit the NOTHING out, feeling its magical energy slip away from your senses like a receding wave. As it falls to the ground with a sickening squelch, the world seems to right itself, though your stomach remains unsettled.\n\nBubba looks at you with a bemused grin, his cowboy hat tilted slightly as he leans against the camper. \"You alright there, Em? You look like you've seen a ghost.\" You shake your head, wiping your mouth and trying to clear the dizziness. \"That NOTHING wasn't what it seemed.\" Bubba chuckles and pats your back as you stumble into the camper. \"Well, let's get on the road before we end up attracting more trouble.\" The liminal engine whirs to life as the camper lurches forward, leaving the strange town behind, the world ahead ripe with more mysteries. \n\nYou settle into the seat, the nagging feeling of something amiss still lingering, but Bubba’s easygoing presence helps you push it aside. There’s always something new waiting on the other side of the next dimension.\n[[ Continue...]] ",
+      "text": "The nauseous sensation intensifies, and you can no longer hold back. You force yourself to spit the NOTHING out, feeling its magical energy slip away from your senses like a receding wave. As it falls to the ground with a sickening squelch, the world seems to right itself, though your stomach remains unsettled.\n\nBubba looks at you with a bemused grin, his cowboy hat tilted slightly as he leans against the camper. \"You alright there, Em? You look like you've seen a ghost.\" You shake your head, wiping your mouth and trying to clear the dizziness. \"That NOTHING wasn't what it seemed.\" Bubba chuckles and pats your back as you stumble into the camper. \"Well, let's get on the road before we end up attracting more trouble.\" The liminal engine whirs to life as the camper lurches forward, leaving the strange town behind, the world ahead ripe with more mysteries. \n\nYou settle into the seat, the nagging feeling of something amiss still lingering, but Bubba’s easygoing presence helps you push it aside. There’s always something new waiting on the other side of the next dimension.\n[[Continue...]] ",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": "Spit out the NOTHING",
@@ -266,20 +266,11 @@
     },
     {
       "text": "",
-      "name": " Return to the camper with Bubba",
+      "name": "Continue...",
       "pid": "13",
       "position": {
-        "x": "425",
-        "y": "875"
-      }
-    },
-    {
-      "text": "",
-      "name": " Continue...",
-      "pid": "14",
-      "position": {
-        "x": "1075",
-        "y": "1525"
+        "x": "1175",
+        "y": "1900"
       }
     },
     {
@@ -288,16 +279,16 @@
         {
           "name": "Peer through the telescope",
           "link": "Peer through the telescope",
-          "pid": "16"
+          "pid": "15"
         },
         {
           "name": "athletics, 30,The stairs crumble beneath you, blocking the access to the top",
           "link": "Keep climbing to the top",
-          "pid": "17"
+          "pid": "16"
         }
       ],
       "name": "Climb the Eiffel Tower",
-      "pid": "15",
+      "pid": "14",
       "position": {
         "x": "800",
         "y": "575"
@@ -309,16 +300,16 @@
         {
           "name": "Wave at the eye",
           "link": "Wave at the eye",
-          "pid": "18"
+          "pid": "17"
         },
         {
           "name": "Step back from the telescope uneasily",
           "link": "Climb the Eiffel Tower",
-          "pid": "15"
+          "pid": "14"
         }
       ],
       "name": "Peer through the telescope",
-      "pid": "16",
+      "pid": "15",
       "position": {
         "x": "650",
         "y": "925"
@@ -330,16 +321,16 @@
         {
           "name": "Inspect the eggs more closely",
           "link": "Inspect the eggs more closely",
-          "pid": "19"
+          "pid": "18"
         },
         {
           "name": "Leave the eggs undisturbed and climb back down",
           "link": "Leave the eggs undisturbed and climb back down",
-          "pid": "20"
+          "pid": "19"
         }
       ],
       "name": "Keep climbing to the top",
-      "pid": "17",
+      "pid": "16",
       "position": {
         "x": "775",
         "y": "825"
@@ -355,35 +346,35 @@
         }
       ],
       "name": "Wave at the eye",
-      "pid": "18",
+      "pid": "17",
       "position": {
         "x": "650",
         "y": "550"
       }
     },
     {
-      "text": "You lean in to get a closer look, fascinated by the soft glow and hum of the eggs. As you reach out to touch one, it shudders under your hand, and a thin crack appears. Slowly, a tiny creature, a mixture of snail and firefly, emerges, blinking up at you with wide, curious eyes. It lets out a soft chime, like a tiny bell.\n\nThe creature flutters to your shoulder, glowing softly. You carefully make your way back down, your new companion illuminating the way. Bubba waits at the bottom, leaning against the camper, a satisfied smile on his face. As you approach, the creature on your shoulder chirps, catching Bubba’s attention. He grins, tipping his cowboy hat. “Well, look at that, Em. Looks like we got ourselves a little friend.” With a hearty laugh, he pats the camper’s side and heads inside. The engine hums to life, the liminal engine crackling with energy, as the two of you set off, the flickering glow of the creature accompanying you into the unknown.\n\n{item: cardboardcritter}\n[[ Continue...]] ",
+      "text": "You lean in to get a closer look, fascinated by the soft glow and hum of the eggs. As you reach out to touch one, it shudders under your hand, and a thin crack appears. Slowly, a tiny creature, a mixture of snail and firefly, emerges, blinking up at you with wide, curious eyes. It lets out a soft chime, like a tiny bell.\n\nThe creature flutters to your shoulder, glowing softly. You carefully make your way back down, your new companion illuminating the way. Bubba waits at the bottom, leaning against the camper, a satisfied smile on his face. As you approach, the creature on your shoulder chirps, catching Bubba’s attention. He grins, tipping his cowboy hat. “Well, look at that, Em. Looks like we got ourselves a little friend.” With a hearty laugh, he pats the camper’s side and heads inside. The engine hums to life, the liminal engine crackling with energy, as the two of you set off, the flickering glow of the creature accompanying you into the unknown.\n\n{item: cardboardcritter}\n[[Continue...]] ",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": "Inspect the eggs more closely",
-      "pid": "19",
+      "pid": "18",
       "position": {
         "x": "700",
         "y": "1075"
       }
     },
     {
-      "text": "You resist the urge to touch the delicate eggs, respecting the strange life within them. Carefully, you start your descent, glancing back to see the shimmering nest receding into the distance.\n\n Back on the ground, you feel a subtle sense of reverence for the mysteries of this world. Bubba stands beside the camper, gazing up at you, his expression unreadable. “You know, Em,” he says, as you approach, “sometimes the best thing to do is just leave things as they are.”\n [[Depart]]\n [[Keep exporing the town->Visit the town]] ",
+      "text": "You resist the urge to touch the delicate eggs, respecting the strange life within them. Carefully, you start your descent, glancing back to see the shimmering nest receding into the distance.\n\n Back on the ground, you feel a subtle sense of reverence for the mysteries of this world. Bubba stands beside the camper, gazing up at you, his expression unreadable. “You know, Em,” he says, as you approach, “sometimes the best thing to do is just leave things as they are.”\n [[ Depart]]\n [[Keep exporing the town->Visit the town]] ",
       "links": [
         {
-          "name": "Depart",
-          "link": "Depart",
-          "pid": "41"
+          "name": " Depart",
+          "link": " Depart",
+          "pid": "27"
         },
         {
           "name": "Keep exporing the town",
@@ -392,23 +383,23 @@
         }
       ],
       "name": "Leave the eggs undisturbed and climb back down",
-      "pid": "20",
+      "pid": "19",
       "position": {
         "x": "950",
         "y": "1050"
       }
     },
     {
-      "text": "You ladle the finished stew into two bowls, the savory aroma filling the camper as you hand one to Bubba. His eyes widen, impressed by the hearty meal. \"Well, shoot, Em, this smells amazing!\" he says, taking a bite. You watch him for a moment, eagerly awaiting his reaction.\n\nBubba pauses mid-bite, his eyes narrowing as he processes the flavor. \"This tastes like... like something I've never had before,\" he mutters. You grin, secretly pleased with yourself. The flavors are bold and comforting, with just the right balance of spice. \"I think it's a hit,\" you reply, and Bubba nods enthusiastically, finishing his bowl. As you both relax and savor the meal, the camper hums along the road, taking you further from the strange town. Wherever your next stop is, you're ready, knowing you can handle whatever culinary curveballs come your way.\n\n{{item: slugrecipetraditional}}\n\n[[ Continue...]] ",
+      "text": "You ladle the finished stew into two bowls, the savory aroma filling the camper as you hand one to Bubba. His eyes widen, impressed by the hearty meal. \"Well, shoot, Em, this smells amazing!\" he says, taking a bite. You watch him for a moment, eagerly awaiting his reaction.\n\nBubba pauses mid-bite, his eyes narrowing as he processes the flavor. \"This tastes like... like something I've never had before,\" he mutters. You grin, secretly pleased with yourself. The flavors are bold and comforting, with just the right balance of spice. \"I think it's a hit,\" you reply, and Bubba nods enthusiastically, finishing his bowl. As you both relax and savor the meal, the camper hums along the road, taking you further from the strange town. Wherever your next stop is, you're ready, knowing you can handle whatever culinary curveballs come your way.\n\n{{item: slugrecipetraditional}}\n\n[[Continue...]] ",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": " Serve Bubba a bowl of the stew",
-      "pid": "21",
+      "pid": "20",
       "position": {
         "x": "1775",
         "y": "600"
@@ -420,7 +411,7 @@
         {
           "name": "cooking, 40, Bubba takes a hesitant bite and his eyes widen in surprise. ",
           "link": " He grins, enjoying the strange new flavor.",
-          "pid": "23"
+          "pid": "22"
         },
         {
           "name": "You apologize and adjust the flavor for next time. ",
@@ -429,139 +420,141 @@
         }
       ],
       "name": " Share your creation with Bubba",
-      "pid": "22",
+      "pid": "21",
       "position": {
         "x": "2000",
         "y": "475"
       }
     },
     {
-      "text": "Bubba grins broadly, taking another bite. “Well, I’ll be! This is somethin’ else, Em! Where’d you learn to make this?” He leans back in his chair, looking pleased. \"Not bad for a stew from another dimension.\" You laugh, the warmth of the meal filling both your bellies and the camper.\n\nAs you clean up, Bubba’s laughter is contagious, and for the moment, the strange world around you feels a little more familiar. You share a quiet moment before revving up the liminal engine, ready for your next adventure. You’re not sure where you’ll end up next, but with a full belly and Bubba by your side, you feel ready for whatever comes next.\n\n{{item: slugrecipeem}}\n\n[[ Continue...]] \n",
+      "text": "Bubba grins broadly, taking another bite. “Well, I’ll be! This is somethin’ else, Em! Where’d you learn to make this?” He leans back in his chair, looking pleased. \"Not bad for a stew from another dimension.\" You laugh, the warmth of the meal filling both your bellies and the camper.\n\nAs you clean up, Bubba’s laughter is contagious, and for the moment, the strange world around you feels a little more familiar. You share a quiet moment before revving up the liminal engine, ready for your next adventure. You’re not sure where you’ll end up next, but with a full belly and Bubba by your side, you feel ready for whatever comes next.\n\n{{item: slugrecipeem}}\n\n[[Continue...]] \n",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": " He grins, enjoying the strange new flavor.",
-      "pid": "23",
+      "pid": "22",
       "position": {
         "x": "1975",
         "y": "750"
       }
     },
     {
-      "text": "You hand Bubba the plate, and he takes another bite, pausing for a moment as the new flavor hits him. He raises an eyebrow, then breaks into a grin. “Well, I’ll be! Not bad, Em. Not bad at all.” His laughter fills the camper, and the journey ahead feels a little lighter with the success of the meal.\n\nWith your strange, but successful dinner behind you, the two of you prepare for the next leg of your journey. Bubba, as always, is ready for whatever comes next, and you, too, feel the excitement of the unknown stir within you.\n[[ Continue...]] ",
+      "text": "You hand Bubba the plate, and he takes another bite, pausing for a moment as the new flavor hits him. He raises an eyebrow, then breaks into a grin. “Well, I’ll be! Not bad, Em. Not bad at all.” His laughter fills the camper, and the journey ahead feels a little lighter with the success of the meal.\n\nWith your strange, but successful dinner behind you, the two of you prepare for the next leg of your journey. Bubba, as always, is ready for whatever comes next, and you, too, feel the excitement of the unknown stir within you.\n[[Continue...]] ",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": "Offer Bubba a bite",
-      "pid": "24",
+      "pid": "23",
       "position": {
         "x": "2225",
         "y": "1450"
       }
     },
     {
-      "text": "You offer Bubba a bite, suppressing a grimace as he leans in, bracing himself. He takes a nibble, and immediately his face contorts in horror. His eyes go wide, and he quickly spits it out, coughing.\n\n“Oh, Em,” he chokes, wiping his mouth with the back of his hand. “That tastes like somethin’ that crawled out of the swamp, took a bath in skunk oil, and called itself dinner!”\n\nYou glance down at the skillet, where the slugs sit in a murky, gelatinous pool. The smell hits you—sharp, sour, and somehow damp—and suddenly you’re not sure how you managed to take a bite yourself.\n\nBubba chuckles, recovering. “Well, I reckon not every dish can be a winner. Guess even magic has its limits, huh?”\n\nYou both share a relieved laugh, pushing the skillet away. The camper hums back to life, and the two of you continue down the winding road, stomachs growling and a little wiser about the perils of experimental cuisine in strange worlds.\n[[ Continue...]] ",
+      "text": "You offer Bubba a bite, suppressing a grimace as he leans in, bracing himself. He takes a nibble, and immediately his face contorts in horror. His eyes go wide, and he quickly spits it out, coughing.\n\n“Oh, Em,” he chokes, wiping his mouth with the back of his hand. “That tastes like somethin’ that crawled out of the swamp, took a bath in skunk oil, and called itself dinner!”\n\nYou glance down at the skillet, where the slugs sit in a murky, gelatinous pool. The smell hits you—sharp, sour, and somehow damp—and suddenly you’re not sure how you managed to take a bite yourself.\n\nBubba chuckles, recovering. “Well, I reckon not every dish can be a winner. Guess even magic has its limits, huh?”\n\nYou both share a relieved laugh, pushing the skillet away. The camper hums back to life, and the two of you continue down the winding road, stomachs growling and a little wiser about the perils of experimental cuisine in strange worlds.\n[[Continue...]] ",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": "Serve the slugs to Bubba",
-      "pid": "25",
+      "pid": "24",
       "position": {
-        "x": "2050",
-        "y": "1000"
+        "x": "1575",
+        "y": "1325"
       }
     },
     {
-      "text": "Realizing the flavor may be too much, you quickly cast a spell to neutralize the overpowering taste. A faint green aura surrounds the slugs, and the intense sweetness begins to mellow, turning into a more balanced flavor. You take a cautious bite again and find it much more palatable.\n\n[[transmutation, 50, The neutralized flavor is now unbalanced, and the dish is ruined. ->Offer Bubba a bite]] \n[[transmutation, 30, The flavor is still odd, but now it has an earthy undertone. -> Try to adjust the flavor further]]\n[[Serve the slugs to Bubba]] ",
+      "text": "Realizing the flavor may be too much, you quickly cast a spell to neutralize the overpowering taste. A faint green aura surrounds the slugs, and the intense sweetness begins to mellow, turning into a more balanced flavor. You take a cautious bite again and find it much more palatable.\n\n[[Offer Bubba a bite]] \n[[transmutation, 30, The flavor is still odd, but now it has an earthy undertone. -> Try to adjust the flavor further]]",
       "links": [
         {
-          "name": "transmutation, 50, The neutralized flavor is now unbalanced, and the dish is ruined. ",
+          "name": "Offer Bubba a bite",
           "link": "Offer Bubba a bite",
-          "pid": "24"
+          "pid": "23"
         },
         {
           "name": "transmutation, 30, The flavor is still odd, but now it has an earthy undertone. ",
           "link": " Try to adjust the flavor further",
-          "pid": "27"
-        },
-        {
-          "name": "Serve the slugs to Bubba",
-          "link": "Serve the slugs to Bubba",
-          "pid": "25"
+          "pid": "26"
         }
       ],
       "name": " Try to balance the flavor with a spell of neutralization",
-      "pid": "26",
+      "pid": "25",
       "position": {
         "x": "2325",
         "y": "1100"
       }
     },
     {
-      "text": "",
+      "text": "You wave your hands over the skillet once more, focusing intently. The slugs shimmer with a faint greenish hue as the spell pulses, and the taste seems to shift again. When you try another bite, the flavor now has an earthy undertone—like mushrooms mixed with something more natural and raw. It’s not unpleasant, but it still feels... odd.\n\nBubba eyes the dish with a skeptical look but takes a bite anyway. He chews slowly, then smirks. “Well, Em, this one tastes like dirt, but like… good dirt? I don’t know what you’re doing, but I’m starting to think slugs might not be the worst thing we’ve eaten on this trip.”\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
+        }
+      ],
       "name": " Try to adjust the flavor further",
-      "pid": "27",
+      "pid": "26",
       "position": {
         "x": "2075",
-        "y": "1200"
+        "y": "1125"
       }
     },
     {
-      "text": "Bubba tips his hat and opens the door to the camper. You both climb inside, and the hum of the liminal engine fills the air. As the camper starts rolling away, Bubba adjusts the controls and casts one last look at the leaning Eiffel Tower. \"Time to head to the next place,\" he says, his voice low but full of excitement. The world beyond shifts, and with each turn of the wheels, you're whisked away to new dimensions and strange adventures.\n[[ Continue...]] ",
+      "text": "Bubba tips his hat and opens the door to the camper. You both climb inside, and the hum of the liminal engine fills the air. As the camper starts rolling away, Bubba adjusts the controls and casts one last look at the leaning Eiffel Tower. \"Time to head to the next place,\" he says, his voice low but full of excitement. The world beyond shifts, and with each turn of the wheels, you're whisked away to new dimensions and strange adventures.\n[[Continue...]] ",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": " Depart",
-      "pid": "28",
+      "pid": "27",
       "position": {
-        "x": "1725",
-        "y": "950"
+        "x": "1550",
+        "y": "1100"
       }
     },
     {
-      "text": " The slug’s “memory” seeps into your mind, revealing a history of worlds layered atop each other, like a story in the pages of a book. You see fleeting images of places you’ve never been—underwater forests, skies filled with floating islands, deserts made of glass.\n\nBubba waves a hand in front of your face. “Em, you with me?”\n\nA strange calm washes over you as you focus on the subtle whispers of the slug’s memories. You can sense the depth of the worlds it has traveled through—places that twist and defy logic, ruled by unknown forces, touched by strange magic. The memories are fragmented, like shards of a dream, but you can feel them pressing into your soul, leaving a cold, unsettling knowledge behind.\n\nEnd: The slug seems to settle on your palm, its soft glow flickering as you absorb its tale. Bubba watches you with concern, his eyes narrowing as he steps closer. “What’s goin’ on in that head of yours, Em?” he asks, his voice serious. You blink, the strange images in your mind beginning to fade, but the weight of them lingers. “It’s… hard to explain,” you reply, feeling a mix of awe and unease. Bubba nods knowingly, his grin returning. “Well, we’ll figure it out on the road, like always.” He opens the camper door, and you both climb inside. The liminal engine hums as you drive away, the weight of the slug’s tale still in your mind. Whatever it showed you, there’s no turning back now, and the road ahead promises more revelations in strange and unfamiliar places.\nOption\n[[navigation, 40, You struggle to shake off the surreal visions. -> Return to the camper with Bubba]]",
+      "text": " The NOTHING’s “memory” seeps into your mind, revealing a history of worlds layered atop each other, like a story in the pages of a book. You see fleeting images of places you’ve never been—underwater forests, skies filled with floating islands, deserts made of glass.\n\nBubba waves a hand in front of your face. “Em, you with me?”\n\nA strange calm washes over you as you focus on the subtle whispers of the slug’s memories. You can sense the depth of the worlds it has traveled through—places that twist and defy logic, ruled by unknown forces, touched by strange magic. The memories are fragmented, like shards of a dream, but you can feel them pressing into your soul, leaving a cold, unsettling knowledge behind.\n\nThe NOTHING seems to settle on your palm, its soft glow flickering as you absorb its tale. Bubba watches you with concern, his eyes narrowing as he steps closer. “What’s goin’ on in that head of yours, Em?” he asks, his voice serious. You blink, the strange images in your mind beginning to fade, but the weight of them lingers. “It’s… hard to explain,” you reply, feeling a mix of awe and unease. \n\nBubba nods knowingly, his grin returning. “Well, we’ll figure it out on the road, like always.” He opens the camper door, and you both climb inside. The liminal engine hums as you drive away, the weight of the slug’s tale still in your mind. Whatever it showed you, there’s no turning back now, and the road ahead promises more revelations in strange and unfamiliar places.\n[[Continue...]]",
       "links": [
         {
-          "name": "navigation, 40, You struggle to shake off the surreal visions. ",
-          "link": " Return to the camper with Bubba",
+          "name": "Continue...",
+          "link": "Continue...",
           "pid": "13"
         }
       ],
       "name": " Listen to the NOTHING’s “tale”",
-      "pid": "29",
+      "pid": "28",
       "position": {
-        "x": "500",
+        "x": "575",
         "y": "725"
       }
     },
     {
-      "text": "You wander deeper into the makeshift market, each cardboard stall labeled with wild, artistic names. There's La Petite Phantasmagorie, with brightly colored scarves fluttering in a paper breeze, L'Armurerie du Faux Paris, a mock weapon shop, and Bouquet des Fantômes, where cardboard bouquets are arranged in vases that teeter on their “stems.”\n\n[[Exploration, 25, Your keen eye catches a small, hidden alley with a “secret” shop -> Enter the hidden shop]]\n\n[[navigation, 20, You lead Bubba through the maze of faux shops, getting a feel for the layout -> Find a vendor willing to “bargain”]]\n\n[[Go somewhere else->Visit the town]] ",
+      "text": "You wander deeper into the makeshift market, each cardboard stall labeled with wild, artistic names. There's La Petite Phantasmagorie, with brightly colored scarves fluttering in a paper breeze, L'Armurerie du Faux Paris, a mock weapon shop, and Bouquet des Fantômes, where cardboard bouquets are arranged in vases that teeter on their “stems.”\n\n[[Exploration, 25, Your keen eye catches a small, hidden alley with a “secret” shop -> Enter the hidden shop]]\n[[navigation, 20, You lead Bubba through the maze of faux shops, getting a feel for the layout -> Find a vendor willing to “bargain”]]\n[[Go somewhere else->Visit the town]] ",
       "links": [
         {
           "name": "Exploration, 25, Your keen eye catches a small, hidden alley with a “secret” shop ",
           "link": " Enter the hidden shop",
-          "pid": "31"
+          "pid": "30"
         },
         {
           "name": "navigation, 20, You lead Bubba through the maze of faux shops, getting a feel for the layout ",
           "link": " Find a vendor willing to “bargain”",
-          "pid": "32"
+          "pid": "31"
         },
         {
           "name": "Go somewhere else",
@@ -570,10 +563,10 @@
         }
       ],
       "name": "Visit the shops",
-      "pid": "30",
+      "pid": "29",
       "position": {
         "x": "1300",
-        "y": "275"
+        "y": "375"
       }
     },
     {
@@ -582,37 +575,47 @@
         {
           "name": "arcanism, 45, The orb responds to your touch, sparking with faint magic ",
           "link": " Commune with the galaxy inside",
-          "pid": "33"
+          "pid": "32"
         },
         {
           "name": "convoking, 30, You attempt to summon the orb’s “spirit” for answers ",
           "link": " Ask the orb about Cardboard Paris",
-          "pid": "34"
+          "pid": "33"
         }
       ],
       "name": " Enter the hidden shop",
-      "pid": "31",
+      "pid": "30",
       "position": {
         "x": "1225",
         "y": "425"
       }
     },
     {
-      "text": "As you navigate the rows of makeshift stalls, a voice calls out from behind a stack of painted barrels. A cardboard figure with a drawn-on mustache and monocle peers out, waving a paper hand.\n\n“Ah, mademoiselle, monsieur! You look like people of exquisite taste! I am Pierre, purveyor of the finest wares in all of Cardboard Paris!” His voice is cartoonishly thick with a faux French accent.\n\nBubba chuckles, leaning over to whisper, “Betcha he’s got some hidden treasures here.”\n\nPierre winks dramatically, gesturing to his table filled with a mix of peculiar items: small chinese boxes, a string of goblin ears, and a potion bottle filled with glittery liquid labeled “Essence of the Eiffel.”\n\n[[appraisal, 20, You spot an item that looks genuinely valuable among the trinkets -> Pick up the shimmering pendant]]\n\n[[bluffing, 25, You decide to haggle with Pierre, curious if he’ll break character -> Test Pierre's patience]]",
+      "text": "As you navigate the rows of makeshift stalls, a voice calls out from behind a stack of painted barrels. A cardboard figure with a drawn-on mustache and monocle peers out, waving a paper hand.\n\n“Ah, mademoiselle, monsieur! You look like people of exquisite taste! I am Pierre, purveyor of the finest wares in all of Cardboard Paris!” His voice is cartoonishly thick with a faux French accent.\n\nBubba chuckles, leaning over to whisper, “Betcha he’s got some hidden treasures here.”\n\nPierre winks dramatically, gesturing to his table filled with a mix of peculiar items: small chinese boxes, a string of goblin ears, and a potion bottle filled with glittery liquid labeled “Essence of the Eiffel.”\n\n[[money:-60->Buy the goblin ears from 60 euros]]\n[[Look at the chinese boxes]]\n\n[[appraisal, 20, You spot an item that looks genuinely valuable among the trinkets -> Pick up the shimmering pendant]]\n\n[[bluffing, 25, You decide to haggle with Pierre, curious if he’ll break character -> Test Pierre's patience]]",
       "links": [
+        {
+          "name": "money:-60",
+          "link": "Buy the goblin ears from 60 euros",
+          "pid": "45"
+        },
+        {
+          "name": "Look at the chinese boxes",
+          "link": "Look at the chinese boxes",
+          "pid": "46"
+        },
         {
           "name": "appraisal, 20, You spot an item that looks genuinely valuable among the trinkets ",
           "link": " Pick up the shimmering pendant",
-          "pid": "35"
+          "pid": "34"
         },
         {
           "name": "bluffing, 25, You decide to haggle with Pierre, curious if he’ll break character ",
           "link": " Test Pierre's patience",
-          "pid": "36"
+          "pid": "35"
         }
       ],
       "name": " Find a vendor willing to “bargain”",
-      "pid": "32",
+      "pid": "31",
       "position": {
         "x": "1550",
         "y": "500"
@@ -624,16 +627,16 @@
         {
           "name": "intuition, 35, You sense that the figure may be the creator of Cardboard Paris ",
           "link": " Follow the presence",
-          "pid": "37"
+          "pid": "36"
         },
         {
           "name": "observation, 40, You focus on the figure’s details to learn more about them ",
           "link": " Get a glimpse of the creator’s face",
-          "pid": "38"
+          "pid": "37"
         }
       ],
       "name": " Commune with the galaxy inside",
-      "pid": "33",
+      "pid": "32",
       "position": {
         "x": "1200",
         "y": "650"
@@ -649,7 +652,7 @@
         }
       ],
       "name": " Ask the orb about Cardboard Paris",
-      "pid": "34",
+      "pid": "33",
       "position": {
         "x": "1100",
         "y": "400"
@@ -661,32 +664,32 @@
         {
           "name": "intuition, 25, You sense something off about Pierre’s story ",
           "link": " Question him about the pendant",
-          "pid": "44"
+          "pid": "41"
         },
         {
           "name": "appraisal, 30, You focus on the pendant to gauge its magic ",
           "link": " Investigate the pendant’s aura more closely",
-          "pid": "45"
+          "pid": "42"
         }
       ],
       "name": " Pick up the shimmering pendant",
-      "pid": "35",
+      "pid": "34",
       "position": {
         "x": "1600",
         "y": "800"
       }
     },
     {
-      "text": "You place your hands on your hips, giving Pierre a discerning look. “I dunno, Pierre. This here Essence of the Eiffel looks like it came straight out of a kid's glitter stash. I think you could do better.”\n\nPierre gasps dramatically, his paper mustache drooping. “Mademoiselle! Sacrebleu! This is a rare Parisian elixir! But... for you, perhaps a discount. Just this once.”\n\nHe lowers the price to half of whatever the imaginary currency is in Cardboard Paris. Bubba leans in, grinning. “I reckon we’ve just out-bargained a cardboard Frenchman. Now that’s somethin’ I didn’t think I’d do today.”\n\nYou tuck the potion bottle into your bag with a grin, and Bubba pats you on the shoulder as you both head back toward the camper. As the Eiffel Tower leans in the distance, you can’t help but feel you’ve left a bit of magic in Cardboard Paris—a place that was always meant to be a surreal, fleeting dream.\n\n{item: parisianelixir} \n\n [[ Continue...]] ",
+      "text": "You place your hands on your hips, giving Pierre a discerning look. “I dunno, Pierre. This here Essence of the Eiffel looks like it came straight out of a kid's glitter stash. I think you could do better.”\n\nPierre gasps dramatically, his paper mustache drooping. “Mademoiselle! Sacrebleu! This is a rare Parisian elixir! But... for you, perhaps a discount. Just this once.”\n\nHe lowers the price to half of whatever the imaginary currency is in Cardboard Paris. Bubba leans in, grinning. “I reckon we’ve just out-bargained a cardboard Frenchman. Now that’s somethin’ I didn’t think I’d do today.”\n\nYou tuck the potion bottle into your bag with a grin, and Bubba pats you on the shoulder as you both head back toward the camper. As the Eiffel Tower leans in the distance, you can’t help but feel you’ve left a bit of magic in Cardboard Paris—a place that was always meant to be a surreal, fleeting dream.\n\n{item: parisianelixir} \n\n [[Continue...]] ",
       "links": [
         {
-          "name": " Continue...",
-          "link": " Continue...",
-          "pid": "14"
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
         }
       ],
       "name": " Test Pierre's patience",
-      "pid": "36",
+      "pid": "35",
       "position": {
         "x": "1400",
         "y": "875"
@@ -698,21 +701,21 @@
         {
           "name": "observation, 40, You focus on the figure’s details to learn more about them ",
           "link": " Get a glimpse of the creator’s face",
-          "pid": "38"
+          "pid": "37"
         },
         {
           "name": "Get close to the figure",
           "link": "Get close to the figure",
-          "pid": "39"
+          "pid": "38"
         },
         {
           "name": "Retract",
           "link": " Enter the hidden shop",
-          "pid": "31"
+          "pid": "30"
         }
       ],
       "name": " Follow the presence",
-      "pid": "37",
+      "pid": "36",
       "position": {
         "x": "1100",
         "y": "825"
@@ -724,16 +727,16 @@
         {
           "name": "observation, 35, You have lost sight of the presence ",
           "link": " Follow the presence",
-          "pid": "37"
+          "pid": "36"
         },
         {
           "name": "Retract",
           "link": " Enter the hidden shop",
-          "pid": "31"
+          "pid": "30"
         }
       ],
       "name": " Get a glimpse of the creator’s face",
-      "pid": "38",
+      "pid": "37",
       "position": {
         "x": "1275",
         "y": "825"
@@ -745,11 +748,11 @@
         {
           "name": "id:cardboard",
           "link": "Live the rest of your life as a cardboard person",
-          "pid": "40"
+          "pid": "39"
         }
       ],
       "name": "Get close to the figure",
-      "pid": "39",
+      "pid": "38",
       "position": {
         "x": "1125",
         "y": "975"
@@ -758,44 +761,26 @@
     {
       "text": "",
       "name": "Live the rest of your life as a cardboard person",
-      "pid": "40",
+      "pid": "39",
       "position": {
         "x": "1100",
         "y": "1125"
       }
     },
     {
-      "text": "",
-      "name": "Depart",
-      "pid": "41",
-      "position": {
-        "x": "875",
-        "y": "1175"
-      }
-    },
-    {
-      "text": "You manage to force a weak smile, nodding at Bubba even as every nerve in your body screams. He raises an eyebrow but shrugs, taking another bite of NOTHING himself. But as he does, a glint of realization flashes in his eyes, and his smile fades. “Wait… Em, that ain’t right.”\n\nBefore you can reply, the ground below you begins to tremble. The world around you starts collapsing, the painted shops peeling away, the cardboard Eiffel Tower crumbling into dust. You stumble, clutching Bubba’s arm as the NOTHING inside you surges, a growing blackness.\n\nThe last thing you see is Bubba reaching out to you, eyes filled with panic and helplessness as the dark flames of the NOTHING consume you both.\n[[Enter NOTHINGHAM]]",
+      "text": "You manage to force a weak smile, nodding at Bubba even as every nerve in your body screams. He raises an eyebrow but shrugs, taking another bite of NOTHING himself. But as he does, a glint of realization flashes in his eyes, and his smile fades. “Wait… Em, that ain’t right.”\n\nBefore you can reply, the ground below you begins to tremble. The world around you starts collapsing, the painted shops peeling away, the cardboard Eiffel Tower crumbling into dust. You stumble, clutching Bubba’s arm as the NOTHING inside you surges, a growing blackness.\n\nThe last thing you see is Bubba reaching out to you, eyes filled with panic and helplessness as the dark flames of the NOTHING consume you both.\n[[id:nothingham->Enter NOTHINGHAM]]",
       "links": [
         {
-          "name": "Enter NOTHINGHAM",
+          "name": "id:nothingham",
           "link": "Enter NOTHINGHAM",
-          "pid": "43"
+          "pid": "44"
         }
       ],
       "name": "Don't spit out the NOTHING",
-      "pid": "42",
+      "pid": "40",
       "position": {
         "x": "100",
         "y": "800"
-      }
-    },
-    {
-      "text": "",
-      "name": "Enter NOTHINGHAM",
-      "pid": "43",
-      "position": {
-        "x": "100",
-        "y": "925"
       }
     },
     {
@@ -808,7 +793,7 @@
         }
       ],
       "name": " Question him about the pendant",
-      "pid": "44",
+      "pid": "41",
       "position": {
         "x": "1700",
         "y": "375"
@@ -820,23 +805,122 @@
         {
           "name": "Return the pendant and step out of the shop",
           "link": "Visit the shops",
-          "pid": "30"
+          "pid": "29"
         }
       ],
       "name": " Investigate the pendant’s aura more closely",
-      "pid": "45",
+      "pid": "42",
       "position": {
         "x": "1375",
         "y": "650"
       }
     },
     {
-      "text": "You pick up a fork, eyeing the now-glimmering slugs. The sweet aroma is promising, but there’s an underlying, almost metallic tang that reminds you of the potion mishaps back in Witch School. You steel yourself, spearing one slug and lifting it to your mouth.\n\nAs you take the first bite, the flavor is...confusing. There’s a burst of sweetness, but it quickly turns sour, with a sharp, prickly aftertaste that stings the back of your throat. The slug’s texture is oddly rubbery, springing back against your teeth.\n\nBubba raises an eyebrow, his grin fading. “Uh, that good, huh?”\n\nYou force a smile, swallowing with effort. “Well, it’s...unique.”",
+      "text": "You pick up a fork, eyeing the now-glimmering slugs. The sweet aroma is promising, but there’s an underlying, almost metallic tang that reminds you of the potion mishaps back in Witch School. You steel yourself, spearing one slug and lifting it to your mouth.\n\nAs you take the first bite, the flavor is...confusing. There’s a burst of sweetness, but it quickly turns sour, with a sharp, prickly aftertaste that stings the back of your throat. The slug’s texture is oddly rubbery, springing back against your teeth.\n\nBubba raises an eyebrow, his grin fading. “Uh, that good, huh?”\n\nYou force a smile, swallowing with effort. “Well, it’s...unique.”\n[[Serve the slugs to Bubba]] ",
+      "links": [
+        {
+          "name": "Serve the slugs to Bubba",
+          "link": "Serve the slugs to Bubba",
+          "pid": "24"
+        }
+      ],
       "name": "Try the first bite yourself",
+      "pid": "43",
+      "position": {
+        "x": "1800",
+        "y": "950"
+      }
+    },
+    {
+      "text": "",
+      "name": "Enter NOTHINGHAM",
+      "pid": "44",
+      "position": {
+        "x": "100",
+        "y": "925"
+      }
+    },
+    {
+      "text": "You reach into your pocket, pulling out a handful of euros and handing them over to Pierre. He plucks the bills from your hand with a flourish, bowing deeply as he places the string of goblin ears into your palm.\n\n“Ah, an excellent choice, mademoiselle,” he says with an exaggerated grin. “These are no ordinary goblin ears. They’re said to whisper secrets of the underworld if you listen closely enough.” He leans in conspiratorially, lowering his voice. “But beware—they have a nasty habit of gossiping about their owners.”\n\nBubba raises an eyebrow, clearly amused. “Sounds like we’re in for a real treat,” he chuckles.\n{{item: goblinears}}",
+      "name": "Buy the goblin ears from 60 euros",
+      "pid": "45",
+      "position": {
+        "x": "1725",
+        "y": "750"
+      }
+    },
+    {
+      "text": "Curiosity piqued, you pick up one of the small Chinese boxes from Pierre’s display. The lacquered wood gleams under the market lights, etched with intricate carvings of mythical creatures—dragons, phoenixes, and something that looks suspiciously like a basilisk. Each box is sealed shut, no visible latch or seam to pry open.\n\nPierre leans forward with a dramatic whisper, “Ah, those are no ordinary boxes, mademoiselle. These are puzzle boxes, each with a secret mechanism. Open one, and it’s said to reveal something precious… or perhaps something cursed.” His eyes glint mischievously. “I myself have never dared to unlock their mysteries.”\n\nBubba studies the boxes, scratching his chin. “Think there’s any truth to it? Or is he just tryin’ to make a quick euro?”\n\nYou turn the box over in your hands, feeling a subtle hum of energy as your fingers trace the carvings. A faint riddle is etched into the wood, barely legible beneath layers of lacquer:\n\n\"The way to the heart lies beneath the dragon’s claw.\"\n\n[[puzzle-solving, 30, You align the dragon’s claw with the carvings and feel something shift -> Attempt to unlock the box]]\n\n[[observation, 20, You notice a tiny hinge disguised as part of the phoenix feather -> Gently tug at the hinge]]\n\n[[transmutation, 35, You suspect the box itself might respond to a bit of magical persuasion -> Cast a spell to reveal the box’s secret]]",
+      "links": [
+        {
+          "name": "puzzle-solving, 30, You align the dragon’s claw with the carvings and feel something shift ",
+          "link": " Attempt to unlock the box",
+          "pid": "47"
+        },
+        {
+          "name": "observation, 20, You notice a tiny hinge disguised as part of the phoenix feather ",
+          "link": " Gently tug at the hinge",
+          "pid": "48"
+        },
+        {
+          "name": "transmutation, 35, You suspect the box itself might respond to a bit of magical persuasion ",
+          "link": " Cast a spell to reveal the box’s secret",
+          "pid": "49"
+        }
+      ],
+      "name": "Look at the chinese boxes",
       "pid": "46",
       "position": {
-        "x": "1700",
-        "y": "1300"
+        "x": "1875",
+        "y": "1325"
+      }
+    },
+    {
+      "text": "You carefully press down on the carved dragon’s claw, aligning it with the swirling patterns surrounding it. A small click echoes through the stall, and the top of the box begins to slide open. Inside, there’s a shard of glass, glowing faintly with a soft blue light. As you pick it up, you feel a strange warmth radiating from it, accompanied by a quiet hum that seems to resonate with your heartbeat.\n\nPierre raises his cardboard eyebrows. “Ah, you have found the Hyperscope! They say if you gaze into it long enough, you can see glimpses of what lies beyond… or what might have been.”\n\nBubba leans closer, his voice soft, “You gonna peek, Em?”\n\nBut as you bring it close to your eye, an image flickers to life—yourself, walking a different road, surrounded by shadows and the faint glow of unknown stars. It vanishes as quickly as it appeared, leaving you with a chill.\n\nPocketing the shard, you nod at Pierre, who beams. “May it guide you, mademoiselle!”\n\nTogether, you and Bubba step back onto the spongy streets, glancing over your shoulders as Cardboard Paris fades into the distance.\n\n{{item: hyperscope}}\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
+        }
+      ],
+      "name": " Attempt to unlock the box",
+      "pid": "47",
+      "position": {
+        "x": "1750",
+        "y": "1450"
+      }
+    },
+    {
+      "text": "You squint, noticing a feather etched into the box’s surface with an odd hinge nestled in its grooves. Carefully, you tug at it, and the box snaps open with a satisfying pop. Inside, a small golden ring lies cushioned on a bit of fabric, pulsing faintly with energy.\n\nPierre gasps dramatically. “You have found the Ring of Recollection! It’s said to give you one precious memory that you had thought lost.” His tone is half-mocking, but his eyes glint with a hint of real interest.\n\nBubba laughs, “Maybe you’ll remember where you left my wrench last time.”\n\nYou hold the ring in your hand, feeling a warmth spread through your fingers. Images flicker at the edge of your mind—old memories, perhaps, but fleeting, and none sharp enough to grasp.\n\n“Keep it as a reminder,” Pierre says, a note of something serious in his voice. “Sometimes, memory is more valuable than treasure.”\n\nWith a final nod to Pierre, you and Bubba leave the bustling market, the Ring of Recollection resting warm in your pocket as you both venture onward.\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
+        }
+      ],
+      "name": " Gently tug at the hinge",
+      "pid": "48",
+      "position": {
+        "x": "1875",
+        "y": "1450"
+      }
+    },
+    {
+      "text": "Whispering a spell under your breath, you hold your hands over the box, infusing it with a faint glimmer of magic. The carvings seem to come to life, each creature glowing softly in response to your energy. Then, without warning, the box dissolves into a small, flickering flame, floating above your hands.\n\nPierre watches, delighted. “The Flame of Foresight! I had my doubts if anyone could summon it. They say it reveals to you… something you’ve been searching for.”\n\nBubba’s eyes narrow as he watches the flame dance in your palm. “You reckon we can trust it, Em?”\n\nTaking a deep breath, you watch as the flame twists, forming hazy images—a vast road under a strange sky, and the faint outline of a city in the distance. The vision fades, leaving only the warmth of the flame.\n\nWith a respectful nod to Pierre, you and Bubba step away, the flame’s memory flickering in your mind as you head back to the camper. Whatever lies ahead, this peculiar detour has given you both a glimpse of the mysteries that still await.\n[[Continue...]] ",
+      "links": [
+        {
+          "name": "Continue...",
+          "link": "Continue...",
+          "pid": "13"
+        }
+      ],
+      "name": " Cast a spell to reveal the box’s secret",
+      "pid": "49",
+      "position": {
+        "x": "2000",
+        "y": "1450"
       }
     }
   ],
